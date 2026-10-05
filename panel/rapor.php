@@ -26,7 +26,7 @@ $fm = kalkan_oku("fim", []);
 .rap .kpi b{color:#7dd3fc}
 /* ★ RAPOR BUTONLARI — şık gradient + neon hover */
 .rp-btnler{ display:flex; gap:13px; flex-wrap:wrap; margin:18px 0; }
-.rp-btn{
+.rap .rp-btn{
   display:inline-flex; align-items:center; gap:9px;
   padding:13px 26px; border-radius:12px;
   font-size:16px; font-weight:800; letter-spacing:.35px;
@@ -34,24 +34,24 @@ $fm = kalkan_oku("fim", []);
   transition:transform .18s ease, box-shadow .28s ease, background .22s ease, border-color .22s ease;
   font-family:inherit;
 }
-.rp-btn:hover{ transform:translateY(-2px); }
-.rp-btn:active{ transform:translateY(0); }
-.rp-btn-pdf{
+.rap .rp-btn:hover{ transform:translateY(-2px); }
+.rap .rp-btn:active{ transform:translateY(0); }
+.rap .rp-btn-pdf{
   background:linear-gradient(135deg,rgba(231,76,60,.24),rgba(231,76,60,.07));
   border-color:rgba(231,76,60,.55); color:#ff9a8f;
 }
-.rp-btn-pdf:hover{ box-shadow:0 8px 26px rgba(231,76,60,.40); border-color:#ff6b5b; color:#ffb3ab; }
-.rp-btn-rapor{
+.rap .rp-btn-pdf:hover{ box-shadow:0 8px 26px rgba(231,76,60,.40); border-color:#ff6b5b; color:#ffb3ab; }
+.rap .rp-btn-rapor{
   background:linear-gradient(135deg,rgba(56,189,248,.24),rgba(129,140,248,.09));
   border-color:rgba(56,189,248,.55); color:#7dd3fc;
 }
-.rp-btn-rapor:hover{ box-shadow:0 8px 26px rgba(56,189,248,.42); border-color:#38bdf8; color:#bae6fd; }
+.rap .rp-btn-rapor:hover{ box-shadow:0 8px 26px rgba(56,189,248,.42); border-color:#38bdf8; color:#bae6fd; }
 /* açıkken (rapor görünümü aktif) yeşile döner */
-.rp-btn-rapor.aktif{
+.rap .rp-btn-rapor.aktif{
   background:linear-gradient(135deg,rgba(46,204,113,.26),rgba(46,204,113,.08));
   border-color:rgba(46,204,113,.62); color:#8dffbd;
 }
-.rp-btn-rapor.aktif:hover{ box-shadow:0 8px 26px rgba(46,204,113,.42); }
+.rap .rp-btn-rapor.aktif:hover{ box-shadow:0 8px 26px rgba(46,204,113,.42); }
 
 /* ★ yazdirirken ust bant / hero / buton gizlensin (temiz cikti) */
 @media print{
