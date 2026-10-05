@@ -29,7 +29,7 @@ th{background:#0b6;color:#fff}.kpi{display:flex;gap:20px;margin:20px 0}
 <?php kalkan_baslik('📄', 'Güvenlik Raporu', 'engel · olay · kural · uyumluluk özeti — yazdırılabilir'); ?>
 <div class="no-print" style="margin:14px 0"><button onclick="window.print()">🖨️ PDF olarak kaydet</button></div>
 <h1>🐺 CYBER KALKAN — Güvenlik Raporu</h1>
-<p>Marka: <?= htmlspecialchars($ayar["marka"] ?? "CYBERWOLF SECURITY") ?> · Tarih: <?= date("d.m.Y H:i") ?></p>
+<p style="color:#9fc0dc">Marka: <?= htmlspecialchars($ayar["marka"] ?? "CYBERWOLF SECURITY") ?> · Tarih: <?= date("d.m.Y H:i") ?></p>
 <div class="kpi">
 <div><b style="font-size:24px"><?= count($engel["liste"]) ?></b><br>Engellenen IP</div>
 <div><b style="font-size:24px"><?= $olay["toplam"] ?></b><br>Toplam Olay</div>
