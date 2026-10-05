@@ -79,8 +79,8 @@ $saldirganlar = $ozet['saldirganlar'] ?? $ozet['iplar'] ?? $ozet['liste'] ?? [];
     </div>
     <div class="kart<?= $aktif ? ' iyi' : ' kritik' ?>">
       <div class="etiket">Mod</div>
-      <div class="deger"><?= htmlspecialchars($mod !== '' ? $mod : 'IPS') ?></div>
-      <div class="alt">güncelleme: <?= htmlspecialchars($ids_zam !== '' ? $ids_zam : '-') ?></div>
+      <div class="deger"><?= $aktif ? 'IPS' : 'IDS' ?></div>
+      <div class="alt"><?= $aktif ? 'engelleme aktif' : 'izleme' ?> · <?= htmlspecialchars($ids_zam !== '' ? $ids_zam : '-') ?></div>
     </div>
   </div>
 
