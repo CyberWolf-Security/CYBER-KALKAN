@@ -1,0 +1,13 @@
+[Unit]
+Description=CYBER KALKAN Zone Tablosu (kalkan_ag nftables)
+After=network-online.target nftables.service
+Wants=network-online.target
+Before=kalkan-ips.service
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/usr/sbin/nft -f /etc/kalkan/kalkan_ag.nft
+
+[Install]
+WantedBy=multi-user.target
