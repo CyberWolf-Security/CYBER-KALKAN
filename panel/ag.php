@@ -46,11 +46,26 @@ $yuklu = strpos((string)@shell_exec('nft list table inet kalkan_ag 2>/dev/null')
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Ağ Katmanı — CYBER KALKAN</title>
 <link rel="stylesheet" href="assets/panel.css?v=1.7">
-</head>
-<body>
+<link rel="stylesheet" href="assets/hero.css?v=1"></head><body>
 <?= kalkan_menu('ag.php') ?>
 <main class="sarici">
-    <h1>🌐 Ağ Katmanı <span style="font-size:15px;opacity:.7">L3/L4 · Zone · NAT · Rota · VLAN</span></h1>
+    <div class="cy-hero">
+      <div class="cy-ikon">🌐</div>
+      <div class="cy-metin">
+        <h1 class="cy-baslik">Ağ Katmanı <span class="cy-surum">L3/L4</span></h1>
+        <p class="cy-aciklama">
+          <b>Zone · NAT · Rota · VLAN</b> yönetimi — nftables tabanlı çekirdek ağ katmanı.
+          Değişiklikler <b>onay</b> gerektirir, yönetim portları <b>muaf</b>, kendini kilitleme <b>korumalı</b>.
+        </p>
+        <div class="cy-etiketler">
+          <span class="cy-etiket">🧱 Zone (LAN/WAN/DMZ)</span>
+          <span class="cy-etiket">🔀 SNAT · DNAT</span>
+          <span class="cy-etiket">🧭 Statik Rota</span>
+          <span class="cy-etiket">🏷️ VLAN 802.1Q</span>
+        </div>
+      </div>
+      <div class="cy-tarama"></div>
+    </div>
 
     <?php if ($mesaj): ?>
     <div class="uyari uyari-<?= $mesaj[0] === 'ok' ? 'iyi' : 'kotu' ?>" style="font-size:16px">
