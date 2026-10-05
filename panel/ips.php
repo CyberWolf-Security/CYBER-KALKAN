@@ -72,15 +72,15 @@ $saldirganlar = $ozet['saldirganlar'] ?? $ozet['iplar'] ?? $ozet['liste'] ?? [];
       <div class="deger"><?= ($sur !== '' && strpos($sur,'Up')!==false) ? 'ÇALIŞIYOR' : 'kapalı' ?></div>
       <div class="alt"><?= htmlspecialchars($sur ?: '-') ?></div>
     </div>
-    <div class="kart">
-      <div class="etiket">Alarm</div>
-      <div class="deger"><?= (int)$toplam ?></div>
-      <div class="alt">tespit edilen olay</div>
+    <div class="kart iyi">
+      <div class="etiket">Yüklü Kural</div>
+      <div class="deger"><?= $kural > 0 ? number_format($kural, 0, ',', '.') : '-' ?></div>
+      <div class="alt"><?= (int)$hata ?> hata · L7 <?= number_format($l7, 0, ',', '.') ?></div>
     </div>
-    <div class="kart">
-      <div class="etiket">Saldırgan IP</div>
-      <div class="deger"><?= is_array($saldirganlar) ? count($saldirganlar) : 0 ?></div>
-      <div class="alt">kaynak adres</div>
+    <div class="kart<?= $aktif ? ' iyi' : ' kritik' ?>">
+      <div class="etiket">Mod</div>
+      <div class="deger"><?= htmlspecialchars($mod !== '' ? $mod : 'IPS') ?></div>
+      <div class="alt">güncelleme: <?= htmlspecialchars($ids_zam !== '' ? $ids_zam : '-') ?></div>
     </div>
   </div>
 
