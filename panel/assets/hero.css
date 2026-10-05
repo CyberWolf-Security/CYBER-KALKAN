@@ -161,9 +161,8 @@
   color: #9fc0dc;
   margin-top: 8px;
   font-weight: 600;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;   /* "son tarama: 05.10.2026 23:46" kesilmesin, ... ile bitsin */
+  line-height: 1.3;
+  overflow-wrap: anywhere;   /* "son tarama: 05.10.2026 23:46" kesilmesin, alta kaysın */
 }
 .kart .etiket{ font-size: 14px; }
 .kart{ padding: 18px 16px !important; }   /* daha çok iç alan */
