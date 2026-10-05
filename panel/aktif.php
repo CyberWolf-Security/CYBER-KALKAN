@@ -9,7 +9,9 @@ $tarpit = @shell_exec("nft list set inet kilic kara 2>/dev/null");
 $tarpit_durum = trim(@shell_exec('/usr/bin/sudo -n /opt/siber-kalkan/tarpit.sh 2>/dev/null'));
 $tacik = strpos($tarpit_durum, 'ACIK') !== false;
 $tarpit_sayi = $tarpit ? (substr_count($tarpit, ',') + 1) : 0;
-$abuse = kalkan_oku('abuse_sayisi', []);
+/* ★ Kaldirildi: $abuse = kalkan_oku('abuse_sayisi') → degisken HIC KULLANILMIYORDU
+   (abuse raporu asagida dogrudan abuse_rapor.txt'den okunuyor). */
+
 $tmesaj = '';
 if (isset($_GET['tarpit']) || (($_POST['islem'] ?? '') === 'tarpit')) {
     $th = ((($_GET['tarpit'] ?? $_POST['tarpit'] ?? '') === 'ac')) ? 'ac' : 'kapat';
