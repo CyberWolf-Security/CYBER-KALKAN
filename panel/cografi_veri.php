@@ -5,8 +5,18 @@ require __DIR__ . '/ortak.php';
 kalkan_giris_gerekli();
 header('Content-Type: application/json; charset=utf-8');
 
-$cg = kalkan_oku('cografya', ['ip_ulke' => []]);
-$k   = $cg['ip_ulke'] ?? [];
+$cg = kalkan_oku('cografya', []);
+/* ★ DUZELTME: modul 'ip_bilgi' yazar ({"1.2.3.4": {"ulke":"CN",...}}); eski kod 'ip_ulke'
+   ariyordu → API hep BOS donuyordu → harita isaretcileri gorunmuyordu. Iki bicim de desteklenir. */
+$k = $cg['ip_ulke'] ?? [];
+if ((!is_array($k) || !$k) && !empty($cg['ip_bilgi']) && is_array($cg['ip_bilgi'])) {
+    $k = [];
+    foreach ($cg['ip_bilgi'] as $ip => $b) {
+        $u = is_array($b) ? (string)($b['ulke'] ?? '') : (string)$b;
+        if ($u !== '' && $u !== '?') $k[$ip] = $u;
+    }
+}
+if (!is_array($k)) $k = [];
 $cnt = [];
 foreach ($k as $ip => $ulke) {
     $kod = is_array($ulke) ? (string)($ulke['kod'] ?? 'XX') : (string)$ulke;
