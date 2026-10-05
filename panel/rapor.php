@@ -24,6 +24,35 @@ $fm = kalkan_oku("fim", []);
 .rap .kpi div{background:rgba(20,32,48,.85);border:1px solid rgba(56,189,248,.3);
   padding:16px 20px;border-left:4px solid #38bdf8;flex:1 1 180px;border-radius:10px;color:#cbd5e1}
 .rap .kpi b{color:#7dd3fc}
+/* ★ RAPOR BUTONLARI — şık gradient + neon hover */
+.rp-btnler{ display:flex; gap:13px; flex-wrap:wrap; margin:18px 0; }
+.rp-btn{
+  display:inline-flex; align-items:center; gap:9px;
+  padding:13px 26px; border-radius:12px;
+  font-size:16px; font-weight:800; letter-spacing:.35px;
+  cursor:pointer; border:1px solid; background:transparent;
+  transition:transform .18s ease, box-shadow .28s ease, background .22s ease, border-color .22s ease;
+  font-family:inherit;
+}
+.rp-btn:hover{ transform:translateY(-2px); }
+.rp-btn:active{ transform:translateY(0); }
+.rp-btn-pdf{
+  background:linear-gradient(135deg,rgba(231,76,60,.24),rgba(231,76,60,.07));
+  border-color:rgba(231,76,60,.55); color:#ff9a8f;
+}
+.rp-btn-pdf:hover{ box-shadow:0 8px 26px rgba(231,76,60,.40); border-color:#ff6b5b; color:#ffb3ab; }
+.rp-btn-rapor{
+  background:linear-gradient(135deg,rgba(56,189,248,.24),rgba(129,140,248,.09));
+  border-color:rgba(56,189,248,.55); color:#7dd3fc;
+}
+.rp-btn-rapor:hover{ box-shadow:0 8px 26px rgba(56,189,248,.42); border-color:#38bdf8; color:#bae6fd; }
+/* açıkken (rapor görünümü aktif) yeşile döner */
+.rp-btn-rapor.aktif{
+  background:linear-gradient(135deg,rgba(46,204,113,.26),rgba(46,204,113,.08));
+  border-color:rgba(46,204,113,.62); color:#8dffbd;
+}
+.rp-btn-rapor.aktif:hover{ box-shadow:0 8px 26px rgba(46,204,113,.42); }
+
 /* ★ yazdirirken ust bant / hero / buton gizlensin (temiz cikti) */
 @media print{
   .no-print,.ust,nav,.cy-hero,.canli-serit,.altbilgi,footer{display:none !important}
@@ -38,9 +67,9 @@ body.yazdirma .sarici{ padding:14px !important; margin:0 !important; max-width:1
 <?= kalkan_ustbilgi('rapor.php') ?>
 <main class="sarici rap">
 <?php kalkan_baslik('📄', 'Güvenlik Raporu', 'engel · olay · kural · uyumluluk özeti — yazdırılabilir'); ?>
-<div class="no-print" style="margin:14px 0;display:flex;gap:10px;flex-wrap:wrap">
-  <button onclick="window.print()">🖨️ PDF olarak kaydet</button>
-  <button id="ygBtn" onclick="ygDegistir()" style="background:#1f6feb">👁️ Rapor Görünümü</button>
+<div class="no-print rp-btnler">
+  <button class="rp-btn rp-btn-pdf" onclick="window.print()">🖨️ PDF olarak kaydet</button>
+  <button class="rp-btn rp-btn-rapor" id="ygBtn" onclick="ygDegistir()">👁️ Rapor Görünümü</button>
 </div>
 <script>
 /* ★ RAPOR GÖRÜNÜMÜ — üst bant/menü/hero gizlenir, yalnız rapor içeriği kalır */
@@ -48,7 +77,7 @@ function ygDegistir(){
   var acik = document.body.classList.toggle('yazdirma');
   var b = document.getElementById('ygBtn');
   b.textContent = acik ? '↩️ Panele Dön' : '👁️ Rapor Görünümü';
-  b.style.background = acik ? '#2e7d32' : '#1f6feb';
+  b.classList.toggle('aktif', acik);
   window.scrollTo(0,0);
 }
 /* Esc ile çıkış */
