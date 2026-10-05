@@ -344,7 +344,9 @@ function kalkan_mail_gonder(string $kime, string $konu, string $govde): bool {
     $fromad = trim((string)($ma['from_ad'] ?? 'CYBER KALKAN'));
     // ★ DUZELTME: $gonderen ONCE tanimlanmali — onceden bir satir SONRA tanimliydi,
     // bu yuzden $gorunen bos kaliyordu → mail "From" adresi bos → sender rejected.
-    $gonderen = $user !== '' ? $user : 'noreply@localhost';
+    /* ★ DUZELTME: yedek adres "noreply@localhost" idi — geçersiz domain, spam filtreleri
+       reddediyordu ("sender rejected"). Artık gerçek gönderen adresi kullanılır. */
+    $gonderen = $user !== '' ? $user : (trim((string)($ma['from_mail'] ?? '')) ?: 'kalkan@cyberwolfsec.com');
     $gorunen  = trim((string)($ma['from_mail'] ?? '')) ?: $gonderen;   // gorunen From adresi
 
     /* BREVO-API-BAS: yuksek itibarli gonderim (spam onleme) */
