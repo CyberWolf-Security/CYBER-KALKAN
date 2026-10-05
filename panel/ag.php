@@ -34,10 +34,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 // ★ DUZELTME: yol MOTOR (buyuk harf) + --json bayragi (onceden 'motor/' yoktu ve
 // modul metin basiyordu → json_decode bos → KPI'lar 0 gorunuyordu)
-$d   = json_decode((string)@shell_exec('/usr/bin/python3 /opt/siber-kalkan/MOTOR/kalkan_ag_v10.py --json 2>/dev/null'), true) ?: [];
+/* ★ DURUM — motor (root) 60 sn'de bir VERI/ag_durum.json yazar; panel (www-data) SADECE OKUR.
+   Eskiden shell_exec(python3 …) + shell_exec(nft …) vardi → www-data yetkisiz → bos sonuc. */
+$d   = kalkan_oku('ag_durum', []);
 $agr = kalkan_oku('ag_kurallar', ['kurallar' => []]);
 $kurallar = $agr['kurallar'] ?? [];
-$yuklu = strpos((string)@shell_exec('nft list table inet kalkan_ag 2>/dev/null'), 'kalkan_ag') !== false;
+$yuklu = !empty($d['zone']);
 ?>
 <!DOCTYPE html>
 <html lang="tr">
