@@ -149,7 +149,7 @@
   margin-bottom: 6px;
 }
 .kart .deger{
-  font-size: clamp(19px, 2.05vw, 31px);
+  font-size: clamp(17px, 1.75vw, 27px);   /* "TEHLIKE" gibi uzun degerler tek satira sigsin */
   font-weight: 700;
   color: #fff;
   line-height: 1.15;
@@ -162,5 +162,5 @@
   margin-top: 8px;
   font-weight: 600;
 }
-/* kartlar tek satırda hizalı dursun (auto-fit taşmasın) */
-.kartlar{ grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)) !important; }
+/* kartlar tek satırda hizalı dursun — 6 kart sıkışıp son kart kesiliyordu */
+.kartlar{ grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)) !important; }
