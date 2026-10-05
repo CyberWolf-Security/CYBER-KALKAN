@@ -46,7 +46,7 @@ $saldirganlar = $ozet['saldirganlar'] ?? $ozet['iplar'] ?? $ozet['liste'] ?? [];
 <?php kalkan_ustbilgi('IPS'); ?>
 <main class="sarici">
 
-  <h1 class="baslik">🛡 INLINE IPS</h1>
+<?php kalkan_baslik('🛡', 'INLINE IPS', 'çekirdek seviyesinde paket filtreleme — NFQUEUE + Suricata'); ?>
 
   <?php if ($mesaj !== ''): ?>
   <div class="kutu basarili"><pre><?= htmlspecialchars($mesaj) ?></pre></div>

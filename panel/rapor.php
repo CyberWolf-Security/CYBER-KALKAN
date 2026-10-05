@@ -8,16 +8,26 @@ $kural = kalkan_oku("kurallar", ["kurallar"=>[]]);
 $comp = kalkan_oku("compliance_mapping", ["kapsam"=>[]]);
 $fm = kalkan_oku("fim", []);
 ?><!doctype html><html lang="tr"><head><meta charset="utf-8">
-<title>CYBER KALKAN Rapor</title><style>
+<title>CYBER KALKAN Rapor</title>
+<link rel="stylesheet" href="assets/panel.css?v=1.7">
+<link rel="stylesheet" href="assets/hero.css?v=2">
+<style>
 body{font-family:Arial;margin:30px;color:#222}h1{color:#0b6}
 h2{border-bottom:2px solid #0b6;padding:5px 0;margin-top:25px}
 table{border-collapse:collapse;width:100%;margin:10px 0}
 th,td{border:1px solid #ccc;padding:8px;text-align:left}
 th{background:#0b6;color:#fff}.kpi{display:flex;gap:20px;margin:20px 0}
 .kpi div{background:#f0f8f5;padding:15px;border-left:4px solid #0b6;flex:1}
-@media print{.no-print{display:none}}
+/* ★ yazdirirken ust bant / hero / buton gizlensin (temiz cikti) */
+@media print{
+  .no-print,.ust,nav,.cy-hero,.canli-serit,.altbilgi,footer{display:none !important}
+  body{margin:10px}
+}
 </style></head><body>
-<div class="no-print"><button onclick="window.print()">🖨️ PDF olarak kaydet</button></div>
+<?= kalkan_ustbilgi('rapor.php') ?>
+<main class="sarici">
+<?php kalkan_baslik('📄', 'Güvenlik Raporu', 'engel · olay · kural · uyumluluk özeti — yazdırılabilir'); ?>
+<div class="no-print" style="margin:14px 0"><button onclick="window.print()">🖨️ PDF olarak kaydet</button></div>
 <h1>🐺 CYBER KALKAN — Güvenlik Raporu</h1>
 <p>Marka: <?= htmlspecialchars($ayar["marka"] ?? "CYBERWOLF SECURITY") ?> · Tarih: <?= date("d.m.Y H:i") ?></p>
 <div class="kpi">
@@ -40,4 +50,6 @@ foreach (array_slice($l,0,15) as $k): ?>
 <tr><td><?= $o["zaman"]??"-" ?></td><td><?= htmlspecialchars($o["ip"]??"-") ?></td><td><?= htmlspecialchars($o["ad"]??$o["kural"]??"-") ?></td><td><?= $o["seviye"]??"-" ?></td><td><?= $o["mitre"]??"-" ?></td></tr>
 <?php endforeach; ?></table>
 <p style="margin-top:30px;color:#888;font-size:12px">CYBER KALKAN · <?= htmlspecialchars($ayar["marka"]??"") ?> · Otomatik rapor</p>
+</main>
+<?= kalkan_altbilgi() ?>
 </body></html>
