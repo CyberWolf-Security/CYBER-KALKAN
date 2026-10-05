@@ -66,6 +66,7 @@ function kalkan_menu($aktif = "") {
         "guvenlik.php"     => "🛡️ Güvenlik",
         "waf.php"          => "🧱 WAF",
         "ag.php"           => "🌐 Ağ",
+        "ips.php"          => "🛡 IPS",
         "kurallar.php"     => "📜 Kurallar",
         "cografi.php"      => "🌍 Harita",
         "aktif.php"        => "⚔️ Savunma",

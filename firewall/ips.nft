@@ -1,0 +1,67 @@
+#!/usr/sbin/nft -f
+# ═══════════════════════════════════════════════════════════════
+#  CYBER KALKAN — INLINE IPS (nfqueue → Suricata)
+#  V2'deki Suricata nfqueue mimarisinin V1 uyarlaması
+# ═══════════════════════════════════════════════════════════════
+#  ★ VARSAYILAN: YÜKLENMEZ.
+#    Sadece "python3 motor/kalkan_ips_v10.py baslat --onay" ile yüklenir.
+#
+#  ★ KENDİNİ KİLİTLEME KORUMASI:
+#    - Yönetim portları (SSH 22, HestiaCP 2083/2087/8083) kuyruğa GİRMEZ
+#    - established/related trafik geçer
+#    - beyaz liste (kendi altyapı IP'leri) geçer
+#    - 'bypass' bayrağı: kuyruk/IPS ölürse trafik YİNE geçer (fail-open)
+#
+#  ★ GERİ ALMA: tabloyu silmek yeterli →
+#    nft delete table inet kalkan_ips
+# ═══════════════════════════════════════════════════════════════
+
+table inet kalkan_ips {
+
+    # ── BEYAZ LİSTE: bu IP'ler IPS'e hiç girmez (kendi altyapımız) ──
+    # kalkan_ips_v10.py başlatma sırasında gerçek değerlerle doldurur.
+    set beyaz {
+        type ipv4_addr
+        flags interval
+    }
+
+    # ── GİRDİ (ingress): yeni bağlantılar IPS'e → queue 0 ──
+    chain girdi {
+        type filter hook input priority -180; policy accept;
+
+        ip  saddr @beyaz return
+        iif "lo" return
+        ct state established,related return
+        tcp dport { 22, 2083, 2087, 8083 } return
+
+        meta l4proto { tcp, udp } ct state new,untracked \
+            queue num 0 bypass
+    }
+
+    # ── ÇIKTI (egress): C2 / veri sızdırma → queue 1 ──
+    chain cikti {
+        type filter hook output priority -180; policy accept;
+
+        ip  daddr @beyaz return
+        oif "lo" return
+        ct state established,related return
+        # muaf: DNS · NTP · mail (SMTP/IMAP)
+        tcp dport { 53, 123, 25, 587, 993 } return
+        udp dport { 53, 123 } return
+
+        meta l4proto { tcp, udp } ct state new,untracked \
+            queue num 1 bypass
+    }
+
+    # ── İLERİ (forward): yönlendirilen trafik → queue 2 ──
+    chain ileri {
+        type filter hook forward priority -180; policy accept;
+
+        ip saddr @beyaz return
+        ip daddr @beyaz return
+        ct state established,related return
+
+        meta l4proto { tcp, udp } ct state new,untracked \
+            queue num 2 bypass
+    }
+}

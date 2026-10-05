@@ -1,0 +1,76 @@
+%YAML 1.1
+---
+# CYBER KALKAN — Suricata (nfqueue IPS) minimal yapilandirma
+# ★ DERS (V2): af-packet DEGIL nfqueue → CPU %100 yerine ~%0.5
+# ★ DERS: HTTP_SERVERS address-groups'ta, HTTP_PORTS port-groups'ta olmali
+
+vars:
+  address-groups:
+    HOME_NET: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+    EXTERNAL_NET: "!$HOME_NET"
+    HTTP_SERVERS: "$HOME_NET"
+    SMTP_SERVERS: "$HOME_NET"
+    SQL_SERVERS: "$HOME_NET"
+    DNS_SERVERS: "$HOME_NET"
+    TELNET_SERVERS: "$HOME_NET"
+    AIM_SERVERS: "$EXTERNAL_NET"
+    DC_SERVERS: "$HOME_NET"
+    DNP3_SERVER: "$HOME_NET"
+    DNP3_CLIENT: "$HOME_NET"
+    MODBUS_CLIENT: "$HOME_NET"
+    MODBUS_SERVER: "$HOME_NET"
+    ENIP_CLIENT: "$HOME_NET"
+    ENIP_SERVER: "$HOME_NET"
+
+  port-groups:
+    HTTP_PORTS: "80"
+    SHELLCODE_PORTS: "!80"
+    SSH_PORTS: "22"
+    DNP3_PORTS: "20000"
+    MODBUS_PORTS: "502"
+    FILE_DATA_PORTS: "[$HTTP_PORTS,110,143]"
+    FTP_PORTS: "21"
+    GENEVE_PORTS: "6081"
+    VXLAN_PORTS: "4789"
+    TEREDO_PORTS: "3544"
+
+default-log-dir: /var/log/suricata
+
+outputs:
+  - eve-log:
+      enabled: yes
+      filetype: regular
+      filename: eve.json
+      types:
+        - alert:
+            payload: no
+            metadata: yes
+        - http
+        - dns
+        - tls
+        - flow
+  - fast:
+      enabled: yes
+      filename: fast.log
+  - stats:
+      enabled: yes
+
+# ★ nfqueue: iptables/nftables kuyrugundan beslenir
+nfq:
+  mode: accept
+  repeat-mark: 1
+  repeat-mask: 1
+  bypass-mark: 1
+  bypass-mask: 1
+  route-table: 254
+  fail-open: yes
+
+action-order:
+  - pass
+  - drop
+  - reject
+  - alert
+
+default-rule-path: /var/lib/suricata/rules
+rule-files:
+  - suricata.rules
