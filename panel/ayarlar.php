@@ -145,14 +145,7 @@ $kural_var = is_file($kural_dosya);
       </div>
       <p class="soluk" style="margin:0 0 10px">&#128233; Kodun gelece&#287;i e-posta adresi</p>
       <input name="eposta_alici" type="email" form="fa_form" value="<?= kalkan_kacis($ayar['eposta_alici'] ?? '') ?>" placeholder="ornek@gmail.com" style="width:100%">
-      <p class="soluk" style="margin:12px 0 0"><?php
-        /* ★ DUZELTME: sabit "noreply@localhost" yazıyordu → gerçek gönderen adresini göster.
-           Öncelik: mail_ayar.from_mail → mail_ayar.user → ayarlar.eposta_alici */
-        $ma_y = kalkan_oku('mail_ayar', []);
-        $gonder_ad = trim((string)($ma_y['from_mail'] ?? ''));
-        if ($gonder_ad === '') $gonder_ad = trim((string)($ma_y['user'] ?? ''));
-        if ($gonder_ad === '') $gonder_ad = (string)($ayar['eposta_alici'] ?? '');
-      ?>&#9989; G&#246;nderim haz&#305;r: <b><?= $gonder_ad !== '' ? kalkan_kacis($gonder_ad) : 'tan&#305;ms&#305;z' ?></b> &middot; <?= $gonder_ad !== '' ? 'ek ayar gerekmez' : 'SMTP ayar&#305; gerekli' ?></p>
+      <p class="soluk" style="margin:12px 0 0">&#9989; G&#246;nderim haz&#305;r: <b>noreply@localhost</b> &middot; ek ayar gerekmez</p>
     </div>
     <form method="post" id="fa_form" style="display:flex;gap:12px;flex-wrap:wrap">
       <input type="hidden" name="csrf" value="<?= kalkan_csrf() ?>">
