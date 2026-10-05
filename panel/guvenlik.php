@@ -23,10 +23,18 @@ $renk = fn($p) => $p>=80?'#00d68f':($p>=50?'#ffb020':'#ff4d5e');
 </div>
 <h2 class="bolum">📋 Guvenlik Denetimi (SCA)</h2>
 <table class="tablo"><tr><th>Kontrol</th><th>Seviye</th><th>Sonuc</th></tr>
-<?php foreach (($s['kontroller'] ?? []) as $k): ?>
-<tr><td><?= htmlspecialchars($k['kontrol']) ?></td>
-<td><span class="seviye <?= strtolower($k['seviye']) ?>"><?= $k['seviye'] ?></span></td>
-<td><?= $k['sonuc']==='GECTI' ? '<span style="color:#00d68f">✓ GECTI</span>' : '<span style="color:#ff4d5e">✗ BASARISIZ</span>' ?></td></tr>
+<?php foreach (($s['kontroller'] ?? []) as $k):
+        /* ★ DUZELTME: SCA modulu 'baslik'/'risk'/'durum' yazar; panel 'kontrol'/'seviye'/'sonuc'
+           ariyordu → KONTROL ve SEVIYE sutunlari BOS gorunuyordu (anahtar uyusmazligi).
+           Iki bicim de desteklenir. */
+        $_ad    = (string)($k['baslik']  ?? $k['kontrol'] ?? '');
+        $_sev   = (string)($k['risk']    ?? $k['seviye']  ?? '-');
+        $_son   = (string)($k['durum']   ?? $k['sonuc']   ?? '');
+        $_gecti = in_array(strtoupper($_son), ['GECTI','GEÇTİ','PASS','OK','TEMIZ'], true);
+  ?>
+<tr><td><?= htmlspecialchars($_ad) ?></td>
+<td><span class="seviye <?= strtolower($_sev) ?>"><?= kalkan_kacis($_sev) ?></span></td>
+<td><?= $_gecti ? '<span style="color:#00d68f">✓ GECTI</span>' : '<span style="color:#ff4d5e">✗ BASARISIZ</span>' ?></td></tr>
 <?php endforeach; ?>
 </table>
 <h2 class="bolum">🔍 Rootkit Bulgulari</h2>

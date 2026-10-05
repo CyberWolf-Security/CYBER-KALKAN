@@ -6,6 +6,13 @@ $c = kalkan_oku('compliance', ['skor' => 0, 'kontroller' => []]);
 $y = kalkan_oku('yedek', []);
 $u = kalkan_oku('ueba', ['anormal' => [], 'toplam' => 0]);
 $h = kalkan_oku('honeyfile', ['dosyalar' => [], 'acilmalar' => []]);
+/* ★ DUZELTME: anahtar uyusmazligi — moduller su alanlari yazar:
+   honeyfile.json → 'acik_dosyalar' / 'toplam_ihlal' (panel 'acilmalar' ariyordu)
+   ueba.json      → 'anormal_ip' (panel 'toplam' ariyordu) */
+$h_ihlal = $h['acik_dosyalar'] ?? $h['acilmalar'] ?? $h['son_ihlaller'] ?? [];
+$h_toplam = isset($h['toplam_ihlal']) ? (int)$h['toplam_ihlal'] : count($h_ihlal);
+$u_toplam = isset($u['anormal_ip']) ? (int)$u['anormal_ip']
+          : (isset($u['adet']) ? (int)$u['adet'] : (int)($u['toplam'] ?? 0));
 $ayar = kalkan_oku('ayarlar', []);
 $b = kalkan_oku('bulut', ['toplam'=>0,'aws_cli'=>false,'gcp_cli'=>false]);
 $ev = kalkan_oku('evtx', ['dosya_sayisi'=>0,'toplam'=>0]);
@@ -36,8 +43,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && kalkan_csrf_dogrula($_POST['csrf'] 
 
   <div class="kartlar">
     <div class="kart"><div class="etiket">UYUMLULUK (ISO/PCI)</div><div class="deger" style="color:<?= ($c['skor'] ?? 0) >= 80 ? '#00d68f' : '#ff9f43' ?>">%<?= (int)($c['skor'] ?? 0) ?></div><div class="alt"><?= (int)($c['gecen'] ?? 0) ?>/<?= (int)($c['toplam'] ?? 0) ?> kontrol</div></div>
-    <div class="kart"><div class="etiket">UEBA ANORMAL</div><div class="deger" style="color:#ff9f43"><?= (int)($u['toplam'] ?? 0) ?></div><div class="alt">şüpheli davranış</div></div>
-    <div class="kart"><div class="etiket">HONEYFILE</div><div class="deger" style="color:#4da3ff"><?= count($h['dosyalar'] ?? []) ?></div><div class="alt"><?= count($h['acilmalar'] ?? []) ?> ihlal</div></div>
+    <div class="kart"><div class="etiket">UEBA ANORMAL</div><div class="deger" style="color:#ff9f43"><?= $u_toplam ?></div><div class="alt">şüpheli davranış</div></div>
+    <div class="kart"><div class="etiket">HONEYFILE</div><div class="deger" style="color:#4da3ff"><?= count($h['dosyalar'] ?? []) ?></div><div class="alt"><?= $h_toplam ?> ihlal</div></div>
     <div class="kart"><div class="etiket">YEDEK</div><div class="deger" style="color:#00d68f"><?= (int)($y['boyut_kb'] ?? 0) ?> KB</div><div class="alt"><?= kalkan_kacis($y['tarih'] ?? '-') ?></div></div>
     <div class="kart"><div class="etiket">BULUT (AWS/GCP)</div><div class="deger" style="color:#a855f7"><?= (int)($b['toplam']??0) ?></div><div class="alt">AWS:<?= !empty($b['aws_cli'])?'✓':'✗' ?> GCP:<?= !empty($b['gcp_cli'])?'✓':'✗' ?></div></div>
     <div class="kart"><div class="etiket">EVTX (WINDOWS)</div><div class="deger" style="color:#4da3ff"><?= (int)($ev['dosya_sayisi']??0) ?></div><div class="alt"><?= (int)($ev['toplam']??0) ?> kayıt</div></div>
