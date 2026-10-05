@@ -25,14 +25,16 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $arg = ['geri-al'];
         }
         if ($arg) {
-            $cikti = shell_exec('/usr/bin/python3 ' . escapeshellarg($K . '/motor/kalkan_ag_v10.py')
+            $cikti = shell_exec('/usr/bin/python3 ' . escapeshellarg($K . '/MOTOR/kalkan_ag_v10.py')
                 . ' ' . implode(' ', array_map('escapeshellarg', $arg)) . ' 2>&1');
             $mesaj = ['ok', trim((string)$cikti) ?: 'İşlem tamamlandı.'];
         }
     }
 }
 
-$d   = json_decode((string)@shell_exec('/usr/bin/python3 /opt/siber-kalkan/motor/kalkan_ag_v10.py durum 2>/dev/null'), true) ?: [];
+// ★ DUZELTME: yol MOTOR (buyuk harf) + --json bayragi (onceden 'motor/' yoktu ve
+// modul metin basiyordu → json_decode bos → KPI'lar 0 gorunuyordu)
+$d   = json_decode((string)@shell_exec('/usr/bin/python3 /opt/siber-kalkan/MOTOR/kalkan_ag_v10.py --json 2>/dev/null'), true) ?: [];
 $agr = kalkan_oku('ag_kurallar', ['kurallar' => []]);
 $kurallar = $agr['kurallar'] ?? [];
 $yuklu = strpos((string)@shell_exec('nft list table inet kalkan_ag 2>/dev/null'), 'kalkan_ag') !== false;
@@ -56,22 +58,75 @@ $yuklu = strpos((string)@shell_exec('nft list table inet kalkan_ag 2>/dev/null')
     </div>
     <?php endif; ?>
 
-    <div class="kpi-izgara">
-        <div class="kpi"><b><?= count($d['arayuzler'] ?? []) ?></b><span>Arayüz</span></div>
-        <div class="kpi"><b><?= count($d['rotalar'] ?? []) ?></b><span>Rota</span></div>
-        <div class="kpi"><b><?= count($d['nat'] ?? []) ?></b><span>NAT Kuralı</span></div>
-        <div class="kpi"><b><?= count($d['vlan'] ?? []) ?></b><span>VLAN</span></div>
-        <div class="kpi"><b style="color:<?= $yuklu ? '#4ade80' : '#f59e0b' ?>"><?= $yuklu ? 'AÇIK' : 'KAPALI' ?></b><span>Zone Tablosu</span></div>
+    <?php
+      $ar   = $d['arayuzler'] ?? [];
+      $up   = count(array_filter($ar, fn($x) => ($x['durum'] ?? '') === 'UP'));
+      $rota = count($d['rotalar'] ?? []);
+      $nat  = count($d['nat'] ?? []);
+      $vlan = count($d['vlan'] ?? []);
+    ?>
+    <div class="kpi-izgara ag-kpi">
+      <div class="kpi">
+        <div class="kpi-ikon">🌐</div>
+        <b><?= count($ar) ?></b><span>Arayüz</span>
+        <i><?= $up ?> aktif</i>
+      </div>
+      <div class="kpi">
+        <div class="kpi-ikon">🧭</div>
+        <b><?= $rota ?></b><span>Rota</span>
+        <i>statik yol</i>
+      </div>
+      <div class="kpi">
+        <div class="kpi-ikon">🔀</div>
+        <b class="r-<?= $nat ? 'iyi' : 'notr' ?>"><?= $nat ?></b><span>NAT Kuralı</span>
+        <i>SNAT · DNAT</i>
+      </div>
+      <div class="kpi">
+        <div class="kpi-ikon">🏷️</div>
+        <b class="r-<?= $vlan ? 'iyi' : 'notr' ?>"><?= $vlan ?></b><span>VLAN</span>
+        <i>802.1Q</i>
+      </div>
+      <div class="kpi">
+        <div class="kpi-ikon">🛡️</div>
+        <b class="r-<?= $yuklu ? 'iyi' : 'uyari' ?>"><?= $yuklu ? 'AÇIK' : 'KAPALI' ?></b>
+        <span>Zone Tablosu</span>
+        <i><?= $yuklu ? 'yüklü' : 'yüklü değil' ?></i>
+      </div>
     </div>
 
+    <style>
+    /* ── Ağ Katmanı — sayfaya özel şık KPI ── */
+    .ag-kpi .kpi{position:relative;overflow:hidden}
+    .ag-kpi .kpi::after{content:"";position:absolute;inset:0 0 auto 0;height:2px;
+      background:linear-gradient(90deg,#38bdf8,#818cf8);opacity:.55}
+    .ag-kpi .kpi-ikon{font-size:22px;line-height:1;margin-bottom:8px;opacity:.92}
+    .ag-kpi .kpi b{font-size:30px;letter-spacing:.5px}
+    .ag-kpi .kpi span{font-size:14.5px;font-weight:600;letter-spacing:.4px}
+    .ag-kpi .kpi i{display:block;font-style:normal;font-size:12.5px;opacity:.55;
+      margin-top:4px;letter-spacing:.3px}
+    .ag-kpi .kpi h4{}
+    .r-iyi{color:#4ade80}.r-uyari{color:#f59e0b}.r-notr{color:#64748b}
+    /* arayüz tablosu — durum renkleri */
+    .ag-tablo td:nth-child(2){font-weight:600;letter-spacing:.3px}
+    .ag-tablo .d-up{color:#4ade80}
+    .ag-tablo .d-down{color:#ef4444}
+    .ag-tablo .d-unk{color:#94a3b8}
+    .ag-tablo td code{font-size:14.5px}
+    </style>
+
     <h2>Arayüzler</h2>
-    <table class="tablo">
+    <table class="tablo ag-tablo">
         <tr><th>Ad</th><th>Durum</th><th>Adres</th></tr>
-        <?php foreach (array_slice($d['arayuzler'] ?? [], 0, 12) as $a): ?>
+        <?php foreach (array_slice($d['arayuzler'] ?? [], 0, 12) as $a):
+              $du = strtoupper((string)($a['durum'] ?? ''));
+              $dk = $du === 'UP' ? 'd-up' : ($du === 'DOWN' ? 'd-down' : 'd-unk'); ?>
         <tr><td><code><?= htmlspecialchars($a['ad']) ?></code></td>
-            <td><?= htmlspecialchars($a['durum']) ?></td>
-            <td><?= htmlspecialchars($a['ip']) ?></td></tr>
+            <td class="<?= $dk ?>"><?= htmlspecialchars($du) ?></td>
+            <td><code><?= htmlspecialchars($a['ip']) ?></code></td></tr>
         <?php endforeach; ?>
+        <?php if (!$d['arayuzler']): ?>
+        <tr><td colspan="3" style="opacity:.5;text-align:center;padding:14px">Arayüz bilgisi okunamadı</td></tr>
+        <?php endif; ?>
     </table>
 
     <h2>Port Yönlendirme (DNAT)</h2>

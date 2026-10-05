@@ -229,6 +229,13 @@ def _kurallari_kaydet(kayit):
 # ───────────────────────── CLI ─────────────────────────
 if __name__ == "__main__":
     a = sys.argv[1:] or ["durum"]
+    # ★ DUZELTME: --json bayragi — panel (ag.php) JSON bekliyor.
+    # Onceden durum() dict donduruyordu ama CLI METIN basiyordu → panelde KPI 0.
+    if "--json" in a:
+        a = [x for x in a if x != "--json"]
+        if not a or a[0] == "durum":
+            print(json.dumps(durum(), ensure_ascii=False))
+            sys.exit(0)
     k = a[0]
     if k == "durum":
         d = durum()
