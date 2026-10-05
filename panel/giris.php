@@ -33,8 +33,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         }
         if (!$k2) { foreach ($kul['kullanicilar'] ?? [] as $x) { if (($x['ad'] ?? '') === 'admin') { $k2 = $x; break; } } }
         $sir = $k2['totp'] ?? '';
-        // ★ B-17: kullaniciya ozel hash (yoksa global ayar hash'i)
-        $hash = (string)($k2['sifre_hash'] ?? '') ?: $hash;
+        // ★ B-17 + B-06 DUZELTMESI: kullaniciya ozel hash SADECE bcrypt/argon ise kullanilir.
+        // (kullanicilar.json'daki eski sha256 hash'ler password_verify ile CALISMAZ →
+        //  boyle bir hash varsa global ayar hash'ine DUSER, giris bozulmaz)
+        $kh = (string)($k2['sifre_hash'] ?? '');
+        if ($kh !== '' && (strncmp($kh, '$2y$', 4) === 0 || strncmp($kh, '$2a$', 4) === 0
+                        || strncmp($kh, '$argon', 6) === 0)) {
+            $hash = $kh;
+        }
 
         $ok = false;
         /* guvenlik (B-06): SADECE bcrypt/argon hash kabul edilir.
