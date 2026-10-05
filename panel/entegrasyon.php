@@ -86,7 +86,7 @@ $aktif = count(array_filter($durum));
         </div>
         <?php foreach ($durum as $ad => $ok): ?>
         <div class="kart <?= $ok ? 'iyi' : '' ?>">
-          <div class="etiket"><?= htmlspecialchars(mb_strtoupper($ad, 'UTF-8')) ?></div>
+          <div class="etiket"><?= kalkan_kacis(strtoupper($ad)) ?></div>
           <div class="deger" style="font-size:24px"><?= $ok ? 'AÇIK' : 'KAPALI' ?></div>
           <div class="alt"><?= $ok ? 'bağlı' : 'anahtar yok' ?></div>
         </div>
