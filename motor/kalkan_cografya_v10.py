@@ -54,23 +54,34 @@ def dis_ip_bul():
 def ip_bilgi(ip):
     """whois/geoip ile ulke + ASN"""
     bilgi = {"ip": ip, "ulke": "?", "asn": "?", "asn_ad": "?", "risk": 0}
-    # geoip (varsa)
-    for cmd in [f"geoiplookup {ip} 2>/dev/null", f"mmdblookup --file /usr/share/GeoIP/GeoLite2-Country.mmdb --ip {ip} country iso_code 2>/dev/null"]:
+    # ★ GÜVENLİK (B-02): IP dogrulanmadan komuta GIRMEZ
+    try:
+        from kalkan_ipdogrula import gecerli_ip
+        if not gecerli_ip(ip):
+            return bilgi
+    except ImportError:
+        if not re.match(r"^[0-9a-fA-F:.]+$", str(ip)) or len(str(ip)) > 45:
+            return bilgi
+    # geoip (varsa) — LISTE formu, shell yok
+    for cmd in [["geoiplookup", ip],
+                ["mmdblookup", "--file", "/usr/share/GeoIP/GeoLite2-Country.mmdb",
+                 "--ip", ip, "country", "iso_code"]]:
         try:
-            r = subprocess.run(cmd, shell=True, capture_output=True, text=True, timeout=6)
+            r = subprocess.run(cmd, capture_output=True, text=True, timeout=6)
             m = re.search(r"\b([A-Z]{2})\b", r.stdout or "")
             if m:
                 bilgi["ulke"] = m.group(1); break
         except Exception:
             continue
-    # whois ASN
+    # whois ASN — LISTE formu, shell yok (B-02)
     try:
-        r = subprocess.run(f"whois {ip} 2>/dev/null | grep -iE '^(origin|OriginAS)' | head -1",
-                           shell=True, capture_output=True, text=True, timeout=10)
-        m = re.search(r"AS\d+", r.stdout or "")
-        if m:
-            bilgi["asn"] = m.group(0)
-            bilgi["asn_ad"] = BULUT_ASN.get(m.group(0), "?")
+        r = subprocess.run(["whois", ip], capture_output=True, text=True, timeout=10)
+        for satir in (r.stdout or "").splitlines():
+            m = re.search(r"AS\d+", satir)
+            if m and re.match(r"^(origin|OriginAS)", satir.strip(), re.I):
+                bilgi["asn"] = m.group(0)
+                bilgi["asn_ad"] = BULUT_ASN.get(m.group(0), "?")
+                break
     except Exception:
         pass
     # risk

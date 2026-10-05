@@ -55,6 +55,24 @@ def port_dinle(port, ad, sure=3):
         return None
 
 def engelle(ip, sebep):
+    # ★ GÜVENLİK (B-02): IP doğrulanmadan engel listesine ve shell komutuna GİRMEZ.
+    # Geçersiz IP / özel ağ / beyaz liste → engellenmez (komut enjeksiyonu önlenir).
+    try:
+        from kalkan_ipdogrula import gecerli_ip, ozel_ip
+        if not gecerli_ip(ip) or ozel_ip(ip):
+            return False
+    except ImportError:
+        import re as _re
+        if not _re.match(r"^[0-9a-fA-F:.]+$", str(ip)) or len(str(ip)) > 45:
+            return False
+    # beyaz liste kontrolü
+    try:
+        _b = json.load(open(f"{V}/beyaz_liste.json"))
+        _bl = _b.get("liste", _b) if isinstance(_b, dict) else _b
+        if ip in (set(_bl) if isinstance(_bl, list) else set()):
+            return False
+    except Exception:
+        pass
     try:
         d = json.load(open(f"{V}/engel.json"))
     except Exception:

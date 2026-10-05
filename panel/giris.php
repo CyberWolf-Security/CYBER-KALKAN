@@ -28,9 +28,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $sir = $k2['totp'] ?? '';
 
         $ok = false;
-        /* guvenlik: hash bossa 'kalkan' fallback YOK — sifre mutlaka hash ile dogrulanir */
+        /* guvenlik (B-06): SADECE bcrypt/argon hash kabul edilir.
+           Tuzsuz sha256 fallback KALDIRILDI — kırılabilir olduğu için
+           ("kalkan" gibi kısa şifreler rainbow table ile anında çözülür).
+           Eski kurulumlar için: sifre_hash bcrypt'e yükseltilmelidir. */
         if ($hash !== '' && password_verify($s, $hash)) $ok = true;
-        elseif (!empty($k2['sifre_hash']) && hash_equals($k2['sifre_hash'], hash('sha256', $s))) $ok = true;
 
         /* --- E-POSTA 2FA: sadece SMTP TAM ise aktif olur --- */
         $posta = trim((string)($ayar['eposta_alici'] ?? ''));

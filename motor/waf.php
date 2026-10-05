@@ -15,12 +15,44 @@ $V   = '/opt/siber-kalkan/VERI';
 $LOG = '/opt/siber-kalkan/LOG';
 
 // ═══ 1. SALDIRGAN IP (proxy/CDN arkasında gerçek IP) ═══
-$ip = $_SERVER['HTTP_CF_CONNECTING_IP']
-   ?? $_SERVER['HTTP_TRUE_CLIENT_IP']
-   ?? $_SERVER['HTTP_X_REAL_IP']
-   ?? $_SERVER['HTTP_X_FORWARDED_FOR']
-   ?? $_SERVER['REMOTE_ADDR'] ?? '';
-$ip = trim(explode(',', $ip)[0]);
+// ★ GÜVENLİK (B-01): İstemci başlıklarına (CF-Connecting-IP, X-Forwarded-For...)
+// SADECE istek güvenilir bir kaynaktan (Cloudflare / yerel ağ) geldiyse güven.
+// Aksi hâlde saldırgan başlığı sahteleyip beyaz listeye girebilir / başkasını
+// kara listeye attırabilir.
+$uzak = $_SERVER['REMOTE_ADDR'] ?? '';
+$guvenilir = false;
+$ipv4 = ip2long($uzak);
+if ($ipv4 !== false) {
+    // Cloudflare IPv4 aralıkları (https://www.cloudflare.com/ips-v4)
+    $cf_aralik = ['173.245.48.0/20','103.21.244.0/22','103.22.200.0/22','103.31.4.0/22',
+        '141.101.64.0/18','108.162.192.0/18','190.93.240.0/20','188.114.96.0/20',
+        '197.234.240.0/22','198.41.128.0/17','162.158.0.0/15','104.16.0.0/13',
+        '104.24.0.0/14','172.64.0.0/13','131.0.72.0/22'];
+    foreach ($cf_aralik as $a) {
+        [$ag, $bit] = explode('/', $a);
+        $maske = ~((1 << (32 - (int)$bit)) - 1);
+        if (($ipv4 & $maske) === (ip2long($ag) & $maske)) { $guvenilir = true; break; }
+    }
+}
+// Yerel/özel ağlar da güvenilir kaynak sayılır (nginx/php-fpm aynı hostta)
+if (!$guvenilir && (strpos($uzak,'127.')===0 || strpos($uzak,'10.')===0 ||
+    strpos($uzak,'192.168.')===0 || strpos($uzak,'172.')===0 || $uzak==='::1')) {
+    $guvenilir = true;
+}
+
+if ($guvenilir) {
+    $ip = $_SERVER['HTTP_CF_CONNECTING_IP']
+       ?? $_SERVER['HTTP_TRUE_CLIENT_IP']
+       ?? $_SERVER['HTTP_X_REAL_IP']
+       ?? $_SERVER['HTTP_X_FORWARDED_FOR']
+       ?? $uzak;
+    $ip = trim(explode(',', $ip)[0]);
+    // Başlıktan gelen değer de geçerli bir IP olmalı (yoksa REMOTE_ADDR'a düş)
+    if (filter_var($ip, FILTER_VALIDATE_IP) === false) $ip = $uzak;
+} else {
+    // Güvenilmez kaynak → başlıklara HİÇ güvenme, doğrudan bağlantı IP'sini kullan
+    $ip = $uzak;
+}
 
 // ═══ 2. MUAFIYET (kendi ağı) ═══
 $muaf = (strpos($ip, '127.') === 0 || strpos($ip, '192.168.') === 0 || strpos($ip, '10.200.0.1') === 0);

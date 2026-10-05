@@ -17,6 +17,25 @@ def sh(cmd):
     except Exception as e:
         return 1, "", str(e)
 
+def sh_arg(argv, t=25):
+    """★ GÜVENLİK (B-02): Liste formu — shell YOK. Dışarıdan gelen IP
+    bu fonksiyonla çalıştırılır; komut enjeksiyonu imkânsız."""
+    try:
+        r = subprocess.run(argv, capture_output=True, text=True, timeout=t)
+        return r.returncode, (r.stdout or "").strip(), (r.stderr or "").strip()
+    except Exception as e:
+        return 1, "", str(e)
+
+def _ip_gecerli(ip):
+    """IP doğrulama (shell'e girmeden önce zorunlu)."""
+    try:
+        from kalkan_ipdogrula import gecerli_ip
+        return gecerli_ip(ip)
+    except ImportError:
+        import re as _re
+        s = str(ip)
+        return bool(_re.match(r"^[0-9a-fA-F:.]+$", s)) and len(s) <= 45
+
 def tablo_var():
     rc, out, _ = sh(f"nft list table inet {TABLO}")
     return rc == 0 and f"table inet {TABLO}" in out
@@ -60,9 +79,12 @@ def senkron():
     mevcut = set_ip_sayisi()
     eklenen = 0
     for i in range(0, len(ipler), 500):
-        blok = ipler[i:i+500]
-        liste = ", ".join(blok)
-        rc, _, _ = sh(f"nft add element inet {TABLO} {SET} {{ {liste} }} 2>/dev/null")
+        # ★ GÜVENLİK (B-02): sadece geçerli IP'ler + liste formu (shell yok)
+        blok = [x for x in ipler[i:i+500] if _ip_gecerli(x)]
+        if not blok:
+            continue
+        rc, _, _ = sh_arg(["nft", "add", "element", "inet", TABLO, SET,
+                           "{ " + ", ".join(blok) + " }"])
         if rc == 0:
             eklenen += len(blok)
     return len(ipler), set_ip_sayisi()
@@ -95,6 +117,9 @@ table inet {TABLO} {{
         return False
 
 def engelle(ip, sebep="manuel"):
+    # ★ GÜVENLİK (B-02): IP doğrulanmadan engellenmez ve shell'e girmez
+    if not _ip_gecerli(ip):
+        return False
     try:
         d = json.load(open(f"{V}/engel.json"))
     except Exception:
@@ -104,11 +129,14 @@ def engelle(ip, sebep="manuel"):
                            "sebep": sebep, "kaynak": "fw"})
         d["toplam"] = len(d["liste"])
         json.dump(d, open(f"{V}/engel.json", "w"), ensure_ascii=False)
-    rc, _, _ = sh(f"nft add element inet {TABLO} {SET} {{ {ip} }}")
+    rc, _, _ = sh_arg(["nft", "add", "element", "inet", TABLO, SET, "{ " + ip + " }"])
     return rc == 0
 
 def kaldir(ip):
-    rc, _, _ = sh(f"nft delete element inet {TABLO} {SET} {{ {ip} }}")
+    # ★ GÜVENLİK (B-02)
+    if not _ip_gecerli(ip):
+        return False
+    rc, _, _ = sh_arg(["nft", "delete", "element", "inet", TABLO, SET, "{ " + ip + " }"])
     try:
         d = json.load(open(f"{V}/engel.json"))
         d["liste"] = [x for x in d.get("liste", []) if x.get("ip") != ip]

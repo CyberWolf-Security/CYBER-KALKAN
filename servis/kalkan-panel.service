@@ -7,14 +7,23 @@ Type=simple
 User=www-data
 Group=www-data
 Environment=PHP_CLI_SERVER_WORKERS=8
-ExecStart=/usr/bin/php -S 0.0.0.0:8890 -t /var/www/kalkan-panel
+# ★ GÜVENLİK (B-05): 0.0.0.0 yerine SADECE localhost.
+# Dışarıya nginx reverse-proxy (TLS + WAF) üzerinden açılır; panel asla
+# doğrudan internete bakmaz.
+ExecStart=/usr/bin/php -S 127.0.0.1:8890 -t /var/www/kalkan-panel
 Restart=always
 RestartSec=3
 StandardOutput=append:/opt/siber-kalkan/LOG/panel.log
 StandardError=append:/opt/siber-kalkan/LOG/panel.log
-NoNewPrivileges=false
+# ★ GÜVENLİK (B-05): yetki yükseltmeyi kapat + ek sertleştirme
+NoNewPrivileges=true
 PrivateTmp=true
 ProtectSystem=full
+ProtectHome=true
+ProtectKernelTunables=true
+ProtectControlGroups=true
+RestrictSUIDSGID=true
+RestrictNamespaces=true
 ReadWritePaths=/opt/siber-kalkan/VERI /opt/siber-kalkan/LOG
 
 [Install]

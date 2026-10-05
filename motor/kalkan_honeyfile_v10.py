@@ -77,9 +77,10 @@ def tara():
     # acik dosya tanimlayicilari (kim acti)
     kisi = []
     try:
-        r = subprocess.run(f"lsof +D {TUZAK_DIZIN} 2>/dev/null | tail -n +2", shell=True,
-                           capture_output=True, text=True, timeout=20)
-        for s in (r.stdout or "").splitlines()[:10]:
+        # ★ GÜVENLİK (B-02): liste formu, shell yok
+        r = subprocess.run(["lsof", "+D", TUZAK_DIZIN], capture_output=True,
+                           text=True, timeout=20)
+        for s in (r.stdout or "").splitlines()[1:11]:
             kisi.append(s.strip()[:120])
     except Exception:
         pass
