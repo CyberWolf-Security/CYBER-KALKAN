@@ -384,4 +384,13 @@ if __name__ == "__main__" and "--dongu" in __import__("sys").argv:
                              capture_output=True, text=True, timeout=60)
             except Exception:
                 pass
+            # ★ AG + IPS DURUM JSON (panel www-data root komutu calistiramaz — motor yazar, panel okur)
+            for _betik in ("kalkan_ips_durum.py", "kalkan_ag_durum.py"):
+                try:
+                    __import__("subprocess").run(
+                        ["/usr/bin/python3", "/opt/siber-kalkan/MOTOR/" + _betik],
+                        stdout=__import__("subprocess").DEVNULL,
+                        stderr=__import__("subprocess").DEVNULL, timeout=25)
+                except Exception:
+                    pass
         __import__("time").sleep(DONGU_ARALIK)
