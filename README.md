@@ -44,6 +44,8 @@ güvenlik durumu → WAF → kural kütüphanesi → coğrafya haritası → akt
 
 ## 📚 DOKÜMANTASYON
 
+- **[DEGISIKLIKLER.md](DEGISIKLIKLER.md)** — Sürüm değişiklik günlüğü (tüm düzeltmeler + güvenlik bulguları)
+
 | Belge | İçerik |
 |---|---|
 | **[dokuman/MIMARI.md](dokuman/MIMARI.md)** | Katmanlı mimari · veri akışı · bileşenler · tasarım ilkeleri |
@@ -86,7 +88,7 @@ güvenlik durumu → WAF → kural kütüphanesi → coğrafya haritası → akt
 
 ---
 
-## 🗂️ MODÜL LİSTESİ (42)
+## 🗂️ MODÜL LİSTESİ (16)
 
 ### Girdi / Ağ Güvenliği
 | Modül | Dosya | Görev |
