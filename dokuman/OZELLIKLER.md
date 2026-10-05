@@ -61,7 +61,8 @@ Zayıf (şüpheli desen)                  = 1 puan
 
 ### Test Sonucu
 ```
-38 / 38 saldırı vektörü ENGELLENDİ · 0 kaçak
+25 / 38 saldırı vektörü engellendi (ürünün kendi test sonucu)
+NOT: "0 kaçak" iddiası gerçeği yansıtmıyordu.
 ```
 
 ---

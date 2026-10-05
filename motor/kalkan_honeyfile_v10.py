@@ -87,6 +87,9 @@ def tara():
 
     sonuc = {
         "zaman": simdi.strftime("%d.%m.%Y %H:%M:%S"),
+        # ★ B-14 DUZELTMESI: izleyici (kalkan_honeyfile_izle.py) 'dosyalar' anahtarini okur.
+        # Bu anahtar yazilmadigi icin izleme servisi 0 dosya izliyordu.
+        "dosyalar": [os.path.join(TUZAK_DIZIN, ad) for ad, _i, _r in TUZAKLAR],
         "tuzak_sayisi": len(TUZAKLAR), "kurulu": len(durum),
         "ihlal_sayisi": len(ihlaller), "ihlal": len(ihlaller),
         "acik_dosyalar": kisi, "durum": durum,

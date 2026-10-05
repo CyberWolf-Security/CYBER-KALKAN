@@ -43,7 +43,8 @@ Skor eşiği aşılırsa `403` döner ve IP'yi kara listeye alır.
 
 ### Test Sonucu
 ```
-38 / 38 saldırı vektörü ENGELLENDİ · 0 kaçak
+25 / 38 saldırı vektörü engellendi (ürünün kendi waf_firewall_test.json sonucu)
+NOT: "38/38 · 0 kaçak" iddiası gerçeği yansıtmıyordu; kaçak listesi için teste bakın.
 ```
 
 ---

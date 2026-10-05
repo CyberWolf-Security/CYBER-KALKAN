@@ -69,15 +69,45 @@ def tara():
     # aynı IP'den 3+ ciddi alert -> engelle
     sayac = {}
     okunan = 0
-    # son 2000 satırı oku (performans)
+    # ★ B-16 DUZELTMESI: KALICI OFFSET — her kosumda son 2MB bastan okunup
+    # ayni alarmlar tekrar tekrar sayiliyordu (sisme + yanlis engelleme).
+    OFF = f"{V}/ids_offset.json"
+    try:
+        _off = json.load(open(OFF))
+        if not isinstance(_off, dict):
+            _off = {}
+    except Exception:
+        _off = {}
     try:
         with open(EVE, "rb") as f:
-            f.seek(0, 2); boyut = f.tell()
-            f.seek(max(0, boyut - 2_000_000))
-            satirlar = f.read().decode("utf-8", "ignore").splitlines()[1:]
+            st = os.fstat(f.fileno())
+            boyut = st.st_size
+            # inode ayni ve offset gecerliyse kaldigi yerden devam et
+            if _off.get("ino") == st.st_ino and 0 <= int(_off.get("pos", 0)) <= boyut:
+                bas = int(_off["pos"])
+            else:
+                bas = max(0, boyut - 2_000_000)   # ilk kosum / rotasyon
+            f.seek(bas)
+            _ham = f.read().decode("utf-8", "ignore")
+            _yeni_pos = f.tell()
     except Exception as e:
         return 0, 0, f"okuma hatasi: {e}"
+    satirlar = _ham.splitlines()
+    if bas > 0 and satirlar:
+        satirlar = satirlar[1:]   # yarim kalan satiri atla
+    # offset'i simdi kaydet (okundu sayilir; islenmese bile tekrar okunmaz)
+    try:
+        json.dump({"ino": st.st_ino, "pos": _yeni_pos}, open(OFF, "w"))
+    except Exception:
+        pass
 
+    # ★ B-16: IP doğrulama yardımcısı
+    try:
+        from kalkan_ipdogrula import gecerli_ip as _gip
+    except Exception:
+        def _gip(x):
+            import re as _re
+            return bool(_re.match(r"^[0-9a-fA-F:.]+$", str(x))) and len(str(x)) <= 45
     for s in satirlar:
         try:
             e = json.loads(s)
@@ -86,7 +116,8 @@ def tara():
         if e.get("event_type") != "alert":
             continue
         src = e.get("src_ip", "")
-        if not src or muaf_mi(src):
+        # ★ B-16: gecersiz IP engelleme zincirine GIRMEZ
+        if not src or muaf_mi(src) or not _gip(src):
             continue
         kat = str(e.get("alert", {}).get("category", "")).lower()
         sev = int(e.get("alert", {}).get("severity", 3))

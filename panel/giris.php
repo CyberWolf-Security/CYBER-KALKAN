@@ -24,8 +24,17 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $kod = (string)($_POST['totp'] ?? '');
         $kul = kalkan_oku('kullanicilar', ['kullanicilar' => []]);
         $k2 = null;
-        foreach ($kul['kullanicilar'] ?? [] as $x) { if (($x['ad'] ?? '') === 'admin') $k2 = $x; }
+        /* ★ B-17 DUZELTMESI: yalniz 'admin' degil, girilen kullanici adi denenir.
+           (kullanicilar.json'daki 'izleyici' hesabi boylece fiilen calisir) */
+        $girilen_ad = preg_replace('/[^A-Za-z0-9_.\-]/', '', (string)($_POST['kullanici'] ?? ''));
+        if ($girilen_ad === '') $girilen_ad = 'admin';
+        foreach ($kul['kullanicilar'] ?? [] as $x) {
+            if (($x['ad'] ?? '') === $girilen_ad) { $k2 = $x; break; }
+        }
+        if (!$k2) { foreach ($kul['kullanicilar'] ?? [] as $x) { if (($x['ad'] ?? '') === 'admin') { $k2 = $x; break; } } }
         $sir = $k2['totp'] ?? '';
+        // ★ B-17: kullaniciya ozel hash (yoksa global ayar hash'i)
+        $hash = (string)($k2['sifre_hash'] ?? '') ?: $hash;
 
         $ok = false;
         /* guvenlik (B-06): SADECE bcrypt/argon hash kabul edilir.
@@ -71,8 +80,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $totp_ok = (!$e2fa && $ok && kalkan_totp_dogrula($sir, (string)($_POST['totp'] ?? '')));
         if (!empty($kod_dogrulandi) || $totp_ok) {
             @unlink($kilit_yolu);
+            // ★ B-17: OTURUM SABITLEME (session fixation) korumasi
+            session_regenerate_id(true);
             $_SESSION['kalkan_admin'] = true;
-            $_SESSION['sf_kullanici'] = 'admin';
+            $_SESSION['sf_kullanici'] = $girilen_ad;
             $_SESSION['sf_rol'] = $k2['rol'] ?? 'ADMIN';
             kalkan_audit('GIRIS', 'basarili');
             header('Location: index.php'); exit;
@@ -143,6 +154,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   <p class="dipnot"><?= d('kod_gelmedi') ?> <a href="giris.php"><?= d('bastan_dene') ?></a> · <?= d('kod_sure') ?></p>
   <?php else: ?>
   <form method="post">
+    <label>Kullanıcı</label>
+    <input type="text" name="kullanici" value="admin" autocomplete="username" spellcheck="false">
     <label><?= d('sifre') ?></label>
     <input type="password" name="sifre" placeholder="<?= d('sifre_yer') ?>" required autofocus>
     <button type="submit" class="dugme"><?= d('giris_yap') ?></button>

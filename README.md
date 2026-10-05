@@ -1,7 +1,7 @@
 # 🐺 CYBER KALKAN — Siber Güvenlik Altyapısı v1.0
 
 Tek sunucuda çalışan, kendi kendini koruyan **bütünleşik siber güvenlik platformu**.
-Web uygulama güvenlik duvarından davranış analizine kadar 42 modül, 24 otomatik görev.
+Web uygulama güvenlik duvarından davranış analizine kadar 43 modül, 24 otomatik görev.
 
 > **Kurulum bilgisi:** Geçici giriş — kullanıcı `admin` / şifre `kalkan`
 > (ilk girişten sonra değiştirilmesi zorunludur)
@@ -48,7 +48,7 @@ güvenlik durumu → WAF → kural kütüphanesi → coğrafya haritası → akt
 |---|---|
 | **[dokuman/MIMARI.md](dokuman/MIMARI.md)** | Katmanlı mimari · veri akışı · bileşenler · tasarım ilkeleri |
 | **[dokuman/OZELLIKLER.md](dokuman/OZELLIKLER.md)** | 20 başlıkta tüm yetenekler, modül modül |
-| **[dokuman/MODULLER.md](dokuman/MODULLER.md)** | 42 modülün teknik detayı |
+| **[dokuman/MODULLER.md](dokuman/MODULLER.md)** | 43 modülün teknik detayı |
 | **[dokuman/KURULUM.md](dokuman/KURULUM.md)** | Adım adım kurulum · sorun giderme |
 
 ---
@@ -58,7 +58,7 @@ güvenlik durumu → WAF → kural kütüphanesi → coğrafya haritası → akt
 | Katman | Teknoloji | Görev |
 |---|---|---|
 | Panel | PHP 8 + SQLite'siz JSON | 34 sayfa, TR/EN çift dil |
-| Motor | Python 3 | 42 modül, 24 cron |
+| Motor | Python 3 | 43 modül, 24 cron |
 | WAF | PHP (kendi motoru) | 344 satır · 111 imza (20 kategori) |
 | Firewall | nftables | kalıcı kara liste |
 | IDS | Suricata | gerçek zamanlı imza |
@@ -80,7 +80,7 @@ güvenlik durumu → WAF → kural kütüphanesi → coğrafya haritası → akt
 │   Kimlik (RBAC/2FA) · Koruma (bütünlük)                 │
 ├─────────────────────────────────────────────────────────┤
 │  UYUMLULUK KATMANI                                      │
-│   Yedek (immutable) · Denetim (ISO/NIST/GDPR/PCI/CIS)   │
+│   Yedek (salt-okunur) · Denetim (ISO/NIST/GDPR/PCI/CIS) │
 └─────────────────────────────────────────────────────────┘
 ```
 
@@ -123,7 +123,7 @@ güvenlik durumu → WAF → kural kütüphanesi → coğrafya haritası → akt
 ### Uyumluluk
 | Modül | Dosya | Görev |
 |---|---|---|
-| **Yedek** | `kalkan_yedek_v10.py` | Immutable yedek, SHA-256 doğrulama |
+| **Yedek** | `kalkan_yedek_v10.py` | Salt-okunur yedek (chmod 444), SHA-256 doğrulama |
 | **Denetim** | `kalkan_yedek_v10.py` | ISO 27001 · NIST CSF · GDPR · PCI DSS · KVKK |
 
 ---
@@ -155,7 +155,8 @@ güvenlik durumu → WAF → kural kütüphanesi → coğrafya haritası → akt
 ✓ Dosya bütünlüğü (SHA-256 baseline, 31 kritik dosya)
 ✓ Davranış analizi (UEBA, beacon tespiti)
 ✓ RBAC + 2FA + oturum kilidi
-✓ Immutable yedek + onarım öncesi canlı kopya
+✓ Salt-okunur yedek (chmod 444) + onarım öncesi canlı kopya
+  NOT: gerçek değişmezlik (chattr +i / WORM) DEĞİLDİR — root sahibi değiştirebilir
 ✓ 5 uyumluluk çerçevesi denetimi
 ```
 

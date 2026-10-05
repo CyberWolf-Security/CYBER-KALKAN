@@ -307,15 +307,24 @@ if (strlen($HEDEF) > 2000) { $toplam_puan += 3; $eslesen[] = [3002, 'ORTA', 'Asi
 // ═══ 6. RATE LIMIT (30sn'de 100+ istek) ═══
 $rate_puan = 0;
 if (!$muaf) {
+    // ★ B-18 DUZELTMESI: oku-degistir-yaz TEK kilit altinda atomik.
+    // (fopen 'c+' + flock LOCK_EX → eszamanli WAF isteklerinde sayac kaybolmaz)
     $rl_yol = "$V/rate_limit.json";
-    $rl = @json_decode((string)@file_get_contents($rl_yol), true) ?: [];
     $simdi = time();
-    $r = $rl[$ip] ?? ['ilk' => $simdi, 'adet' => 0];
-    if ($simdi - ($r['ilk'] ?? $simdi) > 30) $r = ['ilk' => $simdi, 'adet' => 0];
-    $r['adet'] = ($r['adet'] ?? 0) + 1;
-    $rl[$ip] = $r;
-    if (count($rl) > 3000) $rl = array_slice($rl, -1500, null, true);
-    @file_put_contents($rl_yol, json_encode($rl), LOCK_EX);
+    $r = ['ilk' => $simdi, 'adet' => 0];
+    $fp = @fopen($rl_yol, 'c+');
+    if ($fp) {
+        @flock($fp, LOCK_EX);
+        $rl = @json_decode((string)stream_get_contents($fp), true) ?: [];
+        $r = $rl[$ip] ?? ['ilk' => $simdi, 'adet' => 0];
+        if ($simdi - ($r['ilk'] ?? $simdi) > 30) $r = ['ilk' => $simdi, 'adet' => 0];
+        $r['adet'] = ($r['adet'] ?? 0) + 1;
+        $rl[$ip] = $r;
+        if (count($rl) > 3000) $rl = array_slice($rl, -1500, null, true);
+        @ftruncate($fp, 0); @rewind($fp);
+        @fwrite($fp, json_encode($rl)); @fflush($fp);
+        @flock($fp, LOCK_UN); @fclose($fp);
+    }
     if ($r['adet'] > 100)  { $rate_puan = 5; $eslesen[] = [4001, 'KRITIK', 'DoS / Rate limit (' . $r['adet'] . '/30sn)', null, 5]; }
     elseif ($r['adet'] > 50) { $rate_puan = 3; $eslesen[] = [4002, 'YUKSEK', 'Yogun istek (' . $r['adet'] . '/30sn)', null, 3]; }
 }

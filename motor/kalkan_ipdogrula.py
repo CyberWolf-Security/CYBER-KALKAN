@@ -34,6 +34,24 @@ def gecerli_ip(deger):
     return not TEHLIKELI.search(d)
 
 
+# ★ B-22 DUZELTMESI: RFC-5737 belgeleme (test) adresleri ve varsayilan/dokumantasyon
+# araliklari engel listesine GIRMEMELI — gercek dunyada yonlendirilemez,
+# listeyi kirletir ve "canli tespit" yanilsamasi yaratir.
+_BELGELEME = [
+    "203.0.113.", "198.51.100.", "192.0.2.",      # RFC 5737 (TEST-NET-1/2/3)
+    "192.0.0.", "198.18.", "198.19.",               # RFC 6890 ozel kullanim
+]
+
+
+def belgeleme_ip(ip):
+    """RFC-5737 belgeleme / ozel kullanim adresi mi (engellenmemeli)"""
+    s = str(ip).strip()
+    for p in _BELGELEME:
+        if s.startswith(p):
+            return True
+    return False
+
+
 def ozel_ip(deger):
     """Ozel/ayrilmis IP mi (localhost, RFC1918, link-local)? — engellenmemeli"""
     try:
@@ -45,11 +63,14 @@ def ozel_ip(deger):
 
 
 def engellenebilir(deger, beyaz=None):
-    """Engel listesine EKLENEBILIR mi? (gecerli + ozel degil + beyaz listede degil)"""
+    """Engel listesine EKLENEBILIR mi? (gecerli + ozel degil + belgeleme degil + beyaz degil)"""
     if not gecerli_ip(deger):
         return False, "gecersiz IP"
     if ozel_ip(deger):
         return False, "ozel/ayrilmis IP"
+    # ★ B-22: RFC-5737 belgeleme / ozel kullanim adresleri engellenemez
+    if belgeleme_ip(deger):
+        return False, "belgeleme adresi"
     if beyaz and deger.strip() in beyaz:
         return False, "beyaz listede"
     return True, "ok"
