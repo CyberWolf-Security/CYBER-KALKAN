@@ -4,9 +4,18 @@ declare(strict_types=1);
 require __DIR__ . '/ortak.php';
 kalkan_giris_gerekli();
 
-$cg = kalkan_oku('cografya', ['ip_ulke' => [], 'ulkeler' => []]);
-$ulkeler = $cg['ulkeler'] ?? [];
-if (!is_array($ulkeler)) $ulkeler = [];
+$cg = kalkan_oku('cografya', []);
+/* ★ DUZELTME: modul 'ulke_dagilimi' (dict: {"TR":45}) yaziyordu, panel 'ulkeler' (liste)
+   bekliyordu → anahtar uyusmazligi yuzunden harita BOS gorunuyordu (B-14 turu hata).
+   Artik iki bicim de desteklenir. */
+$ham = $cg['ulke_dagilimi'] ?? $cg['ulkeler'] ?? [];
+$ulkeler = [];
+if (is_array($ham)) {
+    foreach ($ham as $kk => $vv) {
+        if (is_array($vv))      { $ulkeler[] = [(string)($vv['kod'] ?? $kk), (int)($vv['sayi'] ?? 0)]; }
+        elseif (is_string($kk)) { $ulkeler[] = [$kk, (int)$vv]; }   // {"TR":45}
+    }
+}
 
 /* ulke adlari + koordinatlar */
 $ULKE = [

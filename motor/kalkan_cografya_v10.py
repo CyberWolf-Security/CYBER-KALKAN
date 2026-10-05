@@ -73,6 +73,24 @@ def ip_bilgi(ip):
                 bilgi["ulke"] = m.group(1); break
         except Exception:
             continue
+    # ★ DUZELTME: geoiplookup/mmdblookup bu sistemde KURULU DEGIL → ulke hep "?" kaliyordu
+    # (harita bu yuzden bos gorunuyordu). Yedek olarak ip-api.com (HTTP JSON, ucretsiz).
+    if bilgi["ulke"] == "?":
+        try:
+            import urllib.request
+            _u = f"http://ip-api.com/json/{ip}?fields=countryCode,as,asname"
+            with urllib.request.urlopen(_u, timeout=6) as _y:
+                _j = json.loads(_y.read().decode("utf-8", "ignore"))
+            if _j.get("countryCode"):
+                bilgi["ulke"] = str(_j["countryCode"])[:2].upper()
+            if _j.get("as"):
+                _a = str(_j["as"]).split()[0]
+                if _a.startswith("AS"):
+                    bilgi["asn"] = _a
+            if _j.get("asname"):
+                bilgi["asn_ad"] = str(_j["asname"])[:40]
+        except Exception:
+            pass
     # whois ASN — LISTE formu, shell yok (B-02)
     try:
         r = subprocess.run(["whois", ip], capture_output=True, text=True, timeout=10)
@@ -132,8 +150,10 @@ def tara():
         "zaman": datetime.now().strftime("%d.%m.%Y %H:%M:%S"),
         "toplam_ip": len(ipler), "cozumlenen": len(onb), "yeni_sorgu": yeni,
         "ulke_sayisi": len([u for u in ulke_say if u != "?"]),
-        "en_cok_ulke": ulke_say.most_common(1)[0] if ulke_say else ("?", 0),
-        "ulke_dagilimi": dict(ulke_say.most_common(25)),
+        # ★ DUZELTME: "?" (cozulemeyen) en yuksek sayiya sahip oldugu icin "EN YOGUN" hep "?" cikiyordu
+        "en_cok_ulke": (ulke_say.most_common() and
+                        next(((u, s) for u, s in ulke_say.most_common() if u != "?"), ("?", 0))),
+        "ulke_dagilimi": dict((u, s) for u, s in ulke_say.most_common(25) if u != "?"),
         "asn_dagilimi": dict(asn_say.most_common(15)),
         "riskli_ulke_ip": len(riskli_ip),
         "bulut_ip": sum(1 for v in onb.values() if v.get("bulut")),
