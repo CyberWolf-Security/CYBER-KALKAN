@@ -80,10 +80,13 @@ $yuklu = !empty($d['zone']);
 
     <?php
       $ar   = $d['arayuzler'] ?? [];
-      $up   = count(array_filter($ar, fn($x) => ($x['durum'] ?? '') === 'UP'));
-      $rota = count($d['rotalar'] ?? []);
-      $nat  = count($d['nat'] ?? []);
-      $vlan = count($d['vlan'] ?? []);
+      $up   = count(array_filter((array)$ar, fn($x) => ($x['durum'] ?? '') === 'UP'));
+      /* ★ TIP GUVENLIGI: motor bu alanlari SAYI olarak yaziyor; count(int) PHP 8'de FATAL.
+         Hem dizi hem sayi kabul edilir (iki bicim destekli). */
+      $say = fn($v) => is_array($v) ? count($v) : (int)$v;
+      $rota = $say($d['rotalar'] ?? 0);
+      $nat  = $say($d['nat'] ?? 0);
+      $vlan = $say($d['vlan'] ?? 0);
     ?>
     <div class="kartlar">
       <div class="kart vurgu">
