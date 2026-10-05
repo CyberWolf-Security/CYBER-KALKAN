@@ -12,6 +12,18 @@ Web uygulama güvenlik duvarından davranış analizine kadar 42 modül, 24 otom
 
 ---
 
+## 🎬 TANITIM VİDEOSU
+
+**[▶ tanitim.mp4 — tüm modüller, müzikli](tanitim.mp4)**
+
+20 modülün tamamını gezen hızlı tanıtım (3x hız): özet paneli → olay kayıtları
+→ engellenen IP'ler → vakalar → arama → denetim izi → dosya bütünlüğü →
+güvenlik durumu → WAF → kural kütüphanesi → coğrafya haritası → aktif savunma
+→ sistem bilgisi → log indeksleyici → ajan yönetimi → kullanıcılar → kilitler
+→ rapor → entegrasyon → geliştirenler.
+
+---
+
 ## 📸 EKRAN GÖRÜNTÜLERİ
 
 **[→ Tüm görüntüler ve açıklamaları: resimler/OKUBENI.md](resimler/OKUBENI.md)**
