@@ -40,7 +40,7 @@ $saldirganlar = $ozet['saldirganlar'] ?? $ozet['iplar'] ?? $ozet['liste'] ?? [];
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>IPS — CYBER KALKAN</title>
-<link rel="stylesheet" href="stil.css">
+<link rel="stylesheet" href="assets/panel.css?v=1.7">
 </head>
 <body>
 <?php kalkan_ustbilgi('IPS'); ?>

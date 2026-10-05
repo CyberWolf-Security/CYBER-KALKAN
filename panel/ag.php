@@ -43,7 +43,7 @@ $yuklu = strpos((string)@shell_exec('nft list table inet kalkan_ag 2>/dev/null')
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Ağ Katmanı — CYBER KALKAN</title>
-<link rel="stylesheet" href="assets/stil.css">
+<link rel="stylesheet" href="assets/panel.css?v=1.7">
 </head>
 <body>
 <?= kalkan_menu('ag.php') ?>

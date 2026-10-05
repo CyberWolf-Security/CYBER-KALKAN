@@ -53,7 +53,7 @@ $max = $harita ? max(array_column($harita,'sayi')) : 1;
 ?><!DOCTYPE html><html lang="tr"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Harita · CYBER KALKAN</title>
-<link rel="stylesheet" href="assets/panel.css?v=1.6">
+<link rel="stylesheet" href="assets/panel.css?v=1.7">
 <link rel="stylesheet" href="assets/leaflet.css">
 <script src="assets/leaflet.js"></script>
 </head><body>

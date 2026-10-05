@@ -47,7 +47,7 @@ $ayar = kalkan_oku('ayarlar', ['panel_adi'=>'CYBER KALKAN']);
 <!DOCTYPE html><html lang="tr"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Engel Yönetimi — <?= kalkan_kacis($ayar['panel_adi']) ?></title>
-<link rel="stylesheet" href="assets/panel.css?v=1.6"><?php kalkan_sayfalama_script(); ?>
+<link rel="stylesheet" href="assets/panel.css?v=1.7"><?php kalkan_sayfalama_script(); ?>
 </head><body>
 <?= kalkan_ustbilgi('engel.php') ?>
 <main>

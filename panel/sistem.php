@@ -13,7 +13,7 @@ $syslog = trim(@shell_exec("ss -tlnp 2>/dev/null | grep -c ':514'"));
 ?>
 <!doctype html><html lang="tr"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1"><title>Sistem Sağlığı</title>
-<link rel="stylesheet" href="assets/panel.css?v=1.6"></head><body>
+<link rel="stylesheet" href="assets/panel.css?v=1.7"></head><body>
 <?= kalkan_ustbilgi('sistem.php') ?>
 <main>
 <?php kalkan_baslik('🎯', 'Sistem Durumu', 'Servisler, kaynaklar ve sağlık'); ?>

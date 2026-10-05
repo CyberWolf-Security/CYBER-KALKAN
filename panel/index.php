@@ -75,7 +75,7 @@ $kural_sayi  = count($kur['kurallar'] ?? []);
 <!DOCTYPE html><html lang="tr"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Panel · CYBER KALKAN</title>
-<link rel="stylesheet" href="assets/panel.css?v=1.6">
+<link rel="stylesheet" href="assets/panel.css?v=1.7">
 <script src="assets/chart.min.js?v=6.2"></script>
 </head><body>
 <?= kalkan_ustbilgi('index.php') ?>

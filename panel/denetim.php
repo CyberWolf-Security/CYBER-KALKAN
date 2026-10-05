@@ -7,7 +7,7 @@ $ayar = kalkan_oku('ayarlar', []);
 ?>
 <!doctype html><html lang="tr"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1"><title>Denetim İzi</title>
-<link rel="stylesheet" href="assets/panel.css?v=1.6"></head><body>
+<link rel="stylesheet" href="assets/panel.css?v=1.7"></head><body>
 <?= kalkan_ustbilgi('denetim.php') ?>
 <main>
 <?php kalkan_baslik('📜', 'Denetim İzi', 'Kim, ne zaman, ne yaptı'); ?>

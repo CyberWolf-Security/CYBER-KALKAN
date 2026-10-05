@@ -39,7 +39,7 @@ $k = kalkan_oku('kurallar', ['kurallar' => []]);
 $sey = ['KRITIK'=>'#ff3b5c','YUKSEK'=>'#ffb020','ORTA'=>'#00d68f'];
 ?>
 <!DOCTYPE html><html lang="tr"><head><meta charset="utf-8"><title>Kurallar — CYBER KALKAN</title>
-<link rel="stylesheet" href="assets/panel.css?v=1.6"><?php kalkan_sayfalama_script(); ?>
+<link rel="stylesheet" href="assets/panel.css?v=1.7"><?php kalkan_sayfalama_script(); ?>
 </head><body>
 <?= kalkan_ustbilgi('kurallar.php') ?>
 <main>

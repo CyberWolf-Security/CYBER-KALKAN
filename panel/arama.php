@@ -23,7 +23,7 @@ if ($q !== '' && strlen($q) >= 2) {
 ?>
 <!doctype html><html lang="tr"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1"><title>Arama</title>
-<link rel="stylesheet" href="assets/panel.css?v=1.6"></head><body>
+<link rel="stylesheet" href="assets/panel.css?v=1.7"></head><body>
 <?= kalkan_ustbilgi('arama.php') ?>
 <main>
 <?php kalkan_baslik('🔍', 'Tehdit Avı', 'Tüm kayıtlarda gelişmiş arama'); ?>

@@ -105,7 +105,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <!DOCTYPE html><html lang="tr"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Giriş — CYBER KALKAN</title>
-<link rel="stylesheet" href="assets/panel.css?v=1.6"></head><body>
+<link rel="stylesheet" href="assets/panel.css?v=1.7"></head><body>
 <div class="giris-yan sol"><svg class="kalkan-svg" viewBox="0 0 100 122" xmlns="http://www.w3.org/2000/svg">
 <defs>
 <linearGradient id="kg" x1="0" y1="0" x2="0" y2="1">

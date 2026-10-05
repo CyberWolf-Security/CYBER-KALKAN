@@ -25,7 +25,7 @@ function kb(int $b): string { return $b > 1048576 ? round($b / 1048576, 1) . ' M
 ?>
 <!doctype html><html lang="tr"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1"><title>İndeks</title>
-<link rel="stylesheet" href="assets/panel.css?v=1.6"></head><body>
+<link rel="stylesheet" href="assets/panel.css?v=1.7"></head><body>
 <?= kalkan_ustbilgi('indexer.php') ?>
 <main>
 <?php kalkan_baslik('🗄️', 'Log İndeksi', 'Toplanan kayıtlar ve log dosyaları'); ?>

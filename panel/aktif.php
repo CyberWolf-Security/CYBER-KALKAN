@@ -22,7 +22,7 @@ if (isset($_GET['tarpit']) || (($_POST['islem'] ?? '') === 'tarpit')) {
 ?>
 <!doctype html><html lang="tr"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1"><title>Aktif Savunma</title>
-<link rel="stylesheet" href="assets/panel.css?v=1.6"></head><body>
+<link rel="stylesheet" href="assets/panel.css?v=1.7"></head><body>
 <?= kalkan_ustbilgi('aktif.php') ?>
 <main>
 <?php kalkan_baslik('⚔️', 'Aktif Savunma', 'Kılıç modu ve otomatik müdahale'); ?>

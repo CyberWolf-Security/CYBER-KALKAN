@@ -12,7 +12,7 @@ if ($fil) $liste = array_values(array_filter($liste, fn($x)=>($x['seviye']??'')=
 ?>
 <!DOCTYPE html><html lang="tr"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1"><title>Olaylar</title>
-<link rel="stylesheet" href="assets/panel.css?v=1.6"><?php kalkan_sayfalama_script(); ?>
+<link rel="stylesheet" href="assets/panel.css?v=1.7"><?php kalkan_sayfalama_script(); ?>
 </head><body>
 <?= kalkan_ustbilgi('olaylar.php') ?>
 <main>

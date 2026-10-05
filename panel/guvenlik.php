@@ -9,7 +9,7 @@ $s = kalkan_oku('sca', ['skor'=>0,'gecen'=>0,'toplam'=>0,'kontroller'=>[],'rootk
 $renk = fn($p) => $p>=80?'#00d68f':($p>=50?'#ffb020':'#ff4d5e');
 ?>
 <!DOCTYPE html><html lang="tr"><head><meta charset="utf-8"><title>Guvenlik Durumu — CYBER KALKAN</title>
-<link rel="stylesheet" href="assets/panel.css?v=1.6"></head><body>
+<link rel="stylesheet" href="assets/panel.css?v=1.7"></head><body>
 <?= kalkan_ustbilgi('guvenlik.php') ?>
 <main>
 <?php kalkan_baslik('🛡️', 'Güvenlik Durumu', 'Risk skoru ve tehdit özeti'); ?>
