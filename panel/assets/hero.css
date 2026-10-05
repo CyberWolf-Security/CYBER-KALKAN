@@ -164,3 +164,16 @@
 }
 /* kartlar tek satırda hizalı dursun — 6 kart sıkışıp son kart kesiliyordu */
 .kartlar{ grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)) !important; }
+
+/* ★ Kademeli giriş animasyonu HIZLANDIRILDI: panel.css'de her kart 0.05s arayla
+   beliriyordu (toplam ~0.8s). Hızlı bakınca alt kartlar BOŞ görünüyordu →
+   hepsi aynı anda, kısa sürede gelsin. */
+.kartlar > .kart{
+  animation-duration: .26s !important;
+  animation-delay: 0s !important;
+}
+.kartlar > .kart:nth-child(2),
+.kartlar > .kart:nth-child(3),
+.kartlar > .kart:nth-child(4),
+.kartlar > .kart:nth-child(5),
+.kartlar > .kart:nth-child(6){ animation-delay: 0s !important; }
