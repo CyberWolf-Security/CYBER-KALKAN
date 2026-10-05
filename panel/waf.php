@@ -30,7 +30,8 @@ arsort($tur_say);
 
 // kural sayısı (waf.php'den)
 $waf_icerik = @file_get_contents('/opt/siber-kalkan/waf.php') ?: '';
-$kural_grup = substr_count($waf_icerik, "as \$d) \$K[]");
+// ★ DUZELTME: sayim guvenilir hale getirildi (tek tirnak → PHP escape sorunu yok)
+$kural_grup = substr_count($waf_icerik, 'as $d) $K[]');
 $kural_tek = preg_match_all("/'\/[^']+?\/[a-z]*'/", $waf_icerik);
 
 $waf_aktif = file_exists('/opt/siber-kalkan/waf.php');
@@ -86,15 +87,15 @@ $toplam_imza = (int)$kural_grup + (int)$kural_tek;
     </div>
     <div class="kart">
       <div class="etiket">⚡ RATE LIMIT</div>
-      <div class="deger" style="font-size:26px">100<span style="font-size:15px;opacity:.6">/30sn</span></div>
-      <div class="alt">DoS koruması</div>
+      <div class="deger">100</div>
+      <div class="alt">istek / 30 sn</div>
     </div>
   </div>
 
   <h2>⚙️ Yapılandırma</h2>
   <table class="tablo">
     <tr><th>AYAR</th><th>DEĞER</th><th>AÇIKLAMA</th></tr>
-    <tr><td>Sürüm</td><td><?= $surum ?> (300+ kural)</td><td>5 katmanlı normalize + anomali skorlama</td></tr>
+    <tr><td>Sürüm</td><td><?= $surum ?> (<?= number_format($toplam_imza, 0, ',', '.') ?> imza)</td><td>5 katmanlı normalize + anomali skorlama</td></tr>
     <tr><td>Engelleme eşiği</td><td><?= (int)($ayar['waf_esik'] ?? 5) ?> puan</td><td>Toplam risk puanı eşiği aşarsa engellenir</td></tr>
     <tr><td>Rate limit</td><td>100 istek / 30 sn</td><td>Aşarsa DoS kabul edilip engellenir</td></tr>
     <tr><td>Muafiyet</td><td>localhost + LAN</td><td>Panel kendini engellemez (=127.*, 192.168.*)</td></tr>
