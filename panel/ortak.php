@@ -288,11 +288,22 @@ function kalkan_altbilgi(): string {
 }
 
 function kalkan_baslik(string $ikon, string $baslik, string $aciklama = ''): void {
-    echo '<div class="hero">';
-    echo '<div class="hero-ikon">' . $ikon . '</div>';
-    echo '<div class="hero-metin"><h1>' . $baslik . '</h1>';
-    if ($aciklama !== '') echo '<p>' . $aciklama . '</p>';
-    echo '</div></div>';
+    /* ★ TUM MODÜLLER İÇİN HAREKETLİ/ŞIK BAŞLIK (assets/hero.css)
+       Tek değişiklikle 19+ sayfa aynı animasyonlu hero diline geçer:
+       gradient akışı · neon parlama · ikon nabzı · ışık süpürme. */
+    static $css_verildi = false;
+    if (!$css_verildi) {
+        $css_verildi = true;
+        echo '<link rel="stylesheet" href="assets/hero.css?v=1">';
+    }
+    echo '<div class="cy-hero">';
+    echo '<div class="cy-ikon">' . $ikon . '</div>';
+    echo '<div class="cy-metin">';
+    echo '<h1 class="cy-baslik">' . $baslik . '</h1>';
+    if ($aciklama !== '') echo '<p class="cy-aciklama">' . $aciklama . '</p>';
+    echo '</div>';
+    echo '<div class="cy-tarama"></div>';
+    echo '</div>';
 }
 
 /* ---------- ORTAK UST BILGI (tek tip header) ---------- */
