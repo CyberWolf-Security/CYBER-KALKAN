@@ -53,11 +53,24 @@ $aktif = count(array_filter($durum));
 <html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Entegrasyon — CYBER KALKAN</title>
 <link rel="stylesheet" href="assets/panel.css?v=1.7">
+<link rel="stylesheet" href="assets/hero.css?v=2">
 </head>
 <body>
 <?= kalkan_menu('entegrasyon.php') ?>
 <main class="sarici">
-    <h1>🔌 Entegrasyon <span style="font-size:15px;opacity:.7">VirusTotal · MISP · Slack</span></h1>
+    <div class="cy-hero">
+      <div class="cy-ikon">🔌</div>
+      <div class="cy-metin">
+        <h1 class="cy-baslik">Entegrasyon <span class="cy-surum">VT · MISP · Slack</span></h1>
+        <p class="cy-aciklama">Dış tehdit istihbaratı ve bildirim servisleriyle <b>bağlantı</b> yönetimi. Anahtar girilince entegrasyon <b>aktif</b> sayılır.</p>
+        <div class="cy-etiketler">
+          <span class="cy-etiket">🦠 VirusTotal</span>
+          <span class="cy-etiket">🧠 MISP</span>
+          <span class="cy-etiket">💬 Slack</span>
+        </div>
+      </div>
+      <div class="cy-tarama"></div>
+    </div>
 
     <?php if ($mesaj): ?>
     <div class="uyari uyari-<?= $mesaj[0] ?>" style="font-size:16px">
@@ -65,10 +78,18 @@ $aktif = count(array_filter($durum));
     </div>
     <?php endif; ?>
 
-    <div class="kpi-izgara">
-        <div class="kpi"><b><?= $aktif ?> / 3</b><span>Aktif Bağlantı</span></div>
+    <div class="kartlar">
+        <div class="kart <?= $aktif ? 'iyi' : '' ?>">
+          <div class="etiket">🔗 AKTİF BAĞLANTI</div>
+          <div class="deger"><?= $aktif ?><span style="font-size:19px;opacity:.5"> / 3</span></div>
+          <div class="alt">bağlı servis</div>
+        </div>
         <?php foreach ($durum as $ad => $ok): ?>
-        <div class="kpi"><b style="color:<?= $ok ? '#4ade80' : '#64748b' ?>"><?= $ok ? 'AÇIK' : 'KAPALI' ?></b><span><?= htmlspecialchars($ad) ?></span></div>
+        <div class="kart <?= $ok ? 'iyi' : '' ?>">
+          <div class="etiket"><?= htmlspecialchars(mb_strtoupper($ad, 'UTF-8')) ?></div>
+          <div class="deger" style="font-size:24px"><?= $ok ? 'AÇIK' : 'KAPALI' ?></div>
+          <div class="alt"><?= $ok ? 'bağlı' : 'anahtar yok' ?></div>
+        </div>
         <?php endforeach; ?>
     </div>
 

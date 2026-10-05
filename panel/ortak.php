@@ -294,7 +294,7 @@ function kalkan_baslik(string $ikon, string $baslik, string $aciklama = ''): voi
     static $css_verildi = false;
     if (!$css_verildi) {
         $css_verildi = true;
-        echo '<link rel="stylesheet" href="assets/hero.css?v=1">';
+        echo '<link rel="stylesheet" href="assets/hero.css?v=2">';
     }
     echo '<div class="cy-hero">';
     echo '<div class="cy-ikon">' . $ikon . '</div>';

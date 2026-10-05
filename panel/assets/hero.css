@@ -93,6 +93,10 @@
   background: rgba(56,189,248,.20); border-color: rgba(56,189,248,.6);
   color: #e0f2fe;
 }
+/* özellik rozetleri: ✓ + metin (WAF hero'su) */
+.cy-etiket:has(.cy-tik){ display: inline-flex; align-items: center; gap: 6px; padding: 6px 15px; font-size: 13.5px; color: #9fb6d4; }
+.cy-tik{ color: #4ade80; font-weight: 800; font-size: 14px; }
+.cy-etiket b{ color: #7dd3fc; font-weight: 700; }
 
 /* ── mevcut .waf-kahraman hero'suna da hareket (WAF + diğerleri) ── */
 .waf-kahraman{

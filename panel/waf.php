@@ -44,25 +44,27 @@ $toplam_imza = (int)$kural_grup + (int)$kural_tek;
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>WAF — <?= kalkan_kacis($ayar['panel_adi'] ?? 'CYBER KALKAN') ?></title>
 <link rel="stylesheet" href="assets/panel.css?v=1.7">
-<link rel="stylesheet" href="assets/hero.css?v=1"></head><body>
+<link rel="stylesheet" href="assets/hero.css?v=2"></head><body>
 <?= kalkan_ustbilgi('waf') ?>
 <main class="sarici">
-  <div class="waf-kahraman">
-    <div class="waf-ikon">🛡️</div>
-    <div class="waf-metin">
-      <h1 class="waf-baslik">WAF — Güvenlik Duvarı <span class="waf-surum">v10</span></h1>
-      <p class="waf-aciklama">Web uygulama katmanında istekleri <b>anında</b> tarar; saldırı imzası bulursa <b>403</b> ile engeller ve IP'yi <b>kara listeye</b> alır.</p>
-      <div class="waf-ozellik">
-        <div class="waf-madde"><span class="waf-tik">✓</span>
+  <div class="cy-hero">
+    <div class="cy-ikon">🛡️</div>
+    <div class="cy-metin">
+      <h1 class="cy-baslik">WAF — Güvenlik Duvarı <span class="cy-surum">v10</span></h1>
+      <p class="cy-aciklama">Web uygulama katmanında istekleri <b>anında</b> tarar; saldırı imzası bulursa <b>403</b> ile engeller ve IP'yi <b>kara listeye</b> alır.</p>
+      <div class="cy-etiketler">
+        <div class="cy-etiket"><span class="cy-tik">✓</span>
           <span><b><?= number_format($toplam_imza, 0, ',', '.') ?> saldırı imzası</b> <span class="waf-soluk">SQLi · XSS · LFI · RCE · Log4Shell</span></span></div>
-        <div class="waf-madde"><span class="waf-tik">✓</span>
+        <div class="cy-etiket"><span class="cy-tik">✓</span>
           <span><b>5 katmanlı çözümleme</b> <span class="waf-soluk">URL · HTML · JS · Base64 · yorum kırma</span></span></div>
-        <div class="waf-madde"><span class="waf-tik">✓</span>
+        <div class="cy-etiket"><span class="cy-tik">✓</span>
           <span><b>Anomali skorlama</b> + <b>hız sınırı</b> <span class="waf-soluk">DoS koruması</span></span></div>
-        <div class="waf-madde"><span class="waf-tik">✓</span>
+        <div class="cy-etiket"><span class="cy-tik">✓</span>
           <span><b>Sanal yama</b> (CVE imzaları) + <b>bot tespiti</b> <span class="waf-soluk">sqlmap · nuclei · nmap</span></span></div>
       </div>
     </div>
+
+      <div class="cy-tarama"></div>
   </div>
 
   <div class="kartlar">
