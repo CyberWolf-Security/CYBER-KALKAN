@@ -134,4 +134,33 @@
   overflow-wrap: anywhere;
   word-break: break-word;
 }
-.kart .etiket{ line-height: 1.32; overflow-wrap: anywhere; }
+/* ═══ KART İÇİ TAM TANIM (etiket/deger/alt) ═══
+   ★ panel.css yalnız .kart .et ve .kart .sg tanımlıyordu (eski ad). Paneller .etiket/
+   .deger/.alt kullanıyor → etiketler stilsiz kalıyor, kart yükseklikleri bozuluyordu. */
+.kart .etiket{
+  display: block;
+  font-size: 15.5px;
+  color: var(--soluk, #9fc0dc);
+  text-transform: uppercase;
+  letter-spacing: .8px;
+  font-weight: 600;
+  line-height: 1.32;
+  overflow-wrap: anywhere;
+  margin-bottom: 6px;
+}
+.kart .deger{
+  font-size: clamp(19px, 2.05vw, 31px);
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.15;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+.kart .alt{
+  font-size: 15px;
+  color: #9fc0dc;
+  margin-top: 8px;
+  font-weight: 600;
+}
+/* kartlar tek satırda hizalı dursun (auto-fit taşmasın) */
+.kartlar{ grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)) !important; }
