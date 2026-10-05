@@ -35,6 +35,9 @@ $kural_tek = preg_match_all("/'\/[^']+?\/[a-z]*'/", $waf_icerik);
 
 $waf_aktif = file_exists('/opt/siber-kalkan/waf.php');
 $surum = 'v10';
+// ★ DUZELTME: gercek imza sayisi (20 blok + 115 tek regex = ~135).
+// Panelde "300+ imza" yaziyordu — yanlis iddiaydi (B-10).
+$toplam_imza = (int)$kural_grup + (int)$kural_tek;
 ?>
 <!DOCTYPE html><html lang="tr"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -49,7 +52,7 @@ $surum = 'v10';
       <p class="waf-aciklama">Web uygulama katmanında istekleri <b>anında</b> tarar; saldırı imzası bulursa <b>403</b> ile engeller ve IP'yi <b>kara listeye</b> alır.</p>
       <div class="waf-ozellik">
         <div class="waf-madde"><span class="waf-tik">✓</span>
-          <span><b>300+ saldırı imzası</b> <span class="waf-soluk">SQLi · XSS · LFI · RCE · Log4Shell</span></span></div>
+          <span><b><?= number_format($toplam_imza, 0, ',', '.') ?> saldırı imzası</b> <span class="waf-soluk">SQLi · XSS · LFI · RCE · Log4Shell</span></span></div>
         <div class="waf-madde"><span class="waf-tik">✓</span>
           <span><b>5 katmanlı çözümleme</b> <span class="waf-soluk">URL · HTML · JS · Base64 · yorum kırma</span></span></div>
         <div class="waf-madde"><span class="waf-tik">✓</span>
@@ -60,26 +63,31 @@ $surum = 'v10';
     </div>
   </div>
 
-  <div class="idx-kpi waf-kpi">
-    <div class="kpi-kutu">
-      <span class="et">WAF DURUMU</span>
-      <span class="deger"><?= $waf_aktif ? '✓' : '—' ?></span>
-      <span class="alt"><?= $waf_aktif ? 'aktif koruma' : 'kapalı' ?></span>
+  <div class="kartlar">
+    <div class="kart <?= $waf_aktif ? 'iyi' : 'kritik' ?>">
+      <div class="etiket">🛡️ WAF DURUMU</div>
+      <div class="deger" style="font-size:26px"><?= $waf_aktif ? 'AKTİF' : 'KAPALI' ?></div>
+      <div class="alt"><?= $waf_aktif ? 'koruma açık' : 'devre dışı' ?></div>
     </div>
-    <div class="kpi-kutu">
-      <span class="et">KURAL GRUBU</span>
-      <span class="deger"><?= $kural_grup ?></span>
-      <span class="alt">imza kategorisi</span>
+    <div class="kart vurgu">
+      <div class="etiket">📜 SALDIRI İMZASI</div>
+      <div class="deger"><?= number_format($toplam_imza, 0, ',', '.') ?></div>
+      <div class="alt"><?= (int)$kural_grup ?> blok + <?= (int)$kural_tek ?> desen</div>
     </div>
-    <div class="kpi-kutu">
-      <span class="et">WAF YAKALAMASI</span>
-      <span class="deger"><?= $waf_toplam ?></span>
-      <span class="alt">toplam tespit</span>
+    <div class="kart <?= $waf_toplam ? 'yuksek' : '' ?>">
+      <div class="etiket">🎯 YAKALAMA</div>
+      <div class="deger"><?= number_format($waf_toplam, 0, ',', '.') ?></div>
+      <div class="alt">toplam tespit</div>
     </div>
-    <div class="kpi-kutu">
-      <span class="et">WAF ENGELİ</span>
-      <span class="deger"><?= count($waf_engel) ?></span>
-      <span class="alt">kara listeye alındı</span>
+    <div class="kart <?= count($waf_engel) ? 'kritik' : '' ?>">
+      <div class="etiket">🚫 ENGEL</div>
+      <div class="deger"><?= number_format(count($waf_engel), 0, ',', '.') ?></div>
+      <div class="alt">kara listeye alındı</div>
+    </div>
+    <div class="kart">
+      <div class="etiket">⚡ RATE LIMIT</div>
+      <div class="deger" style="font-size:26px">100<span style="font-size:15px;opacity:.6">/30sn</span></div>
+      <div class="alt">DoS koruması</div>
     </div>
   </div>
 
