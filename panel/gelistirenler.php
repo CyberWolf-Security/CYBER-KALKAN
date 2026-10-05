@@ -26,7 +26,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && ($_POST['islem'] ?? '') === 'iletis
     if ($ad === '' || $govde === '' || !filter_var($posta, FILTER_VALIDATE_EMAIL)) {
         $il_mesaj = d('il_hata'); $il_tip = 'ha';
     } else {
-        $alici = trim((string)($ayar['eposta_alici'] ?? 'yonetici@example.com'));
+        $alici = trim((string)($ayar['eposta_alici'] ?? 'ekselanss@gmail.com'));
         $govde_html = '<div style="font-family:Segoe UI,Arial,sans-serif;background:#0b0f17;color:#dbe4f0;padding:26px;border-radius:12px">'
             . '<h2 style="color:#00d4ff;margin:0 0 16px">🐺 CYBER KALKAN — İletişim Formu</h2>'
             . '<table style="width:100%;font-size:15px;border-collapse:collapse">'
@@ -103,7 +103,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && ($_POST['islem'] ?? '') === 'iletis
   <h3 style="text-align:center">✉️ <?= d('iletisim') ?></h3>
   <div class="iletisim-kutu">
     <div class="iletisim-bilgi"><span class="ib-et"><?= d('gelistirici') ?></span><span class="ib-de"><b>CYBERWOLF SECURITY</b></span></div>
-    <div class="iletisim-bilgi"><span class="ib-et"><?= d('eposta') ?></span><span class="ib-de"><b>yonetici@example.com</b></span></div>
+    <div class="iletisim-bilgi"><span class="ib-et"><?= d('eposta') ?></span><span class="ib-de"><b><?= kalkan_kacis($ayar['eposta_alici'] ?? 'ekselanss@gmail.com') ?></b></span></div>
     <div class="iletisim-bilgi"><span class="ib-et"><?= d('sistem') ?></span><span class="ib-de">CYBER KALKAN v<?= KALKAN_SURUM ?></span></div>
   </div>
   <p class="iletisim-alt"><?= d('il_aciklama') ?></p>

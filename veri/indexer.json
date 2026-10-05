@@ -114,7 +114,7 @@
    "baslik": "sudo komut",
    "seviye": "ORTA",
    "ip": "",
-   "detay": "/usr/bin/php -r '#012require \"/var/www/kalkan-panel/ortak.php\";#012$r = kalkan_mail_gonder(\"yonetici@example.com\",\"test\","
+   "detay": "/usr/bin/php -r '#012require \"/var/www/kalkan-panel/ortak.php\";#012$r = kalkan_mail_gonder(\"ekselanss@gmail.com\",\"test\","
   },
   {
    "zaman": "04.10.2026 08:43:36",

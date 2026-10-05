@@ -37,19 +37,19 @@ $fm = kalkan_oku("fim", []);
 .rap .rp-btn:hover{ transform:translateY(-2px); }
 .rap .rp-btn:active{ transform:translateY(0); }
 .rap .rp-btn-pdf{
-  background:linear-gradient(135deg,rgba(231,76,60,.24),rgba(231,76,60,.07));
-  border-color:rgba(231,76,60,.55); color:#ff9a8f;
+  background:linear-gradient(135deg,rgba(231,76,60,.24),rgba(231,76,60,.07)) !important;
+  border:1px solid rgba(231,76,60,.55) !important; color:#ff9a8f !important;
 }
 .rap .rp-btn-pdf:hover{ box-shadow:0 8px 26px rgba(231,76,60,.40); border-color:#ff6b5b; color:#ffb3ab; }
 .rap .rp-btn-rapor{
-  background:linear-gradient(135deg,rgba(56,189,248,.24),rgba(129,140,248,.09));
-  border-color:rgba(56,189,248,.55); color:#7dd3fc;
+  background:linear-gradient(135deg,rgba(56,189,248,.24),rgba(129,140,248,.09)) !important;
+  border:1px solid rgba(56,189,248,.55) !important; color:#7dd3fc !important;
 }
 .rap .rp-btn-rapor:hover{ box-shadow:0 8px 26px rgba(56,189,248,.42); border-color:#38bdf8; color:#bae6fd; }
 /* açıkken (rapor görünümü aktif) yeşile döner */
 .rap .rp-btn-rapor.aktif{
-  background:linear-gradient(135deg,rgba(46,204,113,.26),rgba(46,204,113,.08));
-  border-color:rgba(46,204,113,.62); color:#8dffbd;
+  background:linear-gradient(135deg,rgba(46,204,113,.26),rgba(46,204,113,.08)) !important;
+  border:1px solid rgba(46,204,113,.62) !important; color:#8dffbd !important;
 }
 .rap .rp-btn-rapor.aktif:hover{ box-shadow:0 8px 26px rgba(46,204,113,.42); }
 
