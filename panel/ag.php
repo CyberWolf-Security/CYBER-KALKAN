@@ -46,7 +46,7 @@ $yuklu = strpos((string)@shell_exec('nft list table inet kalkan_ag 2>/dev/null')
 <link rel="stylesheet" href="assets/stil.css">
 </head>
 <body>
-<?php kalkan_menu('ag.php'); ?>
+<?= kalkan_menu('ag.php') ?>
 <main class="sarici">
     <h1>🌐 Ağ Katmanı <span style="font-size:15px;opacity:.7">L3/L4 · Zone · NAT · Rota · VLAN</span></h1>
 
@@ -140,6 +140,6 @@ $yuklu = strpos((string)@shell_exec('nft list table inet kalkan_ag 2>/dev/null')
         mevcut bağlantılar her zaman muaftır. Sorun olursa "Geri Al".
     </p>
 </main>
-<?php kalkan_altbilgi(); ?>
+<?= kalkan_altbilgi() ?>
 </body>
 </html>

@@ -198,8 +198,13 @@ def ip_bul(satir):
 def calistir():
     d = durum_yukle()
     ayar = d["ayarlar"]
-    esik = ayar.get("esik", 5)
-    pencere = ayar.get("pencere_sn", 60)
+    esik = int(ayar.get("esik", 5))
+    pencere = int(ayar.get("pencere_sn", 60))
+    # ★ DUZELTME (olu kod): engelleme esikleri AYARLARDAN okunur.
+    # Onceden sabit 100/40 yaziyordu → panelde ayar degistirilse bile motor
+    # etkilenmiyordu, 'esik' degiskeni hic kullanilmiyordu.
+    e_tek    = int(ayar.get("engel_puan", 40))     # tek olay puan esigi
+    e_toplam = int(ayar.get("engel_toplam", 100))  # pencere ici toplam puan esigi
     simdi_sn = time.time()
 
     engelli_ip = {k["ip"] for k in d["engel"].get("liste", [])}
@@ -272,7 +277,9 @@ def calistir():
         d["pencere"][ip] = gecmis
         toplam = sum(p[1] for p in gecmis)
 
-        if toplam >= 100 or puan >= 40 or _korel:   # B-11: korelasyon da tetikler
+        # ★ DUZELTME: esikler artik ayarlardan geliyor (e_tek/e_toplam) +
+        # pencere icindeki olay SAYISI 'esik' degerini gecerse de tetikler.
+        if toplam >= e_toplam or puan >= e_tek or len(gecmis) >= esik or _korel:
             if ip not in engelli_ip:
                 # engellenen IP'nin son olayindan aciklama + MITRE al (kapsam hatasi duzeltmesi)
                 son = next((o for o in reversed(yeni_olay) if o.get("ip") == ip), None)

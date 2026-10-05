@@ -137,6 +137,16 @@ function kalkan_csrf_dogrula(?string $t): bool {
     return !empty($_SESSION['csrf']) && is_string($t) && hash_equals($_SESSION['csrf'], $t);
 }
 
+/* ★ DUZELTME: kalkan_csrf_uret() ALIAS'i.
+   ag.php + ips.php bu adi cagiriyordu ama fonksiyon TANIMSIZDI →
+   form gonderilince "Call to undefined function" FATAL ERROR.
+   (Gercek fonksiyon: kalkan_csrf) */
+if (!function_exists('kalkan_csrf_uret')) {
+    function kalkan_csrf_uret(): string {
+        return kalkan_csrf();
+    }
+}
+
 function kalkan_ip_gecerli(string $ip): bool {
     return (bool)filter_var($ip, FILTER_VALIDATE_IP, FILTER_FLAG_IPV4);
 }
@@ -315,8 +325,10 @@ function kalkan_mail_gonder(string $kime, string $konu, string $govde): bool {
     $user = trim((string)($ma['user'] ?? '')) ?: trim((string)($a['smtp_user'] ?? ''));
     $pass = (string)($ma['pass'] ?? '') ?: (string)($a['smtp_pass'] ?? '');
     $fromad = trim((string)($ma['from_ad'] ?? 'CYBER KALKAN'));
-    $gorunen = trim((string)($ma['from_mail'] ?? '')) ?: $gonderen;   // gorunen From adresi
+    // ★ DUZELTME: $gonderen ONCE tanimlanmali — onceden bir satir SONRA tanimliydi,
+    // bu yuzden $gorunen bos kaliyordu → mail "From" adresi bos → sender rejected.
     $gonderen = $user !== '' ? $user : 'noreply@localhost';
+    $gorunen  = trim((string)($ma['from_mail'] ?? '')) ?: $gonderen;   // gorunen From adresi
 
     /* BREVO-API-BAS: yuksek itibarli gonderim (spam onleme) */
     $bapi = trim((string)($ma['brevo_api'] ?? ''));

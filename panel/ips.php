@@ -109,6 +109,6 @@ $saldirganlar = $ozet['saldirganlar'] ?? $ozet['iplar'] ?? $ozet['liste'] ?? [];
   <?php endif; ?>
 
 </main>
-<?php kalkan_altbilgi(); ?>
+<?= kalkan_altbilgi() ?>
 </body>
 </html>
