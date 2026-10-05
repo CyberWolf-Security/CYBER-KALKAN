@@ -18,7 +18,7 @@ katmanlı bir savunma sistemidir. Felsefesi: *her katman bir sonrakine güvenmez
         └──────────────┬──────────────┘
                        │
         ┌──────────────▼──────────────┐
-        │      1. WAF (PHP)           │  1002 kural · 5 katman çözümleme
+        │      1. WAF (PHP)           │  111 imza · 5 katman çözümleme
         │   anomali skor + hız sınırı │  → 403 / engelle
         └──────────────┬──────────────┘
                        │
@@ -50,7 +50,7 @@ Dışarıdan gelen her şey burada karşılanır.
 
 | Bileşen | Teknoloji | Görev |
 |---|---|---|
-| **WAF** | PHP (kendi motoru) | 1002 kural · 5 katman çözümleme · anomali skor · hız sınırı |
+| **WAF** | PHP (kendi motoru) | 111 imza (20 kategori) · 5 katman çözümleme · anomali skor · hız sınırı |
 | **Firewall** | nftables | Kalıcı kara liste, tüm portlardan kesme |
 | **IDS** | Suricata | Gerçek zamanlı imza tespiti |
 
@@ -107,7 +107,7 @@ Bir saldırı isteğinin izlediği yol:
    ham veri → URL çöz → HTML çöz → JS çöz → Base64 çöz → yorum kır
    sonuç: normalize edilmiş metin
 
-3. İMZA EŞLEŞTİRME (1002 kural)
+3. İMZA EŞLEŞTİRME (111 imza / 20 kategori)
    her eşleşme PUAN verir (bot=5, genel=1-3)
 
 4. ANOMALİ SKORU
@@ -144,7 +144,7 @@ Bu, sistemin tek dosya kopyalamayla taşınabilmesini ve bağımlılıksız çal
                     ┌──────────────────┐
                     │  VERI/ (JSON)    │
                     │  ───────────────  │
-                    │  kurallar.json   │ 1002 WAF kuralı
+                    │  kurallar.json   │ 111 WAF imzası
                     │  olaylar.json    │ tespit edilen olaylar
                     │  engel.json      │ engellenen IP'ler
                     │  ayarlar.json    │ sistem ayarları

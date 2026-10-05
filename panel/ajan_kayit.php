@@ -15,6 +15,22 @@ if ($token === '' || !hash_equals((string)($ayar['api_token'] ?? ''), (string)$t
     exit(json_encode(['durum' => 'hata', 'mesaj' => 'token gecersiz']));
 }
 
+/* ★ B-07 GÜVENLİK: KOMUT ALLOWLIST
+   Merkez DB ele geçse ya da jeton sızsa bile ajana KEYFİ komut dağıtılamaz.
+   Yalnızca aşağıdaki kalıplara uyan komutlar ajanlara gönderilir. */
+$GOREV_IZIN = [
+    '~^\\s*/?(usr/)?(s?bin/)?nft\\s~',                       // nftables işlemleri
+    '~^\\s*/usr/bin/python3\\s+/opt/siber-kalkan/~',          // kalkan modülleri
+    '~^\\s*/bin/systemctl\\s+(restart|start|stop)\\s+kalkan~', // servis yönetimi
+    '~^\\s*/opt/siber-kalkan/MOTOR/\\S+\\.(sh|py)\\b~',        // paket içi betikler
+];
+function gorev_komut_izinli(string $k, array $izin): bool {
+    $k = trim($k);
+    if ($k === '') return false;
+    foreach ($izin as $re) if (preg_match($re, $k)) return true;
+    return false;
+}
+
 $girdi = json_decode(file_get_contents('php://input'), true);
 if (!is_array($girdi)) $girdi = [];
 
@@ -110,6 +126,17 @@ if ($db) {
         $gs2->execute([':a' => $ad]);
         $gorevler = $gs2->fetchAll(PDO::FETCH_ASSOC);
         if (!is_array($gorevler)) $gorevler = [];
+        // ★ B-07: allowlist disi komutlar ajana GONDERILMEZ (keyfi komut dagitimi engellenir)
+        $reddedilen = 0;
+        $gorevler = array_values(array_filter($gorevler, function ($g) use ($GOREV_IZIN, &$reddedilen) {
+            $ok = gorev_komut_izinli((string)($g['komut'] ?? ''), $GOREV_IZIN);
+            if (!$ok) $reddedilen++;
+            return $ok;
+        }));
+        if ($reddedilen > 0) {
+            @file_put_contents('/opt/siber-kalkan/LOG/ajan_komut_red.log',
+                date('d.m.Y H:i') . " — allowlist disi $reddedilen gorev REDDEDILDI (ajan: $ad)\n", FILE_APPEND);
+        }
         if ($gorevler) {
             $gu2 = $db->prepare("UPDATE ajan_gorev SET durum='alindi', baslama=:b WHERE id=:i");
             foreach ($gorevler as $g) $gu2->execute([':b' => $simdi, ':i' => $g['id']]);

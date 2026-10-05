@@ -59,7 +59,7 @@ güvenlik durumu → WAF → kural kütüphanesi → coğrafya haritası → akt
 |---|---|---|
 | Panel | PHP 8 + SQLite'siz JSON | 34 sayfa, TR/EN çift dil |
 | Motor | Python 3 | 42 modül, 24 cron |
-| WAF | PHP (kendi motoru) | 344 satır · 1002 kural |
+| WAF | PHP (kendi motoru) | 344 satır · 111 imza (20 kategori) |
 | Firewall | nftables | kalıcı kara liste |
 | IDS | Suricata | gerçek zamanlı imza |
 | Servis | systemd | 7 birim, otomatik başlar |
@@ -69,7 +69,7 @@ güvenlik durumu → WAF → kural kütüphanesi → coğrafya haritası → akt
 │                    CYBER KALKAN v1.0                     │
 ├─────────────────────────────────────────────────────────┤
 │  GİRDİ KATMANI                                          │
-│   WAF (1002 kural) → nftables → Suricata IDS            │
+│   WAF (111 imza) → nftables → Suricata IPS              │
 ├─────────────────────────────────────────────────────────┤
 │  ANALİZ KATMANI                                         │
 │   Motor (korelasyon) · UEBA (davranış) · FIM (dosya)    │
@@ -91,7 +91,7 @@ güvenlik durumu → WAF → kural kütüphanesi → coğrafya haritası → akt
 ### Girdi / Ağ Güvenliği
 | Modül | Dosya | Görev |
 |---|---|---|
-| **WAF** | `waf.php` | 1002 kural, 5 katmanlı çözümleme, anomali skorlama, hız sınırı |
+| **WAF** | `waf.php` | 111 imza (20 kategori), 5 katmanlı çözümleme, anomali skorlama, hız sınırı |
 | **Firewall** | `kalkan_fw_v10.py` | nftables kara liste senkronu, kalıcılık |
 | **IDS** | `kalkan_ids.py` | Suricata `eve.json` → otomatik engelleme |
 | **Aktif Savunma** | `kalkan_aktif_v10.py` | 16 honeypot portu, püskürtme |
@@ -147,7 +147,7 @@ güvenlik durumu → WAF → kural kütüphanesi → coğrafya haritası → akt
 ## 🔐 GÜVENLİK ÖZELLİKLERİ
 
 ```
-✓ 1002 WAF kuralı (SQLi · XSS · LFI · RCE · Log4Shell · Spring4Shell · NoSQL · SSTI)
+✓ 111 WAF imzası (SQLi · XSS · LFI · RCE · Log4Shell · Spring4Shell · NoSQL · SSTI)
 ✓ 5 katmanlı çözümleme (URL · HTML · JS · Base64 · yorum kırma)
 ✓ Anomali skorlama + hız sınırı (100 istek/30sn)
 ✓ Kalıcı engelleme (nftables, makine aç-kapa sonrası yüklenir)

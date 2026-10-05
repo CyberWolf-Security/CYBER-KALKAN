@@ -256,13 +256,23 @@ def calistir():
             puanlar[ip] = puanlar.get(ip, 0) + 25
 
     # --- esik kontrolu + engelleme ---
+    # ★ B-11 DUZELTMESI: korelasyon() artik CAGRILIYOR.
+    # Ayni IP'de 2+ kural eslesirse seviye KRITIK'e yukseltilir.
+    olay_sayaci = {}
+    for _o in yeni_olay:
+        _ipk = _o.get("ip", "")
+        if _ipk:
+            olay_sayaci[_ipk] = olay_sayaci.get(_ipk, 0) + 1
+    yukselt = korelasyon(puanlar, olay_sayaci)
+
     for ip, puan in puanlar.items():
+        _korel = ip in yukselt
         gecmis = [t for t in d["pencere"].get(ip, []) if simdi_sn - t[0] < pencere]
         gecmis.append((simdi_sn, puan))
         d["pencere"][ip] = gecmis
         toplam = sum(p[1] for p in gecmis)
 
-        if toplam >= 100 or puan >= 40:   # kritik tek olay veya esik asimi
+        if toplam >= 100 or puan >= 40 or _korel:   # B-11: korelasyon da tetikler
             if ip not in engelli_ip:
                 # engellenen IP'nin son olayindan aciklama + MITRE al (kapsam hatasi duzeltmesi)
                 son = next((o for o in reversed(yeni_olay) if o.get("ip") == ip), None)

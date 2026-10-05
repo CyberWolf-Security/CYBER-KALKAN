@@ -6,10 +6,10 @@
 
 ## 1. WAF — Web Uygulama Güvenlik Duvarı
 
-**Dosya:** `motor/waf.php` · **Satır:** 344 · **Kural:** 1002
+**Dosya:** `motor/waf.php` · **Satır:** 344 · **İmza:** 111 (20 kategori)
 
 ### Çalışma
-Her HTTP isteğini 5 katmanda çözümler ve 1002 imzayla karşılaştırır.
+Her HTTP isteğini 5 katmanda çözümler ve 111 imzayla (20 kategori) karşılaştırır.
 Skor eşiği aşılırsa `403` döner ve IP'yi kara listeye alır.
 
 ### 5 Katmanlı Çözümleme

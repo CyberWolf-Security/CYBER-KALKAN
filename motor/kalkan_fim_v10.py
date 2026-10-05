@@ -116,9 +116,16 @@ def tara():
                     pass
             degisimler.append(d)
 
-        # baseline güncelle
-        baseline[yol] = {"hash": yeni_hash, "kategori": kategori, "risk": risk,
-                         "meta": meta(yol), "son_kontrol": simdi.strftime("%d.%m.%Y %H:%M:%S")}
+        # ★ B-12 DUZELTMESI: KRITIK dosyada taban cizgisi OTOMATIK GUNCELLENMEZ.
+        # Aksi halde saldirganin degisikligi "yeni normal" sayilip bir daha gorunmez.
+        # Onay icin VERI/fim_onay.json -> {"onayli": ["/tam/yol"]}
+        _onayli = set(oku("fim_onay", {"onayli": []}).get("onayli", []))
+        _degisti = (once_hash is not None and yeni_hash != once_hash)
+        if risk == "KRITIK" and _degisti and yol not in _onayli:
+            print(f"  \u26a0\ufe0f  KRITIK degisti, taban cizgisi ONAYSIZ guncellenmedi: {yol}")
+        else:
+            baseline[yol] = {"hash": yeni_hash, "kategori": kategori, "risk": risk,
+                             "meta": meta(yol), "son_kontrol": simdi.strftime("%d.%m.%Y %H:%M:%S")}
 
     # olay kaydı (KRITIK/YUKSEK değişimler)
     if degisimler:

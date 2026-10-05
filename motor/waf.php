@@ -246,7 +246,7 @@ foreach ([
  '/sqlmap|nikto|nmap|masscan|acunetix|nessus|openvas|nuclei|ffuf|gobuster|dirbuster|dirb|wfuzz|feroxbuster/i',
  '/wpscan|joomscan|droopescan|whatweb|wafw00f|httpx|subfinder|amass|theHarvester/i',
  '/hydra|medusa|patator|metasploit|msfconsole|empire|cobaltstrike|sliver/i',
- '/zgrab|zmap|gospider|hakrawler|katana|jaeles|arjun|x8|paramspider/i',
+ '/\b(zgrab|zmap|gospider|hakrawler|katana|jaeles|arjun|x8|paramspider)\b/i',
  '/python-requests\/[0-2]|python-urllib|libwww-perl|go-http-client|java\/1\.[0-7]/i',
  '/curl\/[0-6]|wget\/1\.[0-9]|axios\/0|node-fetch|node\.js|scrapy\//i',
  '/masscan|advanced\s+ip\s+scanner|acunetix|Netsparker|Burp|ZAP/i',
@@ -268,7 +268,8 @@ foreach ([
  '/xmrig|stratum\+tcp|cpuminer|minerd|nicehash|cryptonight|randomx/i',
  '/HOW_TO_DECRYPT|DECRYPT_INSTRUCTIONS|YOUR_FILES_ARE_ENCRYPTED|readme\.txt.*decrypt/i',
  '/wallet:|\/pool\/|mining\.pool|coinhive|coin-hive/i',
- '/locky|wannacry|petya|ryuk|conti|lockbit|revil|blackcat|hive/i',
+ '/\b(locky|wannacry|petya|ryuk|conti|lockbit|revil|blackcat)\b/i',
+ '/(hive|ransom)[\s\S]{0,16}(ransom|decrypt|locker|bitcoin|\.onion)/i',
 ] as $d) $K[] = [2100, 'KRITIK', 'Kripto Miner / Ransomware', $d, 5];
 
 // ── 4.19 BİLGİ SIZDIRMA (puan 3) ──
@@ -277,7 +278,7 @@ foreach ([
  '/\/(web\.config|WEB-INF|META-INF|actuator|jolokia|console\/)/i',
  '/error_reporting|display_errors|php\.ini|\.user\.ini/i',
  '/\/(\.well-known\/(?!acme-challenge)[a-z-]+)/i',
- '/(stack\s*trace|debug\s*=\s*1|/admin\.php|/shell)/i',
+ '/\/admin\.php|\/shell[\.\/?]|stack\s*trace|debug\s*=\s*1/i',
 ] as $d) $K[] = [2005, 'ORTA', 'Bilgi Sizdirma Probu', $d, 3];
 
 // ── 4.20 HTTP ANOMALİ (puan 4) ──
@@ -318,6 +319,10 @@ if (!$muaf) {
     if ($r['adet'] > 100)  { $rate_puan = 5; $eslesen[] = [4001, 'KRITIK', 'DoS / Rate limit (' . $r['adet'] . '/30sn)', null, 5]; }
     elseif ($r['adet'] > 50) { $rate_puan = 3; $eslesen[] = [4002, 'YUKSEK', 'Yogun istek (' . $r['adet'] . '/30sn)', null, 3]; }
 }
+
+// ★ B-09 DUZELTMESI: rate limit puani toplam skora EKLENIR
+// (once hesaplaniyor ama toplama dahil edilmiyordu → koruma fiilen calismiyordu)
+$toplam_puan += $rate_puan;
 
 // ═══ 7. WHITELIST (ayarlar.json: waf_beyaz) ═══
 $beyaz = [];

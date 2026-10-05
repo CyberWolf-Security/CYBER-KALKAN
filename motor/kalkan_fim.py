@@ -1,5 +1,12 @@
 #!/usr/bin/env python3
 # CYBER KALKAN FIM | CYBER KALKAN syscheck karsiligi
+# ★ B-12 DUZELTMESI: BU MODUL DEVRE DISI BIRAKILDI.
+# kalkan_fim_v10.py kullanilir. Iki modul ayni fim.json'a FARKLI SEMA ile
+# yazip birbirini eziyordu (biri "dosyalar", digeri "baseline" anahtari).
+# kalkan-fim.service artik kalkan_fim_v10.py kosar.
+import sys
+if __name__ == "__main__":
+    sys.exit("[DEVRE DISI] kalkan_fim_v10.py kullanin")
 import os, json, hashlib
 from datetime import datetime
 V="/opt/siber-kalkan/VERI"; Y=V+"/fim.json"; I=V+"/fim_izleme.json"

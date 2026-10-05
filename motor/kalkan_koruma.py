@@ -12,7 +12,13 @@ from datetime import datetime
 
 V = "/opt/siber-kalkan/VERI"
 KAYIT = f"{V}/kod_koruma.json"
-YEDEK_KOK = "/root/Masaüstü/CYBER_KALKAN_KURULUM"
+# ★ B-13 DUZELTMESI: Yedek kaynagi gelistiricinin masaustu yolu DEGIL.
+# Once masaustu (gelistirme makinesi) varsa o, yoksa PAKETE GORECELI 'yedek/'.
+_MASA_YEDEK = "/root/Masaüstü/CYBER_KALKAN_KURULUM"
+_PAKET_YEDEK = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "yedek")
+_KURULUM_YEDEK = "/opt/siber-kalkan/yedek"
+YEDEK_KOK = (_MASA_YEDEK if os.path.isdir(_MASA_YEDEK)
+             else (_KURULUM_YEDEK if os.path.isdir(_KURULUM_YEDEK) else _PAKET_YEDEK))
 
 # korunacak kritik dosyalar (kilitlenecek + hash izlenecek)
 KRITIK = [
@@ -128,12 +134,38 @@ def onar():
         return 0
     n = 0
     mesru = []
+    supheli = []          # ★ B-13: soz dizimi saglam ama icerik farkli olanlar
+
+    def _ayni_icerik(a, b):
+        """Iki dosya birebir ayni mi (sha256)"""
+        try:
+            import hashlib
+            def _h(p):
+                hh = hashlib.sha256()
+                with open(p, "rb") as f:
+                    for blok in iter(lambda: f.read(65536), b""):
+                        hh.update(blok)
+                return hh.hexdigest()
+            return _h(a) == _h(b)
+        except Exception:
+            return False
     for yol, _ in fark:
         ad = os.path.basename(yol)
         # AKILLI AYRIM: dosya gercekten bozuk mu, yoksa mesru degisiklik mi?
         if not dosya_bozuk_mu(yol):
-            mesru.append(ad)
-            print(f"  ℹ️  mesru degisiklik (saglam): {ad} — DOKUNULMADI")
+            # ★ B-13 DUZELTMESI: soz dizimi gecerli olmasi "mesru" demek DEGILDIR.
+            # Paketteki referans ile ICERIK karsilastirilir; farkli ise INCELENMELI.
+            _ref = None
+            for _k, _, _ds in os.walk(YEDEK_KOK):
+                if ad in _ds:
+                    _ref = os.path.join(_k, ad)
+                    break
+            if _ref and not _ayni_icerik(_ref, yol):
+                supheli.append(ad)
+                print(f"  \u26a0\ufe0f  ICERIK FARKLI (soz dizimi saglam): {ad} \u2014 INCELENMELI")
+            else:
+                mesru.append(ad)
+                print(f"  \u2139\ufe0f  mesru degisiklik (saglam): {ad} \u2014 DOKUNULMADI")
             continue
         # gercekten bozuk -> paketten geri yukle
         subprocess.run(["chattr", "-i", yol], capture_output=True)
@@ -159,8 +191,11 @@ def onar():
         # NOT: kullanici istegiyle dosya kilitleme (chattr +i) KALDIRILDI —
         # kilitler motorun/panelin yazmasini engelleyip sistemi kilitliyordu.
         # Onarim yine paketten geri yukler; kilit uygulanmaz.
-    if mesru:
-        print(f"  ℹ️  {len(mesru)} mesru degisiklik korundu: {', '.join(mesru)}")
+    if supheli:
+        print(f"  \u26a0\ufe0f  {len(supheli)} dosya INCELENMELI (icerik farkli, soz dizimi saglam): {', '.join(supheli)}")
+        print("     \u2192 referans GUNCELLENMEDI (elle inceleme gerekli)")
+    if mesru and not supheli:
+        print(f"  \u2139\ufe0f  {len(mesru)} mesru degisiklik korundu: {', '.join(mesru)}")
         kaydet(zorla=True)
     # onarim sonrasi: hala bozuk varsa kaydetme (korumayi koru)
     if n:
