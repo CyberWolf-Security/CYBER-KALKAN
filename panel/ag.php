@@ -65,51 +65,39 @@ $yuklu = strpos((string)@shell_exec('nft list table inet kalkan_ag 2>/dev/null')
       $nat  = count($d['nat'] ?? []);
       $vlan = count($d['vlan'] ?? []);
     ?>
-    <div class="kpi-izgara ag-kpi">
-      <div class="kpi">
-        <div class="kpi-ikon">🌐</div>
-        <b><?= count($ar) ?></b><span>Arayüz</span>
-        <i><?= $up ?> aktif</i>
+    <div class="kartlar">
+      <div class="kart vurgu">
+        <div class="etiket">🌐 ARAYÜZ</div>
+        <div class="deger"><?= count($ar) ?></div>
+        <div class="alt"><?= $up ?> aktif</div>
       </div>
-      <div class="kpi">
-        <div class="kpi-ikon">🧭</div>
-        <b><?= $rota ?></b><span>Rota</span>
-        <i>statik yol</i>
+      <div class="kart">
+        <div class="etiket">🧭 ROTA</div>
+        <div class="deger"><?= $rota ?></div>
+        <div class="alt">statik yol</div>
       </div>
-      <div class="kpi">
-        <div class="kpi-ikon">🔀</div>
-        <b class="r-<?= $nat ? 'iyi' : 'notr' ?>"><?= $nat ?></b><span>NAT Kuralı</span>
-        <i>SNAT · DNAT</i>
+      <div class="kart <?= $nat ? 'iyi' : '' ?>">
+        <div class="etiket">🔀 NAT KURALI</div>
+        <div class="deger"><?= $nat ?></div>
+        <div class="alt">SNAT · DNAT</div>
       </div>
-      <div class="kpi">
-        <div class="kpi-ikon">🏷️</div>
-        <b class="r-<?= $vlan ? 'iyi' : 'notr' ?>"><?= $vlan ?></b><span>VLAN</span>
-        <i>802.1Q</i>
+      <div class="kart <?= $vlan ? 'iyi' : '' ?>">
+        <div class="etiket">🏷️ VLAN</div>
+        <div class="deger"><?= $vlan ?></div>
+        <div class="alt">802.1Q</div>
       </div>
-      <div class="kpi">
-        <div class="kpi-ikon">🛡️</div>
-        <b class="r-<?= $yuklu ? 'iyi' : 'uyari' ?>"><?= $yuklu ? 'AÇIK' : 'KAPALI' ?></b>
-        <span>Zone Tablosu</span>
-        <i><?= $yuklu ? 'yüklü' : 'yüklü değil' ?></i>
+      <div class="kart <?= $yuklu ? 'iyi' : 'yuksek' ?>">
+        <div class="etiket">🛡️ ZONE TABLOSU</div>
+        <div class="deger" style="font-size:26px"><?= $yuklu ? 'AÇIK' : 'KAPALI' ?></div>
+        <div class="alt"><?= $yuklu ? 'yüklü' : 'yüklü değil' ?></div>
       </div>
     </div>
 
     <style>
-    /* ── Ağ Katmanı — sayfaya özel şık KPI ── */
-    .ag-kpi .kpi{position:relative;overflow:hidden}
-    .ag-kpi .kpi::after{content:"";position:absolute;inset:0 0 auto 0;height:2px;
-      background:linear-gradient(90deg,#38bdf8,#818cf8);opacity:.55}
-    .ag-kpi .kpi-ikon{font-size:22px;line-height:1;margin-bottom:8px;opacity:.92}
-    .ag-kpi .kpi b{font-size:30px;letter-spacing:.5px}
-    .ag-kpi .kpi span{font-size:14.5px;font-weight:600;letter-spacing:.4px}
-    .ag-kpi .kpi i{display:block;font-style:normal;font-size:12.5px;opacity:.55;
-      margin-top:4px;letter-spacing:.3px}
-    .ag-kpi .kpi h4{}
-    .r-iyi{color:#4ade80}.r-uyari{color:#f59e0b}.r-notr{color:#64748b}
-    /* arayüz tablosu — durum renkleri */
-    .ag-tablo td:nth-child(2){font-weight:600;letter-spacing:.3px}
-    .ag-tablo .d-up{color:#4ade80}
-    .ag-tablo .d-down{color:#ef4444}
+    /* ── Ağ Katmanı — tablo durum renkleri ── */
+    .ag-tablo td:nth-child(2){font-weight:700;letter-spacing:.4px}
+    .ag-tablo .d-up{color:#00d68f}
+    .ag-tablo .d-down{color:#ff4d5e}
     .ag-tablo .d-unk{color:#94a3b8}
     .ag-tablo td code{font-size:14.5px}
     </style>
