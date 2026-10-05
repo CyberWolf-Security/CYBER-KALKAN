@@ -73,13 +73,7 @@ $aktif = count(array_filter($durum));
     </div>
 
     <!-- ★ CANLI BANT (diger modullerle ortak) -->
-    <div class="canli-serit" style="margin-bottom:18px">
-      <span class="nokta aktif"></span><b>CANLI</b>
-      <span class="cs-ayrac">·</span>
-      <span>Bağlı servis: <b><?= $aktif ?>/3</b></span>
-      <span class="cs-ayrac">·</span>
-      <span>Güncelleme: <b><?= date('H:i:s') ?></b></span>
-    </div>
+    <div class="canli-serit" style="margin-bottom:18px"><span class="nokta aktif"></span><b>CANLI</b><span class="cs-ayrac">·</span><span>Bağlı servis: <b><?= $aktif ?>/3</b></span><span class="cs-ayrac">·</span><span>Güncelleme: <b><?= date('H:i:s') ?></b></span></div>
 
     <?php if ($mesaj): ?>
     <div class="uyari uyari-<?= $mesaj[0] ?>" style="font-size:16px">
