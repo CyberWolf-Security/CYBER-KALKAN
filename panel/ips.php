@@ -18,13 +18,22 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && !empty($_POST['islem'])) {
     if ($c) { $mesaj = trim((string)shell_exec($c)); }
 }
 
-/* durum */
-$tablo = trim((string)shell_exec("nft list table inet kalkan_ips 2>/dev/null | grep -c queue"));
-$sur   = trim((string)shell_exec("docker ps --filter name=kalkan-suricata --format '{{.Status}}' 2>/dev/null"));
+/* ★ DURUM — motor (root) 60 sn'de bir VERI/ips_durum.json yazar; panel (www-data) SADECE OKUR.
+   Eskiden shell_exec("nft list…") / shell_exec("docker ps…") vardı → www-data yetkisiz olduğu için
+   boş dönüyor ve IPS "kapalı" görünüyordu (gerçekte çalışırken). */
+$ids    = kalkan_oku('ips_durum', []);
+$tablo  = (int)($ids['kuyruk']     ?? 0);
+$sur    = (string)($ids['konteyner'] ?? '');
+$kural  = (int)($ids['kural']      ?? 0);
+$l7     = (int)($ids['l7']         ?? 0);
+$hata   = (int)($ids['hata']       ?? 0);
+$aktif  = !empty($ids['aktif']);
+$mod    = (string)($ids['mod']     ?? '');
+$ids_zam = (string)($ids['zaman']  ?? '');
 
 /* alarm ozeti */
 $ozet = [];
-foreach ([$KOK . '/veri/suricata_ozet.json', $KOK . '/suricata/logs/ozet.json'] as $y) {
+foreach ([$KOK . '/VERI/suricata_ozet.json', $KOK . '/suricata/logs/ozet.json'] as $y) {
     if (is_file($y)) {
         $j = json_decode((string)file_get_contents($y), true);
         if (is_array($j)) { $ozet = $j; break; }
@@ -46,7 +55,7 @@ $saldirganlar = $ozet['saldirganlar'] ?? $ozet['iplar'] ?? $ozet['liste'] ?? [];
 <?php kalkan_ustbilgi('IPS'); ?>
 <main class="sarici">
 
-<?php kalkan_baslik('🛡', 'INLINE IPS', 'çekirdek seviyesinde paket filtreleme — NFQUEUE + Suricata'); ?>
+<?php kalkan_baslik('🛡', 'INLINE IPS', 'ağdan geçen paketleri çekirdek seviyesinde inceler, saldırıyı hedefe ulaşmadan DÜŞÜRÜR — NFQUEUE + Suricata'); ?>
 
   <?php if ($mesaj !== ''): ?>
   <div class="kutu basarili"><pre><?= htmlspecialchars($mesaj) ?></pre></div>
@@ -55,12 +64,12 @@ $saldirganlar = $ozet['saldirganlar'] ?? $ozet['iplar'] ?? $ozet['liste'] ?? [];
   <div class="kartlar">
     <div class="kart">
       <div class="etiket">nftables Kuyruğu</div>
-      <div class="deger"><?= ((int)$tablo > 0) ? 'AKTİF' : 'kapalı' ?></div>
-      <div class="alt"><?= (int)$tablo ?> kural</div>
+      <div class="deger"><?= $aktif ? 'AKTİF' : 'kapalı' ?></div>
+      <div class="alt"><?= (int)$tablo ?> kuyruk</div>
     </div>
     <div class="kart">
       <div class="etiket">Suricata</div>
-      <div class="deger"><?= $sur !== '' ? 'ÇALIŞIYOR' : 'kapalı' ?></div>
+      <div class="deger"><?= ($sur !== '' && strpos($sur,'Up')!==false) ? 'ÇALIŞIYOR' : 'kapalı' ?></div>
       <div class="alt"><?= htmlspecialchars($sur ?: '-') ?></div>
     </div>
     <div class="kart">
