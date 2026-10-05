@@ -1,0 +1,12 @@
+services:
+  suricata:
+    image: jasonish/suricata:latest
+    container_name: kalkan-suricata
+    network_mode: host
+    cap_add: [NET_ADMIN, NET_RAW, SYS_NICE]
+    command: ["-q", "0:1", "-v"]
+    volumes:
+      - ./suricata.yaml:/etc/suricata/suricata.yaml
+      - ./rules:/var/lib/suricata/rules
+      - ./logs:/var/log/suricata
+    restart: unless-stopped

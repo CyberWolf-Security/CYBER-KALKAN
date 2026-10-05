@@ -1,0 +1,12 @@
+#!/bin/bash
+echo "=== SISTEM DURUMU (salt okuma) ==="
+echo "Servisler : $(systemctl is-active kalkan-panel kalkan-motor kalkan-fim kalkan-aktif kalkan-honeyfile 2>/dev/null | tr '\n' ' ')"
+echo "Panel     : $(curl -s -o /dev/null -w '%{http_code}' --max-time 5 http://127.0.0.1:8890/giris.php)"
+echo "WAF       : $(curl -s -o /dev/null -w '%{http_code}' --max-time 5 -H 'X-Forwarded-For: 198.19.9.9' 'http://127.0.0.1:8080/?q=UNION%20SELECT')"
+echo "Kilic     : girdi=$(nft list chain inet kilic girdi 2>/dev/null | grep -cE 'accept|reject') hiz=$(nft list chain inet kilic hiz 2>/dev/null | grep -cE 'accept|reject|meter')"
+echo "Kalici    : $([ -f /etc/nftables.d/kalkan-kilic.nft ] && echo VAR)"
+echo "Cron      : $(crontab -l 2>/dev/null | grep -c kalkan)"
+echo "Kural     : $(python3 -c "import json;print(len(json.load(open('/opt/siber-kalkan/VERI/kurallar.json'))['kurallar']))" 2>/dev/null)"
+echo "Engel     : $(python3 -c "import json;print(len(json.load(open('/opt/siber-kalkan/VERI/engel.json'))['liste']))" 2>/dev/null) IP"
+echo "WAF skor  : $(python3 -c "import json;d=json.load(open('/opt/siber-kalkan/VERI/waf_skor.json'));print('%%'+str(d['skor']))" 2>/dev/null)"
+echo "Paket     : $(ls /root/Masaüstü/CYBER_KALKAN_KURULUM_v1.7.tar.gz 2>/dev/null | xargs -r basename)"

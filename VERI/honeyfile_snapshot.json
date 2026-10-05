@@ -1,0 +1,27 @@
+{
+ "/root/.ssh/id_rsa_yedek": {
+  "atime": 1791047575,
+  "mtime": 1791047575,
+  "size": 70
+ },
+ "/var/www/kalkan-panel/ayarlar_yedek.php": {
+  "atime": 1791047575,
+  "mtime": 1791047575,
+  "size": 70
+ },
+ "/root/sifreler.txt": {
+  "atime": 1791047575,
+  "mtime": 1791047575,
+  "size": 70
+ },
+ "/etc/kalkan-tuzak.conf": {
+  "atime": 1791047575,
+  "mtime": 1791047575,
+  "size": 70
+ },
+ "/root/.env": {
+  "atime": 1791047575,
+  "mtime": 1791047575,
+  "size": 70
+ }
+}

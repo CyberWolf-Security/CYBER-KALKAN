@@ -1,0 +1,13 @@
+{
+ "liste": [
+  "127.0.0.1",
+  "::1",
+  "192.168.1.4",
+  "100.72.180.93",
+  "10.200.0.1",
+  "172.17.0.1",
+  "172.18.0.1"
+ ],
+ "olusturma": "IPS aktivasyonu",
+ "not": "Bu IP'ler IPS/engel listesinden MUA F tutulur"
+}

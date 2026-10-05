@@ -1,0 +1,2014 @@
+{
+ "kayitlar": [
+  {
+   "zaman": "06.10.2026 00:00:26",
+   "kullanici": "sistem",
+   "islem": "MODUL_KURULUM",
+   "detay": "kullanici+2fa+waf",
+   "ip": "yerel"
+  },
+  {
+   "zaman": "05.10.2026 20:40:53",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "05.10.2026 20:37:44",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "05.10.2026 20:36:57",
+   "kullanici": "admin",
+   "islem": "GIRIS_BASARISIZ",
+   "detay": "hatali sifre",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "05.10.2026 20:36:36",
+   "kullanici": "admin",
+   "islem": "GIRIS_BASARISIZ",
+   "detay": "hatali sifre",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "05.10.2026 20:08:05",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "05.10.2026 05:14:05",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "05.10.2026 03:41:08",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "05.10.2026 01:23:08",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 23:47:12",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 23:29:02",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 21:29:45",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 21:19:20",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 21:13:45",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 21:13:36",
+   "kullanici": "admin",
+   "islem": "GIRIS_BASARISIZ",
+   "detay": "hatali sifre",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 21:13:28",
+   "kullanici": "admin",
+   "islem": "GIRIS_BASARISIZ",
+   "detay": "hatali sifre",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 19:41:16",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 19:23:28",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 19:21:17",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 19:20:49",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 19:13:32",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 18:34:59",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 18:34:07",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 18:21:35",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 18:21:29",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 18:21:11",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 18:20:45",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 18:05:33",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 18:05:28",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 18:05:12",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 18:04:54",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 18:04:30",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 18:04:10",
+   "kullanici": "admin",
+   "islem": "GIRIS_BASARISIZ",
+   "detay": "hatali sifre",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 18:04:02",
+   "kullanici": "admin",
+   "islem": "GIRIS_BASARISIZ",
+   "detay": "hatali sifre",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 17:54:15",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 17:53:12",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 17:47:40",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 17:19:48",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 17:19:36",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 17:18:41",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 17:10:39",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 17:08:37",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 17:01:25",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 17:01:12",
+   "kullanici": "admin",
+   "islem": "GIRIS_BASARISIZ",
+   "detay": "hatali sifre",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 17:01:01",
+   "kullanici": "admin",
+   "islem": "GIRIS_BASARISIZ",
+   "detay": "hatali sifre",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 16:59:12",
+   "kullanici": "admin",
+   "islem": "INDEKS",
+   "detay": "manuel yeniden indeksleme",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 16:59:10",
+   "kullanici": "admin",
+   "islem": "INDEKS",
+   "detay": "manuel yeniden indeksleme",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 16:59:08",
+   "kullanici": "admin",
+   "islem": "INDEKS",
+   "detay": "manuel yeniden indeksleme",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 16:59:05",
+   "kullanici": "admin",
+   "islem": "INDEKS",
+   "detay": "manuel yeniden indeksleme",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 16:58:27",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 16:56:59",
+   "kullanici": "admin",
+   "islem": "INDEKS",
+   "detay": "manuel yeniden indeksleme",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 16:55:56",
+   "kullanici": "admin",
+   "islem": "INDEKS",
+   "detay": "manuel yeniden indeksleme",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 16:55:13",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 16:53:45",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 16:44:52",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 16:43:30",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 16:43:12",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 16:38:02",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 16:32:18",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 16:31:57",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 16:31:20",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 16:30:50",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 16:27:10",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 16:26:18",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 16:24:38",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 16:22:10",
+   "kullanici": "admin",
+   "islem": "INDEKS",
+   "detay": "manuel yeniden indeksleme",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 16:19:29",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 16:18:50",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 16:18:13",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 16:16:34",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 16:13:47",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 16:13:14",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 16:08:47",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 15:20:44",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 15:15:31",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 15:15:23",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 15:07:14",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 14:39:15",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 14:27:38",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 14:15:20",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 06:13:09",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 06:12:42",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 06:11:36",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 06:11:00",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 06:10:23",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 06:02:56",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 06:02:17",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 05:58:05",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 05:52:09",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 05:49:53",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 05:47:59",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 05:47:27",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 05:43:57",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 05:43:36",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 05:40:24",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 05:37:53",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 05:36:32",
+   "kullanici": "admin",
+   "islem": "GIRIS_BASARISIZ",
+   "detay": "hatali 2FA",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 05:33:48",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 05:33:35",
+   "kullanici": "admin",
+   "islem": "GIRIS_BASARISIZ",
+   "detay": "hatali 2FA",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 05:33:22",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 05:33:04",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 05:25:36",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 05:06:58",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 05:06:46",
+   "kullanici": "admin",
+   "islem": "GIRIS_BASARISIZ",
+   "detay": "hatali sifre",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 05:06:05",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 05:03:14",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 04:58:00",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 04:46:44",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 04:43:18",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 03:19:16",
+   "kullanici": "admin",
+   "islem": "GIRIS_BASARISIZ",
+   "detay": "hatali sifre",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 02:51:27",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 02:16:07",
+   "kullanici": "admin",
+   "islem": "GIRIS_BASARISIZ",
+   "detay": "hatali sifre",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 01:34:57",
+   "kullanici": "admin",
+   "islem": "GIRIS_BASARISIZ",
+   "detay": "hatali sifre",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 01:32:48",
+   "kullanici": "admin",
+   "islem": "GIRIS_BASARISIZ",
+   "detay": "hatali sifre",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 01:31:15",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 00:44:35",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 00:43:08",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 00:42:53",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 00:40:42",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 00:36:19",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 00:36:01",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 00:35:50",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 00:35:31",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 00:35:19",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 00:35:04",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 00:34:33",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 00:34:23",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 00:34:04",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 00:22:16",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 00:22:08",
+   "kullanici": "admin",
+   "islem": "GIRIS_BASARISIZ",
+   "detay": "hatali sifre",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 00:22:02",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 00:21:46",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 00:21:19",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 00:20:42",
+   "kullanici": "admin",
+   "islem": "GIRIS_BASARISIZ",
+   "detay": "hatali sifre",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 00:20:38",
+   "kullanici": "admin",
+   "islem": "GIRIS_BASARISIZ",
+   "detay": "hatali sifre",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 00:20:31",
+   "kullanici": "admin",
+   "islem": "GIRIS_BASARISIZ",
+   "detay": "hatali sifre",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 00:20:20",
+   "kullanici": "admin",
+   "islem": "GIRIS_BASARISIZ",
+   "detay": "hatali sifre",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 00:20:16",
+   "kullanici": "admin",
+   "islem": "GIRIS_BASARISIZ",
+   "detay": "hatali sifre",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 00:20:09",
+   "kullanici": "admin",
+   "islem": "GIRIS_BASARISIZ",
+   "detay": "hatali sifre",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 00:20:05",
+   "kullanici": "admin",
+   "islem": "GIRIS_BASARISIZ",
+   "detay": "hatali sifre",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 00:14:23",
+   "kullanici": "admin",
+   "islem": "GIRIS_BASARISIZ",
+   "detay": "hatali sifre",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 00:13:28",
+   "kullanici": "admin",
+   "islem": "GIRIS_BASARISIZ",
+   "detay": "hatali 2FA",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 00:13:22",
+   "kullanici": "admin",
+   "islem": "GIRIS_BASARISIZ",
+   "detay": "hatali sifre",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 00:13:03",
+   "kullanici": "admin",
+   "islem": "GIRIS_BASARISIZ",
+   "detay": "hatali 2FA",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 00:11:09",
+   "kullanici": "admin",
+   "islem": "GIRIS_BASARISIZ",
+   "detay": "hatali sifre",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 00:10:07",
+   "kullanici": "admin",
+   "islem": "GIRIS_BASARISIZ",
+   "detay": "hatali 2FA",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 00:09:57",
+   "kullanici": "admin",
+   "islem": "GIRIS_BASARISIZ",
+   "detay": "hatali sifre",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "04.10.2026 00:09:42",
+   "kullanici": "admin",
+   "islem": "GIRIS_BASARISIZ",
+   "detay": "hatali 2FA",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 23:55:33",
+   "kullanici": "admin",
+   "islem": "2FA_GUNCELLE",
+   "detay": "admin",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 23:55:31",
+   "kullanici": "admin",
+   "islem": "2FA_GUNCELLE",
+   "detay": "admin",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 23:39:36",
+   "kullanici": "admin",
+   "islem": "2FA_GUNCELLE",
+   "detay": "admin",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 23:25:45",
+   "kullanici": "admin",
+   "islem": "GIRIS_BASARISIZ",
+   "detay": "hatali sifre",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 23:21:32",
+   "kullanici": "admin",
+   "islem": "GIRIS_BASARISIZ",
+   "detay": "hatali sifre",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 23:21:24",
+   "kullanici": "admin",
+   "islem": "GIRIS_BASARISIZ",
+   "detay": "hatali sifre",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 23:09:51",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 23:09:40",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 23:07:18",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 23:07:18",
+   "kullanici": "admin",
+   "islem": "GIRIS_BASARISIZ",
+   "detay": "hatali sifre",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 23:07:17",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 23:07:17",
+   "kullanici": "admin",
+   "islem": "GIRIS_BASARISIZ",
+   "detay": "hatali sifre",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 23:07:16",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 23:07:15",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 23:07:15",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 23:07:01",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 23:07:01",
+   "kullanici": "admin",
+   "islem": "GIRIS_BASARISIZ",
+   "detay": "hatali sifre",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 23:07:01",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 23:07:00",
+   "kullanici": "admin",
+   "islem": "GIRIS_BASARISIZ",
+   "detay": "hatali sifre",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 23:06:59",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 23:05:39",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 23:05:39",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 23:04:25",
+   "kullanici": "admin",
+   "islem": "GIRIS_BASARISIZ",
+   "detay": "hatali sifre",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 23:04:25",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 23:03:02",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 23:03:01",
+   "kullanici": "admin",
+   "islem": "GIRIS_BASARISIZ",
+   "detay": "hatali sifre",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 23:03:01",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 23:03:01",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 23:02:43",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 22:59:14",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 22:58:25",
+   "kullanici": "admin",
+   "islem": "GIRIS_BASARISIZ",
+   "detay": "hatali sifre",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 22:58:16",
+   "kullanici": "admin",
+   "islem": "GIRIS_BASARISIZ",
+   "detay": "hatali sifre",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 22:55:30",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 22:53:37",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 22:52:42",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 22:52:10",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 22:52:10",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 22:49:20",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 22:49:12",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 22:47:48",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 22:47:34",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 22:47:21",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 22:44:36",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 22:42:28",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 22:41:40",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 22:41:18",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 22:41:02",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 22:40:52",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 22:40:23",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 22:40:08",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 22:39:47",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 22:39:47",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 22:39:46",
+   "kullanici": "admin",
+   "islem": "GIRIS_BASARISIZ",
+   "detay": "hatali sifre",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 22:39:46",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 22:39:45",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 22:34:04",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 22:33:11",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 22:32:49",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 22:32:35",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 22:31:40",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 22:29:16",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 22:29:09",
+   "kullanici": "admin",
+   "islem": "GIRIS_BASARISIZ",
+   "detay": "hatali sifre",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 22:29:01",
+   "kullanici": "admin",
+   "islem": "GIRIS_BASARISIZ",
+   "detay": "hatali sifre",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 22:28:53",
+   "kullanici": "admin",
+   "islem": "GIRIS_BASARISIZ",
+   "detay": "hatali sifre",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 22:24:48",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 22:24:42",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 22:24:30",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 22:23:22",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 22:21:30",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 22:20:58",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "192.168.1.4"
+  },
+  {
+   "zaman": "03.10.2026 22:20:11",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "192.168.1.4"
+  },
+  {
+   "zaman": "03.10.2026 22:20:09",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 22:20:08",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "192.168.1.4"
+  },
+  {
+   "zaman": "03.10.2026 22:20:00",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 22:20:00",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 22:19:58",
+   "kullanici": "admin",
+   "islem": "GIRIS_BASARISIZ",
+   "detay": "hatali sifre",
+   "ip": "192.168.1.4"
+  },
+  {
+   "zaman": "03.10.2026 22:19:51",
+   "kullanici": "admin",
+   "islem": "GIRIS_BASARISIZ",
+   "detay": "hatali sifre",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 22:19:51",
+   "kullanici": "admin",
+   "islem": "GIRIS_BASARISIZ",
+   "detay": "hatali sifre",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 22:19:50",
+   "kullanici": "admin",
+   "islem": "GIRIS_BASARISIZ",
+   "detay": "hatali sifre",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 22:19:50",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 22:19:49",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 22:19:49",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 22:14:02",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 22:12:43",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 22:12:14",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 22:12:08",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 22:12:02",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 22:11:57",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 22:11:47",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 22:11:29",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 22:11:22",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 22:09:26",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "192.168.1.4"
+  },
+  {
+   "zaman": "03.10.2026 22:09:14",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 22:03:36",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "192.168.1.4"
+  },
+  {
+   "zaman": "03.10.2026 21:58:45",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 21:58:28",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 21:54:08",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "192.168.1.4"
+  },
+  {
+   "zaman": "03.10.2026 21:53:20",
+   "kullanici": "admin",
+   "islem": "GIRIS_BASARISIZ",
+   "detay": "hatali sifre",
+   "ip": "192.168.1.4"
+  },
+  {
+   "zaman": "03.10.2026 21:47:47",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 21:47:31",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 21:47:22",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 21:46:59",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 21:46:04",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 21:42:32",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "100.72.180.93"
+  },
+  {
+   "zaman": "03.10.2026 21:39:02",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "100.72.180.93"
+  },
+  {
+   "zaman": "03.10.2026 21:39:02",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "192.168.1.4"
+  },
+  {
+   "zaman": "03.10.2026 21:38:58",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "100.72.180.93"
+  },
+  {
+   "zaman": "03.10.2026 21:38:45",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "192.168.1.4"
+  },
+  {
+   "zaman": "03.10.2026 21:38:45",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "192.168.1.4"
+  },
+  {
+   "zaman": "03.10.2026 21:38:38",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "100.72.180.93"
+  },
+  {
+   "zaman": "03.10.2026 21:38:36",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 21:38:22",
+   "kullanici": "admin",
+   "islem": "GIRIS_BASARISIZ",
+   "detay": "hatali sifre",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 21:38:22",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 21:35:18",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "192.168.1.4"
+  },
+  {
+   "zaman": "03.10.2026 21:35:11",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "192.168.1.4"
+  },
+  {
+   "zaman": "03.10.2026 21:34:38",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 21:34:31",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 21:34:19",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 21:33:41",
+   "kullanici": "admin",
+   "islem": "GIRIS_BASARISIZ",
+   "detay": "hatali sifre",
+   "ip": "192.168.1.4"
+  },
+  {
+   "zaman": "03.10.2026 21:33:16",
+   "kullanici": "admin",
+   "islem": "GIRIS_BASARISIZ",
+   "detay": "hatali sifre",
+   "ip": "192.168.1.4"
+  },
+  {
+   "zaman": "03.10.2026 21:32:27",
+   "kullanici": "admin",
+   "islem": "GIRIS_BASARISIZ",
+   "detay": "hatali sifre",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 21:32:27",
+   "kullanici": "admin",
+   "islem": "GIRIS_BASARISIZ",
+   "detay": "hatali sifre",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 21:32:27",
+   "kullanici": "admin",
+   "islem": "GIRIS_BASARISIZ",
+   "detay": "hatali sifre",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 21:32:27",
+   "kullanici": "admin",
+   "islem": "GIRIS_BASARISIZ",
+   "detay": "hatali sifre",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 21:32:27",
+   "kullanici": "admin",
+   "islem": "GIRIS_BASARISIZ",
+   "detay": "hatali sifre",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 21:32:27",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 21:31:58",
+   "kullanici": "admin",
+   "islem": "GIRIS_BASARISIZ",
+   "detay": "hatali sifre",
+   "ip": "192.168.1.4"
+  },
+  {
+   "zaman": "03.10.2026 21:31:47",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "192.168.1.4"
+  },
+  {
+   "zaman": "03.10.2026 21:31:37",
+   "kullanici": "admin",
+   "islem": "GIRIS_BASARISIZ",
+   "detay": "hatali sifre",
+   "ip": "192.168.1.4"
+  },
+  {
+   "zaman": "03.10.2026 21:28:16",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 20:44:08",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "192.168.1.4"
+  },
+  {
+   "zaman": "03.10.2026 20:44:05",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "192.168.1.4"
+  },
+  {
+   "zaman": "03.10.2026 20:43:51",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "192.168.1.4"
+  },
+  {
+   "zaman": "03.10.2026 20:41:28",
+   "kullanici": "admin",
+   "islem": "GIRIS_BASARISIZ",
+   "detay": "hatali sifre",
+   "ip": "192.168.1.4"
+  },
+  {
+   "zaman": "03.10.2026 20:40:32",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 17:50:14",
+   "kullanici": "admin",
+   "islem": "GIRIS_BASARISIZ",
+   "detay": "hatali sifre",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 17:23:50",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 17:22:58",
+   "kullanici": "admin",
+   "islem": "GIRIS",
+   "detay": "basarili",
+   "ip": "127.0.0.1"
+  },
+  {
+   "zaman": "03.10.2026 20:21:57",
+   "kullanici": "sistem",
+   "islem": "MODUL_KURULUM",
+   "detay": "kullanici+2fa+waf",
+   "ip": "yerel"
+  }
+ ],
+ "toplam": 287
+}

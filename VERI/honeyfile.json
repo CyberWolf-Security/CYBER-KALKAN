@@ -1,0 +1,75 @@
+{
+ "zaman": "06.10.2026 00:30:02",
+ "dosyalar": [
+  "/opt/siber-kalkan/tuzak/sifreler.txt",
+  "/opt/siber-kalkan/tuzak/.env",
+  "/opt/siber-kalkan/tuzak/yedek.sql",
+  "/opt/siber-kalkan/tuzak/id_rsa",
+  "/opt/siber-kalkan/tuzak/kredi_kartlari.csv",
+  "/opt/siber-kalkan/tuzak/api_anahtarlari.json",
+  "/opt/siber-kalkan/tuzak/musteri_listesi.xlsx",
+  "/opt/siber-kalkan/tuzak/config.php",
+  "/opt/siber-kalkan/tuzak/token.txt",
+  "/opt/siber-kalkan/tuzak/.git-credentials"
+ ],
+ "tuzak_sayisi": 10,
+ "kurulu": 10,
+ "ihlal_sayisi": 0,
+ "ihlal": 0,
+ "acik_dosyalar": [],
+ "durum": {
+  "/opt/siber-kalkan/tuzak/sifreler.txt": {
+   "atime": 1791166842.1602194,
+   "mtime": 1791166391.399819,
+   "boyut": 38
+  },
+  "/opt/siber-kalkan/tuzak/.env": {
+   "atime": 1791166842.1534097,
+   "mtime": 1791166391.3998578,
+   "boyut": 56
+  },
+  "/opt/siber-kalkan/tuzak/yedek.sql": {
+   "atime": 1791166842.1282647,
+   "mtime": 1791166391.3998928,
+   "boyut": 62
+  },
+  "/opt/siber-kalkan/tuzak/id_rsa": {
+   "atime": 1791166842.1351283,
+   "mtime": 1791166391.3999507,
+   "boyut": 61
+  },
+  "/opt/siber-kalkan/tuzak/kredi_kartlari.csv": {
+   "atime": 1791166842.1480978,
+   "mtime": 1791166391.3999856,
+   "boyut": 49
+  },
+  "/opt/siber-kalkan/tuzak/api_anahtarlari.json": {
+   "atime": 1791166842.1667109,
+   "mtime": 1791166391.4000049,
+   "boyut": 60
+  },
+  "/opt/siber-kalkan/tuzak/musteri_listesi.xlsx": {
+   "atime": 1791166842.1841888,
+   "mtime": 1791166391.400024,
+   "boyut": 19
+  },
+  "/opt/siber-kalkan/tuzak/config.php": {
+   "atime": 1791166842.172233,
+   "mtime": 1791166391.4000435,
+   "boyut": 51
+  },
+  "/opt/siber-kalkan/tuzak/token.txt": {
+   "atime": 1791166842.141139,
+   "mtime": 1791166391.4000752,
+   "boyut": 47
+  },
+  "/opt/siber-kalkan/tuzak/.git-credentials": {
+   "atime": 1791166842.1777265,
+   "mtime": 1791166391.4000986,
+   "boyut": 30
+  }
+ },
+ "son_ihlaller": [],
+ "toplam_ihlal": 0,
+ "kritik_ihlal": 0
+}

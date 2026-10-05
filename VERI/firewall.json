@@ -1,0 +1,11 @@
+{
+ "zaman": "06.10.2026 00:30:01",
+ "tablo": false,
+ "kurulum": "hata: /bin/sh: 1: nft: not found",
+ "kalici": true,
+ "liste_ip": 1298,
+ "nft_ip": 0,
+ "senkron": false,
+ "kural_sayisi": 0,
+ "dosya": "/etc/nftables.d/kilic.nft"
+}

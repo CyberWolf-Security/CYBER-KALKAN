@@ -1,0 +1,17 @@
+{
+ "onayli": [
+  "/var/www/kalkan-panel/giris.php",
+  "/opt/siber-kalkan/MOTOR/kalkan_honeyfile_v10.py",
+  "/opt/siber-kalkan/MOTOR/kalkan_ids.py",
+  "/opt/siber-kalkan/MOTOR/kalkan_ipdogrula.py",
+  "/opt/siber-kalkan/MOTOR/kalkan_ips_v10.py",
+  "/opt/siber-kalkan/MOTOR/kalkan_motor.py",
+  "/var/www/kalkan-panel/ag.php",
+  "/var/www/kalkan-panel/entegrasyon.php",
+  "/var/www/kalkan-panel/ips.php",
+  "/var/www/kalkan-panel/ortak.php",
+  "/var/www/kalkan-panel/waf.php"
+ ],
+ "guncelleme": "05.10.2026 23:40",
+ "sebep": "B-17 regresyon duzeltmesi (hash format kontrolu)"
+}

@@ -1,0 +1,90 @@
+{
+ "guncelleme": "06.10.2026 00:00",
+ "kaynak": "NVD+CISA KEV",
+ "cveler": [
+  {
+   "cve": "CVE-2021-44228",
+   "ad": "Log4Shell",
+   "cvss": 10.0,
+   "kev": true,
+   "mitre": "T1190"
+  },
+  {
+   "cve": "CVE-2021-34527",
+   "ad": "PrintNightmare",
+   "cvss": 8.8,
+   "kev": true,
+   "mitre": "T1068"
+  },
+  {
+   "cve": "CVE-2020-1472",
+   "ad": "Zerologon",
+   "cvss": 10.0,
+   "kev": true,
+   "mitre": "T1068"
+  },
+  {
+   "cve": "CVE-2019-0708",
+   "ad": "BlueKeep",
+   "cvss": 9.8,
+   "kev": true,
+   "mitre": "T1210"
+  },
+  {
+   "cve": "CVE-2017-0144",
+   "ad": "EternalBlue",
+   "cvss": 9.3,
+   "kev": true,
+   "mitre": "T1210"
+  },
+  {
+   "cve": "CVE-2022-30190",
+   "ad": "Follina",
+   "cvss": 7.8,
+   "kev": true,
+   "mitre": "T1204"
+  },
+  {
+   "cve": "CVE-2023-34362",
+   "ad": "MOVEit",
+   "cvss": 9.8,
+   "kev": true,
+   "mitre": "T1190"
+  },
+  {
+   "cve": "CVE-2023-4966",
+   "ad": "CitrixBleed",
+   "cvss": 9.4,
+   "kev": true,
+   "mitre": "T1190"
+  },
+  {
+   "cve": "CVE-2024-3400",
+   "ad": "PAN-OS",
+   "cvss": 10.0,
+   "kev": true,
+   "mitre": "T1190"
+  },
+  {
+   "cve": "CVE-2024-3094",
+   "ad": "XZ Backdoor",
+   "cvss": 10.0,
+   "kev": true,
+   "mitre": "T1195"
+  },
+  {
+   "cve": "CVE-2024-6387",
+   "ad": "regreSSHion",
+   "cvss": 8.1,
+   "kev": true,
+   "mitre": "T1190"
+  },
+  {
+   "cve": "CVE-2025-0282",
+   "ad": "Ivanti",
+   "cvss": 9.0,
+   "kev": true,
+   "mitre": "T1190"
+  }
+ ]
+}

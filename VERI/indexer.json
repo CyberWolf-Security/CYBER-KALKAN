@@ -1,0 +1,247 @@
+{
+ "zaman": "06.10.2026 00:30:03",
+ "son": "06.10.2026 00:30:03",
+ "toplam": 28,
+ "satir": 12000,
+ "bugun": 24,
+ "kaynak_sayisi": 4,
+ "kaynaklar": {
+  "auth": 3000,
+  "syslog": 3000,
+  "kernel": 3000,
+  "ids": 3000
+ },
+ "tip_dagilimi": {
+  "Genel hata": 24,
+  "sudo komut": 2,
+  "AppArmor engel": 2
+ },
+ "en_cok_ip": {},
+ "korelasyon": [],
+ "olaylar": [
+  {
+   "zaman": "06.10.2026 00:04:24",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/opt/siber-kalkan/tarpit.sh"
+  },
+  {
+   "zaman": "06.10.2026 00:28:11",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/opt/siber-kalkan/tarpit.sh"
+  },
+  {
+   "zaman": "05.10.2026 23:26:59",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "failed"
+  },
+  {
+   "zaman": "05.10.2026 23:36:16",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "failed"
+  },
+  {
+   "zaman": "06.10.2026 00:01:23",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "failed"
+  },
+  {
+   "zaman": "06.10.2026 00:01:52",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "failed"
+  },
+  {
+   "zaman": "06.10.2026 00:02:05",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "error"
+  },
+  {
+   "zaman": "06.10.2026 00:02:05",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "error"
+  },
+  {
+   "zaman": "06.10.2026 00:02:44",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "error"
+  },
+  {
+   "zaman": "06.10.2026 00:02:44",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "critical"
+  },
+  {
+   "zaman": "06.10.2026 00:02:44",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "error"
+  },
+  {
+   "zaman": "06.10.2026 00:04:30",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "failed"
+  },
+  {
+   "zaman": "06.10.2026 00:04:48",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "failed"
+  },
+  {
+   "zaman": "06.10.2026 00:08:46",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "failed"
+  },
+  {
+   "zaman": "06.10.2026 00:09:28",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "failed"
+  },
+  {
+   "zaman": "06.10.2026 00:09:50",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "failed"
+  },
+  {
+   "zaman": "06.10.2026 00:12:01",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "failed"
+  },
+  {
+   "zaman": "06.10.2026 00:12:47",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "failed"
+  },
+  {
+   "zaman": "06.10.2026 00:15:20",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "failed"
+  },
+  {
+   "zaman": "06.10.2026 00:15:21",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "failed"
+  },
+  {
+   "zaman": "06.10.2026 00:17:46",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "failed"
+  },
+  {
+   "zaman": "06.10.2026 00:19:54",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "failed"
+  },
+  {
+   "zaman": "06.10.2026 00:19:56",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "failed"
+  },
+  {
+   "zaman": "06.10.2026 00:20:41",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "failed"
+  },
+  {
+   "zaman": "06.10.2026 00:24:48",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "failed"
+  },
+  {
+   "zaman": "06.10.2026 00:26:42",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "failed"
+  },
+  {
+   "zaman": "05.10.2026 07:37:31",
+   "kaynak": "kernel",
+   "baslik": "AppArmor engel",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "\"unconfined\""
+  },
+  {
+   "zaman": "05.10.2026 16:11:57",
+   "kaynak": "kernel",
+   "baslik": "AppArmor engel",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "\"unconfined\""
+  }
+ ]
+}

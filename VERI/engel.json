@@ -1,0 +1,9092 @@
+{
+ "guncelleme": "05.10.2026 21:47:14",
+ "toplam": 1298,
+ "liste": [
+  {
+   "ip": "203.0.113.250",
+   "puan": 100,
+   "zaman": "03.10.2026 22:20:09",
+   "sebep": "test",
+   "kaynak": "PANEL"
+  },
+  {
+   "ip": "94.154.46.242",
+   "puan": 6,
+   "zaman": "22.09.2026 20:00",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "73.147.19.171",
+   "puan": 33,
+   "zaman": "2026-10-03T14:15:12.652116",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "168.205.190.245",
+   "puan": 5,
+   "zaman": "2026-10-03T13:36:06.255647",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "159.223.97.218",
+   "puan": 8,
+   "zaman": "2026-10-03T13:33:05.766596",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "152.32.199.115",
+   "puan": 6,
+   "zaman": "2026-10-03T12:45:58.535105",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "129.121.143.84",
+   "puan": 6,
+   "zaman": "2026-10-03T12:42:58.124030",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "203.167.15.64",
+   "puan": 6,
+   "zaman": "2026-10-03T11:57:51.156379",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "45.138.12.51",
+   "puan": 73,
+   "zaman": "2026-10-03T11:51:50.390328",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "103.200.23.154",
+   "puan": 5,
+   "zaman": "2026-10-03T11:27:46.400919",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "35.244.32.167",
+   "puan": 5,
+   "zaman": "2026-10-03T11:24:46.155619",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "120.48.90.166",
+   "puan": 5,
+   "zaman": "2026-10-03T10:06:34.720175",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "147.50.231.135",
+   "puan": 6,
+   "zaman": "2026-10-03T09:06:19.622842",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "172.214.209.153",
+   "puan": 8,
+   "zaman": "2026-10-03T08:45:16.273152",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "45.119.212.99",
+   "puan": 5,
+   "zaman": "2026-10-03T08:39:15.299224",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "125.94.107.91",
+   "puan": 15,
+   "zaman": "2026-10-03T07:57:09.194184",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "109.160.32.174",
+   "puan": 70,
+   "zaman": "2026-10-03T05:36:50.146548",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "61.43.121.132",
+   "puan": 5,
+   "zaman": "2026-10-03T04:36:41.451959",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "152.200.205.180",
+   "puan": 5,
+   "zaman": "2026-10-03T04:36:41.451959",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "103.176.64.36",
+   "puan": 5,
+   "zaman": "2026-10-03T04:36:41.451959",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "117.6.44.221",
+   "puan": 5,
+   "zaman": "2026-10-03T04:15:38.853225",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "146.190.74.52",
+   "puan": 5,
+   "zaman": "2026-10-03T03:36:33.377380",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "180.76.52.207",
+   "puan": 14,
+   "zaman": "2026-10-03T03:27:31.935998",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "92.118.39.71",
+   "puan": 5,
+   "zaman": "2026-10-03T03:21:31.491127",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "43.172.117.24",
+   "puan": 5,
+   "zaman": "2026-10-03T02:09:21.360267",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "2.57.122.76",
+   "puan": 6,
+   "zaman": "2026-10-03T00:39:08.410469",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "109.160.32.135",
+   "puan": 21,
+   "zaman": "2026-10-03T00:33:07.682549",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "211.149.143.207",
+   "puan": 5,
+   "zaman": "2026-10-02T23:43:00.083262",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "109.160.32.48",
+   "puan": 65,
+   "zaman": "2026-10-02T23:03:53.607927",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "77.239.124.213",
+   "puan": 7,
+   "zaman": "2026-10-02T21:57:41.811328",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "120.48.14.72",
+   "puan": 6,
+   "zaman": "2026-10-02T21:21:35.843300",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "129.121.143.111",
+   "puan": 5,
+   "zaman": "2026-10-02T21:12:34.246035",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "129.121.140.225",
+   "puan": 9,
+   "zaman": "2026-10-02T21:06:33.305612",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "103.187.165.26",
+   "puan": 6,
+   "zaman": "2026-10-02T21:06:33.305612",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "50.6.23.110",
+   "puan": 6,
+   "zaman": "2026-10-02T21:03:32.595058",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "59.36.75.227",
+   "puan": 5,
+   "zaman": "2026-10-02T21:03:32.595058",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "140.245.119.249",
+   "puan": 54,
+   "zaman": "2026-10-02T19:24:14.796741",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "168.228.151.152",
+   "puan": 8,
+   "zaman": "2026-10-02T19:00:10.768214",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "129.213.151.234",
+   "puan": 69,
+   "zaman": "2026-10-02T18:57:09.864922",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "109.160.32.149",
+   "puan": 44,
+   "zaman": "2026-10-02T18:57:09.864922",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "109.160.32.166",
+   "puan": 39,
+   "zaman": "2026-10-02T15:36:37.233750",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "77.91.71.90",
+   "puan": 5,
+   "zaman": "2026-10-02T14:06:20.538723",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "36.64.131.68",
+   "puan": 5,
+   "zaman": "2026-10-02T13:51:18.287168",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "129.121.75.215",
+   "puan": 6,
+   "zaman": "2026-10-02T13:39:16.419236",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "190.129.122.12",
+   "puan": 6,
+   "zaman": "2026-10-02T13:21:13.594319",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "46.253.45.10",
+   "puan": 7,
+   "zaman": "2026-10-02T12:51:08.795534",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "34.24.158.23",
+   "puan": 100,
+   "zaman": "2026-10-02T12:45:07.952139",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "213.209.159.154",
+   "puan": 6,
+   "zaman": "2026-10-02T12:30:05.720224",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "14.177.234.46",
+   "puan": 5,
+   "zaman": "2026-10-02T11:39:58.176012",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "103.146.159.173",
+   "puan": 7,
+   "zaman": "2026-10-02T11:21:55.550048",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "165.154.162.74",
+   "puan": 8,
+   "zaman": "2026-10-02T10:30:47.899173",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "117.247.23.131",
+   "puan": 7,
+   "zaman": "2026-10-02T10:24:47.046885",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "200.196.50.91",
+   "puan": 5,
+   "zaman": "2026-10-02T09:45:41.179746",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "54.38.241.200",
+   "puan": 5,
+   "zaman": "2026-10-02T09:24:38.506678",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "45.148.10.246",
+   "puan": 11,
+   "zaman": "2026-10-02T09:06:35.372434",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "34.14.122.221",
+   "puan": 6,
+   "zaman": "2026-10-02T09:03:35.015445",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "5.253.38.54",
+   "puan": 6,
+   "zaman": "2026-10-02T07:00:16.062556",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "14.103.117.86",
+   "puan": 6,
+   "zaman": "2026-10-02T06:45:13.678205",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "109.160.32.121",
+   "puan": 65,
+   "zaman": "2026-10-02T03:33:35.080656",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "101.96.202.144",
+   "puan": 8,
+   "zaman": "2026-10-02T03:30:34.772459",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "101.33.55.172",
+   "puan": 8,
+   "zaman": "2026-10-02T03:30:34.772459",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "172.236.28.161",
+   "puan": 25,
+   "zaman": "2026-10-02T02:42:27.349677",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "140.245.126.95",
+   "puan": 25,
+   "zaman": "2026-10-02T02:03:21.373889",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "158.178.229.130",
+   "puan": 25,
+   "zaman": "2026-10-02T01:51:19.557799",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "94.180.139.162",
+   "puan": 10,
+   "zaman": "2026-10-02T01:48:19.030403",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "14.225.206.187",
+   "puan": 7,
+   "zaman": "2026-10-02T01:48:19.030403",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "51.124.171.14",
+   "puan": 5,
+   "zaman": "2026-10-02T01:45:18.513116",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "202.165.22.102",
+   "puan": 6,
+   "zaman": "2026-10-02T01:42:18.026351",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "220.250.52.94",
+   "puan": 5,
+   "zaman": "2026-10-02T01:42:18.026351",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "149.202.50.58",
+   "puan": 7,
+   "zaman": "2026-10-02T01:27:15.923727",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "161.118.242.44",
+   "puan": 25,
+   "zaman": "2026-10-02T01:24:15.472173",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "101.47.14.46",
+   "puan": 8,
+   "zaman": "2026-10-02T00:12:04.794113",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "129.150.41.45",
+   "puan": 25,
+   "zaman": "2026-10-01T23:57:02.504589",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "152.69.211.193",
+   "puan": 25,
+   "zaman": "2026-10-01T23:21:57.928836",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "183.6.91.151",
+   "puan": 5,
+   "zaman": "2026-10-01T23:00:54.917808",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "78.153.140.252",
+   "puan": 5,
+   "zaman": "2026-10-01T22:39:51.218663",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "161.118.218.57",
+   "puan": 25,
+   "zaman": "2026-10-01T22:18:48.382772",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "79.3.96.178",
+   "puan": 5,
+   "zaman": "2026-10-01T21:39:41.479467",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "104.208.108.166",
+   "puan": 5,
+   "zaman": "2026-10-01T21:39:41.479467",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "175.6.109.238",
+   "puan": 7,
+   "zaman": "2026-10-01T21:36:41.164556",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "101.47.156.170",
+   "puan": 8,
+   "zaman": "2026-10-01T21:33:40.463187",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "59.44.22.114",
+   "puan": 9,
+   "zaman": "2026-10-01T19:06:16.416515",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "161.118.224.21",
+   "puan": 25,
+   "zaman": "2026-10-01T19:03:15.851026",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "172.104.233.215",
+   "puan": 8,
+   "zaman": "2026-10-01T18:51:13.748283",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "140.245.97.206",
+   "puan": 25,
+   "zaman": "2026-10-01T18:39:11.602885",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "161.118.219.94",
+   "puan": 25,
+   "zaman": "2026-10-01T18:12:07.418069",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "120.48.178.72",
+   "puan": 6,
+   "zaman": "2026-10-01T17:48:03.330791",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "218.149.235.152",
+   "puan": 12,
+   "zaman": "2026-10-01T17:12:57.634553",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "161.118.206.157",
+   "puan": 25,
+   "zaman": "2026-10-01T17:06:56.774574",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "138.2.81.95",
+   "puan": 25,
+   "zaman": "2026-10-01T16:45:52.999327",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "51.75.247.232",
+   "puan": 8,
+   "zaman": "2026-10-01T16:33:50.845297",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "222.186.135.8",
+   "puan": 6,
+   "zaman": "2026-10-01T16:27:49.293621",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "161.132.47.66",
+   "puan": 5,
+   "zaman": "2026-10-01T16:06:46.276295",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "77.239.124.38",
+   "puan": 43,
+   "zaman": "2026-10-01T16:00:45.483011",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "168.138.173.95",
+   "puan": 25,
+   "zaman": "2026-10-01T16:00:45.483011",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "147.90.234.22",
+   "puan": 7,
+   "zaman": "2026-10-01T15:30:40.671413",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "135.235.138.43",
+   "puan": 5,
+   "zaman": "2026-10-01T15:30:40.671413",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "144.225.187.68",
+   "puan": 6,
+   "zaman": "2026-10-01T15:27:40.093925",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "20.102.98.53",
+   "puan": 7,
+   "zaman": "2026-10-01T15:21:39.221919",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "109.160.32.133",
+   "puan": 33,
+   "zaman": "2026-10-01T15:15:38.266954",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "121.184.144.232",
+   "puan": 6,
+   "zaman": "2026-10-01T15:03:36.186662",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "134.185.94.184",
+   "puan": 25,
+   "zaman": "2026-10-01T14:24:30.617160",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "36.139.161.140",
+   "puan": 7,
+   "zaman": "2026-10-01T14:21:30.090540",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "106.12.241.195",
+   "puan": 6,
+   "zaman": "2026-10-01T14:12:28.865461",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "118.145.239.129",
+   "puan": 6,
+   "zaman": "2026-10-01T14:03:27.602609",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "189.178.96.213",
+   "puan": 5,
+   "zaman": "2026-10-01T13:30:21.500444",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "4.182.219.135",
+   "puan": 8,
+   "zaman": "2026-10-01T13:18:19.985354",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "42.96.20.16",
+   "puan": 8,
+   "zaman": "2026-10-01T12:48:15.157898",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "20.229.185.186",
+   "puan": 6,
+   "zaman": "2026-10-01T12:45:14.898597",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "180.184.141.117",
+   "puan": 5,
+   "zaman": "2026-10-01T12:39:13.817930",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "82.152.132.24",
+   "puan": 7,
+   "zaman": "2026-10-01T12:36:13.406844",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "168.167.228.123",
+   "puan": 6,
+   "zaman": "2026-10-01T12:30:12.697126",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "74.208.212.10",
+   "puan": 7,
+   "zaman": "2026-10-01T12:15:10.103488",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "130.94.99.47",
+   "puan": 6,
+   "zaman": "2026-10-01T12:15:10.103488",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "221.161.235.168",
+   "puan": 6,
+   "zaman": "2026-10-01T12:12:10.793077",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "103.168.135.187",
+   "puan": 6,
+   "zaman": "2026-10-01T12:12:10.793077",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "31.77.78.252",
+   "puan": 5,
+   "zaman": "2026-10-01T11:45:04.629010",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "103.241.43.193",
+   "puan": 6,
+   "zaman": "2026-10-01T11:33:02.885512",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "129.121.139.106",
+   "puan": 7,
+   "zaman": "2026-10-01T11:30:02.560863",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "115.91.48.140",
+   "puan": 5,
+   "zaman": "2026-10-01T08:39:37.317818",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "213.206.207.146",
+   "puan": 7,
+   "zaman": "2026-10-01T08:36:37.132119",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "77.239.124.61",
+   "puan": 36,
+   "zaman": "2026-10-01T08:15:34.175309",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "38.148.20.75",
+   "puan": 5,
+   "zaman": "2026-10-01T08:15:34.175309",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "77.239.124.172",
+   "puan": 48,
+   "zaman": "2026-10-01T07:39:27.622495",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "43.156.33.17",
+   "puan": 6,
+   "zaman": "2026-10-01T07:00:20.807799",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "135.125.235.107",
+   "puan": 6,
+   "zaman": "2026-10-01T06:42:18.184441",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "119.92.70.82",
+   "puan": 5,
+   "zaman": "2026-10-01T05:24:05.815131",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "134.185.84.204",
+   "puan": 25,
+   "zaman": "2026-10-01T04:24:57.824932",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "14.22.82.73",
+   "puan": 6,
+   "zaman": "2026-10-01T04:12:56.033202",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "116.71.136.125",
+   "puan": 5,
+   "zaman": "2026-10-01T04:06:55.013964",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "46.188.119.26",
+   "puan": 6,
+   "zaman": "2026-10-01T04:03:54.508862",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "115.178.75.242",
+   "puan": 6,
+   "zaman": "2026-10-01T04:03:54.508862",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "128.1.32.150",
+   "puan": 5,
+   "zaman": "2026-10-01T04:03:54.508862",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "119.28.46.114",
+   "puan": 7,
+   "zaman": "2026-10-01T03:51:52.382036",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "45.87.88.61",
+   "puan": 29,
+   "zaman": "2026-10-01T03:39:50.022279",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "101.126.141.163",
+   "puan": 5,
+   "zaman": "2026-10-01T03:27:48.145712",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "150.138.115.76",
+   "puan": 5,
+   "zaman": "2026-10-01T03:21:48.383089",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "201.186.40.161",
+   "puan": 6,
+   "zaman": "2026-10-01T03:18:46.627420",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "177.130.250.31",
+   "puan": 5,
+   "zaman": "2026-10-01T03:18:46.627420",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "61.220.96.57",
+   "puan": 7,
+   "zaman": "2026-10-01T02:51:41.991592",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "60.199.224.2",
+   "puan": 7,
+   "zaman": "2026-10-01T02:48:41.558804",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "45.17.39.120",
+   "puan": 7,
+   "zaman": "2026-10-01T02:42:40.740369",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "166.62.41.190",
+   "puan": 6,
+   "zaman": "2026-10-01T02:42:40.740369",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "97.93.43.157",
+   "puan": 6,
+   "zaman": "2026-10-01T02:33:39.340014",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "134.185.86.28",
+   "puan": 25,
+   "zaman": "2026-10-01T02:27:38.356019",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "186.244.214.71",
+   "puan": 7,
+   "zaman": "2026-10-01T02:24:37.971742",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "168.107.65.60",
+   "puan": 25,
+   "zaman": "2026-10-01T02:00:34.241850",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "58.229.253.119",
+   "puan": 7,
+   "zaman": "2026-10-01T02:00:34.241850",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "14.103.213.90",
+   "puan": 5,
+   "zaman": "2026-10-01T01:36:30.333256",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "157.230.218.106",
+   "puan": 7,
+   "zaman": "2026-10-01T01:30:29.246084",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "187.174.238.116",
+   "puan": 5,
+   "zaman": "2026-10-01T01:27:28.803714",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "156.232.13.246",
+   "puan": 5,
+   "zaman": "2026-10-01T01:12:26.131836",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "94.154.43.223",
+   "puan": 5,
+   "zaman": "2026-10-01T00:39:20.225270",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "153.126.214.105",
+   "puan": 6,
+   "zaman": "2026-10-01T00:36:20.010486",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "168.107.78.39",
+   "puan": 25,
+   "zaman": "2026-10-01T00:12:16.673596",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "109.160.32.131",
+   "puan": 38,
+   "zaman": "2026-09-30T22:42:02.169712",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "152.32.254.222",
+   "puan": 6,
+   "zaman": "2026-09-30T22:12:57.992477",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "172.174.72.225",
+   "puan": 5,
+   "zaman": "2026-09-30T22:06:56.905646",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "70.120.203.193",
+   "puan": 7,
+   "zaman": "2026-09-30T22:00:55.844757",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "101.89.76.249",
+   "puan": 5,
+   "zaman": "2026-09-30T22:00:55.844757",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "101.36.119.203",
+   "puan": 6,
+   "zaman": "2026-09-30T21:51:54.222796",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "46.232.248.247",
+   "puan": 7,
+   "zaman": "2026-09-30T21:48:55.001979",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "180.76.98.88",
+   "puan": 6,
+   "zaman": "2026-09-30T20:48:43.958843",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "101.47.155.9",
+   "puan": 9,
+   "zaman": "2026-09-30T20:45:43.408027",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "223.221.38.226",
+   "puan": 5,
+   "zaman": "2026-09-30T20:45:43.408027",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "103.89.136.111",
+   "puan": 8,
+   "zaman": "2026-09-30T20:42:43.102983",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "218.150.184.241",
+   "puan": 6,
+   "zaman": "2026-09-30T20:39:42.388079",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "14.103.118.198",
+   "puan": 5,
+   "zaman": "2026-09-30T20:36:41.968327",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "129.121.78.234",
+   "puan": 5,
+   "zaman": "2026-09-30T20:36:41.968327",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "85.240.193.104",
+   "puan": 7,
+   "zaman": "2026-09-30T20:12:37.381159",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "172.105.76.7",
+   "puan": 22,
+   "zaman": "2026-09-30T20:09:36.774356",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "76.23.15.127",
+   "puan": 5,
+   "zaman": "2026-09-30T18:54:22.726809",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "48.217.66.50",
+   "puan": 2,
+   "zaman": "2026-09-30T18:09:14.473422",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "103.226.251.127",
+   "puan": 5,
+   "zaman": "2026-09-30T17:45:09.076018",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "77.239.124.177",
+   "puan": 33,
+   "zaman": "2026-09-30T16:24:55.064407",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "109.160.32.37",
+   "puan": 45,
+   "zaman": "2026-09-30T14:51:39.553752",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "202.165.25.206",
+   "puan": 7,
+   "zaman": "2026-09-30T12:06:12.123169",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "187.51.208.158",
+   "puan": 6,
+   "zaman": "2026-09-30T12:06:12.123169",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "114.130.85.36",
+   "puan": 5,
+   "zaman": "2026-09-30T12:06:12.123169",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "43.135.154.242",
+   "puan": 7,
+   "zaman": "2026-09-30T12:03:11.700168",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "77.239.124.45",
+   "puan": 48,
+   "zaman": "2026-09-30T11:57:10.745142",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "43.226.39.182",
+   "puan": 7,
+   "zaman": "2026-09-30T11:36:07.544839",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "218.201.250.120",
+   "puan": 19,
+   "zaman": "2026-09-30T11:30:06.611877",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "95.46.206.2",
+   "puan": 5,
+   "zaman": "2026-09-30T11:27:06.229782",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "82.114.230.17",
+   "puan": 5,
+   "zaman": "2026-09-30T11:27:06.229782",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "101.96.193.131",
+   "puan": 5,
+   "zaman": "2026-09-30T11:18:04.818958",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "171.237.176.209",
+   "puan": 5,
+   "zaman": "2026-09-30T11:09:03.451745",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "13.140.171.33",
+   "puan": 7,
+   "zaman": "2026-09-30T11:03:02.695706",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "1.238.106.229",
+   "puan": 7,
+   "zaman": "2026-09-30T11:03:02.695706",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "72.17.34.38",
+   "puan": 6,
+   "zaman": "2026-09-30T11:00:02.251289",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "109.160.32.137",
+   "puan": 56,
+   "zaman": "2026-09-30T10:45:59.982347",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "161.118.211.34",
+   "puan": 25,
+   "zaman": "2026-09-30T10:15:55.786582",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "89.126.208.27",
+   "puan": 6,
+   "zaman": "2026-09-30T09:57:53.140951",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "66.116.237.85",
+   "puan": 5,
+   "zaman": "2026-09-30T09:57:53.140951",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "109.160.32.154",
+   "puan": 53,
+   "zaman": "2026-09-30T09:45:51.552354",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "168.107.91.14",
+   "puan": 25,
+   "zaman": "2026-09-30T09:18:47.621855",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "195.178.191.5",
+   "puan": 9,
+   "zaman": "2026-09-30T07:51:35.802170",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "20.116.34.103",
+   "puan": 8,
+   "zaman": "2026-09-30T07:51:35.802170",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "161.118.243.214",
+   "puan": 25,
+   "zaman": "2026-09-30T06:12:21.331131",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "103.255.109.151",
+   "puan": 7,
+   "zaman": "2026-09-30T05:51:18.351735",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "156.236.66.15",
+   "puan": 5,
+   "zaman": "2026-09-30T05:48:17.945601",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "112.217.188.122",
+   "puan": 5,
+   "zaman": "2026-09-30T05:48:17.945601",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "45.156.87.209",
+   "puan": 13,
+   "zaman": "2026-09-30T05:30:15.516067",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "77.239.124.171",
+   "puan": 13,
+   "zaman": "2026-09-30T05:06:12.551982",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "115.191.40.54",
+   "puan": 6,
+   "zaman": "2026-09-30T04:03:03.230996",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "120.48.176.103",
+   "puan": 5,
+   "zaman": "2026-09-30T04:03:03.230996",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "222.108.100.117",
+   "puan": 7,
+   "zaman": "2026-09-30T03:54:01.849287",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "201.63.223.142",
+   "puan": 7,
+   "zaman": "2026-09-30T03:54:01.849287",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "151.59.0.5",
+   "puan": 6,
+   "zaman": "2026-09-30T03:51:01.578449",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "45.61.187.220",
+   "puan": 5,
+   "zaman": "2026-09-30T03:45:00.915204",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "120.48.53.159",
+   "puan": 5,
+   "zaman": "2026-09-30T03:40:00.133641",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "172.191.94.172",
+   "puan": 6,
+   "zaman": "2026-09-30T03:21:57.294774",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "180.76.114.151",
+   "puan": 5,
+   "zaman": "2026-09-30T02:45:51.963478",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "20.115.209.228",
+   "puan": 5,
+   "zaman": "2026-09-30T02:24:48.949020",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "77.239.124.72",
+   "puan": 38,
+   "zaman": "2026-09-30T01:39:42.634920",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "109.160.32.175",
+   "puan": 7,
+   "zaman": "2026-09-30T01:21:40.377759",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "61.76.136.25",
+   "puan": 14,
+   "zaman": "2026-09-30T00:15:30.637147",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "77.239.124.46",
+   "puan": 26,
+   "zaman": "2026-09-30T00:06:29.309099",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "101.47.8.188",
+   "puan": 6,
+   "zaman": "2026-09-29T23:45:25.987541",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "43.160.244.58",
+   "puan": 5,
+   "zaman": "2026-09-29T23:09:21.185162",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "98.70.127.17",
+   "puan": 8,
+   "zaman": "2026-09-29T22:48:18.217309",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "103.72.56.174",
+   "puan": 6,
+   "zaman": "2026-09-29T22:45:17.684777",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "102.88.137.213",
+   "puan": 5,
+   "zaman": "2026-09-29T22:45:17.684777",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "185.194.218.241",
+   "puan": 6,
+   "zaman": "2026-09-29T21:21:06.069131",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "123.52.175.207",
+   "puan": 5,
+   "zaman": "2026-09-29T21:21:06.069131",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "180.76.60.83",
+   "puan": 5,
+   "zaman": "2026-09-29T20:48:01.316269",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "59.98.148.5",
+   "puan": 5,
+   "zaman": "2026-09-29T20:45:00.880178",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "4.240.96.30",
+   "puan": 5,
+   "zaman": "2026-09-29T20:33:59.313194",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "118.145.155.165",
+   "puan": 6,
+   "zaman": "2026-09-29T20:18:57.608527",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "109.160.32.34",
+   "puan": 19,
+   "zaman": "2026-09-29T20:15:57.115431",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "171.25.158.47",
+   "puan": 8,
+   "zaman": "2026-09-29T20:06:56.007013",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "181.188.148.74",
+   "puan": 7,
+   "zaman": "2026-09-29T20:06:56.007013",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "95.182.95.54",
+   "puan": 6,
+   "zaman": "2026-09-29T20:06:56.007013",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "117.50.137.84",
+   "puan": 5,
+   "zaman": "2026-09-29T20:06:56.007013",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "192.210.254.249",
+   "puan": 7,
+   "zaman": "2026-09-29T20:03:55.576166",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "103.200.22.154",
+   "puan": 5,
+   "zaman": "2026-09-29T20:03:55.576166",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "103.26.136.173",
+   "puan": 6,
+   "zaman": "2026-09-29T19:57:54.688033",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "77.239.124.145",
+   "puan": 45,
+   "zaman": "2026-09-29T19:21:48.654089",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "187.216.224.85",
+   "puan": 6,
+   "zaman": "2026-09-29T18:33:41.476368",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "146.103.103.111",
+   "puan": 6,
+   "zaman": "2026-09-29T18:33:41.476368",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "101.96.225.252",
+   "puan": 8,
+   "zaman": "2026-09-29T18:30:41.125121",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "84.201.243.44",
+   "puan": 6,
+   "zaman": "2026-09-29T17:54:36.225798",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "179.184.27.20",
+   "puan": 11,
+   "zaman": "2026-09-29T17:39:34.099519",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "154.91.170.52",
+   "puan": 7,
+   "zaman": "2026-09-29T17:36:33.899949",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "103.243.27.155",
+   "puan": 6,
+   "zaman": "2026-09-29T17:36:33.899949",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "5.253.38.188",
+   "puan": 8,
+   "zaman": "2026-09-29T17:30:33.053109",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "13.140.37.238",
+   "puan": 8,
+   "zaman": "2026-09-29T17:30:33.053109",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "191.96.196.91",
+   "puan": 5,
+   "zaman": "2026-09-29T17:27:32.548289",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "88.147.30.59",
+   "puan": 7,
+   "zaman": "2026-09-29T17:15:30.724653",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "154.83.17.226",
+   "puan": 7,
+   "zaman": "2026-09-29T15:30:16.026865",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "45.140.192.242",
+   "puan": 6,
+   "zaman": "2026-09-29T15:30:16.026865",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "103.154.63.62",
+   "puan": 5,
+   "zaman": "2026-09-29T15:30:16.026865",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "58.186.20.101",
+   "puan": 5,
+   "zaman": "2026-09-29T15:27:15.563711",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "176.31.21.38",
+   "puan": 5,
+   "zaman": "2026-09-29T15:27:15.563711",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "43.165.190.208",
+   "puan": 5,
+   "zaman": "2026-09-29T14:42:08.710589",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "209.126.84.64",
+   "puan": 6,
+   "zaman": "2026-09-29T12:33:50.768069",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "201.184.50.251",
+   "puan": 6,
+   "zaman": "2026-09-29T12:24:49.567798",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "196.189.236.67",
+   "puan": 6,
+   "zaman": "2026-09-29T11:18:40.481403",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "64.225.72.42",
+   "puan": 8,
+   "zaman": "2026-09-29T10:48:37.783676",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "74.162.106.25",
+   "puan": 8,
+   "zaman": "2026-09-29T10:45:36.109601",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "174.138.41.200",
+   "puan": 6,
+   "zaman": "2026-09-29T10:12:32.210374",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "109.160.32.152",
+   "puan": 13,
+   "zaman": "2026-09-29T09:30:25.187922",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "60.167.166.161",
+   "puan": 9,
+   "zaman": "2026-09-29T08:30:16.714655",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "220.250.52.101",
+   "puan": 7,
+   "zaman": "2026-09-29T08:27:16.323328",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "211.75.198.217",
+   "puan": 7,
+   "zaman": "2026-09-29T08:27:16.323328",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "103.60.242.169",
+   "puan": 7,
+   "zaman": "2026-09-29T08:27:16.323328",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "220.123.33.105",
+   "puan": 6,
+   "zaman": "2026-09-29T08:27:16.323328",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "103.147.159.91",
+   "puan": 5,
+   "zaman": "2026-09-29T08:24:15.859970",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "158.178.141.16",
+   "puan": 6,
+   "zaman": "2026-09-29T06:12:56.159498",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "216.155.93.75",
+   "puan": 6,
+   "zaman": "2026-09-29T06:09:55.561038",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "193.24.211.218",
+   "puan": 5,
+   "zaman": "2026-09-29T05:45:52.212741",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "41.89.96.242",
+   "puan": 7,
+   "zaman": "2026-09-29T05:39:51.326573",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "129.121.119.196",
+   "puan": 7,
+   "zaman": "2026-09-29T05:39:51.326573",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "121.229.205.104",
+   "puan": 6,
+   "zaman": "2026-09-29T05:18:48.893787",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "182.237.13.208",
+   "puan": 7,
+   "zaman": "2026-09-29T04:54:45.367064",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "89.219.34.204",
+   "puan": 7,
+   "zaman": "2026-09-29T04:51:44.956767",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "88.249.195.23",
+   "puan": 6,
+   "zaman": "2026-09-29T04:51:44.956767",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "69.5.20.205",
+   "puan": 5,
+   "zaman": "2026-09-29T04:51:44.956767",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "125.39.179.192",
+   "puan": 7,
+   "zaman": "2026-09-29T04:48:44.529448",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "123.58.210.86",
+   "puan": 6,
+   "zaman": "2026-09-29T04:48:44.529448",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "41.111.227.10",
+   "puan": 7,
+   "zaman": "2026-09-29T02:36:26.230950",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "183.91.11.36",
+   "puan": 7,
+   "zaman": "2026-09-29T02:36:26.230950",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "103.108.67.180",
+   "puan": 6,
+   "zaman": "2026-09-29T01:51:19.844844",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "202.70.78.237",
+   "puan": 8,
+   "zaman": "2026-09-29T01:12:14.517219",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "124.174.15.24",
+   "puan": 6,
+   "zaman": "2026-09-29T01:12:14.517219",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "123.20.1.178",
+   "puan": 5,
+   "zaman": "2026-09-29T01:09:13.621209",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "218.206.136.24",
+   "puan": 6,
+   "zaman": "2026-09-28T22:18:47.533435",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "121.242.232.147",
+   "puan": 6,
+   "zaman": "2026-09-28T22:18:47.533435",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "77.239.124.44",
+   "puan": 31,
+   "zaman": "2026-09-28T21:51:44.388023",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "77.239.124.32",
+   "puan": 10,
+   "zaman": "2026-09-28T19:30:22.392221",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "4.206.92.183",
+   "puan": 8,
+   "zaman": "2026-09-28T18:42:15.923851",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "175.97.207.27",
+   "puan": 8,
+   "zaman": "2026-09-28T18:36:15.034018",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "103.213.238.91",
+   "puan": 7,
+   "zaman": "2026-09-28T18:36:15.034018",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "154.83.14.204",
+   "puan": 5,
+   "zaman": "2026-09-28T18:36:15.034018",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "111.228.55.58",
+   "puan": 5,
+   "zaman": "2026-09-28T18:36:15.034018",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "197.199.224.52",
+   "puan": 7,
+   "zaman": "2026-09-28T18:27:13.628458",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "197.227.8.186",
+   "puan": 6,
+   "zaman": "2026-09-28T18:27:13.628458",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "210.183.21.53",
+   "puan": 5,
+   "zaman": "2026-09-28T18:27:13.628458",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "161.132.54.212",
+   "puan": 8,
+   "zaman": "2026-09-28T17:39:06.415261",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "173.244.60.241",
+   "puan": 5,
+   "zaman": "2026-09-28T17:27:04.757275",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "5.89.75.194",
+   "puan": 6,
+   "zaman": "2026-09-28T14:51:40.110698",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "34.89.43.194",
+   "puan": 494,
+   "zaman": "2026-09-28T13:39:29.153839",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "213.176.26.91",
+   "puan": 5,
+   "zaman": "2026-09-28T12:06:16.101378",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "103.215.74.26",
+   "puan": 40,
+   "zaman": "2026-09-28T12:03:15.527701",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "115.190.138.163",
+   "puan": 5,
+   "zaman": "2026-09-28T09:33:55.545270",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "186.96.158.180",
+   "puan": 6,
+   "zaman": "2026-09-28T09:24:54.427713",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "118.193.45.134",
+   "puan": 6,
+   "zaman": "2026-09-28T09:09:52.116057",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "95.58.255.251",
+   "puan": 5,
+   "zaman": "2026-09-28T09:06:51.904307",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "34.26.79.195",
+   "puan": 71,
+   "zaman": "2026-09-28T08:57:50.400513",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "103.119.171.215",
+   "puan": 5,
+   "zaman": "2026-09-28T08:36:47.515324",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "160.250.132.238",
+   "puan": 6,
+   "zaman": "2026-09-28T08:18:45.213978",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "109.160.32.128",
+   "puan": 16,
+   "zaman": "2026-09-28T06:18:27.413991",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "39.120.34.60",
+   "puan": 7,
+   "zaman": "2026-09-28T04:24:10.708338",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "54.38.52.18",
+   "puan": 6,
+   "zaman": "2026-09-28T04:21:10.285126",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "59.36.78.66",
+   "puan": 7,
+   "zaman": "2026-09-28T04:18:09.844886",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "103.25.47.94",
+   "puan": 6,
+   "zaman": "2026-09-28T04:18:09.844886",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "103.191.14.243",
+   "puan": 7,
+   "zaman": "2026-09-28T03:30:03.615882",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "112.185.16.157",
+   "puan": 32,
+   "zaman": "2026-09-28T03:27:03.111946",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "156.239.236.204",
+   "puan": 5,
+   "zaman": "2026-09-28T03:09:00.775751",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "162.243.92.16",
+   "puan": 10,
+   "zaman": "2026-09-28T02:51:58.822739",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "94.154.43.69",
+   "puan": 7,
+   "zaman": "2026-09-28T01:00:44.240154",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "39.107.142.38",
+   "puan": 6,
+   "zaman": "2026-09-28T00:30:39.775897",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "211.220.197.170",
+   "puan": 6,
+   "zaman": "2026-09-28T00:00:35.303952",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "34.91.94.199",
+   "puan": 7,
+   "zaman": "2026-09-27T23:03:26.938529",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "156.225.20.213",
+   "puan": 7,
+   "zaman": "2026-09-27T22:39:23.610592",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "45.81.33.26",
+   "puan": 6,
+   "zaman": "2026-09-27T22:39:23.610592",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "45.169.200.254",
+   "puan": 8,
+   "zaman": "2026-09-27T22:36:23.441092",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "109.160.32.159",
+   "puan": 27,
+   "zaman": "2026-09-27T22:27:22.210634",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "152.32.218.149",
+   "puan": 8,
+   "zaman": "2026-09-27T21:39:15.949892",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "95.165.140.133",
+   "puan": 8,
+   "zaman": "2026-09-27T21:12:12.903443",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "51.195.40.26",
+   "puan": 5,
+   "zaman": "2026-09-27T21:09:12.222475",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "130.131.220.95",
+   "puan": 5,
+   "zaman": "2026-09-27T21:09:12.222475",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "77.239.124.74",
+   "puan": 19,
+   "zaman": "2026-09-27T20:21:06.156776",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "93.123.109.101",
+   "puan": 13,
+   "zaman": "2026-09-27T20:18:06.457807",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "77.239.124.50",
+   "puan": 20,
+   "zaman": "2026-09-27T19:09:56.619032",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "103.91.246.101",
+   "puan": 6,
+   "zaman": "2026-09-27T18:09:48.970177",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "77.87.40.114",
+   "puan": 6,
+   "zaman": "2026-09-27T18:06:48.804162",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "103.117.145.130",
+   "puan": 5,
+   "zaman": "2026-09-27T18:06:48.804162",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "35.234.35.32",
+   "puan": 79,
+   "zaman": "2026-09-27T17:30:43.494351",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "43.153.81.43",
+   "puan": 7,
+   "zaman": "2026-09-27T17:03:39.837542",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "203.83.234.180",
+   "puan": 12,
+   "zaman": "2026-09-27T17:00:39.489923",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "118.193.36.34",
+   "puan": 6,
+   "zaman": "2026-09-27T17:00:39.489923",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "77.239.124.34",
+   "puan": 42,
+   "zaman": "2026-09-27T16:27:34.774010",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "36.133.53.52",
+   "puan": 5,
+   "zaman": "2026-09-27T16:21:34.036970",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "116.196.119.94",
+   "puan": 5,
+   "zaman": "2026-09-27T16:21:34.036970",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "99.92.204.98",
+   "puan": 8,
+   "zaman": "2026-09-27T16:18:33.596350",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "69.49.246.176",
+   "puan": 5,
+   "zaman": "2026-09-27T16:18:33.596350",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "77.239.124.176",
+   "puan": 42,
+   "zaman": "2026-09-27T16:06:31.961699",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "109.160.32.28",
+   "puan": 39,
+   "zaman": "2026-09-27T15:15:25.112551",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "79.108.220.136",
+   "puan": 7,
+   "zaman": "2026-09-27T14:42:21.011093",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "58.220.10.131",
+   "puan": 5,
+   "zaman": "2026-09-27T14:15:16.890765",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "14.103.105.62",
+   "puan": 6,
+   "zaman": "2026-09-27T14:09:16.085139",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "185.158.22.150",
+   "puan": 8,
+   "zaman": "2026-09-27T14:00:15.093690",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "51.75.253.68",
+   "puan": 9,
+   "zaman": "2026-09-27T13:54:14.007733",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "223.109.49.166",
+   "puan": 11,
+   "zaman": "2026-09-27T13:51:13.979887",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "182.43.76.120",
+   "puan": 7,
+   "zaman": "2026-09-27T13:51:13.979887",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "118.196.114.236",
+   "puan": 7,
+   "zaman": "2026-09-27T13:51:13.979887",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "182.44.6.221",
+   "puan": 6,
+   "zaman": "2026-09-27T13:48:12.922579",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "31.57.47.63",
+   "puan": 5,
+   "zaman": "2026-09-27T13:48:12.922579",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "197.248.207.139",
+   "puan": 5,
+   "zaman": "2026-09-27T13:48:12.922579",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "171.25.158.74",
+   "puan": 7,
+   "zaman": "2026-09-27T13:42:12.406465",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "77.239.124.62",
+   "puan": 11,
+   "zaman": "2026-09-27T13:27:10.314723",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "183.88.232.183",
+   "puan": 5,
+   "zaman": "2026-09-27T12:54:06.063217",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "36.138.78.195",
+   "puan": 5,
+   "zaman": "2026-09-27T12:09:00.697047",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "189.194.140.170",
+   "puan": 7,
+   "zaman": "2026-09-27T11:39:56.898002",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "150.5.169.176",
+   "puan": 7,
+   "zaman": "2026-09-27T11:39:56.898002",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "77.239.124.69",
+   "puan": 30,
+   "zaman": "2026-09-27T11:36:56.758108",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "147.50.227.79",
+   "puan": 5,
+   "zaman": "2026-09-27T11:33:56.333263",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "109.160.32.44",
+   "puan": 7,
+   "zaman": "2026-09-27T10:48:50.701289",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "106.12.124.63",
+   "puan": 6,
+   "zaman": "2026-09-27T10:42:50.037360",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "94.154.43.60",
+   "puan": 6,
+   "zaman": "2026-09-27T10:36:49.213790",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "182.43.164.191",
+   "puan": 7,
+   "zaman": "2026-09-27T10:27:47.939618",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "183.251.230.98",
+   "puan": 5,
+   "zaman": "2026-09-27T10:27:47.939618",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "160.30.157.211",
+   "puan": 7,
+   "zaman": "2026-09-27T10:24:47.586138",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "128.14.225.164",
+   "puan": 6,
+   "zaman": "2026-09-27T10:21:47.321856",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "81.218.86.58",
+   "puan": 7,
+   "zaman": "2026-09-27T07:42:25.061736",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "51.15.19.10",
+   "puan": 43,
+   "zaman": "2026-09-27T06:27:14.373479",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "41.216.177.55",
+   "puan": 5,
+   "zaman": "2026-09-27T06:00:10.646401",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "109.160.32.25",
+   "puan": 60,
+   "zaman": "2026-09-27T05:57:10.233653",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "5.165.19.3",
+   "puan": 8,
+   "zaman": "2026-09-27T05:06:04.077920",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "70.54.182.130",
+   "puan": 5,
+   "zaman": "2026-09-27T04:30:59.353428",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "77.239.124.49",
+   "puan": 7,
+   "zaman": "2026-09-27T04:03:56.070804",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "187.103.105.17",
+   "puan": 7,
+   "zaman": "2026-09-27T03:24:50.934630",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "220.119.37.141",
+   "puan": 5,
+   "zaman": "2026-09-27T03:24:50.934630",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "77.239.124.205",
+   "puan": 20,
+   "zaman": "2026-09-27T03:18:50.033112",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "23.94.28.176",
+   "puan": 5,
+   "zaman": "2026-09-27T01:39:36.594913",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "37.193.56.149",
+   "puan": 28,
+   "zaman": "2026-09-27T01:30:35.503713",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "116.16.188.35",
+   "puan": 20,
+   "zaman": "2026-09-27T01:24:34.955884",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "2.57.122.53",
+   "puan": 6,
+   "zaman": "2026-09-27T01:00:31.811480",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "181.103.15.204",
+   "puan": 6,
+   "zaman": "2026-09-27T00:57:31.088352",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "45.125.67.31",
+   "puan": 5,
+   "zaman": "2026-09-27T00:57:31.088352",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "15.235.192.186",
+   "puan": 7,
+   "zaman": "2026-09-27T00:54:30.773298",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "65.181.71.117",
+   "puan": 7,
+   "zaman": "2026-09-26T23:21:17.867200",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "116.123.150.231",
+   "puan": 6,
+   "zaman": "2026-09-26T23:21:17.867200",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "120.48.80.70",
+   "puan": 7,
+   "zaman": "2026-09-26T23:18:17.470166",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "106.38.205.224",
+   "puan": 6,
+   "zaman": "2026-09-26T23:18:17.470166",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "109.160.32.100",
+   "puan": 53,
+   "zaman": "2026-09-26T21:39:02.789145",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "20.235.157.149",
+   "puan": 28,
+   "zaman": "2026-09-26T20:21:52.157866",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "54.38.109.115",
+   "puan": 6,
+   "zaman": "2026-09-26T20:00:49.355708",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "51.77.158.34",
+   "puan": 8,
+   "zaman": "2026-09-26T19:24:44.487405",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "50.114.236.21",
+   "puan": 7,
+   "zaman": "2026-09-26T19:24:44.487405",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "123.21.27.146",
+   "puan": 5,
+   "zaman": "2026-09-26T19:24:44.487405",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "104.244.79.113",
+   "puan": 8,
+   "zaman": "2026-09-26T18:48:39.478395",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "118.145.131.27",
+   "puan": 13,
+   "zaman": "2026-09-26T18:42:38.803706",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "182.43.221.112",
+   "puan": 7,
+   "zaman": "2026-09-26T18:39:38.289010",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "117.2.49.125",
+   "puan": 5,
+   "zaman": "2026-09-26T18:39:38.289010",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "188.152.238.126",
+   "puan": 6,
+   "zaman": "2026-09-26T18:33:37.719275",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "186.68.83.104",
+   "puan": 6,
+   "zaman": "2026-09-26T18:33:37.719275",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "57.128.239.181",
+   "puan": 5,
+   "zaman": "2026-09-26T18:33:37.719275",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "211.178.247.182",
+   "puan": 5,
+   "zaman": "2026-09-26T18:33:37.719275",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "197.248.8.33",
+   "puan": 5,
+   "zaman": "2026-09-26T18:33:37.719275",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "152.32.252.161",
+   "puan": 5,
+   "zaman": "2026-09-26T18:33:37.719275",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "2.28.235.95",
+   "puan": 7,
+   "zaman": "2026-09-26T18:03:33.531773",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "81.192.46.29",
+   "puan": 5,
+   "zaman": "2026-09-26T18:00:33.210015",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "124.45.31.57",
+   "puan": 6,
+   "zaman": "2026-09-26T17:39:30.157996",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "41.93.82.201",
+   "puan": 5,
+   "zaman": "2026-09-26T17:33:29.445024",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "157.66.26.151",
+   "puan": 5,
+   "zaman": "2026-09-26T17:33:29.445024",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "103.172.236.241",
+   "puan": 5,
+   "zaman": "2026-09-26T17:33:29.445024",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "163.7.13.17",
+   "puan": 5,
+   "zaman": "2026-09-26T17:00:25.131979",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "203.57.28.116",
+   "puan": 10,
+   "zaman": "2026-09-26T16:30:20.237284",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "120.48.56.8",
+   "puan": 8,
+   "zaman": "2026-09-26T14:21:01.839791",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "58.42.8.7",
+   "puan": 5,
+   "zaman": "2026-09-26T13:15:52.688013",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "80.251.156.20",
+   "puan": 5,
+   "zaman": "2026-09-26T13:12:52.285585",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "174.138.12.72",
+   "puan": 5,
+   "zaman": "2026-09-26T12:48:48.082252",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "43.128.3.201",
+   "puan": 5,
+   "zaman": "2026-09-26T12:45:47.735576",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "221.162.218.85",
+   "puan": 5,
+   "zaman": "2026-09-26T12:45:47.735576",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "20.213.61.135",
+   "puan": 34,
+   "zaman": "2026-09-26T12:27:45.223492",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "106.51.92.114",
+   "puan": 6,
+   "zaman": "2026-09-26T12:12:43.236805",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "116.153.81.58",
+   "puan": 6,
+   "zaman": "2026-09-26T12:09:42.508153",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "24.170.244.132",
+   "puan": 8,
+   "zaman": "2026-09-26T11:30:37.999734",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "109.160.32.200",
+   "puan": 44,
+   "zaman": "2026-09-26T11:24:36.865093",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "109.160.32.73",
+   "puan": 18,
+   "zaman": "2026-09-26T10:42:31.597756",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "172.178.16.179",
+   "puan": 5,
+   "zaman": "2026-09-26T09:21:18.358550",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "59.179.31.237",
+   "puan": 5,
+   "zaman": "2026-09-26T09:18:18.040000",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "182.61.20.116",
+   "puan": 5,
+   "zaman": "2026-09-26T09:09:16.699411",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "154.116.254.157",
+   "puan": 7,
+   "zaman": "2026-09-26T09:06:16.249884",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "220.118.173.234",
+   "puan": 6,
+   "zaman": "2026-09-26T09:06:16.249884",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "179.33.186.150",
+   "puan": 6,
+   "zaman": "2026-09-26T07:39:03.429830",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "14.53.119.248",
+   "puan": 5,
+   "zaman": "2026-09-26T07:36:03.203166",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "36.189.81.101",
+   "puan": 23,
+   "zaman": "2026-09-26T07:27:01.924547",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "111.17.199.57",
+   "puan": 6,
+   "zaman": "2026-09-26T05:57:43.396130",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "106.13.228.234",
+   "puan": 7,
+   "zaman": "2026-09-26T05:39:40.553310",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "218.78.46.81",
+   "puan": 6,
+   "zaman": "2026-09-26T05:39:40.553310",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "36.134.69.15",
+   "puan": 5,
+   "zaman": "2026-09-26T05:36:40.332415",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "77.239.124.31",
+   "puan": 24,
+   "zaman": "2026-09-26T05:33:39.956749",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "168.138.178.238",
+   "puan": 12,
+   "zaman": "2026-09-26T03:09:19.799473",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "109.160.32.14",
+   "puan": 14,
+   "zaman": "2026-09-26T00:00:54.608048",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "103.187.146.107",
+   "puan": 9,
+   "zaman": "2026-09-25T23:57:53.928832",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "186.120.179.222",
+   "puan": 7,
+   "zaman": "2026-09-25T23:57:53.928832",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "223.123.65.54",
+   "puan": 6,
+   "zaman": "2026-09-25T22:15:40.722443",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "185.177.72.64",
+   "puan": 7,
+   "zaman": "2026-09-25T21:48:36.785496",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "8.136.56.76",
+   "puan": 10,
+   "zaman": "2026-09-25T20:54:28.610505",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "195.178.110.232",
+   "puan": 5,
+   "zaman": "2026-09-25T20:42:26.827418",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "80.94.95.116",
+   "puan": 5,
+   "zaman": "2026-09-25T19:39:17.585530",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "120.48.15.138",
+   "puan": 6,
+   "zaman": "2026-09-25T19:03:12.989065",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "138.197.96.117",
+   "puan": 8,
+   "zaman": "2026-09-25T18:57:11.865326",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "101.36.125.2",
+   "puan": 5,
+   "zaman": "2026-09-25T18:57:11.865326",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "152.52.15.213",
+   "puan": 6,
+   "zaman": "2026-09-25T17:24:59.407785",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "159.203.83.195",
+   "puan": 7,
+   "zaman": "2026-09-25T17:21:57.706471",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "20.13.164.162",
+   "puan": 6,
+   "zaman": "2026-09-25T17:21:57.706471",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "109.160.32.27",
+   "puan": 63,
+   "zaman": "2026-09-25T16:39:51.308239",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "138.226.239.233",
+   "puan": 6,
+   "zaman": "2026-09-25T16:03:46.407427",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "60.165.119.59",
+   "puan": 10,
+   "zaman": "2026-09-25T15:06:38.131852",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "209.141.43.146",
+   "puan": 5,
+   "zaman": "2026-09-25T14:45:35.312528",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "220.80.223.144",
+   "puan": 6,
+   "zaman": "2026-09-25T14:39:34.515361",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "104.248.160.169",
+   "puan": 6,
+   "zaman": "2026-09-25T14:36:34.147821",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "223.233.80.87",
+   "puan": 5,
+   "zaman": "2026-09-25T14:36:34.147821",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "123.253.162.254",
+   "puan": 8,
+   "zaman": "2026-09-25T14:12:31.166529",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "114.141.59.195",
+   "puan": 5,
+   "zaman": "2026-09-25T14:12:31.166529",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "138.226.239.234",
+   "puan": 5,
+   "zaman": "2026-09-25T13:51:28.310736",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "103.203.140.40",
+   "puan": 6,
+   "zaman": "2026-09-25T13:48:27.981696",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "217.60.7.209",
+   "puan": 7,
+   "zaman": "2026-09-25T13:06:21.721279",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "80.94.95.115",
+   "puan": 6,
+   "zaman": "2026-09-25T12:45:18.785542",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "141.95.242.9",
+   "puan": 8,
+   "zaman": "2026-09-25T12:06:13.707082",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "45.78.235.121",
+   "puan": 5,
+   "zaman": "2026-09-25T12:06:13.707082",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "119.96.157.188",
+   "puan": 6,
+   "zaman": "2026-09-25T11:39:09.749047",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "45.78.230.231",
+   "puan": 5,
+   "zaman": "2026-09-25T11:33:09.122527",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "172.208.48.177",
+   "puan": 8,
+   "zaman": "2026-09-25T11:27:07.947618",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "82.65.207.68",
+   "puan": 7,
+   "zaman": "2026-09-25T11:27:07.947618",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "45.4.179.4",
+   "puan": 5,
+   "zaman": "2026-09-25T11:27:07.947618",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "163.7.11.126",
+   "puan": 5,
+   "zaman": "2026-09-25T11:24:07.354812",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "5.175.220.36",
+   "puan": 7,
+   "zaman": "2026-09-25T11:09:05.079261",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "189.190.143.229",
+   "puan": 5,
+   "zaman": "2026-09-25T11:09:05.079261",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "114.132.161.166",
+   "puan": 43,
+   "zaman": "2026-09-25T10:37:00.685078",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "35.229.188.156",
+   "puan": 38,
+   "zaman": "2026-09-25T10:21:58.146554",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "180.76.232.26",
+   "puan": 6,
+   "zaman": "2026-09-25T08:15:40.393445",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "154.18.197.35",
+   "puan": 8,
+   "zaman": "2026-09-25T08:03:38.649222",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "115.191.30.208",
+   "puan": 7,
+   "zaman": "2026-09-25T08:03:38.649222",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "103.239.252.132",
+   "puan": 7,
+   "zaman": "2026-09-25T08:03:38.649222",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "87.106.65.126",
+   "puan": 7,
+   "zaman": "2026-09-25T08:00:38.251534",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "51.38.224.114",
+   "puan": 6,
+   "zaman": "2026-09-25T07:57:37.674202",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "77.239.124.179",
+   "puan": 14,
+   "zaman": "2026-09-25T07:06:30.779331",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "49.12.0.144",
+   "puan": 7,
+   "zaman": "2026-09-25T06:51:28.419415",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "20.217.80.108",
+   "puan": 6,
+   "zaman": "2026-09-25T06:51:28.419415",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "116.109.216.74",
+   "puan": 5,
+   "zaman": "2026-09-25T06:51:28.419415",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "192.9.228.120",
+   "puan": 5,
+   "zaman": "2026-09-25T06:48:27.945328",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "209.141.47.217",
+   "puan": 6,
+   "zaman": "2026-09-25T06:45:27.401022",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "49.207.244.118",
+   "puan": 6,
+   "zaman": "2026-09-25T06:42:27.085376",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "109.160.32.16",
+   "puan": 34,
+   "zaman": "2026-09-25T05:33:17.160943",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "219.152.229.165",
+   "puan": 6,
+   "zaman": "2026-09-25T03:36:58.616986",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "191.96.110.97",
+   "puan": 5,
+   "zaman": "2026-09-25T03:18:55.990368",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "118.139.164.171",
+   "puan": 5,
+   "zaman": "2026-09-25T03:18:55.990368",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "61.220.235.10",
+   "puan": 8,
+   "zaman": "2026-09-25T01:36:42.085308",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "101.47.37.236",
+   "puan": 6,
+   "zaman": "2026-09-25T01:36:42.085308",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "109.160.32.31",
+   "puan": 30,
+   "zaman": "2026-09-25T01:12:38.746803",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "106.12.181.132",
+   "puan": 5,
+   "zaman": "2026-09-25T01:06:37.906857",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "45.78.201.248",
+   "puan": 6,
+   "zaman": "2026-09-25T00:54:36.004229",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "165.154.156.67",
+   "puan": 7,
+   "zaman": "2026-09-25T00:45:34.552275",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "154.83.16.14",
+   "puan": 6,
+   "zaman": "2026-09-25T00:06:29.257182",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "71.27.86.44",
+   "puan": 7,
+   "zaman": "2026-09-24T23:27:23.179746",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "132.248.170.105",
+   "puan": 6,
+   "zaman": "2026-09-24T22:42:16.847512",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "129.121.139.111",
+   "puan": 5,
+   "zaman": "2026-09-24T22:39:16.302169",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "36.134.211.170",
+   "puan": 5,
+   "zaman": "2026-09-24T21:48:09.585725",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "45.117.177.47",
+   "puan": 7,
+   "zaman": "2026-09-24T21:45:09.201803",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "36.137.180.219",
+   "puan": 5,
+   "zaman": "2026-09-24T21:06:03.675283",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "41.204.63.118",
+   "puan": 7,
+   "zaman": "2026-09-24T21:00:02.925891",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "109.167.231.90",
+   "puan": 7,
+   "zaman": "2026-09-24T20:33:59.420472",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "62.16.41.154",
+   "puan": 6,
+   "zaman": "2026-09-24T20:06:55.607372",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "180.247.57.33",
+   "puan": 6,
+   "zaman": "2026-09-24T20:06:55.607372",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "165.154.251.138",
+   "puan": 5,
+   "zaman": "2026-09-24T18:42:43.035899",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "122.168.194.41",
+   "puan": 6,
+   "zaman": "2026-09-24T17:54:36.573602",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "113.193.234.210",
+   "puan": 6,
+   "zaman": "2026-09-24T17:42:35.150970",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "172.190.89.127",
+   "puan": 5,
+   "zaman": "2026-09-24T17:27:33.373767",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "102.88.137.80",
+   "puan": 5,
+   "zaman": "2026-09-24T17:24:33.012607",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "39.109.116.214",
+   "puan": 5,
+   "zaman": "2026-09-24T16:39:26.355512",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "34.135.65.189",
+   "puan": 38,
+   "zaman": "2026-09-24T12:42:52.679507",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "45.172.152.74",
+   "puan": 8,
+   "zaman": "2026-09-24T12:36:51.704431",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "14.103.118.107",
+   "puan": 5,
+   "zaman": "2026-09-24T12:06:47.289660",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "117.62.203.160",
+   "puan": 6,
+   "zaman": "2026-09-24T12:03:45.722941",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "66.232.107.68",
+   "puan": 6,
+   "zaman": "2026-09-24T11:57:44.757333",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "201.249.192.30",
+   "puan": 5,
+   "zaman": "2026-09-24T11:57:44.757333",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "195.58.38.201",
+   "puan": 8,
+   "zaman": "2026-09-24T11:45:43.431676",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "165.154.241.44",
+   "puan": 7,
+   "zaman": "2026-09-24T11:45:43.431676",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "103.46.186.85",
+   "puan": 7,
+   "zaman": "2026-09-24T11:45:43.431676",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "58.222.244.226",
+   "puan": 6,
+   "zaman": "2026-09-24T11:45:43.431676",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "103.157.149.14",
+   "puan": 5,
+   "zaman": "2026-09-24T11:45:43.431676",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "101.42.41.164",
+   "puan": 5,
+   "zaman": "2026-09-24T11:33:41.509169",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "171.76.108.65",
+   "puan": 5,
+   "zaman": "2026-09-24T11:00:36.786736",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "190.5.200.98",
+   "puan": 6,
+   "zaman": "2026-09-24T10:39:33.556569",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "189.69.99.59",
+   "puan": 6,
+   "zaman": "2026-09-24T10:39:33.556569",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "45.148.10.18",
+   "puan": 52,
+   "zaman": "2026-09-24T09:57:27.470381",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "190.85.11.150",
+   "puan": 5,
+   "zaman": "2026-09-24T09:51:26.805877",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "23.227.147.163",
+   "puan": 5,
+   "zaman": "2026-09-24T09:45:26.011213",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "109.160.32.118",
+   "puan": 10,
+   "zaman": "2026-09-24T09:42:25.840536",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "106.13.123.237",
+   "puan": 5,
+   "zaman": "2026-09-24T08:15:13.558216",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "165.154.255.63",
+   "puan": 7,
+   "zaman": "2026-09-24T07:51:10.119973",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "103.98.176.164",
+   "puan": 6,
+   "zaman": "2026-09-24T07:51:10.119973",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "220.247.224.226",
+   "puan": 7,
+   "zaman": "2026-09-24T07:48:09.725446",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "197.153.57.103",
+   "puan": 6,
+   "zaman": "2026-09-24T07:48:09.725446",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "168.113.209.197",
+   "puan": 7,
+   "zaman": "2026-09-24T07:21:05.882607",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "103.189.208.13",
+   "puan": 6,
+   "zaman": "2026-09-24T07:09:04.126735",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "96.78.177.249",
+   "puan": 5,
+   "zaman": "2026-09-24T07:09:04.126735",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "74.94.234.151",
+   "puan": 5,
+   "zaman": "2026-09-24T07:09:04.126735",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "115.191.34.239",
+   "puan": 6,
+   "zaman": "2026-09-24T06:03:55.515057",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "147.90.234.13",
+   "puan": 8,
+   "zaman": "2026-09-24T05:00:46.937970",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "103.171.69.176",
+   "puan": 5,
+   "zaman": "2026-09-24T02:30:27.191448",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "23.94.28.169",
+   "puan": 5,
+   "zaman": "2026-09-24T02:00:23.393361",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "109.160.32.107",
+   "puan": 21,
+   "zaman": "2026-09-24T01:09:15.914691",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "157.230.59.111",
+   "puan": 5,
+   "zaman": "2026-09-24T00:24:08.978613",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "136.0.57.75",
+   "puan": 9,
+   "zaman": "2026-09-23T23:51:04.534685",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "119.203.251.187",
+   "puan": 7,
+   "zaman": "2026-09-23T23:48:03.993595",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "218.51.148.194",
+   "puan": 5,
+   "zaman": "2026-09-23T23:27:01.285003",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "165.154.236.104",
+   "puan": 5,
+   "zaman": "2026-09-23T23:24:00.889428",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "210.114.22.126",
+   "puan": 5,
+   "zaman": "2026-09-23T22:36:54.395760",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "14.29.170.93",
+   "puan": 6,
+   "zaman": "2026-09-23T22:21:52.485901",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "77.239.124.202",
+   "puan": 5,
+   "zaman": "2026-09-23T22:09:50.705033",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "121.229.191.90",
+   "puan": 7,
+   "zaman": "2026-09-23T20:48:40.292470",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "189.149.254.122",
+   "puan": 6,
+   "zaman": "2026-09-23T20:42:39.496552",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "182.253.79.194",
+   "puan": 6,
+   "zaman": "2026-09-23T20:18:36.325060",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "120.48.136.241",
+   "puan": 6,
+   "zaman": "2026-09-23T17:27:13.682046",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "207.166.172.198",
+   "puan": 5,
+   "zaman": "2026-09-23T17:21:12.967754",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "81.10.31.125",
+   "puan": 5,
+   "zaman": "2026-09-23T17:18:12.475295",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "115.191.32.68",
+   "puan": 6,
+   "zaman": "2026-09-23T17:15:12.183072",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "207.166.168.11",
+   "puan": 5,
+   "zaman": "2026-09-23T17:12:11.892965",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "154.182.139.162",
+   "puan": 5,
+   "zaman": "2026-09-23T17:12:11.892965",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "84.74.163.210",
+   "puan": 20,
+   "zaman": "2026-09-23T17:09:11.306220",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "112.151.168.124",
+   "puan": 5,
+   "zaman": "2026-09-23T17:09:11.306220",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "115.191.38.87",
+   "puan": 5,
+   "zaman": "2026-09-23T16:57:09.651517",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "219.128.26.91",
+   "puan": 8,
+   "zaman": "2026-09-23T16:54:09.373210",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "78.153.140.43",
+   "puan": 5,
+   "zaman": "2026-09-23T16:54:09.373210",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "172.203.149.63",
+   "puan": 5,
+   "zaman": "2026-09-23T16:27:05.248382",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "114.111.53.214",
+   "puan": 6,
+   "zaman": "2026-09-23T16:24:04.978207",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "161.35.34.21",
+   "puan": 5,
+   "zaman": "2026-09-23T16:18:04.046542",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "20.193.153.215",
+   "puan": 40,
+   "zaman": "2026-09-23T15:52:00.532167",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "78.134.49.171",
+   "puan": 6,
+   "zaman": "2026-09-23T15:30:57.866889",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "162.222.205.45",
+   "puan": 5,
+   "zaman": "2026-09-23T15:30:57.866889",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "165.154.14.170",
+   "puan": 6,
+   "zaman": "2026-09-23T14:51:53.187845",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "103.155.47.50",
+   "puan": 5,
+   "zaman": "2026-09-23T14:51:53.187845",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "5.253.59.68",
+   "puan": 6,
+   "zaman": "2026-09-23T14:48:52.919415",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "190.244.24.186",
+   "puan": 6,
+   "zaman": "2026-09-23T14:36:51.458844",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "107.155.15.218",
+   "puan": 5,
+   "zaman": "2026-09-23T13:48:45.118423",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "118.107.139.88",
+   "puan": 7,
+   "zaman": "2026-09-23T13:45:44.705414",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "103.95.40.58",
+   "puan": 5,
+   "zaman": "2026-09-23T13:45:44.705414",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "34.9.81.139",
+   "puan": 35,
+   "zaman": "2026-09-23T12:27:34.819971",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "103.172.236.15",
+   "puan": 5,
+   "zaman": "2026-09-23T11:42:28.900227",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "109.91.4.177",
+   "puan": 7,
+   "zaman": "2026-09-23T11:24:26.746660",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "14.103.213.5",
+   "puan": 5,
+   "zaman": "2026-09-23T11:24:26.746660",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "47.251.70.129",
+   "puan": 12,
+   "zaman": "2026-09-23T11:06:24.669584",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "47.148.181.190",
+   "puan": 8,
+   "zaman": "2026-09-23T10:48:22.282029",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "125.142.37.91",
+   "puan": 7,
+   "zaman": "2026-09-23T10:48:22.282029",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "43.106.128.85",
+   "puan": 14,
+   "zaman": "2026-09-23T10:18:18.237201",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "8.218.213.141",
+   "puan": 19,
+   "zaman": "2026-09-23T09:54:15.245935",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "111.47.243.219",
+   "puan": 6,
+   "zaman": "2026-09-23T09:51:14.726073",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "13.72.83.77",
+   "puan": 7,
+   "zaman": "2026-09-23T09:48:14.387415",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "188.209.113.253",
+   "puan": 6,
+   "zaman": "2026-09-23T09:48:14.387415",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "221.207.55.165",
+   "puan": 15,
+   "zaman": "2026-09-23T09:39:12.921746",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "180.76.102.156",
+   "puan": 6,
+   "zaman": "2026-09-23T09:21:10.812890",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "118.145.228.55",
+   "puan": 5,
+   "zaman": "2026-09-23T09:12:09.830703",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "211.72.100.146",
+   "puan": 10,
+   "zaman": "2026-09-23T07:48:58.714902",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "125.122.102.148",
+   "puan": 5,
+   "zaman": "2026-09-23T07:18:54.674137",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "124.123.125.62",
+   "puan": 13,
+   "zaman": "2026-09-23T07:15:54.135625",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "106.251.244.178",
+   "puan": 8,
+   "zaman": "2026-09-23T07:09:53.246995",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "52.233.193.61",
+   "puan": 8,
+   "zaman": "2026-09-23T07:06:53.106055",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "40.83.182.122",
+   "puan": 5,
+   "zaman": "2026-09-23T06:51:51.066176",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "221.217.95.158",
+   "puan": 12,
+   "zaman": "2026-09-23T06:21:47.134212",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "14.22.23.243",
+   "puan": 6,
+   "zaman": "2026-09-23T05:42:41.525039",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "39.102.148.6",
+   "puan": 38,
+   "zaman": "2026-09-23T05:39:40.940549",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "123.25.115.189",
+   "puan": 6,
+   "zaman": "2026-09-23T05:39:40.940549",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "95.85.245.227",
+   "puan": 5,
+   "zaman": "2026-09-23T05:39:40.940549",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "64.227.168.220",
+   "puan": 54,
+   "zaman": "2026-09-23T05:33:40.235677",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "178.208.76.246",
+   "puan": 10,
+   "zaman": "2026-09-23T05:33:40.235677",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "123.25.115.112",
+   "puan": 6,
+   "zaman": "2026-09-23T05:33:40.235677",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "43.155.134.4",
+   "puan": 6,
+   "zaman": "2026-09-23T05:30:39.910926",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "40.121.200.75",
+   "puan": 8,
+   "zaman": "2026-09-23T04:24:30.883307",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "199.19.225.232",
+   "puan": 7,
+   "zaman": "2026-09-23T04:24:30.883307",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "182.93.50.90",
+   "puan": 5,
+   "zaman": "2026-09-23T04:24:30.883307",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "203.145.143.163",
+   "puan": 7,
+   "zaman": "2026-09-23T04:21:30.491634",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "180.76.243.197",
+   "puan": 6,
+   "zaman": "2026-09-23T04:21:30.491634",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "118.107.139.224",
+   "puan": 6,
+   "zaman": "2026-09-23T04:21:30.491634",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "140.246.137.102",
+   "puan": 5,
+   "zaman": "2026-09-23T04:12:29.371623",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "120.48.44.224",
+   "puan": 5,
+   "zaman": "2026-09-23T02:30:14.368823",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "189.165.26.77",
+   "puan": 6,
+   "zaman": "2026-09-23T02:27:13.749992",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "152.32.175.179",
+   "puan": 6,
+   "zaman": "2026-09-23T02:27:13.749992",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "118.121.202.149",
+   "puan": 6,
+   "zaman": "2026-09-23T01:15:02.536803",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "190.128.201.18",
+   "puan": 5,
+   "zaman": "2026-09-23T01:15:02.536803",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "188.255.156.23",
+   "puan": 5,
+   "zaman": "2026-09-23T01:12:02.219551",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "47.109.131.142",
+   "puan": 14,
+   "zaman": "2026-09-23T00:00:51.777976",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "121.40.117.149",
+   "puan": 19,
+   "zaman": "2026-09-22T23:36:47.847495",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "103.118.182.33",
+   "puan": 20,
+   "zaman": "2026-09-22T23:27:46.401703",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "109.160.32.30",
+   "puan": 65,
+   "zaman": "2026-09-22T23:09:43.989796",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "43.139.108.227",
+   "puan": 6,
+   "zaman": "2026-09-22T22:06:35.326625",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "45.148.10.5",
+   "puan": 106,
+   "zaman": "2026-09-22T21:45:32.047887",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "154.8.233.76",
+   "puan": 8,
+   "zaman": "2026-09-22T21:36:30.938761",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "103.131.61.136",
+   "puan": 8,
+   "zaman": "2026-09-22T21:21:30.043831",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "42.192.8.83",
+   "puan": 6,
+   "zaman": "2026-09-22T21:21:30.043831",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "20.127.185.37",
+   "puan": 6,
+   "zaman": "2026-09-22T21:15:27.679157",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "157.22.193.141",
+   "puan": 6,
+   "zaman": "2026-09-22T21:15:27.679157",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "167.172.150.90",
+   "puan": 5,
+   "zaman": "2026-09-22T21:12:27.387622",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "50.6.251.68",
+   "puan": 6,
+   "zaman": "2026-09-22T21:06:26.498527",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "109.160.32.155",
+   "puan": 50,
+   "zaman": "2026-09-22T20:57:24.783306",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "147.93.5.191",
+   "puan": 30,
+   "zaman": "2026-09-22T20:12:18.439682",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "14.225.217.138",
+   "puan": 6,
+   "zaman": "2026-09-22T19:33:12.404460",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "81.192.46.49",
+   "puan": 5,
+   "zaman": "2026-09-22T19:30:12.001342",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "45.43.60.98",
+   "puan": 5,
+   "zaman": "2026-09-22T18:42:04.942679",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "180.74.91.215",
+   "puan": 6,
+   "zaman": "2026-09-22T17:21:53.016786",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "141.94.19.216",
+   "puan": 38,
+   "zaman": "2026-09-22T15:30:35.523376",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "109.160.32.87",
+   "puan": 27,
+   "zaman": "2026-09-22T15:09:31.935688",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "152.32.216.152",
+   "puan": 8,
+   "zaman": "2026-09-22T14:57:30.014073",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "182.151.41.228",
+   "puan": 9,
+   "zaman": "2026-09-22T14:21:24.879280",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "185.153.231.36",
+   "puan": 5,
+   "zaman": "2026-09-22T14:12:23.365341",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "211.106.133.202",
+   "puan": 5,
+   "zaman": "2026-09-22T14:06:22.317914",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "171.25.158.87",
+   "puan": 5,
+   "zaman": "2026-09-22T13:09:14.207348",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "109.160.32.114",
+   "puan": 9,
+   "zaman": "2026-09-22T12:06:05.094413",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "103.149.86.208",
+   "puan": 52,
+   "zaman": "2026-09-22T11:45:01.757732",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "87.106.63.76",
+   "puan": 6,
+   "zaman": "2026-09-22T10:48:53.148866",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "207.175.165.45",
+   "puan": 5,
+   "zaman": "2026-09-22T10:48:53.148866",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "103.160.4.144",
+   "puan": 5,
+   "zaman": "2026-09-22T10:48:53.148866",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "196.92.7.249",
+   "puan": 5,
+   "zaman": "2026-09-22T10:15:47.759465",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "158.173.89.50",
+   "puan": 6,
+   "zaman": "2026-09-22T10:03:46.233790",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "196.92.7.247",
+   "puan": 5,
+   "zaman": "2026-09-22T10:03:46.233790",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "172.172.180.124",
+   "puan": 5,
+   "zaman": "2026-09-22T09:57:45.245503",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "154.144.225.226",
+   "puan": 5,
+   "zaman": "2026-09-22T09:57:45.245503",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "20.77.26.9",
+   "puan": 5,
+   "zaman": "2026-09-22T09:54:44.894772",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "178.128.149.6",
+   "puan": 5,
+   "zaman": "2026-09-22T09:39:42.912544",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "49.247.138.161",
+   "puan": 5,
+   "zaman": "2026-09-22T09:30:41.863926",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "85.95.166.40",
+   "puan": 7,
+   "zaman": "2026-09-22T09:27:41.410309",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "203.142.160.143",
+   "puan": 5,
+   "zaman": "2026-09-22T09:27:41.410309",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "102.210.149.105",
+   "puan": 5,
+   "zaman": "2026-09-22T09:27:41.410309",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "109.160.32.78",
+   "puan": 11,
+   "zaman": "2026-09-22T09:12:39.312235",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "109.160.32.32",
+   "puan": 44,
+   "zaman": "2026-09-22T08:33:33.067240",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "91.40.147.72",
+   "puan": 5,
+   "zaman": "2026-09-22T08:30:32.635880",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "154.83.15.101",
+   "puan": 8,
+   "zaman": "2026-09-22T08:24:31.733290",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "49.72.212.22",
+   "puan": 7,
+   "zaman": "2026-09-22T08:21:31.373140",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "83.220.225.7",
+   "puan": 7,
+   "zaman": "2026-09-22T07:48:26.361481",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "5.99.196.202",
+   "puan": 6,
+   "zaman": "2026-09-22T07:48:26.361481",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "165.154.235.9",
+   "puan": 5,
+   "zaman": "2026-09-22T07:48:26.361481",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "120.48.80.84",
+   "puan": 7,
+   "zaman": "2026-09-22T07:42:25.661107",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "212.18.114.31",
+   "puan": 5,
+   "zaman": "2026-09-22T07:36:24.563672",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "203.83.231.93",
+   "puan": 8,
+   "zaman": "2026-09-22T07:09:20.382674",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "85.215.49.8",
+   "puan": 26,
+   "zaman": "2026-09-22T06:03:11.391428",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "133.18.122.63",
+   "puan": 9,
+   "zaman": "2026-09-22T05:57:10.563857",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "152.200.181.42",
+   "puan": 5,
+   "zaman": "2026-09-22T04:39:59.155061",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "218.90.33.83",
+   "puan": 7,
+   "zaman": "2026-09-22T03:57:53.397123",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "45.78.207.244",
+   "puan": 5,
+   "zaman": "2026-09-22T03:42:51.560562",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "163.7.3.154",
+   "puan": 7,
+   "zaman": "2026-09-22T03:39:51.058755",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "113.161.79.218",
+   "puan": 6,
+   "zaman": "2026-09-22T02:54:44.990262",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "47.105.85.123",
+   "puan": 48,
+   "zaman": "2026-09-22T02:51:44.725091",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "77.239.124.208",
+   "puan": 17,
+   "zaman": "2026-09-22T02:18:39.672506",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "119.96.159.237",
+   "puan": 5,
+   "zaman": "2026-09-22T01:48:34.963469",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "94.154.46.243",
+   "puan": 183,
+   "zaman": "2026-09-22T01:27:31.897286",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "190.60.242.28",
+   "puan": 5,
+   "zaman": "2026-09-22T01:09:29.102702",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "91.92.199.36",
+   "puan": 5,
+   "zaman": "2026-09-22T00:48:25.844180",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "34.84.58.132",
+   "puan": 299,
+   "zaman": "2026-09-21T23:03:10.348892",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "116.48.51.69",
+   "puan": 7,
+   "zaman": "2026-09-21T22:54:08.836029",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "111.229.98.190",
+   "puan": 39,
+   "zaman": "2026-09-21T22:51:08.308300",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "80.94.92.179",
+   "puan": 5,
+   "zaman": "2026-09-21T22:30:05.590303",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "211.253.31.30",
+   "puan": 6,
+   "zaman": "2026-09-21T22:09:02.618157",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "187.154.98.53",
+   "puan": 5,
+   "zaman": "2026-09-21T22:09:02.618157",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "65.254.95.164",
+   "puan": 8,
+   "zaman": "2026-09-21T22:06:02.322129",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "157.230.234.202",
+   "puan": 5,
+   "zaman": "2026-09-21T21:27:57.833455",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "57.128.214.238",
+   "puan": 9,
+   "zaman": "2026-09-21T21:06:55.361629",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "120.48.122.158",
+   "puan": 6,
+   "zaman": "2026-09-21T20:45:52.390430",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "138.197.195.44",
+   "puan": 5,
+   "zaman": "2026-09-21T20:30:50.619145",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "118.145.144.95",
+   "puan": 5,
+   "zaman": "2026-09-21T20:24:49.927351",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "124.207.165.138",
+   "puan": 5,
+   "zaman": "2026-09-21T20:15:48.524074",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "117.48.147.99",
+   "puan": 6,
+   "zaman": "2026-09-21T20:12:48.435536",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "118.145.242.91",
+   "puan": 6,
+   "zaman": "2026-09-21T20:00:46.804261",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "115.190.215.101",
+   "puan": 6,
+   "zaman": "2026-09-21T20:00:46.804261",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "171.244.197.19",
+   "puan": 6,
+   "zaman": "2026-09-21T19:57:46.342203",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "81.192.46.32",
+   "puan": 5,
+   "zaman": "2026-09-21T19:54:46.052089",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "92.118.39.50",
+   "puan": 5,
+   "zaman": "2026-09-21T19:21:41.838764",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "47.252.46.218",
+   "puan": 19,
+   "zaman": "2026-09-21T18:42:37.152540",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "72.253.251.3",
+   "puan": 6,
+   "zaman": "2026-09-21T18:15:33.462876",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "111.68.111.100",
+   "puan": 10,
+   "zaman": "2026-09-21T16:09:14.891201",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "179.43.150.26",
+   "puan": 24,
+   "zaman": "2026-09-21T15:57:13.136047",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "49.64.85.138",
+   "puan": 5,
+   "zaman": "2026-09-21T14:15:56.041625",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "81.28.167.30",
+   "puan": 8,
+   "zaman": "2026-09-21T14:00:54.334367",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "106.13.186.96",
+   "puan": 5,
+   "zaman": "2026-09-21T13:57:53.682655",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "101.47.13.135",
+   "puan": 6,
+   "zaman": "2026-09-21T13:51:53.517486",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "109.194.108.203",
+   "puan": 5,
+   "zaman": "2026-09-21T13:51:53.517486",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "14.116.189.74",
+   "puan": 8,
+   "zaman": "2026-09-21T11:42:34.085805",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "129.121.100.45",
+   "puan": 6,
+   "zaman": "2026-09-21T11:42:34.085805",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "5.189.148.134",
+   "puan": 6,
+   "zaman": "2026-09-21T10:39:25.207295",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "106.12.240.38",
+   "puan": 5,
+   "zaman": "2026-09-21T10:03:20.835779",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "146.190.211.42",
+   "puan": 6,
+   "zaman": "2026-09-21T09:57:19.922922",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "218.23.192.91",
+   "puan": 6,
+   "zaman": "2026-09-21T07:42:01.261532",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "146.70.134.142",
+   "puan": 5,
+   "zaman": "2026-09-21T04:42:34.937180",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "113.214.64.27",
+   "puan": 24,
+   "zaman": "2026-09-21T04:15:30.887266",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "186.10.86.130",
+   "puan": 6,
+   "zaman": "2026-09-21T04:03:29.205231",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "60.250.246.239",
+   "puan": 6,
+   "zaman": "2026-09-21T04:00:28.888680",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "43.173.77.7",
+   "puan": 6,
+   "zaman": "2026-09-21T04:00:28.888680",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "20.105.65.67",
+   "puan": 17,
+   "zaman": "2026-09-21T03:39:25.302449",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "61.72.55.130",
+   "puan": 5,
+   "zaman": "2026-09-21T03:39:25.302449",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "195.189.249.18",
+   "puan": 5,
+   "zaman": "2026-09-21T03:15:21.738516",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "118.145.112.204",
+   "puan": 5,
+   "zaman": "2026-09-21T02:21:14.684473",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "195.178.110.228",
+   "puan": 5,
+   "zaman": "2026-09-21T02:18:14.168462",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "14.55.144.22",
+   "puan": 6,
+   "zaman": "2026-09-21T02:15:13.726874",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "124.222.124.101",
+   "puan": 5,
+   "zaman": "2026-09-21T02:06:12.740782",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "76.79.213.70",
+   "puan": 5,
+   "zaman": "2026-09-21T01:36:08.561527",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "42.1.65.89",
+   "puan": 5,
+   "zaman": "2026-09-21T01:33:08.017454",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "59.26.33.16",
+   "puan": 35,
+   "zaman": "2026-09-21T01:15:05.571774",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "165.245.246.106",
+   "puan": 5,
+   "zaman": "2026-09-21T01:15:05.571774",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "109.160.32.201",
+   "puan": 5,
+   "zaman": "2026-09-21T01:06:04.204006",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "113.31.115.157",
+   "puan": 6,
+   "zaman": "2026-09-21T00:18:57.806747",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "139.59.133.58",
+   "puan": 5,
+   "zaman": "2026-09-21T00:03:55.840418",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "77.90.185.20",
+   "puan": 15,
+   "zaman": "2026-09-20T22:30:42.941743",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "211.38.183.218",
+   "puan": 8,
+   "zaman": "2026-09-20T20:06:23.654085",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "185.177.239.133",
+   "puan": 8,
+   "zaman": "2026-09-20T20:03:23.332748",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "163.7.9.84",
+   "puan": 8,
+   "zaman": "2026-09-20T20:03:23.332748",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "43.134.49.202",
+   "puan": 7,
+   "zaman": "2026-09-20T20:03:23.332748",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "109.160.32.103",
+   "puan": 19,
+   "zaman": "2026-09-20T19:30:18.683595",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "148.66.142.9",
+   "puan": 7,
+   "zaman": "2026-09-20T19:21:17.523236",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "94.154.43.254",
+   "puan": 5,
+   "zaman": "2026-09-20T18:27:10.530876",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "185.215.180.220",
+   "puan": 22,
+   "zaman": "2026-09-20T18:00:07.175529",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "176.104.108.10",
+   "puan": 6,
+   "zaman": "2026-09-20T15:54:49.425746",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "147.90.234.14",
+   "puan": 6,
+   "zaman": "2026-09-20T14:33:39.471434",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "167.250.160.139",
+   "puan": 6,
+   "zaman": "2026-09-20T14:30:39.329796",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "181.188.237.212",
+   "puan": 5,
+   "zaman": "2026-09-20T13:27:30.904137",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "152.32.174.41",
+   "puan": 5,
+   "zaman": "2026-09-20T13:27:30.904137",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "181.48.105.218",
+   "puan": 7,
+   "zaman": "2026-09-20T10:45:08.416715",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "181.62.56.67",
+   "puan": 6,
+   "zaman": "2026-09-20T10:09:03.498312",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "152.67.9.154",
+   "puan": 28,
+   "zaman": "2026-09-20T09:43:00.526938",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "14.103.18.5",
+   "puan": 5,
+   "zaman": "2026-09-20T09:12:55.874725",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "78.153.140.250",
+   "puan": 5,
+   "zaman": "2026-09-20T09:03:54.424301",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "197.5.145.114",
+   "puan": 8,
+   "zaman": "2026-09-20T08:54:53.095913",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "92.118.39.77",
+   "puan": 6,
+   "zaman": "2026-09-20T08:42:51.646717",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "8.138.221.210",
+   "puan": 63,
+   "zaman": "2026-09-20T08:33:50.428907",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "101.96.218.145",
+   "puan": 5,
+   "zaman": "2026-09-20T08:33:50.428907",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "185.227.152.135",
+   "puan": 5,
+   "zaman": "2026-09-20T08:30:50.063472",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "187.212.43.1",
+   "puan": 8,
+   "zaman": "2026-09-20T07:51:46.055943",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "103.44.14.24",
+   "puan": 6,
+   "zaman": "2026-09-20T07:45:43.978031",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "70.38.101.161",
+   "puan": 5,
+   "zaman": "2026-09-20T07:45:43.978031",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "152.32.190.42",
+   "puan": 5,
+   "zaman": "2026-09-20T07:42:43.588921",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "109.160.32.119",
+   "puan": 65,
+   "zaman": "2026-09-20T07:30:41.796689",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "109.63.176.82",
+   "puan": 43,
+   "zaman": "2026-09-20T07:12:39.763767",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "20.55.45.217",
+   "puan": 5,
+   "zaman": "2026-09-20T06:12:31.376725",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "107.150.97.10",
+   "puan": 11,
+   "zaman": "2026-09-20T03:06:06.261109",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "213.167.43.130",
+   "puan": 10,
+   "zaman": "2026-09-20T02:36:02.122129",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "102.210.148.92",
+   "puan": 7,
+   "zaman": "2026-09-20T02:36:02.122129",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "4.150.201.26",
+   "puan": 5,
+   "zaman": "2026-09-20T02:36:02.122129",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "160.187.174.22",
+   "puan": 5,
+   "zaman": "2026-09-20T02:36:02.122129",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "103.159.199.43",
+   "puan": 5,
+   "zaman": "2026-09-20T02:36:02.122129",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "171.25.158.82",
+   "puan": 7,
+   "zaman": "2026-09-20T02:33:01.676962",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "77.91.66.181",
+   "puan": 6,
+   "zaman": "2026-09-20T02:33:01.676962",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "192.169.232.223",
+   "puan": 6,
+   "zaman": "2026-09-20T02:33:01.676962",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "103.189.89.145",
+   "puan": 6,
+   "zaman": "2026-09-20T02:33:01.676962",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "157.90.18.5",
+   "puan": 5,
+   "zaman": "2026-09-20T02:33:01.676962",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "143.58.211.252",
+   "puan": 6,
+   "zaman": "2026-09-20T00:48:48.443953",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "103.163.118.115",
+   "puan": 5,
+   "zaman": "2026-09-20T00:39:47.024856",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "51.91.96.79",
+   "puan": 9,
+   "zaman": "2026-09-20T00:00:42.475319",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "152.32.189.59",
+   "puan": 6,
+   "zaman": "2026-09-20T00:00:42.475319",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "202.165.26.42",
+   "puan": 7,
+   "zaman": "2026-09-19T23:54:41.345778",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "103.118.82.254",
+   "puan": 7,
+   "zaman": "2026-09-19T23:54:41.345778",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "95.182.95.28",
+   "puan": 5,
+   "zaman": "2026-09-19T23:51:41.062958",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "109.160.32.26",
+   "puan": 59,
+   "zaman": "2026-09-19T22:06:26.931761",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "130.12.180.117",
+   "puan": 19,
+   "zaman": "2026-09-19T20:48:16.491222",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "35.253.38.81",
+   "puan": 6,
+   "zaman": "2026-09-19T20:48:16.491222",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "150.5.154.160",
+   "puan": 8,
+   "zaman": "2026-09-19T20:18:12.537023",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "200.155.66.2",
+   "puan": 5,
+   "zaman": "2026-09-19T20:18:12.537023",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "91.134.133.184",
+   "puan": 10,
+   "zaman": "2026-09-19T19:39:07.141382",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "178.105.31.42",
+   "puan": 8,
+   "zaman": "2026-09-19T19:39:07.141382",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "109.160.32.94",
+   "puan": 29,
+   "zaman": "2026-09-19T19:30:06.098062",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "58.221.60.25",
+   "puan": 5,
+   "zaman": "2026-09-19T18:36:58.324466",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "154.9.252.60",
+   "puan": 8,
+   "zaman": "2026-09-19T18:24:56.396103",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "141.95.162.162",
+   "puan": 7,
+   "zaman": "2026-09-19T18:21:56.042977",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "181.10.138.162",
+   "puan": 5,
+   "zaman": "2026-09-19T18:21:56.042977",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "193.32.162.84",
+   "puan": 5,
+   "zaman": "2026-09-19T16:51:44.712471",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "109.160.32.67",
+   "puan": 16,
+   "zaman": "2026-09-19T16:18:40.338153",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "109.160.32.108",
+   "puan": 37,
+   "zaman": "2026-09-19T14:27:25.100938",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "117.50.50.224",
+   "puan": 12,
+   "zaman": "2026-09-19T14:27:25.100938",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "3.82.141.143",
+   "puan": 20,
+   "zaman": "2026-09-19T14:00:21.312174",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "77.239.124.181",
+   "puan": 47,
+   "zaman": "2026-09-19T12:24:09.261148",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "171.25.158.58",
+   "puan": 9,
+   "zaman": "2026-09-19T10:00:49.376363",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "81.192.46.45",
+   "puan": 6,
+   "zaman": "2026-09-19T09:57:48.757441",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "112.123.228.180",
+   "puan": 7,
+   "zaman": "2026-09-19T09:03:41.458750",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "89.153.125.230",
+   "puan": 9,
+   "zaman": "2026-09-19T07:54:32.161701",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "109.160.32.85",
+   "puan": 20,
+   "zaman": "2026-09-19T07:39:29.623300",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "95.188.91.101",
+   "puan": 7,
+   "zaman": "2026-09-19T06:21:18.572284",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "203.135.42.52",
+   "puan": 7,
+   "zaman": "2026-09-19T06:15:17.519738",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "187.16.96.250",
+   "puan": 7,
+   "zaman": "2026-09-19T06:15:17.519738",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "68.178.166.175",
+   "puan": 7,
+   "zaman": "2026-09-19T05:54:14.405719",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "43.153.147.41",
+   "puan": 39,
+   "zaman": "2026-09-19T05:03:07.737360",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "160.251.202.248",
+   "puan": 5,
+   "zaman": "2026-09-19T04:33:03.835948",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "180.76.143.203",
+   "puan": 6,
+   "zaman": "2026-09-19T03:15:53.969256",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "222.110.147.58",
+   "puan": 7,
+   "zaman": "2026-09-19T03:06:52.729701",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "163.7.3.241",
+   "puan": 6,
+   "zaman": "2026-09-19T03:06:52.729701",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "85.159.227.240",
+   "puan": 5,
+   "zaman": "2026-09-19T03:06:52.729701",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "134.122.86.156",
+   "puan": 6,
+   "zaman": "2026-09-19T02:54:51.071118",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "95.172.142.52",
+   "puan": 8,
+   "zaman": "2026-09-19T02:45:49.672747",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "109.160.32.82",
+   "puan": 47,
+   "zaman": "2026-09-19T02:33:48.345304",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "66.116.224.33",
+   "puan": 9,
+   "zaman": "2026-09-19T02:15:46.154860",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "86.38.182.86",
+   "puan": 3,
+   "zaman": "2026-09-19T02:03:44.632186",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "14.103.118.186",
+   "puan": 9,
+   "zaman": "2026-09-19T01:45:42.292911",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "194.190.153.226",
+   "puan": 5,
+   "zaman": "2026-09-19T01:39:41.404364",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "34.123.134.194",
+   "puan": 5,
+   "zaman": "2026-09-19T00:09:30.084995",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "60.13.227.206",
+   "puan": 5,
+   "zaman": "2026-09-18T23:39:25.756930",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "218.0.63.25",
+   "puan": 8,
+   "zaman": "2026-09-18T23:24:24.089835",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "91.148.244.131",
+   "puan": 14,
+   "zaman": "2026-09-18T23:21:23.709135",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "81.171.72.93",
+   "puan": 14,
+   "zaman": "2026-09-18T23:21:23.709135",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "66.116.225.71",
+   "puan": 7,
+   "zaman": "2026-09-18T23:09:21.931438",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "105.28.108.165",
+   "puan": 6,
+   "zaman": "2026-09-18T23:09:21.931438",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "109.160.32.45",
+   "puan": 7,
+   "zaman": "2026-09-18T22:33:15.722875",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "45.148.10.240",
+   "puan": 8,
+   "zaman": "2026-09-18T21:45:09.788921",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "120.46.139.199",
+   "puan": 7,
+   "zaman": "2026-09-18T21:15:05.800363",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "109.160.32.110",
+   "puan": 2350,
+   "zaman": "2026-09-18T21:00:03.972980",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "109.160.32.109",
+   "puan": 2114,
+   "zaman": "2026-09-18T21:00:03.972980",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "77.239.124.183",
+   "puan": 1568,
+   "zaman": "2026-09-18T21:00:03.972980",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "77.239.124.173",
+   "puan": 1540,
+   "zaman": "2026-09-18T21:00:03.972980",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "178.132.198.203",
+   "puan": 1067,
+   "zaman": "2026-09-18T21:00:03.972980",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "176.53.159.197",
+   "puan": 1023,
+   "zaman": "2026-09-18T21:00:03.972980",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "176.53.159.198",
+   "puan": 1008,
+   "zaman": "2026-09-18T21:00:03.972980",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "185.2.49.167",
+   "puan": 566,
+   "zaman": "2026-09-18T21:00:03.972980",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "91.92.40.24",
+   "puan": 510,
+   "zaman": "2026-09-18T21:00:03.972980",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "103.160.5.123",
+   "puan": 279,
+   "zaman": "2026-09-18T21:00:03.972980",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "109.160.32.61",
+   "puan": 260,
+   "zaman": "2026-09-18T21:00:03.972980",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "45.148.10.141",
+   "puan": 255,
+   "zaman": "2026-09-18T21:00:03.972980",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "45.148.10.152",
+   "puan": 250,
+   "zaman": "2026-09-18T21:00:03.972980",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "91.92.40.25",
+   "puan": 249,
+   "zaman": "2026-09-18T21:00:03.972980",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "2.57.122.150",
+   "puan": 237,
+   "zaman": "2026-09-18T21:00:03.972980",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "2.57.121.112",
+   "puan": 234,
+   "zaman": "2026-09-18T21:00:03.972980",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "109.160.32.156",
+   "puan": 214,
+   "zaman": "2026-09-18T21:00:03.972980",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "45.148.10.157",
+   "puan": 205,
+   "zaman": "2026-09-18T21:00:03.972980",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "62.60.130.242",
+   "puan": 195,
+   "zaman": "2026-09-18T21:00:03.972980",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "222.111.88.124",
+   "puan": 187,
+   "zaman": "2026-09-18T21:00:03.972980",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "129.151.171.7",
+   "puan": 187,
+   "zaman": "2026-09-18T21:00:03.972980",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "45.148.10.151",
+   "puan": 185,
+   "zaman": "2026-09-18T21:00:03.972980",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "116.177.172.94",
+   "puan": 184,
+   "zaman": "2026-09-18T21:00:03.972980",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "211.221.196.103",
+   "puan": 181,
+   "zaman": "2026-09-18T21:00:03.972980",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "2.57.121.25",
+   "puan": 181,
+   "zaman": "2026-09-18T21:00:03.972980",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "47.236.181.57",
+   "puan": 180,
+   "zaman": "2026-09-18T21:00:03.972980",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "116.177.172.111",
+   "puan": 178,
+   "zaman": "2026-09-18T21:00:03.972980",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "116.177.172.108",
+   "puan": 176,
+   "zaman": "2026-09-18T21:00:03.972980",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "193.47.62.69",
+   "puan": 175,
+   "zaman": "2026-09-18T21:00:03.972980",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "62.60.130.253",
+   "puan": 155,
+   "zaman": "2026-09-18T21:00:03.972980",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "112.124.51.174",
+   "puan": 151,
+   "zaman": "2026-09-18T21:00:03.972980",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "193.46.255.86",
+   "puan": 132,
+   "zaman": "2026-09-18T21:00:03.972980",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "130.12.180.194",
+   "puan": 126,
+   "zaman": "2026-09-18T21:00:03.972980",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "80.94.92.234",
+   "puan": 111,
+   "zaman": "2026-09-18T21:00:03.972980",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "161.35.20.76",
+   "puan": 92,
+   "zaman": "2026-09-18T21:00:03.972980",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "158.173.89.57",
+   "puan": 88,
+   "zaman": "2026-09-18T21:00:03.972980",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "62.60.130.201",
+   "puan": 85,
+   "zaman": "2026-09-18T21:00:03.972980",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "2.57.122.238",
+   "puan": 70,
+   "zaman": "2026-09-18T21:00:03.972980",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "80.94.92.55",
+   "puan": 67,
+   "zaman": "2026-09-18T21:00:03.972980",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "195.178.110.227",
+   "puan": 50,
+   "zaman": "2026-09-18T21:00:03.972980",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "92.118.39.49",
+   "puan": 47,
+   "zaman": "2026-09-18T21:00:03.972980",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "109.94.173.9",
+   "puan": 38,
+   "zaman": "2026-09-18T21:00:03.972980",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "109.160.32.86",
+   "puan": 38,
+   "zaman": "2026-09-18T21:00:03.972980",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "98.113.203.148",
+   "puan": 36,
+   "zaman": "2026-09-18T21:00:03.972980",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "41.93.32.39",
+   "puan": 36,
+   "zaman": "2026-09-18T21:00:03.972980",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "50.84.211.204",
+   "puan": 35,
+   "zaman": "2026-09-18T21:00:03.972980",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "49.204.74.149",
+   "puan": 35,
+   "zaman": "2026-09-18T21:00:03.972980",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "42.51.32.228",
+   "puan": 35,
+   "zaman": "2026-09-18T21:00:03.972980",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "41.215.133.245",
+   "puan": 35,
+   "zaman": "2026-09-18T21:00:03.972980",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "181.228.80.171",
+   "puan": 35,
+   "zaman": "2026-09-18T21:00:03.972980",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "23.185.200.28",
+   "puan": 34,
+   "zaman": "2026-09-18T21:00:03.972980",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "209.142.100.46",
+   "puan": 34,
+   "zaman": "2026-09-18T21:00:03.972980",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "185.216.213.235",
+   "puan": 33,
+   "zaman": "2026-09-18T21:00:03.972980",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "118.196.86.5",
+   "puan": 33,
+   "zaman": "2026-09-18T21:00:03.972980",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "62.84.120.152",
+   "puan": 31,
+   "zaman": "2026-09-18T21:00:03.972980",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "45.38.60.242",
+   "puan": 31,
+   "zaman": "2026-09-18T21:00:03.972980",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "147.45.101.243",
+   "puan": 31,
+   "zaman": "2026-09-18T21:00:03.972980",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "117.50.46.117",
+   "puan": 31,
+   "zaman": "2026-09-18T21:00:03.972980",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "43.156.115.178",
+   "puan": 30,
+   "zaman": "2026-09-18T21:00:03.972980",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "186.251.71.202",
+   "puan": 30,
+   "zaman": "2026-09-18T21:00:03.972980",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "92.118.39.14",
+   "puan": 27,
+   "zaman": "2026-09-18T21:00:03.972980",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "46.49.47.179",
+   "puan": 25,
+   "zaman": "2026-09-18T21:00:03.972980",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "45.115.26.203",
+   "puan": 25,
+   "zaman": "2026-09-18T21:00:03.972980",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "2.57.122.209",
+   "puan": 25,
+   "zaman": "2026-09-18T21:00:03.972980",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "20.89.68.9",
+   "puan": 24,
+   "zaman": "2026-09-18T21:00:03.972980",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "4.239.240.98",
+   "puan": 16,
+   "zaman": "2026-09-18T21:00:03.972980",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "35.187.231.181",
+   "puan": 16,
+   "zaman": "2026-09-18T21:00:03.972980",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "80.94.95.211",
+   "puan": 14,
+   "zaman": "2026-09-18T21:00:03.972980",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "85.11.167.212",
+   "puan": 13,
+   "zaman": "2026-09-18T21:00:03.972980",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "180.168.24.186",
+   "puan": 13,
+   "zaman": "2026-09-18T21:00:03.972980",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "204.76.203.31",
+   "puan": 11,
+   "zaman": "2026-09-18T21:00:03.972980",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "2.57.122.168",
+   "puan": 9,
+   "zaman": "2026-09-18T21:00:03.972980",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "169.58.204.147",
+   "puan": 9,
+   "zaman": "2026-09-18T21:00:03.972980",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "94.154.46.245",
+   "puan": 7,
+   "zaman": "2026-09-18T21:00:03.972980",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "78.153.140.251",
+   "puan": 6,
+   "zaman": "2026-09-18T21:00:03.972980",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "188.227.111.138",
+   "puan": 6,
+   "zaman": "2026-09-18T21:00:03.972980",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "78.153.140.50",
+   "puan": 5,
+   "zaman": "2026-09-18T21:00:03.972980",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "195.178.110.217",
+   "puan": 5,
+   "zaman": "2026-09-18T21:00:03.972980",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "102.220.160.42",
+   "puan": 5,
+   "zaman": "2026-09-18T21:00:03.972980",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "45.156.87.210",
+   "puan": 2,
+   "zaman": "19.09.2026 21:00",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "161.118.223.66",
+   "puan": 25,
+   "zaman": "02.10.2026 13:00",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ZEKA"
+  },
+  {
+   "ip": "102.220.161.139",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "102.244.97.185",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "103.158.121.21",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "103.159.51.70",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "103.167.171.253",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "103.179.190.58",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "103.2.225.225",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "103.4.144.166",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "103.63.101.24",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "104.243.33.53",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "106.13.171.118",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "106.51.22.217",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "106.75.222.86",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "107.150.101.128",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "107.155.48.46",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "109.105.210.89",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "109.105.210.90",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "109.195.19.44",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "109.205.176.10",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "111.19.212.140",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "115.190.149.134",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "118.145.238.60",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "119.96.158.238",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "124.70.97.100",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "129.121.128.211",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "129.150.39.236",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "13.140.42.213",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "134.185.92.180",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "134.185.95.195",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "134.209.25.199",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "134.209.71.49",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "136.85.4.152",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "139.59.143.102",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "140.245.112.8",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "144.225.6.182",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "144.91.78.83",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "146.235.21.143",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "147.185.132.118",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "147.185.132.13",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "147.185.132.216",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "147.185.132.27",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "147.185.132.28",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "147.185.132.37",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "147.185.132.90",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "149.210.205.30",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "150.109.254.122",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "150.139.201.247",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "151.240.151.87",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "152.37.233.116",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "153.75.249.211",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "157.245.105.107",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "158.178.239.185",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "160.153.187.97",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "161.118.202.100",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "161.118.208.28",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "161.118.218.203",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "161.118.218.217",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "161.118.224.183",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "161.118.235.207",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "161.118.241.225",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "164.90.228.79",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "165.227.20.212",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "165.232.45.26",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "165.99.207.153",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "167.250.224.25",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "168.107.72.188",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "168.107.91.104",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "168.194.164.3",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "170.64.196.156",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "172.235.173.150",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "172.71.135.39",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "172.94.9.151",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "176.65.144.71",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "18.197.174.142",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "184.105.247.194",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "184.105.247.195",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "184.105.247.252",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "184.105.247.254",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "185.213.174.141",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "187.17.228.218",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "187.17.228.239",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "192.141.150.2",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "194.180.48.253",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "194.233.84.90",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "198.235.24.167",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "198.235.24.177",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "198.235.24.22",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "198.235.24.35",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "198.235.24.54",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "198.235.24.77",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "20.201.77.247",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "20.244.28.141",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "20.55.75.220",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "200.150.126.171",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "205.210.31.216",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "205.210.31.254",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "205.210.31.44",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "209.38.206.89",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "209.50.186.75",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "213.172.73.149",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "213.35.114.170",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "216.180.246.115",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "216.180.246.206",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "216.180.246.8",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "216.218.206.67",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "216.26.225.40",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "223.123.92.102",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "223.83.183.254",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "23.94.192.15",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "24.234.133.216",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "31.11.124.28",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "31.57.62.245",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "34.101.71.195",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "34.128.120.144",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "34.81.117.1",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "35.198.60.20",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "35.213.159.66",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "35.225.33.58",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "35.234.140.222",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "36.141.79.94",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "43.134.108.169",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "43.163.90.125",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "43.251.17.236",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "45.114.84.126",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "45.138.12.15",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "45.148.10.95",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "45.153.34.39",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "45.192.109.91",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "45.225.135.20",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "45.225.135.21",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "45.3.35.30",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "45.78.224.85",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "46.101.193.182",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "47.115.172.98",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "47.116.172.181",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "47.236.173.77",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "47.77.217.213",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "47.90.242.234",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "64.226.65.160",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "64.23.218.208",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "64.62.156.172",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "64.62.156.24",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "64.62.156.94",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "65.49.1.152",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "65.49.1.212",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "65.49.1.232",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "69.12.166.128",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "69.12.176.117",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "77.83.39.94",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "78.153.140.147",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "78.153.140.148",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "78.153.140.39",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "78.153.140.40",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "78.153.140.93",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "80.94.92.126",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "84.200.87.162",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "89.126.211.166",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "91.92.241.196",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "91.92.40.236",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "92.5.155.195",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "94.102.49.125",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "94.154.43.100",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "94.154.43.122",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "94.154.43.125",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "94.154.43.129",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "94.154.43.146",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "94.154.43.158",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "94.154.43.222",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "94.154.43.74",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "94.154.43.84",
+   "puan": 99,
+   "zaman": "02.10.2026 05:40",
+   "sebep": "gecmis saldiri",
+   "kaynak": "ARCADE-ENGEL"
+  },
+  {
+   "ip": "45.155.205.233",
+   "puan": 105,
+   "zaman": "03.10.2026 19:04:38",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "91.240.118.172",
+   "puan": 60,
+   "zaman": "03.10.2026 19:04:38",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "185.220.101.45",
+   "puan": 65,
+   "zaman": "03.10.2026 19:35:59",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "198.51.100.66",
+   "puan": 90,
+   "zaman": "03.10.2026 19:36:45",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "198.51.100.99",
+   "puan": 105,
+   "zaman": "03.10.2026 19:36:45",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "203.0.113.200",
+   "puan": 45,
+   "zaman": "03.10.2026 19:41:35",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "192.168.1.4",
+   "puan": 360,
+   "zaman": "03.10.2026 20:13:11",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "54.39.128.230",
+   "puan": 60,
+   "zaman": "03.10.2026 20:13:11",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "193.32.204.199",
+   "puan": 90,
+   "zaman": "03.10.2026 20:37:36",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "176.65.148.226",
+   "puan": 75,
+   "zaman": "03.10.2026 20:37:36",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "203.0.113.50",
+   "puan": 60,
+   "zaman": "03.10.2026 20:37:36",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "198.51.100.77",
+   "puan": 60,
+   "zaman": "03.10.2026 20:37:36",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "213.209.159.175",
+   "puan": 45,
+   "zaman": "03.10.2026 20:37:36",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "203.0.114.10",
+   "puan": 80,
+   "zaman": "03.10.2026 20:40:51",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "203.0.114.11",
+   "puan": 55,
+   "zaman": "03.10.2026 20:40:51",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "203.0.114.12",
+   "puan": 70,
+   "zaman": "03.10.2026 20:40:51",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "203.0.114.13",
+   "puan": 80,
+   "zaman": "03.10.2026 20:40:51",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "203.0.114.14",
+   "puan": 45,
+   "zaman": "03.10.2026 20:40:51",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "203.0.114.15",
+   "puan": 65,
+   "zaman": "03.10.2026 20:40:51",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "203.0.114.16",
+   "puan": 75,
+   "zaman": "03.10.2026 20:40:51",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "203.0.114.17",
+   "puan": 50,
+   "zaman": "03.10.2026 20:40:51",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "203.0.114.18",
+   "puan": 60,
+   "zaman": "03.10.2026 20:40:51",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "203.0.114.19",
+   "puan": 70,
+   "zaman": "03.10.2026 20:40:51",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "45.159.98.253",
+   "puan": 90,
+   "zaman": "03.10.2026 20:46:35",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "176.58.93.147",
+   "puan": 90,
+   "zaman": "03.10.2026 20:46:35",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "185.40.234.53",
+   "puan": 90,
+   "zaman": "03.10.2026 20:46:35",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "68.183.90.120",
+   "puan": 60,
+   "zaman": "03.10.2026 20:46:35",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "10.200.0.1",
+   "puan": 240,
+   "zaman": "03.10.2026 20:46:50",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "172.17.0.1",
+   "puan": 160,
+   "zaman": "03.10.2026 20:46:50",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "192.168.1.1",
+   "puan": 80,
+   "zaman": "03.10.2026 20:46:50",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "212.133.232.71",
+   "puan": 80,
+   "zaman": "03.10.2026 20:46:50",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "100.76.132.126",
+   "puan": 80,
+   "zaman": "03.10.2026 20:46:50",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "10.200.0.2",
+   "puan": 120,
+   "zaman": "03.10.2026 20:46:50",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "13.0.10.0",
+   "puan": 4360,
+   "zaman": "03.10.2026 20:46:50",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "1.21.1.24",
+   "puan": 200,
+   "zaman": "03.10.2026 20:46:50",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "1.21.1.3",
+   "puan": 40,
+   "zaman": "03.10.2026 20:46:50",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "1.21.1.15",
+   "puan": 80,
+   "zaman": "03.10.2026 20:46:50",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "0.0.0.0",
+   "puan": 80,
+   "zaman": "03.10.2026 22:07:37",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "0.4.9.11",
+   "puan": 240,
+   "zaman": "03.10.2026 22:08:22",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "93.115.79.15",
+   "puan": 120,
+   "zaman": "03.10.2026 22:08:52",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "5.2.80.90",
+   "puan": 120,
+   "zaman": "03.10.2026 22:10:13",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "49.12.193.137",
+   "puan": 60,
+   "zaman": "03.10.2026 22:11:54",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "85.199.214.98",
+   "puan": 120,
+   "zaman": "03.10.2026 22:12:05",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "185.255.95.207",
+   "puan": 120,
+   "zaman": "03.10.2026 22:14:43",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "57.131.21.173",
+   "puan": 60,
+   "zaman": "03.10.2026 22:14:43",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "62.12.173.11",
+   "puan": 120,
+   "zaman": "03.10.2026 22:22:39",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "176.58.90.207",
+   "puan": 60,
+   "zaman": "03.10.2026 22:24:00",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "176.58.93.248",
+   "puan": 60,
+   "zaman": "03.10.2026 22:24:00",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "149.28.119.105",
+   "puan": 160,
+   "zaman": "03.10.2026 22:24:31",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "155.138.243.219",
+   "puan": 160,
+   "zaman": "03.10.2026 22:24:31",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "167.179.89.145",
+   "puan": 160,
+   "zaman": "03.10.2026 22:24:31",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "134.122.94.167",
+   "puan": 160,
+   "zaman": "03.10.2026 22:24:31",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "134.122.74.153",
+   "puan": 160,
+   "zaman": "03.10.2026 22:24:31",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "192.73.252.134",
+   "puan": 160,
+   "zaman": "03.10.2026 22:24:31",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "192.36.143.130",
+   "puan": 120,
+   "zaman": "03.10.2026 22:25:02",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "37.187.145.181",
+   "puan": 120,
+   "zaman": "03.10.2026 22:26:03",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "192.168.111.132",
+   "puan": 1540,
+   "zaman": "03.10.2026 22:30:57",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "192.168.111.2",
+   "puan": 80,
+   "zaman": "03.10.2026 22:30:57",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "62.12.173.12",
+   "puan": 120,
+   "zaman": "03.10.2026 22:32:02",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "1.2.3.4",
+   "puan": 80,
+   "zaman": "03.10.2026 19:41",
+   "sebep": "WAF: Hassas dosya",
+   "kaynak": "WAF"
+  },
+  {
+   "ip": "185.220.101.99",
+   "puan": 80,
+   "zaman": "03.10.2026 19:41",
+   "sebep": "WAF: SQL Injection",
+   "kaynak": "WAF"
+  },
+  {
+   "ip": "207.148.3.137",
+   "puan": 80,
+   "zaman": "03.10.2026 22:48:20",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "46.101.74.201",
+   "puan": 80,
+   "zaman": "03.10.2026 22:48:20",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "206.189.16.32",
+   "puan": 80,
+   "zaman": "03.10.2026 22:48:20",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "64.65.63.50",
+   "puan": 80,
+   "zaman": "03.10.2026 22:48:30",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "178.33.84.131",
+   "puan": 80,
+   "zaman": "03.10.2026 22:48:41",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "203.0.113.203",
+   "puan": 80,
+   "zaman": "03.10.2026 20:12",
+   "sebep": "WAF: SQL Injection",
+   "kaynak": "WAF"
+  },
+  {
+   "ip": "203.0.113.202",
+   "puan": 80,
+   "zaman": "03.10.2026 20:12",
+   "sebep": "WAF: Path traversal",
+   "kaynak": "WAF"
+  },
+  {
+   "ip": "203.0.113.201",
+   "puan": 80,
+   "zaman": "03.10.2026 20:12",
+   "sebep": "WAF: Path traversal",
+   "kaynak": "WAF"
+  },
+  {
+   "ip": "203.0.113.213",
+   "puan": 80,
+   "zaman": "03.10.2026 20:13",
+   "sebep": "WAF: XSS HTML entity",
+   "kaynak": "WAF"
+  },
+  {
+   "ip": "203.0.113.214",
+   "puan": 80,
+   "zaman": "03.10.2026 20:13",
+   "sebep": "WAF: RFI uzak dosya",
+   "kaynak": "WAF"
+  },
+  {
+   "ip": "203.0.113.231",
+   "puan": 80,
+   "zaman": "03.10.2026 20:13",
+   "sebep": "WAF: SQL Injection",
+   "kaynak": "WAF"
+  },
+  {
+   "ip": "198.18.0.3",
+   "puan": 80,
+   "zaman": "03.10.2026 20:13",
+   "sebep": "WAF: SQL Injection",
+   "kaynak": "WAF"
+  },
+  {
+   "ip": "198.18.0.7",
+   "puan": 80,
+   "zaman": "03.10.2026 20:13",
+   "sebep": "WAF: SQL Injection",
+   "kaynak": "WAF"
+  },
+  {
+   "ip": "198.18.0.8",
+   "puan": 80,
+   "zaman": "03.10.2026 20:13",
+   "sebep": "WAF: SQL Injection",
+   "kaynak": "WAF"
+  },
+  {
+   "ip": "198.18.0.9",
+   "puan": 80,
+   "zaman": "03.10.2026 20:13",
+   "sebep": "WAF: XSS",
+   "kaynak": "WAF"
+  },
+  {
+   "ip": "198.18.0.12",
+   "puan": 80,
+   "zaman": "03.10.2026 20:13",
+   "sebep": "WAF: XSS",
+   "kaynak": "WAF"
+  },
+  {
+   "ip": "198.18.0.13",
+   "puan": 80,
+   "zaman": "03.10.2026 20:13",
+   "sebep": "WAF: XSS HTML entity",
+   "kaynak": "WAF"
+  },
+  {
+   "ip": "198.18.0.14",
+   "puan": 80,
+   "zaman": "03.10.2026 20:13",
+   "sebep": "WAF: Path traversal",
+   "kaynak": "WAF"
+  },
+  {
+   "ip": "198.18.0.15",
+   "puan": 80,
+   "zaman": "03.10.2026 20:13",
+   "sebep": "WAF: Path traversal",
+   "kaynak": "WAF"
+  },
+  {
+   "ip": "198.18.0.16",
+   "puan": 80,
+   "zaman": "03.10.2026 20:13",
+   "sebep": "WAF: Path traversal",
+   "kaynak": "WAF"
+  },
+  {
+   "ip": "198.18.0.17",
+   "puan": 80,
+   "zaman": "03.10.2026 20:13",
+   "sebep": "WAF: Path traversal",
+   "kaynak": "WAF"
+  },
+  {
+   "ip": "198.18.0.18",
+   "puan": 80,
+   "zaman": "03.10.2026 20:13",
+   "sebep": "WAF: Path traversal",
+   "kaynak": "WAF"
+  },
+  {
+   "ip": "198.18.0.20",
+   "puan": 80,
+   "zaman": "03.10.2026 20:13",
+   "sebep": "WAF: Komut enjeksiyonu",
+   "kaynak": "WAF"
+  },
+  {
+   "ip": "198.18.0.21",
+   "puan": 80,
+   "zaman": "03.10.2026 20:13",
+   "sebep": "WAF: Komut enjeksiyonu",
+   "kaynak": "WAF"
+  },
+  {
+   "ip": "198.18.0.22",
+   "puan": 80,
+   "zaman": "03.10.2026 20:13",
+   "sebep": "WAF: Komut enjeksiyonu",
+   "kaynak": "WAF"
+  },
+  {
+   "ip": "198.18.0.23",
+   "puan": 80,
+   "zaman": "03.10.2026 20:13",
+   "sebep": "WAF: Veri sizintisi",
+   "kaynak": "WAF"
+  },
+  {
+   "ip": "198.18.0.24",
+   "puan": 80,
+   "zaman": "03.10.2026 20:13",
+   "sebep": "WAF: LFI/RFI",
+   "kaynak": "WAF"
+  },
+  {
+   "ip": "198.18.0.25",
+   "puan": 80,
+   "zaman": "03.10.2026 20:13",
+   "sebep": "WAF: RFI uzak dosya",
+   "kaynak": "WAF"
+  },
+  {
+   "ip": "198.18.0.27",
+   "puan": 80,
+   "zaman": "03.10.2026 20:13",
+   "sebep": "WAF: Log4Shell",
+   "kaynak": "WAF"
+  },
+  {
+   "ip": "198.18.0.29",
+   "puan": 80,
+   "zaman": "03.10.2026 20:13",
+   "sebep": "WAF: SSRF metadata",
+   "kaynak": "WAF"
+  },
+  {
+   "ip": "198.18.0.30",
+   "puan": 80,
+   "zaman": "03.10.2026 20:13",
+   "sebep": "WAF: Web shell",
+   "kaynak": "WAF"
+  },
+  {
+   "ip": "198.18.0.31",
+   "puan": 80,
+   "zaman": "03.10.2026 20:13",
+   "sebep": "WAF: Hassas dosya",
+   "kaynak": "WAF"
+  },
+  {
+   "ip": "198.18.0.32",
+   "puan": 80,
+   "zaman": "03.10.2026 20:13",
+   "sebep": "WAF: Hassas dosya",
+   "kaynak": "WAF"
+  },
+  {
+   "ip": "198.18.0.33",
+   "puan": 80,
+   "zaman": "03.10.2026 20:13",
+   "sebep": "WAF: Kripto miner",
+   "kaynak": "WAF"
+  },
+  {
+   "ip": "198.18.0.34",
+   "puan": 80,
+   "zaman": "03.10.2026 20:13",
+   "sebep": "WAF: Ransomware kalibi",
+   "kaynak": "WAF"
+  },
+  {
+   "ip": "198.18.0.35",
+   "puan": 80,
+   "zaman": "03.10.2026 20:13",
+   "sebep": "WAF: Zararli bot",
+   "kaynak": "WAF"
+  },
+  {
+   "ip": "198.18.0.5",
+   "puan": 80,
+   "zaman": "03.10.2026 20:14",
+   "sebep": "WAF: Hex/unicode kodlama",
+   "kaynak": "WAF"
+  },
+  {
+   "ip": "198.18.0.6",
+   "puan": 80,
+   "zaman": "03.10.2026 20:14",
+   "sebep": "WAF: Hex/unicode kodlama",
+   "kaynak": "WAF"
+  },
+  {
+   "ip": "198.18.0.26",
+   "puan": 80,
+   "zaman": "03.10.2026 20:14",
+   "sebep": "WAF: Log4Shell",
+   "kaynak": "WAF"
+  },
+  {
+   "ip": "198.19.0.1",
+   "puan": 80,
+   "zaman": "03.10.2026 20:19",
+   "sebep": "WAF: SQL Injection",
+   "kaynak": "WAF"
+  },
+  {
+   "ip": "198.19.9.9",
+   "puan": 80,
+   "zaman": "03.10.2026 20:24",
+   "sebep": "WAF: SQL Injection",
+   "kaynak": "WAF"
+  },
+  {
+   "ip": "45.155.205.242",
+   "puan": 45,
+   "zaman": "03.10.2026 23:43:20",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "45.155.206.142",
+   "puan": 40,
+   "zaman": "03.10.2026 23:47:47",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "45.155.206.65",
+   "puan": 40,
+   "zaman": "03.10.2026 23:47:47",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "45.155.207.10",
+   "puan": 40,
+   "zaman": "04.10.2026 00:05:20",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "45.155.207.51",
+   "puan": 45,
+   "zaman": "04.10.2026 00:05:20",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "45.155.208.24",
+   "puan": 40,
+   "zaman": "04.10.2026 00:13:00",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "45.155.209.77",
+   "puan": 40,
+   "zaman": "04.10.2026 00:18:35",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "185.220.101.77",
+   "puan": 70,
+   "zaman": "04.10.2026 01:16:46",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "45.155.205.240",
+   "puan": 80,
+   "zaman": "03.10.2026 22:41",
+   "sebep": "WAF: SQL Injection",
+   "kaynak": "WAF"
+  },
+  {
+   "ip": "203.0.113.9",
+   "puan": 55,
+   "zaman": "04.10.2026 20:34:46",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "176.58.88.183",
+   "puan": 90,
+   "zaman": "05.10.2026 00:23:53",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "45.159.97.61",
+   "puan": 60,
+   "zaman": "05.10.2026 00:29:09",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "185.40.234.77",
+   "puan": 60,
+   "zaman": "05.10.2026 00:29:09",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "102.67.165.185",
+   "puan": 60,
+   "zaman": "05.10.2026 00:29:35",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "45.159.97.144",
+   "puan": 60,
+   "zaman": "05.10.2026 00:30:00",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "185.40.234.113",
+   "puan": 60,
+   "zaman": "05.10.2026 00:30:00",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "208.111.40.12",
+   "puan": 60,
+   "zaman": "05.10.2026 00:30:42",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "172.237.72.8",
+   "puan": 60,
+   "zaman": "05.10.2026 00:30:42",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "172.237.72.79",
+   "puan": 60,
+   "zaman": "05.10.2026 00:30:42",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "185.40.234.219",
+   "puan": 60,
+   "zaman": "05.10.2026 00:30:42",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "192.73.244.245",
+   "puan": 60,
+   "zaman": "05.10.2026 00:31:08",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "176.58.90.147",
+   "puan": 60,
+   "zaman": "05.10.2026 00:31:39",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "208.111.40.216",
+   "puan": 60,
+   "zaman": "05.10.2026 00:31:39",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "178.156.152.91",
+   "puan": 60,
+   "zaman": "05.10.2026 00:32:00",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "176.58.93.154",
+   "puan": 60,
+   "zaman": "05.10.2026 01:16:45",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "209.177.145.120",
+   "puan": 60,
+   "zaman": "05.10.2026 01:17:05",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "208.83.233.233",
+   "puan": 60,
+   "zaman": "05.10.2026 01:17:05",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "45.159.98.196",
+   "puan": 60,
+   "zaman": "05.10.2026 01:17:10",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "162.248.221.215",
+   "puan": 60,
+   "zaman": "05.10.2026 01:17:16",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "172.237.61.197",
+   "puan": 60,
+   "zaman": "05.10.2026 01:17:16",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "162.248.221.199",
+   "puan": 90,
+   "zaman": "05.10.2026 01:17:21",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "45.159.98.145",
+   "puan": 90,
+   "zaman": "05.10.2026 01:17:21",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "209.177.158.15",
+   "puan": 60,
+   "zaman": "05.10.2026 01:17:47",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "209.177.158.246",
+   "puan": 60,
+   "zaman": "05.10.2026 01:18:12",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "102.67.167.37",
+   "puan": 60,
+   "zaman": "05.10.2026 01:18:38",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "102.67.167.245",
+   "puan": 60,
+   "zaman": "05.10.2026 01:18:38",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "172.105.166.103",
+   "puan": 60,
+   "zaman": "05.10.2026 01:18:59",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "199.38.182.118",
+   "puan": 60,
+   "zaman": "05.10.2026 01:19:04",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "192.73.248.83",
+   "puan": 60,
+   "zaman": "05.10.2026 01:19:30",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "172.105.179.230",
+   "puan": 60,
+   "zaman": "05.10.2026 01:19:30",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "167.235.72.200",
+   "puan": 60,
+   "zaman": "05.10.2026 01:35:44",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "95.217.2.165",
+   "puan": 60,
+   "zaman": "05.10.2026 01:35:54",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "192.73.240.121",
+   "puan": 60,
+   "zaman": "05.10.2026 01:35:54",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "49.13.204.141",
+   "puan": 60,
+   "zaman": "05.10.2026 01:36:15",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "65.109.143.62",
+   "puan": 60,
+   "zaman": "05.10.2026 01:36:45",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "185.34.3.207",
+   "puan": 60,
+   "zaman": "05.10.2026 01:37:37",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "205.147.105.30",
+   "puan": 60,
+   "zaman": "05.10.2026 01:37:37",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "103.6.84.152",
+   "puan": 60,
+   "zaman": "05.10.2026 01:37:37",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "157.180.28.32",
+   "puan": 60,
+   "zaman": "05.10.2026 01:37:37",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "185.34.3.232",
+   "puan": 60,
+   "zaman": "05.10.2026 01:38:03",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "192.73.242.28",
+   "puan": 60,
+   "zaman": "05.10.2026 01:38:28",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "209.177.156.94",
+   "puan": 60,
+   "zaman": "05.10.2026 01:38:28",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "185.34.3.75",
+   "puan": 60,
+   "zaman": "05.10.2026 01:38:54",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "192.73.240.161",
+   "puan": 60,
+   "zaman": "05.10.2026 01:39:20",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "192.73.240.132",
+   "puan": 60,
+   "zaman": "05.10.2026 01:40:06",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "102.67.165.90",
+   "puan": 60,
+   "zaman": "05.10.2026 01:40:37",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "176.58.92.144",
+   "puan": 60,
+   "zaman": "05.10.2026 01:41:28",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "176.58.90.104",
+   "puan": 60,
+   "zaman": "05.10.2026 01:41:28",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "192.73.243.229",
+   "puan": 60,
+   "zaman": "05.10.2026 01:42:19",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "199.38.181.93",
+   "puan": 60,
+   "zaman": "05.10.2026 01:42:19",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "178.156.152.106",
+   "puan": 60,
+   "zaman": "05.10.2026 01:42:19",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "199.38.181.104",
+   "puan": 60,
+   "zaman": "05.10.2026 01:42:45",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "199.38.181.103",
+   "puan": 60,
+   "zaman": "05.10.2026 01:43:41",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "192.73.243.135",
+   "puan": 60,
+   "zaman": "05.10.2026 01:43:57",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "192.73.243.141",
+   "puan": 60,
+   "zaman": "05.10.2026 01:44:12",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "172.238.6.34",
+   "puan": 60,
+   "zaman": "05.10.2026 01:48:47",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "172.237.61.194",
+   "puan": 60,
+   "zaman": "05.10.2026 01:49:38",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "172.238.6.179",
+   "puan": 60,
+   "zaman": "05.10.2026 01:49:38",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "176.58.92.254",
+   "puan": 60,
+   "zaman": "05.10.2026 01:50:24",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "45.159.97.233",
+   "puan": 60,
+   "zaman": "05.10.2026 01:51:20",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "192.73.252.65",
+   "puan": 60,
+   "zaman": "05.10.2026 01:51:20",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "192.73.242.187",
+   "puan": 60,
+   "zaman": "05.10.2026 01:51:20",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "5.161.218.233",
+   "puan": 60,
+   "zaman": "05.10.2026 01:51:20",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "162.248.221.248",
+   "puan": 60,
+   "zaman": "05.10.2026 01:51:20",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "208.83.234.151",
+   "puan": 60,
+   "zaman": "05.10.2026 01:51:20",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "209.177.156.197",
+   "puan": 60,
+   "zaman": "05.10.2026 01:51:20",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "208.111.34.178",
+   "puan": 60,
+   "zaman": "05.10.2026 01:51:20",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "192.73.242.204",
+   "puan": 60,
+   "zaman": "05.10.2026 01:51:20",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "102.67.167.188",
+   "puan": 60,
+   "zaman": "05.10.2026 01:51:20",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "205.147.105.78",
+   "puan": 60,
+   "zaman": "05.10.2026 01:51:20",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "102.67.165.36",
+   "puan": 60,
+   "zaman": "05.10.2026 01:51:20",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "208.72.155.133",
+   "puan": 60,
+   "zaman": "05.10.2026 01:51:20",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "172.237.72.43",
+   "puan": 60,
+   "zaman": "05.10.2026 01:51:20",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "172.237.61.190",
+   "puan": 60,
+   "zaman": "05.10.2026 01:51:20",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "172.237.28.183",
+   "puan": 60,
+   "zaman": "05.10.2026 01:51:20",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "172.105.169.57",
+   "puan": 60,
+   "zaman": "05.10.2026 01:51:20",
+   "sebep": "otomatik",
+   "kaynak": "MOTOR"
+  },
+  {
+   "ip": "203.0.113.99",
+   "puan": 95,
+   "zaman": "05.10.2026 02:14",
+   "sebep": "WAF v10: SQL Injection + HTTP Anomali",
+   "kaynak": "WAF"
+  },
+  {
+   "ip": "203.0.113.88",
+   "puan": 100,
+   "zaman": "05.10.2026 02:29",
+   "sebep": "WAF v10: SQL Injection + HTTP Anomali",
+   "kaynak": "WAF"
+  },
+  {
+   "ip": "203.0.113.55",
+   "puan": 95,
+   "zaman": "05.10.2026 02:56",
+   "sebep": "WAF v10: SQL Injection + HTTP Anomali",
+   "kaynak": "WAF"
+  },
+  {
+   "ip": "203.0.113.5",
+   "puan": 75,
+   "zaman": "05.10.2026 03:28",
+   "sebep": "WAF v10: SQL Injection",
+   "kaynak": "WAF"
+  },
+  {
+   "ip": "198.51.100.9",
+   "puan": 95,
+   "zaman": "05.10.2026 13:13",
+   "sebep": "WAF v10: SQL Injection + HTTP Anomali",
+   "kaynak": "WAF"
+  }
+ ]
+}

@@ -1,0 +1,10 @@
+{
+ "guncelleme": "06.10.2026 00:00",
+ "bulgular": [
+  {
+   "tip": "bilgi",
+   "mesaj": "K8s ortami yok"
+  }
+ ],
+ "k8s": false
+}

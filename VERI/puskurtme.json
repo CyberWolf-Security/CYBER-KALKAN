@@ -1,0 +1,7 @@
+{
+ "guncelleme": "05.10.2026 23:47:03",
+ "kesilen_ip": 1298,
+ "kesilen_ag": 48,
+ "mod": "KESME (kilic)",
+ "kural": "reject tcp reset + output drop"
+}

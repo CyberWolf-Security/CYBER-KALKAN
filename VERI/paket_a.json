@@ -1,0 +1,33 @@
+{
+ "guncelleme": "06.10.2026 00:00",
+ "sonuc": [
+  [
+   "cdb_engelli_ip",
+   1298
+  ],
+  [
+   "cdb_ioc",
+   401
+  ],
+  [
+   "cdb_kotu_bot",
+   18
+  ],
+  [
+   "decoder",
+   11
+  ],
+  [
+   "geoip_asn",
+   12
+  ],
+  [
+   "arsivleme",
+   "aktif"
+  ],
+  [
+   "kural_test",
+   "aktif"
+  ]
+ ]
+}

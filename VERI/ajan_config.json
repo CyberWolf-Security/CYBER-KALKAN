@@ -1,0 +1,31 @@
+{
+ "surum": "1.0",
+ "guncelleme": "06.10.2026 00:00",
+ "toplama_aralik_sn": 60,
+ "izlenecek_yollar": [
+  "/var/log/auth.log",
+  "/var/log/syslog",
+  "/etc/passwd",
+  "/etc/shadow",
+  "/etc/crontab"
+ ],
+ "fim_aktif": true,
+ "fim_aralik_sn": 15,
+ "sistem_bilgisi": [
+  "cpu",
+  "ram",
+  "disk",
+  "yuk",
+  "surecler",
+  "portlar"
+ ],
+ "moduller": [
+  "log",
+  "fim",
+  "sistem",
+  "guvenlik",
+  "rootkit"
+ ],
+ "log_limit_satir": 500,
+ "acil_durum": false
+}

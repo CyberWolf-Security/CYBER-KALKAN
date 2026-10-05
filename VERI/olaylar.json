@@ -1,0 +1,4506 @@
+{
+ "guncelleme": "05.10.2026 21:47:14",
+ "toplam": 15981,
+ "olaylar": [
+  {
+   "zaman": "06.10.2026 00:25:01",
+   "ip": "localhost",
+   "kural": "FIM",
+   "seviye": "YUKSEK",
+   "aciklama": "FIM: PANEL: ortak.php degisti",
+   "kaynak": "fim",
+   "mitre": "T1565.001"
+  },
+  {
+   "zaman": "06.10.2026 00:20:25",
+   "ip": "localhost",
+   "kural": "AV",
+   "seviye": "YUKSEK",
+   "aciklama": "AV: kalkan_fim_v10.py · Preload kancasi (rootkit)",
+   "kaynak": "av",
+   "mitre": "T1204"
+  },
+  {
+   "zaman": "06.10.2026 00:20:25",
+   "ip": "localhost",
+   "kural": "AV",
+   "seviye": "YUKSEK",
+   "aciklama": "AV: kalkan_sca_v10.py · Preload kancasi (rootkit)",
+   "kaynak": "av",
+   "mitre": "T1204"
+  },
+  {
+   "zaman": "06.10.2026 00:20:25",
+   "ip": "localhost",
+   "kural": "AV",
+   "seviye": "YUKSEK",
+   "aciklama": "AV: kalkan_test.py · Guvenlik devre disi",
+   "kaynak": "av",
+   "mitre": "T1204"
+  },
+  {
+   "zaman": "06.10.2026 00:20:25",
+   "ip": "localhost",
+   "kural": "AV",
+   "seviye": "YUKSEK",
+   "aciklama": "AV: modul_test.py · Guvenlik devre disi",
+   "kaynak": "av",
+   "mitre": "T1204"
+  },
+  {
+   "zaman": "06.10.2026 00:20:25",
+   "ip": "localhost",
+   "kural": "AV",
+   "seviye": "YUKSEK",
+   "aciklama": "AV: paket_c.py · Guvenlik devre disi",
+   "kaynak": "av",
+   "mitre": "T1204"
+  },
+  {
+   "zaman": "06.10.2026 00:20:25",
+   "ip": "localhost",
+   "kural": "AV",
+   "seviye": "YUKSEK",
+   "aciklama": "AV: tam_dogrulama.py · Guvenlik devre disi",
+   "kaynak": "av",
+   "mitre": "T1204"
+  },
+  {
+   "zaman": "06.10.2026 00:20:24",
+   "ip": "localhost",
+   "kural": "AV",
+   "seviye": "YUKSEK",
+   "aciklama": "AV: guvenlik.php · Guvenlik devre disi",
+   "kaynak": "av",
+   "mitre": "T1204"
+  },
+  {
+   "zaman": "06.10.2026 00:20:21",
+   "ip": "localhost",
+   "kural": "AV",
+   "seviye": "YUKSEK",
+   "aciklama": "AV: _spdx.cpython-314.pyc · Guvenlik devre disi",
+   "kaynak": "av",
+   "mitre": "T1204"
+  },
+  {
+   "zaman": "06.10.2026 00:20:21",
+   "ip": "localhost",
+   "kural": "AV",
+   "seviye": "YUKSEK",
+   "aciklama": "AV: _spdx.py · Guvenlik devre disi",
+   "kaynak": "av",
+   "mitre": "T1204"
+  },
+  {
+   "zaman": "06.10.2026 00:20:04",
+   "ip": "localhost",
+   "kural": "AV",
+   "seviye": "YUKSEK",
+   "aciklama": "AV: notags.html · Guvenlik devre disi",
+   "kaynak": "av",
+   "mitre": "T1204"
+  },
+  {
+   "zaman": "06.10.2026 00:20:02",
+   "ip": "localhost",
+   "kural": "FIM",
+   "seviye": "YUKSEK",
+   "aciklama": "FIM: PANEL: ortak.php degisti",
+   "kaynak": "fim",
+   "mitre": "T1565.001"
+  },
+  {
+   "zaman": "06.10.2026 00:10:02",
+   "ip": "localhost",
+   "kural": "FIM",
+   "seviye": "YUKSEK",
+   "aciklama": "FIM: PANEL: ayarlar.php degisti",
+   "kaynak": "fim",
+   "mitre": "T1565.001"
+  },
+  {
+   "zaman": "06.10.2026 00:10:02",
+   "ip": "localhost",
+   "kural": "FIM",
+   "seviye": "YUKSEK",
+   "aciklama": "FIM: PANEL: ortak.php degisti",
+   "kaynak": "fim",
+   "mitre": "T1565.001"
+  },
+  {
+   "zaman": "06.10.2026 00:10:02",
+   "ip": "localhost",
+   "kural": "FIM",
+   "seviye": "YUKSEK",
+   "aciklama": "FIM: PANEL: ayarlar.php degisti",
+   "kaynak": "fim",
+   "mitre": "T1565.001"
+  },
+  {
+   "zaman": "06.10.2026 00:10:02",
+   "ip": "localhost",
+   "kural": "FIM",
+   "seviye": "YUKSEK",
+   "aciklama": "FIM: PANEL: ortak.php degisti",
+   "kaynak": "fim",
+   "mitre": "T1565.001"
+  },
+  {
+   "zaman": "06.10.2026 00:05:01",
+   "ip": "localhost",
+   "kural": "FIM",
+   "seviye": "KRITIK",
+   "aciklama": "FIM: PANEL: giris.php degisti",
+   "kaynak": "fim",
+   "mitre": "T1565.001"
+  },
+  {
+   "zaman": "06.10.2026 00:00:23",
+   "ip": "localhost",
+   "kural": "AV",
+   "seviye": "YUKSEK",
+   "aciklama": "AV: modul_test.py · Guvenlik devre disi",
+   "kaynak": "av",
+   "mitre": "T1204"
+  },
+  {
+   "zaman": "06.10.2026 00:00:23",
+   "ip": "localhost",
+   "kural": "AV",
+   "seviye": "YUKSEK",
+   "aciklama": "AV: paket_c.py · Guvenlik devre disi",
+   "kaynak": "av",
+   "mitre": "T1204"
+  },
+  {
+   "zaman": "06.10.2026 00:00:23",
+   "ip": "localhost",
+   "kural": "AV",
+   "seviye": "YUKSEK",
+   "aciklama": "AV: tam_dogrulama.py · Guvenlik devre disi",
+   "kaynak": "av",
+   "mitre": "T1204"
+  },
+  {
+   "zaman": "06.10.2026 00:00:22",
+   "ip": "localhost",
+   "kural": "AV",
+   "seviye": "YUKSEK",
+   "aciklama": "AV: guvenlik.php · Guvenlik devre disi",
+   "kaynak": "av",
+   "mitre": "T1204"
+  },
+  {
+   "zaman": "06.10.2026 00:00:20",
+   "ip": "localhost",
+   "kural": "AV",
+   "seviye": "YUKSEK",
+   "aciklama": "AV: _spdx.cpython-314.pyc · Guvenlik devre disi",
+   "kaynak": "av",
+   "mitre": "T1204"
+  },
+  {
+   "zaman": "06.10.2026 00:00:20",
+   "ip": "localhost",
+   "kural": "AV",
+   "seviye": "YUKSEK",
+   "aciklama": "AV: _spdx.py · Guvenlik devre disi",
+   "kaynak": "av",
+   "mitre": "T1204"
+  },
+  {
+   "zaman": "06.10.2026 00:00:06",
+   "ip": "localhost",
+   "kural": "AV",
+   "seviye": "KRITIK",
+   "aciklama": "AV: tar17 · Kripto madenci",
+   "kaynak": "av",
+   "mitre": "T1204"
+  },
+  {
+   "zaman": "06.10.2026 00:00:06",
+   "ip": "localhost",
+   "kural": "AV",
+   "seviye": "KRITIK",
+   "aciklama": "AV: nocomment.html · Kripto madenci",
+   "kaynak": "av",
+   "mitre": "T1204"
+  },
+  {
+   "zaman": "06.10.2026 00:00:05",
+   "ip": "localhost",
+   "kural": "AV",
+   "seviye": "YUKSEK",
+   "aciklama": "AV: notags.html · Guvenlik devre disi",
+   "kaynak": "av",
+   "mitre": "T1204"
+  },
+  {
+   "zaman": "06.10.2026 00:00:05",
+   "ip": "localhost",
+   "kural": "AV",
+   "seviye": "KRITIK",
+   "aciklama": "AV: javascript · Kripto madenci",
+   "kaynak": "av",
+   "mitre": "T1204"
+  },
+  {
+   "zaman": "05.10.2026 23:55:01",
+   "ip": "localhost",
+   "kural": "FIM",
+   "seviye": "YUKSEK",
+   "aciklama": "FIM: MOTOR: kalkan_motor.py degisti",
+   "kaynak": "fim",
+   "mitre": "T1565.001"
+  },
+  {
+   "zaman": "05.10.2026 23:55:01",
+   "ip": "localhost",
+   "kural": "FIM",
+   "seviye": "YUKSEK",
+   "aciklama": "FIM: PANEL: ortak.php degisti",
+   "kaynak": "fim",
+   "mitre": "T1565.001"
+  },
+  {
+   "zaman": "05.10.2026 23:40:05",
+   "ip": "localhost",
+   "kural": "AV",
+   "seviye": "YUKSEK",
+   "aciklama": "AV: guvenlik.php · Guvenlik devre disi",
+   "kaynak": "av",
+   "mitre": "T1204"
+  },
+  {
+   "zaman": "05.10.2026 23:40:05",
+   "ip": "localhost",
+   "kural": "AV",
+   "seviye": "YUKSEK",
+   "aciklama": "AV: kalkan_av.py · Guvenlik devre disi",
+   "kaynak": "av",
+   "mitre": "T1204"
+  },
+  {
+   "zaman": "05.10.2026 23:40:05",
+   "ip": "localhost",
+   "kural": "AV",
+   "seviye": "YUKSEK",
+   "aciklama": "AV: kalkan_bulut_v10.py · Guvenlik devre disi",
+   "kaynak": "av",
+   "mitre": "T1204"
+  },
+  {
+   "zaman": "05.10.2026 23:40:05",
+   "ip": "localhost",
+   "kural": "AV",
+   "seviye": "YUKSEK",
+   "aciklama": "AV: kalkan_fim_v10.py · Preload kancasi (rootkit)",
+   "kaynak": "av",
+   "mitre": "T1204"
+  },
+  {
+   "zaman": "05.10.2026 23:40:05",
+   "ip": "localhost",
+   "kural": "AV",
+   "seviye": "YUKSEK",
+   "aciklama": "AV: kalkan_sca_v10.py · Preload kancasi (rootkit)",
+   "kaynak": "av",
+   "mitre": "T1204"
+  },
+  {
+   "zaman": "05.10.2026 23:40:05",
+   "ip": "localhost",
+   "kural": "AV",
+   "seviye": "YUKSEK",
+   "aciklama": "AV: kalkan_test.py · Guvenlik devre disi",
+   "kaynak": "av",
+   "mitre": "T1204"
+  },
+  {
+   "zaman": "05.10.2026 23:40:05",
+   "ip": "localhost",
+   "kural": "AV",
+   "seviye": "YUKSEK",
+   "aciklama": "AV: modul_test.py · Guvenlik devre disi",
+   "kaynak": "av",
+   "mitre": "T1204"
+  },
+  {
+   "zaman": "05.10.2026 23:40:05",
+   "ip": "localhost",
+   "kural": "AV",
+   "seviye": "YUKSEK",
+   "aciklama": "AV: paket_c.py · Guvenlik devre disi",
+   "kaynak": "av",
+   "mitre": "T1204"
+  },
+  {
+   "zaman": "05.10.2026 23:40:05",
+   "ip": "localhost",
+   "kural": "AV",
+   "seviye": "YUKSEK",
+   "aciklama": "AV: tam_dogrulama.py · Guvenlik devre disi",
+   "kaynak": "av",
+   "mitre": "T1204"
+  },
+  {
+   "zaman": "05.10.2026 23:40:04",
+   "ip": "localhost",
+   "kural": "AV",
+   "seviye": "YUKSEK",
+   "aciklama": "AV: guvenlik.php · Guvenlik devre disi",
+   "kaynak": "av",
+   "mitre": "T1204"
+  },
+  {
+   "zaman": "05.10.2026 23:39:41",
+   "ip": "localhost",
+   "kural": "FIM",
+   "seviye": "KRITIK",
+   "aciklama": "FIM: PANEL: giris.php degisti",
+   "kaynak": "fim",
+   "mitre": "T1565.001"
+  },
+  {
+   "zaman": "05.10.2026 23:39:35",
+   "ip": "localhost",
+   "kural": "FIM",
+   "seviye": "KRITIK",
+   "aciklama": "FIM: PANEL: giris.php degisti",
+   "kaynak": "fim",
+   "mitre": "T1565.001"
+  },
+  {
+   "zaman": "05.10.2026 23:39:08",
+   "ip": "localhost",
+   "kural": "FIM",
+   "seviye": "KRITIK",
+   "aciklama": "FIM: PANEL: giris.php degisti",
+   "kaynak": "fim",
+   "mitre": "T1565.001"
+  },
+  {
+   "zaman": "05.10.2026 23:20:04",
+   "ip": "localhost",
+   "kural": "AV",
+   "seviye": "YUKSEK",
+   "aciklama": "AV: guvenlik.php · Guvenlik devre disi",
+   "kaynak": "av",
+   "mitre": "T1204"
+  },
+  {
+   "zaman": "05.10.2026 23:20:04",
+   "ip": "localhost",
+   "kural": "AV",
+   "seviye": "YUKSEK",
+   "aciklama": "AV: kalkan_av.py · Guvenlik devre disi",
+   "kaynak": "av",
+   "mitre": "T1204"
+  },
+  {
+   "zaman": "05.10.2026 23:20:04",
+   "ip": "localhost",
+   "kural": "AV",
+   "seviye": "YUKSEK",
+   "aciklama": "AV: kalkan_bulut_v10.py · Guvenlik devre disi",
+   "kaynak": "av",
+   "mitre": "T1204"
+  },
+  {
+   "zaman": "05.10.2026 23:20:04",
+   "ip": "localhost",
+   "kural": "AV",
+   "seviye": "YUKSEK",
+   "aciklama": "AV: kalkan_fim_v10.py · Preload kancasi (rootkit)",
+   "kaynak": "av",
+   "mitre": "T1204"
+  },
+  {
+   "zaman": "05.10.2026 23:20:04",
+   "ip": "localhost",
+   "kural": "AV",
+   "seviye": "YUKSEK",
+   "aciklama": "AV: kalkan_sca_v10.py · Preload kancasi (rootkit)",
+   "kaynak": "av",
+   "mitre": "T1204"
+  },
+  {
+   "zaman": "05.10.2026 23:20:04",
+   "ip": "localhost",
+   "kural": "AV",
+   "seviye": "YUKSEK",
+   "aciklama": "AV: kalkan_test.py · Guvenlik devre disi",
+   "kaynak": "av",
+   "mitre": "T1204"
+  },
+  {
+   "zaman": "05.10.2026 23:20:04",
+   "ip": "localhost",
+   "kural": "AV",
+   "seviye": "YUKSEK",
+   "aciklama": "AV: modul_test.py · Guvenlik devre disi",
+   "kaynak": "av",
+   "mitre": "T1204"
+  },
+  {
+   "zaman": "05.10.2026 23:20:04",
+   "ip": "localhost",
+   "kural": "AV",
+   "seviye": "YUKSEK",
+   "aciklama": "AV: paket_c.py · Guvenlik devre disi",
+   "kaynak": "av",
+   "mitre": "T1204"
+  },
+  {
+   "zaman": "05.10.2026 23:20:04",
+   "ip": "localhost",
+   "kural": "AV",
+   "seviye": "YUKSEK",
+   "aciklama": "AV: tam_dogrulama.py · Guvenlik devre disi",
+   "kaynak": "av",
+   "mitre": "T1204"
+  },
+  {
+   "zaman": "05.10.2026 23:20:04",
+   "ip": "localhost",
+   "kural": "AV",
+   "seviye": "YUKSEK",
+   "aciklama": "AV: guvenlik.php · Guvenlik devre disi",
+   "kaynak": "av",
+   "mitre": "T1204"
+  },
+  {
+   "zaman": "05.10.2026 23:00:04",
+   "ip": "localhost",
+   "kural": "AV",
+   "seviye": "YUKSEK",
+   "aciklama": "AV: guvenlik.php · Guvenlik devre disi",
+   "kaynak": "av",
+   "mitre": "T1204"
+  },
+  {
+   "zaman": "05.10.2026 23:00:04",
+   "ip": "localhost",
+   "kural": "AV",
+   "seviye": "YUKSEK",
+   "aciklama": "AV: kalkan_av.py · Guvenlik devre disi",
+   "kaynak": "av",
+   "mitre": "T1204"
+  },
+  {
+   "zaman": "05.10.2026 23:00:04",
+   "ip": "localhost",
+   "kural": "AV",
+   "seviye": "YUKSEK",
+   "aciklama": "AV: kalkan_bulut_v10.py · Guvenlik devre disi",
+   "kaynak": "av",
+   "mitre": "T1204"
+  },
+  {
+   "zaman": "05.10.2026 23:00:04",
+   "ip": "localhost",
+   "kural": "AV",
+   "seviye": "YUKSEK",
+   "aciklama": "AV: kalkan_fim_v10.py · Preload kancasi (rootkit)",
+   "kaynak": "av",
+   "mitre": "T1204"
+  },
+  {
+   "zaman": "05.10.2026 23:00:04",
+   "ip": "localhost",
+   "kural": "AV",
+   "seviye": "YUKSEK",
+   "aciklama": "AV: kalkan_sca_v10.py · Preload kancasi (rootkit)",
+   "kaynak": "av",
+   "mitre": "T1204"
+  },
+  {
+   "zaman": "05.10.2026 23:00:04",
+   "ip": "localhost",
+   "kural": "AV",
+   "seviye": "YUKSEK",
+   "aciklama": "AV: kalkan_test.py · Guvenlik devre disi",
+   "kaynak": "av",
+   "mitre": "T1204"
+  },
+  {
+   "zaman": "05.10.2026 23:00:04",
+   "ip": "localhost",
+   "kural": "AV",
+   "seviye": "YUKSEK",
+   "aciklama": "AV: modul_test.py · Guvenlik devre disi",
+   "kaynak": "av",
+   "mitre": "T1204"
+  },
+  {
+   "zaman": "05.10.2026 23:00:04",
+   "ip": "localhost",
+   "kural": "AV",
+   "seviye": "YUKSEK",
+   "aciklama": "AV: paket_c.py · Guvenlik devre disi",
+   "kaynak": "av",
+   "mitre": "T1204"
+  },
+  {
+   "zaman": "05.10.2026 23:00:04",
+   "ip": "localhost",
+   "kural": "AV",
+   "seviye": "YUKSEK",
+   "aciklama": "AV: tam_dogrulama.py · Guvenlik devre disi",
+   "kaynak": "av",
+   "mitre": "T1204"
+  },
+  {
+   "zaman": "05.10.2026 23:00:04",
+   "ip": "localhost",
+   "kural": "AV",
+   "seviye": "YUKSEK",
+   "aciklama": "AV: guvenlik.php · Guvenlik devre disi",
+   "kaynak": "av",
+   "mitre": "T1204"
+  },
+  {
+   "zaman": "05.10.2026 22:40:03",
+   "ip": "localhost",
+   "kural": "AV",
+   "seviye": "YUKSEK",
+   "aciklama": "AV: kalkan_sca_v10.py · Preload kancasi (rootkit)",
+   "kaynak": "av",
+   "mitre": "T1204"
+  },
+  {
+   "zaman": "05.10.2026 22:40:03",
+   "ip": "localhost",
+   "kural": "AV",
+   "seviye": "YUKSEK",
+   "aciklama": "AV: kalkan_test.py · Guvenlik devre disi",
+   "kaynak": "av",
+   "mitre": "T1204"
+  },
+  {
+   "zaman": "05.10.2026 22:40:03",
+   "ip": "localhost",
+   "kural": "AV",
+   "seviye": "YUKSEK",
+   "aciklama": "AV: modul_test.py · Guvenlik devre disi",
+   "kaynak": "av",
+   "mitre": "T1204"
+  },
+  {
+   "zaman": "05.10.2026 22:40:03",
+   "ip": "localhost",
+   "kural": "AV",
+   "seviye": "YUKSEK",
+   "aciklama": "AV: paket_c.py · Guvenlik devre disi",
+   "kaynak": "av",
+   "mitre": "T1204"
+  },
+  {
+   "zaman": "05.10.2026 22:40:03",
+   "ip": "localhost",
+   "kural": "AV",
+   "seviye": "YUKSEK",
+   "aciklama": "AV: tam_dogrulama.py · Guvenlik devre disi",
+   "kaynak": "av",
+   "mitre": "T1204"
+  },
+  {
+   "zaman": "05.10.2026 22:40:03",
+   "ip": "localhost",
+   "kural": "AV",
+   "seviye": "KRITIK",
+   "aciklama": "AV: waf.php · Kripto madenci",
+   "kaynak": "av",
+   "mitre": "T1204"
+  },
+  {
+   "zaman": "05.10.2026 22:40:03",
+   "ip": "localhost",
+   "kural": "AV",
+   "seviye": "YUKSEK",
+   "aciklama": "AV: guvenlik.php · Guvenlik devre disi",
+   "kaynak": "av",
+   "mitre": "T1204"
+  },
+  {
+   "zaman": "05.10.2026 22:40:03",
+   "ip": "localhost",
+   "kural": "AV",
+   "seviye": "KRITIK",
+   "aciklama": "AV: waf.php · Kripto madenci",
+   "kaynak": "av",
+   "mitre": "T1204"
+  },
+  {
+   "zaman": "05.10.2026 22:40:03",
+   "ip": "localhost",
+   "kural": "AV",
+   "seviye": "KRITIK",
+   "aciklama": "AV: kurallar.json · Kripto madenci",
+   "kaynak": "av",
+   "mitre": "T1204"
+  },
+  {
+   "zaman": "05.10.2026 22:40:03",
+   "ip": "localhost",
+   "kural": "AV",
+   "seviye": "KRITIK",
+   "aciklama": "AV: kurallar_yedek.json · Kripto madenci",
+   "kaynak": "av",
+   "mitre": "T1204"
+  },
+  {
+   "zaman": "05.10.2026 22:20:03",
+   "ip": "localhost",
+   "kural": "AV",
+   "seviye": "YUKSEK",
+   "aciklama": "AV: kalkan_sca_v10.py · Preload kancasi (rootkit)",
+   "kaynak": "av",
+   "mitre": "T1204"
+  },
+  {
+   "zaman": "05.10.2026 22:20:03",
+   "ip": "localhost",
+   "kural": "AV",
+   "seviye": "YUKSEK",
+   "aciklama": "AV: kalkan_test.py · Guvenlik devre disi",
+   "kaynak": "av",
+   "mitre": "T1204"
+  },
+  {
+   "zaman": "05.10.2026 22:20:03",
+   "ip": "localhost",
+   "kural": "AV",
+   "seviye": "YUKSEK",
+   "aciklama": "AV: modul_test.py · Guvenlik devre disi",
+   "kaynak": "av",
+   "mitre": "T1204"
+  },
+  {
+   "zaman": "05.10.2026 22:20:03",
+   "ip": "localhost",
+   "kural": "AV",
+   "seviye": "YUKSEK",
+   "aciklama": "AV: paket_c.py · Guvenlik devre disi",
+   "kaynak": "av",
+   "mitre": "T1204"
+  },
+  {
+   "zaman": "05.10.2026 22:20:03",
+   "ip": "localhost",
+   "kural": "AV",
+   "seviye": "YUKSEK",
+   "aciklama": "AV: tam_dogrulama.py · Guvenlik devre disi",
+   "kaynak": "av",
+   "mitre": "T1204"
+  },
+  {
+   "zaman": "05.10.2026 22:20:03",
+   "ip": "localhost",
+   "kural": "AV",
+   "seviye": "KRITIK",
+   "aciklama": "AV: waf.php · Kripto madenci",
+   "kaynak": "av",
+   "mitre": "T1204"
+  },
+  {
+   "zaman": "05.10.2026 22:20:03",
+   "ip": "localhost",
+   "kural": "AV",
+   "seviye": "YUKSEK",
+   "aciklama": "AV: guvenlik.php · Guvenlik devre disi",
+   "kaynak": "av",
+   "mitre": "T1204"
+  },
+  {
+   "zaman": "05.10.2026 22:20:03",
+   "ip": "localhost",
+   "kural": "AV",
+   "seviye": "KRITIK",
+   "aciklama": "AV: waf.php · Kripto madenci",
+   "kaynak": "av",
+   "mitre": "T1204"
+  },
+  {
+   "zaman": "05.10.2026 22:20:03",
+   "ip": "localhost",
+   "kural": "AV",
+   "seviye": "KRITIK",
+   "aciklama": "AV: kurallar.json · Kripto madenci",
+   "kaynak": "av",
+   "mitre": "T1204"
+  },
+  {
+   "zaman": "05.10.2026 22:20:03",
+   "ip": "localhost",
+   "kural": "AV",
+   "seviye": "KRITIK",
+   "aciklama": "AV: kurallar_yedek.json · Kripto madenci",
+   "kaynak": "av",
+   "mitre": "T1204"
+  },
+  {
+   "zaman": "05.10.2026 21:47:14",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:47:14",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:47:09",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:47:09",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:47:09",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:47:09",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:47:03",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:47:03",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:47:03",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:47:03",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:47:03",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:58",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:58",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:58",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:58",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:58",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:53",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:53",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:53",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:53",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:53",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:48",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:48",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:48",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:48",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:48",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:43",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:43",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:43",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:43",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:43",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:43",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:43",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:43",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:43",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:43",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:38",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:38",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:38",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:38",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:38",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:38",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:38",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:38",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:38",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:38",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:33",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:33",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:33",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:33",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:33",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:33",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:33",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:33",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:33",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:33",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:28",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:28",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:28",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:28",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:28",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:28",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:28",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:28",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:28",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:28",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:23",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:23",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:23",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:23",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:23",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:23",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:23",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:23",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:23",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:23",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:18",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:18",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:18",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:18",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:18",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:18",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:18",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:18",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:18",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:18",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:13",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:13",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:13",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:13",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:13",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:13",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:13",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:13",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:13",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:13",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:08",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:08",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:08",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:08",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:08",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:08",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:08",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:08",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:08",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:08",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:03",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:03",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:03",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:03",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:03",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:03",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:03",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:03",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:03",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:46:03",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:57",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:57",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:57",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:57",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:57",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:57",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:57",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:57",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:57",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:57",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:52",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:52",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:52",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:52",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:52",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:52",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:52",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:52",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:52",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:52",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:47",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:47",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:47",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:47",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:47",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:47",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:47",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:47",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:47",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:47",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:42",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:42",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:42",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:42",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:42",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:42",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:42",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:42",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:42",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:42",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:37",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:37",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:37",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:37",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:37",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:37",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:37",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:37",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:37",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:37",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:32",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:32",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:32",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:32",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:32",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:32",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:32",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:32",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:32",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:32",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:27",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:27",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:27",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:27",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:27",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:27",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:27",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:27",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:27",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:27",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:22",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:22",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:22",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:22",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:22",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:22",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:22",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:22",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:22",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:22",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:17",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:17",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:17",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:17",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:17",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:17",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:17",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:17",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:17",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:17",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:12",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:12",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:12",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:12",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:12",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:12",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:12",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:12",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:12",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:12",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:07",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:07",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:07",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:07",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:07",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:07",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:07",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:07",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:07",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:07",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:02",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:02",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:02",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:02",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:02",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:02",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:02",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:02",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:02",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:45:02",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:57",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:57",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:57",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:57",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:57",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:57",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:57",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:57",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:57",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:57",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:52",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:52",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:52",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:52",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:52",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:52",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:52",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:52",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:52",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:52",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:47",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:47",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:47",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:47",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:47",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:47",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:47",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:47",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:47",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:47",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:41",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:41",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:41",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:41",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:41",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:41",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:41",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:41",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:41",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:41",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:36",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:36",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:36",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:36",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:36",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:36",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:36",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:36",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:36",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:36",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:31",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:31",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:31",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:31",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:31",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:31",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:31",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:31",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:31",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:31",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:26",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:26",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:26",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:26",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:26",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:26",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:26",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:26",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:26",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:26",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:21",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:21",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:21",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:21",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:21",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:21",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:21",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:21",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:21",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:21",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:16",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:16",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:16",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:16",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:16",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:16",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:16",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:16",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:16",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:16",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:11",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:11",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:11",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:11",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:11",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:11",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:11",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:11",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:11",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:11",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:06",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:06",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:06",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:06",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:06",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:06",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:06",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:06",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:06",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:06",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:01",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:01",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:01",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:01",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:01",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:01",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:01",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:01",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:01",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:44:01",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:43:56",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:43:56",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:43:56",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:43:56",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:43:56",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:43:56",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:43:56",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:43:56",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:43:56",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:43:56",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:43:51",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:43:51",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:43:51",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:43:51",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:43:51",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:43:51",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:43:51",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:43:51",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:43:51",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:43:51",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:43:46",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:43:46",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:43:46",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:43:46",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:43:46",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:43:46",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:43:46",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:43:46",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:43:46",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:43:46",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:43:41",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:43:41",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:43:41",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:43:41",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:43:41",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:43:41",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:43:41",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:43:41",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:43:41",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:43:41",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:43:35",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:43:35",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:43:35",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:43:35",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:43:35",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:43:35",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:43:35",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:43:35",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:43:35",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:43:35",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:43:30",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:43:30",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:43:30",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:43:30",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:43:30",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:43:30",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:43:30",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:43:30",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:43:30",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:43:30",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:43:25",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  },
+  {
+   "zaman": "05.10.2026 21:43:25",
+   "ip": "162.159.207.0",
+   "kural": 2000,
+   "seviye": "ORTA",
+   "aciklama": "Suricata IDS: ET INFO Session Traversal Utilities for NAT (STUN Binding Response) [sev=3] Misc",
+   "kaynak": "suricata",
+   "mitre": "T1190"
+  }
+ ]
+}

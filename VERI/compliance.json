@@ -1,0 +1,64 @@
+{
+ "tarih": "05.10.2026 23:59",
+ "skor": 92,
+ "gecen": 13,
+ "toplam": 14,
+ "kontroller": [
+  {
+   "ad": "A.9.2 SSH sifre girisi kapali",
+   "ok": true
+  },
+  {
+   "ad": "A.9.4.1 Root SSH kisitli",
+   "ok": true
+  },
+  {
+   "ad": "A.12.4 Sistem loglama aktif",
+   "ok": true
+  },
+  {
+   "ad": "A.12.6 Zafiyet taramasi yapildi",
+   "ok": true
+  },
+  {
+   "ad": "A.14.2 Guvenli yapilandirma (SCA)",
+   "ok": true
+  },
+  {
+   "ad": "A.12.3 Yedekleme aktif",
+   "ok": true
+  },
+  {
+   "ad": "A.13.1 Firewall aktif",
+   "ok": true
+  },
+  {
+   "ad": "A.12.2 Kotu yazilim korumasi",
+   "ok": true
+  },
+  {
+   "ad": "A.16.1 Olay yonetimi (vaka)",
+   "ok": true
+  },
+  {
+   "ad": "A.18.1 Uyumluluk izleme (FIM)",
+   "ok": true
+  },
+  {
+   "ad": "PCI 2.2 Sistem sertlestirme",
+   "ok": true
+  },
+  {
+   "ad": "PCI 6.2 Guvenlik yamalari",
+   "ok": true
+  },
+  {
+   "ad": "PCI 10 Log kaydi (IDS)",
+   "ok": true
+  },
+  {
+   "ad": "PCI 11.4 IDS/IPS aktif",
+   "ok": false
+  }
+ ]
+}

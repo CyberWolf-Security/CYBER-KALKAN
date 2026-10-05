@@ -1,0 +1,26 @@
+{
+ "zaman": "06.10.2026 00:30:02",
+ "analiz_edilen_ip": 2,
+ "anormal_ip": 0,
+ "yuksek_riskli": [],
+ "trendler": [
+  {
+   "kural": "2000",
+   "adet": 418,
+   "oran": 83.6
+  }
+ ],
+ "skorlar": {
+  "162.159.207.0": 3,
+  "localhost": 2
+ },
+ "esikler": {
+  "yeni_ip_agirlik": 3,
+  "yuksek_hacim": 50,
+  "gece_aktivite": 2,
+  "cok_kural": 5,
+  "yeni_ulke": 2,
+  "anomali_skor": 6,
+  "min_olay": 3
+ }
+}

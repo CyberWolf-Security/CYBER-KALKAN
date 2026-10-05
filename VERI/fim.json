@@ -1,0 +1,541 @@
+{
+ "zaman": "06.10.2026 00:30:02",
+ "izlenen": 31,
+ "saglam": 28,
+ "degisim_sayisi": 0,
+ "toplam": 10,
+ "baseline": {
+  "/etc/passwd": {
+   "hash": "d9df53e5f8c31a78c910a87636deace4ae9dd1253dc161f75de4b0449fc783ae",
+   "kategori": "SISTEM",
+   "risk": "KRITIK",
+   "meta": {
+    "boyut": 3656,
+    "izin": "0644",
+    "sahip": "0:0",
+    "degisme": "02.10.2026 23:21:54"
+   },
+   "son_kontrol": "06.10.2026 00:30:02"
+  },
+  "/etc/shadow": {
+   "hash": "64c46d0ce37f3b55768fd8055367478b12c79723d8305eadc840d4955e7f9221",
+   "kategori": "SISTEM",
+   "risk": "KRITIK",
+   "meta": {
+    "boyut": 1706,
+    "izin": "0640",
+    "sahip": "0:42",
+    "degisme": "02.10.2026 23:21:54"
+   },
+   "son_kontrol": "06.10.2026 00:30:02"
+  },
+  "/etc/group": {
+   "hash": "85d5871d85fd7305bc0aa27957c743ca521ca649ed288d2ad62e52c17f5e5d17",
+   "kategori": "SISTEM",
+   "risk": "YUKSEK",
+   "meta": {
+    "boyut": 1539,
+    "izin": "0644",
+    "sahip": "0:0",
+    "degisme": "02.10.2026 23:21:54"
+   },
+   "son_kontrol": "06.10.2026 00:30:02"
+  },
+  "/etc/sudoers": {
+   "hash": "c84d6c71cb0c2a4032e1894c09c67e559cd4b51eec574d35b51eae8b093ef1ee",
+   "kategori": "SISTEM",
+   "risk": "KRITIK",
+   "meta": {
+    "boyut": 6617,
+    "izin": "0440",
+    "sahip": "0:0",
+    "degisme": "08.06.2026 10:32:46"
+   },
+   "son_kontrol": "06.10.2026 00:30:02"
+  },
+  "/etc/hosts": {
+   "hash": "5565ba8c8320f944b65fa8d6bbf9c0be09899d9f06816df71c62f7dbde758e46",
+   "kategori": "SISTEM",
+   "risk": "ORTA",
+   "meta": {
+    "boyut": 227,
+    "izin": "0644",
+    "sahip": "0:0",
+    "degisme": "03.10.2026 20:40:38"
+   },
+   "son_kontrol": "06.10.2026 00:30:02"
+  },
+  "/etc/resolv.conf": {
+   "hash": "491d21ddf84592ee77c644be5f777427fd06e32f4e63a6ff2787e76e1e195533",
+   "kategori": "SISTEM",
+   "risk": "ORTA",
+   "meta": {
+    "boyut": 68,
+    "izin": "0644",
+    "sahip": "0:0",
+    "degisme": "05.10.2026 16:11:52"
+   },
+   "son_kontrol": "06.10.2026 00:30:02"
+  },
+  "/etc/ssh/sshd_config": {
+   "hash": "3c4b510322ae99ea5704866e5ada45a4ce7094de56da9f791527fe092f05e3f9",
+   "kategori": "SISTEM",
+   "risk": "KRITIK",
+   "meta": {
+    "boyut": 3586,
+    "izin": "0644",
+    "sahip": "0:0",
+    "degisme": "03.10.2026 20:10:17"
+   },
+   "son_kontrol": "06.10.2026 00:30:02"
+  },
+  "/etc/crontab": {
+   "hash": "e25eb0e3303ea63ac7452139be788efa86d89a11005288e7150c0ac193d7e1f6",
+   "kategori": "SISTEM",
+   "risk": "YUKSEK",
+   "meta": {
+    "boyut": 1042,
+    "izin": "0644",
+    "sahip": "0:0",
+    "degisme": "27.04.2026 10:56:39"
+   },
+   "son_kontrol": "06.10.2026 00:30:02"
+  },
+  "/root/.ssh/authorized_keys": {
+   "hash": null,
+   "kategori": "SISTEM",
+   "risk": "KRITIK",
+   "meta": {},
+   "son_kontrol": "06.10.2026 00:30:02"
+  },
+  "/root/.bashrc": {
+   "hash": "3198cdeb02295c3f433577b43966046d66c49748a9e542530160d86ad173c2b1",
+   "kategori": "SISTEM",
+   "risk": "ORTA",
+   "meta": {
+    "boyut": 5578,
+    "izin": "0644",
+    "sahip": "0:0",
+    "degisme": "21.08.2026 06:49:04"
+   },
+   "son_kontrol": "06.10.2026 00:30:02"
+  },
+  "/root/.profile": {
+   "hash": "996f60727f48cbe1496fa20bffd5a434a190407db2cafc2c1bfdf54d3bfc0372",
+   "kategori": "SISTEM",
+   "risk": "ORTA",
+   "meta": {
+    "boyut": 132,
+    "izin": "0644",
+    "sahip": "0:0",
+    "degisme": "16.06.2026 13:14:03"
+   },
+   "son_kontrol": "06.10.2026 00:30:02"
+  },
+  "/etc/ld.so.preload": {
+   "hash": null,
+   "kategori": "ROOTKIT",
+   "risk": "KRITIK",
+   "meta": {},
+   "son_kontrol": "06.10.2026 00:30:02"
+  },
+  "/etc/ld.so.conf": {
+   "hash": "d4b198c463418b493208485def26a6f4c57279467b9dfa491b70433cedb602e8",
+   "kategori": "ROOTKIT",
+   "risk": "YUKSEK",
+   "meta": {
+    "boyut": 34,
+    "izin": "0644",
+    "sahip": "0:0",
+    "degisme": "07.05.2026 01:25:31"
+   },
+   "son_kontrol": "06.10.2026 00:30:02"
+  },
+  "/etc/pam.d/common-auth": {
+   "hash": "b787b01c7e71c658fa9acb84cbe153f71786cf380af4b01ae9135210cdc0154d",
+   "kategori": "SISTEM",
+   "risk": "KRITIK",
+   "meta": {
+    "boyut": 1214,
+    "izin": "0644",
+    "sahip": "0:0",
+    "degisme": "27.08.2026 11:36:59"
+   },
+   "son_kontrol": "06.10.2026 00:30:02"
+  },
+  "/etc/nsswitch.conf": {
+   "hash": "cf4b86500454b477d4a15e93f28d3cda0ec4bd3649967cf5c2678a18f521993c",
+   "kategori": "SISTEM",
+   "risk": "YUKSEK",
+   "meta": {
+    "boyut": 558,
+    "izin": "0644",
+    "sahip": "0:0",
+    "degisme": "21.08.2026 06:53:37"
+   },
+   "son_kontrol": "06.10.2026 00:30:02"
+  },
+  "/etc/nftables.conf": {
+   "hash": "3fa4c68cf7db2801099f730dc06f1d6629de076ccff2f7bd25094e9cd240a949",
+   "kategori": "FIREWALL",
+   "risk": "KRITIK",
+   "meta": {
+    "boyut": 275,
+    "izin": "0755",
+    "sahip": "0:0",
+    "degisme": "03.10.2026 22:12:09"
+   },
+   "son_kontrol": "06.10.2026 00:30:02"
+  },
+  "/etc/nftables.d/kilic.nft": {
+   "hash": "71f0533f46637c2921b3e90a9017453a44a9fdf6d635f85a419a82a7cb3ee740",
+   "kategori": "FIREWALL",
+   "risk": "KRITIK",
+   "meta": {
+    "boyut": 1518,
+    "izin": "0644",
+    "sahip": "0:0",
+    "degisme": "05.10.2026 02:22:23"
+   },
+   "son_kontrol": "06.10.2026 00:30:02"
+  },
+  "/var/www/kalkan-panel/ortak.php": {
+   "hash": "c98d7cf4d7e2d03fc31121c9fe2943b54585c321457ae8f8dbec9f6641531855",
+   "kategori": "PANEL",
+   "risk": "YUKSEK",
+   "meta": {
+    "boyut": 19712,
+    "izin": "0755",
+    "sahip": "0:0",
+    "degisme": "06.10.2026 00:22:29"
+   },
+   "son_kontrol": "06.10.2026 00:30:02"
+  },
+  "/var/www/kalkan-panel/giris.php": {
+   "hash": "425f57c2b782a2f1c67aac10674380a227f8bdb7e56454abba238fefb8f2409e",
+   "kategori": "PANEL",
+   "risk": "KRITIK",
+   "meta": {
+    "boyut": 9884,
+    "izin": "0755",
+    "sahip": "33:33",
+    "degisme": "06.10.2026 00:04:44"
+   },
+   "son_kontrol": "06.10.2026 00:30:02"
+  },
+  "/var/www/kalkan-panel/ayarlar.php": {
+   "hash": "2d06863c3bd7120a69ce96fd7b37cf843acf541a13ec4f7dee87d629e0bf4a73",
+   "kategori": "PANEL",
+   "risk": "YUKSEK",
+   "meta": {
+    "boyut": 11007,
+    "izin": "0755",
+    "sahip": "33:33",
+    "degisme": "06.10.2026 00:05:20"
+   },
+   "son_kontrol": "06.10.2026 00:30:02"
+  },
+  "/var/www/kalkan-panel/.htaccess": {
+   "hash": null,
+   "kategori": "PANEL",
+   "risk": "ORTA",
+   "meta": {},
+   "son_kontrol": "06.10.2026 00:30:02"
+  },
+  "/opt/siber-kalkan/waf.php": {
+   "hash": "8eb93585526a098654ac8878958c3598c810b0c05a2350fc1e44ebafb87c4b3a",
+   "kategori": "WAF",
+   "risk": "KRITIK",
+   "meta": {
+    "boyut": 20152,
+    "izin": "0644",
+    "sahip": "0:0",
+    "degisme": "05.10.2026 23:22:47"
+   },
+   "son_kontrol": "06.10.2026 00:30:02"
+  },
+  "/opt/siber-kalkan/waf-router.php": {
+   "hash": "cc4df8ac99ed050d391abc364119cac520ae380eb9e2f6a2e5ebb0ef0d3a3456",
+   "kategori": "WAF",
+   "risk": "YUKSEK",
+   "meta": {
+    "boyut": 275,
+    "izin": "0644",
+    "sahip": "0:0",
+    "degisme": "03.10.2026 23:19:53"
+   },
+   "son_kontrol": "06.10.2026 00:30:02"
+  },
+  "/opt/siber-kalkan/MOTOR/kalkan_motor.py": {
+   "hash": "514652a117a1b875ce066f72daff2ffdcc7af9fd33e77f9ebfa504e4665fc643",
+   "kategori": "MOTOR",
+   "risk": "YUKSEK",
+   "meta": {
+    "boyut": 15141,
+    "izin": "0755",
+    "sahip": "0:0",
+    "degisme": "05.10.2026 23:53:34"
+   },
+   "son_kontrol": "06.10.2026 00:30:02"
+  },
+  "/opt/siber-kalkan/VERI/kurallar.json": {
+   "hash": "9a72d4091cb43f2f323f83b19d0d7a5ca1a5ac58c719a6a20e0824bc31336ffd",
+   "kategori": "MOTOR",
+   "risk": "YUKSEK",
+   "meta": {
+    "boyut": 204326,
+    "izin": "0644",
+    "sahip": "33:33",
+    "degisme": "04.10.2026 00:13:00"
+   },
+   "son_kontrol": "06.10.2026 00:30:02"
+  },
+  "/etc/systemd/system/kalkan-motor.service": {
+   "hash": "8629f5291bb5a0bc710f2e04f88326b92478154f1b692f66d84034a132e6a5ec",
+   "kategori": "SERVIS",
+   "risk": "YUKSEK",
+   "meta": {
+    "boyut": 311,
+    "izin": "0644",
+    "sahip": "0:0",
+    "degisme": "04.10.2026 00:16:39"
+   },
+   "son_kontrol": "06.10.2026 00:30:02"
+  },
+  "/etc/systemd/system/kalkan-panel.service": {
+   "hash": "f299532b25a2413c7375213d40349bef03f3bf2e651bcd80a04d2a40e8c18bc7",
+   "kategori": "SERVIS",
+   "risk": "YUKSEK",
+   "meta": {
+    "boyut": 523,
+    "izin": "0644",
+    "sahip": "0:0",
+    "degisme": "04.10.2026 03:35:58"
+   },
+   "son_kontrol": "06.10.2026 00:30:02"
+  },
+  "/etc/apache2/apache2.conf": {
+   "hash": "96e05361253da0d9be1ec6c7c9003cbbb261ba65b659bd6e40ca0eac43093c43",
+   "kategori": "SERVIS",
+   "risk": "ORTA",
+   "meta": {
+    "boyut": 7178,
+    "izin": "0644",
+    "sahip": "0:0",
+    "degisme": "11.06.2026 21:22:17"
+   },
+   "son_kontrol": "06.10.2026 00:30:02"
+  },
+  "/etc/nginx/nginx.conf": {
+   "hash": "c66fbe205bf46b5d125502e35605938ed37feef6e2b24325b1c088665caaf477",
+   "kategori": "SERVIS",
+   "risk": "ORTA",
+   "meta": {
+    "boyut": 1545,
+    "izin": "0644",
+    "sahip": "0:0",
+    "degisme": "23.05.2026 09:23:38"
+   },
+   "son_kontrol": "06.10.2026 00:30:02"
+  },
+  "/etc/profile": {
+   "hash": "8fec28102e0c371e6f2ecb949b95c1ba802260766b18c2445882b082418428b9",
+   "kategori": "SISTEM",
+   "risk": "YUKSEK",
+   "meta": {
+    "boyut": 828,
+    "izin": "0644",
+    "sahip": "0:0",
+    "degisme": "16.06.2026 13:14:03"
+   },
+   "son_kontrol": "06.10.2026 00:30:02"
+  },
+  "/etc/bash.bashrc": {
+   "hash": "059dc2314f2c09e8070af82fcbc55275bcbe722481d7085b2a4f6d6ced8dbded",
+   "kategori": "SISTEM",
+   "risk": "YUKSEK",
+   "meta": {
+    "boyut": 2553,
+    "izin": "0644",
+    "sahip": "0:0",
+    "degisme": "03.05.2026 22:28:45"
+   },
+   "son_kontrol": "06.10.2026 00:30:02"
+  }
+ },
+ "degisimler": [
+  {
+   "zaman": "06.10.2026 00:25:01",
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "tip": "DEGISTI",
+   "risk": "YUKSEK",
+   "kategori": "PANEL",
+   "eski_hash": "44b3d711d31c5ae2",
+   "yeni_hash": "c98d7cf4d7e2d03f",
+   "meta": {
+    "boyut": 19712,
+    "izin": "0755",
+    "sahip": "0:0",
+    "degisme": "06.10.2026 00:22:29"
+   },
+   "aciklama": "PANEL: ortak.php degisti"
+  },
+  {
+   "zaman": "06.10.2026 00:20:02",
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "tip": "DEGISTI",
+   "risk": "YUKSEK",
+   "kategori": "PANEL",
+   "eski_hash": "becd108092061e66",
+   "yeni_hash": "44b3d711d31c5ae2",
+   "meta": {
+    "boyut": 19396,
+    "izin": "0755",
+    "sahip": "0:0",
+    "degisme": "06.10.2026 00:19:53"
+   },
+   "aciklama": "PANEL: ortak.php degisti"
+  },
+  {
+   "zaman": "06.10.2026 00:10:02",
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "tip": "DEGISTI",
+   "risk": "YUKSEK",
+   "kategori": "PANEL",
+   "eski_hash": "77390a5ef42d3c54",
+   "yeni_hash": "becd108092061e66",
+   "meta": {
+    "boyut": 18901,
+    "izin": "0755",
+    "sahip": "0:0",
+    "degisme": "06.10.2026 00:05:20"
+   },
+   "aciklama": "PANEL: ortak.php degisti"
+  },
+  {
+   "zaman": "06.10.2026 00:10:02",
+   "dosya": "/var/www/kalkan-panel/ayarlar.php",
+   "tip": "DEGISTI",
+   "risk": "YUKSEK",
+   "kategori": "PANEL",
+   "eski_hash": "7e85ecc4952336cc",
+   "yeni_hash": "2d06863c3bd7120a",
+   "meta": {
+    "boyut": 11007,
+    "izin": "0755",
+    "sahip": "33:33",
+    "degisme": "06.10.2026 00:05:20"
+   },
+   "aciklama": "PANEL: ayarlar.php degisti"
+  },
+  {
+   "zaman": "06.10.2026 00:05:01",
+   "dosya": "/var/www/kalkan-panel/giris.php",
+   "tip": "DEGISTI",
+   "risk": "KRITIK",
+   "kategori": "PANEL",
+   "eski_hash": "26d41d39f1908745",
+   "yeni_hash": "425f57c2b782a2f1",
+   "meta": {
+    "boyut": 9884,
+    "izin": "0755",
+    "sahip": "33:33",
+    "degisme": "06.10.2026 00:04:44"
+   },
+   "aciklama": "PANEL: giris.php degisti",
+   "yedek": "/opt/siber-kalkan/yedek/fim/giris.php.0610_000501.bak"
+  },
+  {
+   "zaman": "05.10.2026 23:55:01",
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "tip": "DEGISTI",
+   "risk": "YUKSEK",
+   "kategori": "PANEL",
+   "eski_hash": "3facf4937cdc05af",
+   "yeni_hash": "77390a5ef42d3c54",
+   "meta": {
+    "boyut": 18723,
+    "izin": "0755",
+    "sahip": "0:0",
+    "degisme": "05.10.2026 23:52:19"
+   },
+   "aciklama": "PANEL: ortak.php degisti"
+  },
+  {
+   "zaman": "05.10.2026 23:55:01",
+   "dosya": "/opt/siber-kalkan/MOTOR/kalkan_motor.py",
+   "tip": "DEGISTI",
+   "risk": "YUKSEK",
+   "kategori": "MOTOR",
+   "eski_hash": "ce43ce4187c472ba",
+   "yeni_hash": "514652a117a1b875",
+   "meta": {
+    "boyut": 15141,
+    "izin": "0755",
+    "sahip": "0:0",
+    "degisme": "05.10.2026 23:53:34"
+   },
+   "aciklama": "MOTOR: kalkan_motor.py degisti"
+  },
+  {
+   "zaman": "05.10.2026 23:39:41",
+   "dosya": "/var/www/kalkan-panel/giris.php",
+   "tip": "DEGISTI",
+   "risk": "KRITIK",
+   "kategori": "PANEL",
+   "eski_hash": "d778668c278f5be9",
+   "yeni_hash": "26d41d39f1908745",
+   "meta": {
+    "boyut": 9884,
+    "izin": "0755",
+    "sahip": "33:33",
+    "degisme": "05.10.2026 23:36:57"
+   },
+   "aciklama": "PANEL: giris.php degisti",
+   "yedek": "/opt/siber-kalkan/yedek/fim/giris.php.0510_233941.bak"
+  },
+  {
+   "zaman": "05.10.2026 23:39:35",
+   "dosya": "/var/www/kalkan-panel/giris.php",
+   "tip": "DEGISTI",
+   "risk": "KRITIK",
+   "kategori": "PANEL",
+   "eski_hash": "d778668c278f5be9",
+   "yeni_hash": "26d41d39f1908745",
+   "meta": {
+    "boyut": 9884,
+    "izin": "0755",
+    "sahip": "33:33",
+    "degisme": "05.10.2026 23:36:57"
+   },
+   "aciklama": "PANEL: giris.php degisti",
+   "yedek": "/opt/siber-kalkan/yedek/fim/giris.php.0510_233935.bak"
+  },
+  {
+   "zaman": "05.10.2026 23:39:08",
+   "dosya": "/var/www/kalkan-panel/giris.php",
+   "tip": "DEGISTI",
+   "risk": "KRITIK",
+   "kategori": "PANEL",
+   "eski_hash": "d778668c278f5be9",
+   "yeni_hash": "26d41d39f1908745",
+   "meta": {
+    "boyut": 9884,
+    "izin": "0755",
+    "sahip": "33:33",
+    "degisme": "05.10.2026 23:36:57"
+   },
+   "aciklama": "PANEL: giris.php degisti",
+   "yedek": "/opt/siber-kalkan/yedek/fim/giris.php.0510_233908.bak"
+  }
+ ],
+ "kategoriler": {
+  "PANEL": 4,
+  "FIREWALL": 2,
+  "WAF": 2,
+  "ROOTKIT": 2,
+  "SISTEM": 15,
+  "SERVIS": 4,
+  "MOTOR": 2
+ }
+}

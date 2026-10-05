@@ -1,0 +1,10 @@
+{
+ "guncelleme": "06.10.2026 00:30",
+ "servisler": {
+  "kalkan-panel": "active",
+  "kalkan-motor": "active",
+  "kalkan-fim": "active",
+  "kalkan-aktif": "active",
+  "suricata": "active"
+ }
+}

@@ -1,0 +1,45 @@
+{
+ "zaman": "06.10.2026 00:00:26",
+ "kullanici_sayisi": 2,
+ "roller": {
+  "ADMIN": 1,
+  "IZLEYICI": 1
+ },
+ "kullanicilar": [
+  {
+   "ad": "admin",
+   "rol": "ADMIN",
+   "hash": "sha256 (TUZSUZ - zayif!)",
+   "2fa": false
+  },
+  {
+   "ad": "izleyici",
+   "rol": "IZLEYICI",
+   "hash": "sha256 (TUZSUZ - zayif!)",
+   "2fa": false
+  }
+ ],
+ "2fa_aktif": 0,
+ "politika": {
+  "min_uzunluk": 12,
+  "buyuk_harf": true,
+  "kucuk_harf": true,
+  "rakam": true,
+  "ozel_karakter": true,
+  "max_deneme": 5,
+  "kilit_suresi_dk": 30,
+  "oturum_suresi_dk": 60,
+  "2fa_zorunlu": true
+ },
+ "aktif_kilit": [],
+ "kilit_sayisi": 0,
+ "audit_kayit": 287,
+ "son_basarisiz": [],
+ "sorunlar": [
+  "admin: tuzsuz sha256 hash",
+  "izleyici: tuzsuz sha256 hash",
+  "2FA 0/2 kullanicida (zorunlu: hepsi)"
+ ],
+ "sorun_sayisi": 3,
+ "skor": 55
+}

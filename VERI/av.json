@@ -1,0 +1,245 @@
+{
+ "zaman": "06.10.2026 00:21:19",
+ "taranan_dosya": 1562,
+ "bulgu_sayisi": 21,
+ "karantina": 0,
+ "durum": "SUPHELI",
+ "temiz": false,
+ "bulgu": 21,
+ "bulgular": [
+  {
+   "zaman": "06.10.2026 00:20:04",
+   "dosya": "/tmp/20261005_235926-scantemp.9a46443c68/html-tmp.fe0ee7c3d0/notags.html",
+   "bulgular": [
+    {
+     "desen": "Guvenlik devre disi",
+     "risk": "YUKSEK"
+    }
+   ],
+   "sha256": "bc459d83ba66f61d"
+  },
+  {
+   "zaman": "06.10.2026 00:20:21",
+   "dosya": "/tmp/pf/lib/python3.14/site-packages/pip/_vendor/packaging/licenses/_spdx.py",
+   "bulgular": [
+    {
+     "desen": "Guvenlik devre disi",
+     "risk": "YUKSEK"
+    }
+   ],
+   "sha256": "596ec35e2ca0ebcb"
+  },
+  {
+   "zaman": "06.10.2026 00:20:21",
+   "dosya": "/tmp/pf/lib/python3.14/site-packages/pip/_vendor/packaging/licenses/__pycache__/_spdx.cpython-314.pyc",
+   "bulgular": [
+    {
+     "desen": "Guvenlik devre disi",
+     "risk": "YUKSEK"
+    }
+   ],
+   "sha256": "a23f020582d3ac15"
+  },
+  {
+   "zaman": "06.10.2026 00:20:24",
+   "dosya": "/tmp/v1paket/CYBER_KALKAN_v1.0_KARARLI/panel/guvenlik.php",
+   "bulgular": [
+    {
+     "desen": "Guvenlik devre disi",
+     "risk": "YUKSEK"
+    }
+   ],
+   "sha256": "f20cc2fdb8c63413"
+  },
+  {
+   "zaman": "06.10.2026 00:20:25",
+   "dosya": "/tmp/v1paket/CYBER_KALKAN_v1.0_KARARLI/motor/tam_dogrulama.py",
+   "bulgular": [
+    {
+     "desen": "Guvenlik devre disi",
+     "risk": "YUKSEK"
+    }
+   ],
+   "sha256": "004469980c26bc6c"
+  },
+  {
+   "zaman": "06.10.2026 00:20:25",
+   "dosya": "/tmp/v1paket/CYBER_KALKAN_v1.0_KARARLI/motor/paket_c.py",
+   "bulgular": [
+    {
+     "desen": "Guvenlik devre disi",
+     "risk": "YUKSEK"
+    }
+   ],
+   "sha256": "206963f30c92ae8e"
+  },
+  {
+   "zaman": "06.10.2026 00:20:25",
+   "dosya": "/tmp/v1paket/CYBER_KALKAN_v1.0_KARARLI/motor/modul_test.py",
+   "bulgular": [
+    {
+     "desen": "Guvenlik devre disi",
+     "risk": "YUKSEK"
+    }
+   ],
+   "sha256": "f276e416782b87c6"
+  },
+  {
+   "zaman": "06.10.2026 00:20:25",
+   "dosya": "/tmp/v1paket/CYBER_KALKAN_v1.0_KARARLI/motor/kalkan_test.py",
+   "bulgular": [
+    {
+     "desen": "Guvenlik devre disi",
+     "risk": "YUKSEK"
+    }
+   ],
+   "sha256": "3740dce7eb93656f"
+  },
+  {
+   "zaman": "06.10.2026 00:20:25",
+   "dosya": "/tmp/v1paket/CYBER_KALKAN_v1.0_KARARLI/motor/kalkan_sca_v10.py",
+   "bulgular": [
+    {
+     "desen": "Preload kancasi (rootkit)",
+     "risk": "YUKSEK"
+    }
+   ],
+   "sha256": "0e68a9bf5c6b5f45"
+  },
+  {
+   "zaman": "06.10.2026 00:20:25",
+   "dosya": "/tmp/v1paket/CYBER_KALKAN_v1.0_KARARLI/motor/kalkan_fim_v10.py",
+   "bulgular": [
+    {
+     "desen": "Preload kancasi (rootkit)",
+     "risk": "YUKSEK"
+    }
+   ],
+   "sha256": "05c33b0c71b76225"
+  },
+  {
+   "zaman": "06.10.2026 00:20:25",
+   "dosya": "/tmp/v1paket/CYBER_KALKAN_v1.0_KARARLI/motor/kalkan_bulut_v10.py",
+   "bulgular": [
+    {
+     "desen": "Guvenlik devre disi",
+     "risk": "YUKSEK"
+    }
+   ],
+   "sha256": "da6239f002cc468e"
+  },
+  {
+   "zaman": "06.10.2026 00:20:25",
+   "dosya": "/tmp/v1paket/CYBER_KALKAN_v1.0_KARARLI/motor/kalkan_av.py",
+   "bulgular": [
+    {
+     "desen": "Guvenlik devre disi",
+     "risk": "YUKSEK"
+    }
+   ],
+   "sha256": "3a65c658cb1fc9bd"
+  },
+  {
+   "zaman": "06.10.2026 00:20:25",
+   "dosya": "/tmp/kp/CYBER_KALKAN_v1.0_KARARLI/panel/guvenlik.php",
+   "bulgular": [
+    {
+     "desen": "Guvenlik devre disi",
+     "risk": "YUKSEK"
+    }
+   ],
+   "sha256": "f20cc2fdb8c63413"
+  },
+  {
+   "zaman": "06.10.2026 00:20:25",
+   "dosya": "/tmp/kp/CYBER_KALKAN_v1.0_KARARLI/motor/tam_dogrulama.py",
+   "bulgular": [
+    {
+     "desen": "Guvenlik devre disi",
+     "risk": "YUKSEK"
+    }
+   ],
+   "sha256": "004469980c26bc6c"
+  },
+  {
+   "zaman": "06.10.2026 00:20:25",
+   "dosya": "/tmp/kp/CYBER_KALKAN_v1.0_KARARLI/motor/paket_c.py",
+   "bulgular": [
+    {
+     "desen": "Guvenlik devre disi",
+     "risk": "YUKSEK"
+    }
+   ],
+   "sha256": "206963f30c92ae8e"
+  },
+  {
+   "zaman": "06.10.2026 00:20:25",
+   "dosya": "/tmp/kp/CYBER_KALKAN_v1.0_KARARLI/motor/modul_test.py",
+   "bulgular": [
+    {
+     "desen": "Guvenlik devre disi",
+     "risk": "YUKSEK"
+    }
+   ],
+   "sha256": "f276e416782b87c6"
+  },
+  {
+   "zaman": "06.10.2026 00:20:25",
+   "dosya": "/tmp/kp/CYBER_KALKAN_v1.0_KARARLI/motor/kalkan_test.py",
+   "bulgular": [
+    {
+     "desen": "Guvenlik devre disi",
+     "risk": "YUKSEK"
+    }
+   ],
+   "sha256": "3740dce7eb93656f"
+  },
+  {
+   "zaman": "06.10.2026 00:20:25",
+   "dosya": "/tmp/kp/CYBER_KALKAN_v1.0_KARARLI/motor/kalkan_sca_v10.py",
+   "bulgular": [
+    {
+     "desen": "Preload kancasi (rootkit)",
+     "risk": "YUKSEK"
+    }
+   ],
+   "sha256": "0e68a9bf5c6b5f45"
+  },
+  {
+   "zaman": "06.10.2026 00:20:25",
+   "dosya": "/tmp/kp/CYBER_KALKAN_v1.0_KARARLI/motor/kalkan_fim_v10.py",
+   "bulgular": [
+    {
+     "desen": "Preload kancasi (rootkit)",
+     "risk": "YUKSEK"
+    }
+   ],
+   "sha256": "05c33b0c71b76225"
+  },
+  {
+   "zaman": "06.10.2026 00:20:25",
+   "dosya": "/tmp/kp/CYBER_KALKAN_v1.0_KARARLI/motor/kalkan_bulut_v10.py",
+   "bulgular": [
+    {
+     "desen": "Guvenlik devre disi",
+     "risk": "YUKSEK"
+    }
+   ],
+   "sha256": "da6239f002cc468e"
+  },
+  {
+   "zaman": "06.10.2026 00:20:25",
+   "dosya": "/tmp/kp/CYBER_KALKAN_v1.0_KARARLI/motor/kalkan_av.py",
+   "bulgular": [
+    {
+     "desen": "Guvenlik devre disi",
+     "risk": "YUKSEK"
+    }
+   ],
+   "sha256": "3a65c658cb1fc9bd"
+  }
+ ],
+ "yara": [],
+ "imza_sayisi": 20,
+ "clamav": ""
+}

@@ -1,0 +1,32 @@
+{
+ "guncelleme": "06.10.2026 00:00",
+ "konteynerler": [
+  {
+   "tip": "konteyner",
+   "id": "5b125cd0c138",
+   "imaj": "jasonish/suricata:latest",
+   "durum": "Up 33 minutes",
+   "ad": "kalkan-suricata"
+  },
+  {
+   "tip": "konteyner",
+   "id": "454c05005403",
+   "imaj": "cyberkalkan/panel:v2",
+   "durum": "Up 7 hours (healthy)",
+   "ad": "kalkan-panel"
+  },
+  {
+   "tip": "konteyner",
+   "id": "967223b15881",
+   "imaj": "cyberkalkan/motor:v2",
+   "durum": "Up 7 hours (healthy)",
+   "ad": "kalkan-motor"
+  },
+  {
+   "tip": "uyari",
+   "mesaj": "latest tag kullaniliyor",
+   "imaj": "jasonish/suricata:latest|445MB"
+  }
+ ],
+ "imaj": 6
+}

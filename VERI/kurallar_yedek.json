@@ -1,0 +1,1310 @@
+{
+ "kurallar": [
+  {
+   "id": 1001,
+   "seviye": "KRITIK",
+   "puan": 40,
+   "ad": "SQL Injection denemesi",
+   "mitre": "T1190",
+   "aktif": true,
+   "desen": "(union.*select|select.*from|information_schema|or\\s+1=1|'\\s*or\\s*'|sleep\\(|benchmark\\()"
+  },
+  {
+   "id": 1002,
+   "seviye": "KRITIK",
+   "puan": 35,
+   "ad": "XSS denemesi",
+   "mitre": "T1189",
+   "aktif": true,
+   "desen": "(<script|javascript:|onerror=|onload=|alert\\(|document\\.cookie)"
+  },
+  {
+   "id": 1003,
+   "seviye": "YUKSEK",
+   "puan": 30,
+   "ad": "Path traversal",
+   "mitre": "T1083",
+   "aktif": true,
+   "desen": "(\\.\\./\\.\\.|%2e%2e%2f|/etc/passwd|/proc/self|\\.\\.%2f)"
+  },
+  {
+   "id": 1004,
+   "seviye": "YUKSEK",
+   "puan": 30,
+   "ad": "Hassas dosya erisimi",
+   "mitre": "T1552.001",
+   "aktif": true,
+   "desen": "(/\\.env|/\\.git|/wp-login|/wp-admin|/xmlrpc\\.php|/phpmyadmin|\\.sql$|\\.bak$)"
+  },
+  {
+   "id": 1005,
+   "seviye": "ORTA",
+   "puan": 20,
+   "ad": "Zararli bot taramasi",
+   "mitre": "T1595",
+   "aktif": true,
+   "desen": "(sqlmap|nikto|nmap|masscan|acunetix|nessus|dirbuster|gobuster|wpscan)"
+  },
+  {
+   "id": 1006,
+   "seviye": "KRITIK",
+   "puan": 45,
+   "ad": "Komut enjeksiyonu",
+   "mitre": "T1059",
+   "aktif": true,
+   "desen": "(;\\s*(cat|ls|id|whoami|wget|curl)\\s|`.*`|\\$\\(.*\\)|%0a)"
+  },
+  {
+   "id": 1007,
+   "seviye": "YUKSEK",
+   "puan": 25,
+   "ad": "Shell/backdoor denemesi",
+   "mitre": "T1505.003",
+   "aktif": true,
+   "desen": "(shell\\.php|cmd\\.php|c99\\.php|r57\\.php|webshell|backdoor)"
+  },
+  {
+   "id": 1008,
+   "seviye": "ORTA",
+   "puan": 15,
+   "ad": "Sifre dosyasi taramasi",
+   "mitre": "T1552.001",
+   "aktif": true,
+   "desen": "(passwd|shadow|config\\.php|wp-config|\\.htpasswd|id_rsa)"
+  },
+  {
+   "id": 1009,
+   "seviye": "YUKSEK",
+   "puan": 30,
+   "ad": "SSH brute-force",
+   "mitre": "T1110",
+   "aktif": true,
+   "desen": "(Failed password|authentication failure)"
+  },
+  {
+   "id": 1010,
+   "seviye": "KRITIK",
+   "puan": 45,
+   "ad": "SSRF denemesi",
+   "desen": "(url=|redirect=|next=|dest=)https?://(127\\.|localhost|169\\.254\\.|metadata\\.google)",
+   "mitre": "T1190",
+   "aktif": true
+  },
+  {
+   "id": 1011,
+   "seviye": "KRITIK",
+   "puan": 40,
+   "ad": "XXE injection",
+   "desen": "(<!ENTITY|SYSTEM\\s+[\\\"']file:|<!DOCTYPE[^>]+ENTITY)",
+   "mitre": "T1190",
+   "aktif": true
+  },
+  {
+   "id": 1012,
+   "seviye": "KRITIK",
+   "puan": 45,
+   "ad": "Komut enjeksiyonu (ileri)",
+   "desen": "(\\|\\s*(nc|bash|sh|python|perl)\\s|;\\s*/bin/|&&\\s*(id|whoami|curl))",
+   "mitre": "T1059",
+   "aktif": true
+  },
+  {
+   "id": 1013,
+   "seviye": "YUKSEK",
+   "puan": 35,
+   "ad": "Local File Inclusion",
+   "desen": "(=\\/etc\\/|=\\/proc\\/|\\/var\\/log\\/|php:\\/\\/filter|php:\\/\\/input|data:\\/\\/)",
+   "mitre": "T1083",
+   "aktif": true
+  },
+  {
+   "id": 1014,
+   "seviye": "KRITIK",
+   "puan": 40,
+   "ad": "Remote File Inclusion",
+   "desen": "(=\\s*https?:\\/\\/[^&\\s]+\\.(txt|php|sh|txt\\?))",
+   "mitre": "T1190",
+   "aktif": true
+  },
+  {
+   "id": 1015,
+   "seviye": "YUKSEK",
+   "puan": 30,
+   "ad": "Open redirect",
+   "desen": "([?&](url|redirect|next|return|dest|goto)=(https?:)?\\/\\/)",
+   "mitre": "T1204",
+   "aktif": true
+  },
+  {
+   "id": 1016,
+   "seviye": "ORTA",
+   "puan": 20,
+   "ad": "CRLF injection",
+   "desen": "(%0d%0a|\\\\r\\\\n)[^\\\\n]*(Set-Cookie|Location:)",
+   "mitre": "T1190",
+   "aktif": true
+  },
+  {
+   "id": 1017,
+   "seviye": "YUKSEK",
+   "puan": 30,
+   "ad": "Deserialization denemesi",
+   "desen": "(O:\\d+:[\\\"']|rO0AB|java\\.io\\.|pickle|__reduce__)",
+   "mitre": "T1190",
+   "aktif": true
+  },
+  {
+   "id": 1018,
+   "seviye": "KRITIK",
+   "puan": 40,
+   "ad": "SSTI (template injection)",
+   "desen": "(\\{\\{.*\\}\\}|\\$\\{.*\\}|<%.*%>|#\\{.*\\})",
+   "mitre": "T1190",
+   "aktif": true
+  },
+  {
+   "id": 1019,
+   "seviye": "YUKSEK",
+   "puan": 30,
+   "ad": "NoSQL injection",
+   "desen": "(\\$where|\\$ne|\\$gt|\\$regex|\\{\\s*\\\"\\$)",
+   "mitre": "T1190",
+   "aktif": true
+  },
+  {
+   "id": 1020,
+   "seviye": "YUKSEK",
+   "puan": 30,
+   "ad": "LDAP injection",
+   "desen": "(\\(&\\(|\\)\\|\\(|\\*\\)\\(|\\(cn=\\*|\\(uid=\\*)",
+   "mitre": "T1190",
+   "aktif": true
+  },
+  {
+   "id": 1021,
+   "seviye": "KRITIK",
+   "puan": 40,
+   "ad": "Log4Shell (CVE-2021-44228)",
+   "desen": "(\\$\\{jndi:(ldap|rmi|dns|http))",
+   "mitre": "T1190",
+   "aktif": true
+  },
+  {
+   "id": 1022,
+   "seviye": "KRITIK",
+   "puan": 45,
+   "ad": "Shellshock (CVE-2014-6271)",
+   "desen": "(\\(\\)\\s*\\{\\s*:;\\s*\\}\\s*;)",
+   "mitre": "T1059",
+   "aktif": true
+  },
+  {
+   "id": 1023,
+   "seviye": "KRITIK",
+   "puan": 40,
+   "ad": "Spring4Shell (CVE-2022-22965)",
+   "desen": "(class\\.module\\.classLoader|ClassLoader\\.resources)",
+   "mitre": "T1190",
+   "aktif": true
+  },
+  {
+   "id": 1024,
+   "seviye": "YUKSEK",
+   "puan": 35,
+   "ad": "ProxyShell/ProxyLogon",
+   "desen": "(/autodiscover/autodiscover\\.json|/ecp/|/owa/auth/|/mapi/|X-AnonResource)",
+   "mitre": "T1190",
+   "aktif": true
+  },
+  {
+   "id": 1025,
+   "seviye": "YUKSEK",
+   "puan": 30,
+   "ad": "Path traversal (ileri)",
+   "desen": "(\\.\\.%2f|%2e%2e/|\\.\\.\\\\|%252e%252e|\\.\\.\\/\\.\\.\\/\\.\\.\\/)",
+   "mitre": "T1083",
+   "aktif": true
+  },
+  {
+   "id": 1026,
+   "seviye": "ORTA",
+   "puan": 20,
+   "ad": "Directory listing kesfi",
+   "desen": "(/backup/|/\\.svn/|/\\.hg/|/CVS/|/WEB-INF/|/META-INF/)",
+   "mitre": "T1083",
+   "aktif": true
+  },
+  {
+   "id": 1027,
+   "seviye": "YUKSEK",
+   "puan": 30,
+   "ad": "Yedek/DB dosyasi erisimi",
+   "desen": "(\\.sql\\.gz|\\.tar\\.gz|\\.zip$|dump\\.sql|backup\\.zip|\\.old$|\\.orig$|~$)",
+   "mitre": "T1552.001",
+   "aktif": true
+  },
+  {
+   "id": 1028,
+   "seviye": "ORTA",
+   "puan": 20,
+   "ad": "Admin panel kesfi",
+   "desen": "(/admin/|/manager/|/console/|/cpanel|/webadmin|/phpmyadmin|/adminer|/\\.well-known)",
+   "mitre": "T1595",
+   "aktif": true
+  },
+  {
+   "id": 1029,
+   "seviye": "ORTA",
+   "puan": 20,
+   "ad": "API anahtari sizintisi denemesi",
+   "desen": "(api[_-]?key|apikey|access[_-]?token|secret[_-]?key|auth[_-]?token)",
+   "mitre": "T1552.001",
+   "aktif": true
+  },
+  {
+   "id": 1030,
+   "seviye": "YUKSEK",
+   "puan": 30,
+   "ad": "GraphQL introspection",
+   "desen": "(__schema|__type|introspectionQuery|\\{\\s*__typename)",
+   "mitre": "T1595",
+   "aktif": true
+  },
+  {
+   "id": 1031,
+   "seviye": "YUKSEK",
+   "puan": 30,
+   "ad": "Websocket/upgrade anomali",
+   "desen": "(Upgrade:\\s*websocket|Sec-WebSocket)",
+   "mitre": "T1071",
+   "aktif": true
+  },
+  {
+   "id": 1032,
+   "seviye": "KRITIK",
+   "puan": 40,
+   "ad": "File upload bypass",
+   "desen": "(\\.php\\.|\\.phtml|\\.php5|\\.phar|%00\\.php|\\.jsp;|\\.asp;)",
+   "mitre": "T1505.003",
+   "aktif": true
+  },
+  {
+   "id": 1033,
+   "seviye": "YUKSEK",
+   "puan": 30,
+   "ad": "Cache poisoning denemesi",
+   "desen": "(X-Forwarded-Host:\\s*[^\\\\s]+|X-Host:|X-Original-URL:)",
+   "mitre": "T1190",
+   "aktif": true
+  },
+  {
+   "id": 1034,
+   "seviye": "KRITIK",
+   "puan": 40,
+   "ad": "JWT manipulation",
+   "desen": "(eyJ[A-Za-z0-9_-]{10,}\\.[A-Za-z0-9_-]{10,}\\.)",
+   "mitre": "T1550",
+   "aktif": true
+  },
+  {
+   "id": 1035,
+   "seviye": "YUKSEK",
+   "puan": 30,
+   "ad": "CORS misconfig sondasi",
+   "desen": "(Origin:\\s*https?://(evil|attacker|localhost))",
+   "mitre": "T1190",
+   "aktif": true
+  },
+  {
+   "id": 1040,
+   "seviye": "KRITIK",
+   "puan": 40,
+   "ad": "SSH brute-force",
+   "desen": "(Failed password|authentication failure)",
+   "mitre": "T1110",
+   "aktif": true
+  },
+  {
+   "id": 1041,
+   "seviye": "KRITIK",
+   "puan": 40,
+   "ad": "SSH root girisi denemesi",
+   "desen": "(Failed password for root|Accepted password for root)",
+   "mitre": "T1078",
+   "aktif": true
+  },
+  {
+   "id": 1042,
+   "seviye": "YUKSEK",
+   "puan": 35,
+   "ad": "Gecersiz kullanici denemesi",
+   "desen": "(Invalid user \\w+|user .* not found)",
+   "mitre": "T1087",
+   "aktif": true
+  },
+  {
+   "id": 1043,
+   "seviye": "YUKSEK",
+   "puan": 30,
+   "ad": "Sudo basarisiz denemesi",
+   "desen": "(sudo:.*incorrect password|NOT in sudoers|FAILED su)",
+   "mitre": "T1548",
+   "aktif": true
+  },
+  {
+   "id": 1044,
+   "seviye": "KRITIK",
+   "puan": 45,
+   "ad": "Yetki yukseltme denemesi",
+   "desen": "(sudo su|chmod \\+s|chown root|setcap|insmod|modprobe)",
+   "mitre": "T1548",
+   "aktif": true
+  },
+  {
+   "id": 1045,
+   "seviye": "KRITIK",
+   "puan": 45,
+   "ad": "SUID abuse",
+   "desen": "(/bin/(sh|bash) -p|find .* -perm -4000|cp .* /usr/bin)",
+   "mitre": "T1548",
+   "aktif": true
+  },
+  {
+   "id": 1046,
+   "seviye": "YUKSEK",
+   "puan": 35,
+   "ad": "Kernel exploit denemesi",
+   "desen": "(CVE-20\\d\\d-\\d+|dirtypipe|dirtycow|pwnkit|overlayfs)",
+   "mitre": "T1068",
+   "aktif": true
+  },
+  {
+   "id": 1047,
+   "seviye": "YUKSEK",
+   "puan": 30,
+   "ad": "Cron abuse",
+   "desen": "(crontab -e|cron.*\\/tmp\\/|cron.* curl|@reboot)",
+   "mitre": "T1053",
+   "aktif": true
+  },
+  {
+   "id": 1048,
+   "seviye": "YUKSEK",
+   "puan": 30,
+   "ad": "Systemd servis abuse",
+   "desen": "(systemctl .* enable .*(tmp|sh)|\\.service.*ExecStart=.*\\/tmp)",
+   "mitre": "T1543",
+   "aktif": true
+  },
+  {
+   "id": 1049,
+   "seviye": "KRITIK",
+   "puan": 40,
+   "ad": "Kimlik dosyasi degisimi",
+   "desen": "(/etc/passwd.*new user|useradd|adduser.*-u 0|usermod.*root)",
+   "mitre": "T1136",
+   "aktif": true
+  },
+  {
+   "id": 1050,
+   "seviye": "YUKSEK",
+   "puan": 30,
+   "ad": "SSH anahtar ekleme",
+   "desen": "(authorized_keys|ssh-rsa AAAA|ssh-ed25519)",
+   "mitre": "T1098",
+   "aktif": true
+  },
+  {
+   "id": 1051,
+   "seviye": "YUKSEK",
+   "puan": 30,
+   "ad": "Kimlik bilgisi hasadi",
+   "desen": "(/etc/shadow|unshadow|john|hashcat|mimikatz|secretsdump)",
+   "mitre": "T1003",
+   "aktif": true
+  },
+  {
+   "id": 1052,
+   "seviye": "ORTA",
+   "puan": 20,
+   "ad": "Ortam degiskeni sizintisi",
+   "desen": "(env \\| |printenv|LD_PRELOAD|LD_LIBRARY_PATH)",
+   "mitre": "T1552",
+   "aktif": true
+  },
+  {
+   "id": 1053,
+   "seviye": "YUKSEK",
+   "puan": 30,
+   "ad": "Persistence - profil",
+   "desen": "(\\.bashrc.*curl|\\.profile.*wget|/etc/rc\\.local)",
+   "mitre": "T1546",
+   "aktif": true
+  },
+  {
+   "id": 1054,
+   "seviye": "YUKSEK",
+   "puan": 30,
+   "ad": "Log temizleme denemesi",
+   "desen": "(rm .*\\.log|truncate.*log|history -c|unset HISTFILE|shred)",
+   "mitre": "T1070",
+   "aktif": true
+  },
+  {
+   "id": 1055,
+   "seviye": "KRITIK",
+   "puan": 40,
+   "ad": "FIM degisikligi (kritik dosya)",
+   "desen": "",
+   "mitre": "T1565",
+   "aktif": true
+  },
+  {
+   "id": 1060,
+   "seviye": "YUKSEK",
+   "puan": 30,
+   "ad": "Port tarama",
+   "desen": "(nmap|masscan|zmap|rustscan|nc -zv|/dev/tcp/)",
+   "mitre": "T1046",
+   "aktif": true
+  },
+  {
+   "id": 1061,
+   "seviye": "KRITIK",
+   "puan": 45,
+   "ad": "DDoS/HTTP flood",
+   "desen": "(HTTP\\/1\\.1\\\" 200.*\\b(\\d{3,})\\s+requests)",
+   "mitre": "T1498",
+   "aktif": true
+  },
+  {
+   "id": 1062,
+   "seviye": "YUKSEK",
+   "puan": 35,
+   "ad": "DNS tunneling",
+   "desen": "([a-z0-9]{30,}\\.(com|net|org|ru|tk)|\\.onion|dns2tcp|iodine)",
+   "mitre": "T1071.004",
+   "aktif": true
+  },
+  {
+   "id": 1063,
+   "seviye": "YUKSEK",
+   "puan": 35,
+   "ad": "C2 (komuta kontrol) trafigi",
+   "desen": "(beacon|/gate\\.php|/panel\\.php\\?id=|cobaltstrike|meterpreter|/updates/check)",
+   "mitre": "T1071",
+   "aktif": true
+  },
+  {
+   "id": 1064,
+   "seviye": "KRITIK",
+   "puan": 40,
+   "ad": "Reverse shell denemesi",
+   "desen": "(bash -i >& \\/dev\\/tcp|nc -e \\/bin\\/(sh|bash)|python.*socket.*connect|perl.*socket)",
+   "mitre": "T1059",
+   "aktif": true
+  },
+  {
+   "id": 1065,
+   "seviye": "YUKSEK",
+   "puan": 30,
+   "ad": "Crypto mining",
+   "desen": "(stratum\\+tcp|minerd|xmrig|coinhive|monero|nicehash|nanopool)",
+   "mitre": "T1496",
+   "aktif": true
+  },
+  {
+   "id": 1066,
+   "seviye": "YUKSEK",
+   "puan": 30,
+   "ad": "Ters proxy/tunnel",
+   "desen": "(ssh -R|chisel|ngrok|frp|ligolo|socat.*exec)",
+   "mitre": "T1572",
+   "aktif": true
+  },
+  {
+   "id": 1067,
+   "seviye": "ORTA",
+   "puan": 20,
+   "ad": "SMB/NetBIOS kesfi",
+   "desen": "(\\\\\\\\\\d+\\.\\d+\\.\\d+\\.\\d+\\\\|smbclient|enum4linux|crackmapexec)",
+   "mitre": "T1021",
+   "aktif": true
+  },
+  {
+   "id": 1068,
+   "seviye": "ORTA",
+   "puan": 20,
+   "ad": "LDAP/AD kesfi",
+   "desen": "(ldapsearch|bloodhound|kerberoast|GetUserSPNs|rubeus)",
+   "mitre": "T1087",
+   "aktif": true
+  },
+  {
+   "id": 1069,
+   "seviye": "ORTA",
+   "puan": 20,
+   "ad": "SNMP kesfi",
+   "desen": "(snmpwalk|snmpget|onesixtyone|public@)",
+   "mitre": "T1046",
+   "aktif": true
+  },
+  {
+   "id": 1070,
+   "seviye": "YUKSEK",
+   "puan": 30,
+   "ad": "Veritabani saldirisi",
+   "desen": "(mysql.*-h|psql.*-h|mongosh|redis-cli.*-h|MSSQL|sqli)",
+   "mitre": "T1190",
+   "aktif": true
+  },
+  {
+   "id": 1071,
+   "seviye": "YUKSEK",
+   "puan": 30,
+   "ad": "Mail protokol saldirisi",
+   "desen": "(SMTP.*MAIL FROM|RCPT TO.*\\|)",
+   "mitre": "T1071",
+   "aktif": true
+  },
+  {
+   "id": 1072,
+   "seviye": "ORTA",
+   "puan": 20,
+   "ad": "Docker/K8s api erisimi",
+   "desen": "(/var/run/docker\\.sock|/api/v1/pods|kubelet|:2375)",
+   "mitre": "T1611",
+   "aktif": true
+  },
+  {
+   "id": 1073,
+   "seviye": "YUKSEK",
+   "puan": 30,
+   "ad": "Container escape denemesi",
+   "desen": "(docker run --privileged|nsenter|chroot.*\\/host|mount.*\\/dev)",
+   "mitre": "T1611",
+   "aktif": true
+  },
+  {
+   "id": 1080,
+   "seviye": "KRITIK",
+   "puan": 50,
+   "ad": "Webshell erisimi",
+   "desen": "(shell\\.php|cmd\\.php|c99\\.php|r57\\.php|webshell|backdoor|b374k|wso\\.php|alfa\\.php)",
+   "mitre": "T1505.003",
+   "aktif": true
+  },
+  {
+   "id": 1081,
+   "seviye": "KRITIK",
+   "puan": 50,
+   "ad": "Ransomware gostergesi",
+   "desen": "(encrypt.*\\.locked|\\.crypt$|README.*DECRYPT|ransom.*note|vssadmin.*delete)",
+   "mitre": "T1486",
+   "aktif": true
+  },
+  {
+   "id": 1082,
+   "seviye": "KRITIK",
+   "puan": 45,
+   "ad": "Fidye notu/uzanti",
+   "desen": "(\\.encrypted$|\\.wncry|\\.locky|\\.cerber|DECRYPT_INSTRUCTIONS|RECOVER_FILES)",
+   "mitre": "T1486",
+   "aktif": true
+  },
+  {
+   "id": 1083,
+   "seviye": "YUKSEK",
+   "puan": 35,
+   "ad": "Golge kopya silme",
+   "desen": "(vssadmin delete shadows|wbadmin delete|bcdedit.*recoveryenabled no)",
+   "mitre": "T1490",
+   "aktif": true
+  },
+  {
+   "id": 1084,
+   "seviye": "KRITIK",
+   "puan": 45,
+   "ad": "Rootkit gostergesi",
+   "desen": "(ld\\.so\\.preload|\\/dev\\/shm\\/|hide.*pid|insmod.*rootkit|sys_call_table)",
+   "mitre": "T1014",
+   "aktif": true
+  },
+  {
+   "id": 1085,
+   "seviye": "YUKSEK",
+   "puan": 35,
+   "ad": "Keylogger gostergesi",
+   "desen": "(xinput test|logkeys|keysniffer|/dev/input/event.*read)",
+   "mitre": "T1056",
+   "aktif": true
+  },
+  {
+   "id": 1086,
+   "seviye": "YUKSEK",
+   "puan": 35,
+   "ad": "Ters baglanti araci",
+   "desen": "(cobalt|sliver|havoc|brute-ratel|mythic|empire|pupy)",
+   "mitre": "T1071",
+   "aktif": true
+  },
+  {
+   "id": 1087,
+   "seviye": "KRITIK",
+   "puan": 45,
+   "ad": "Credential dumping araci",
+   "desen": "(mimikatz|lsassy|pypykatz|procdump.*lsass|comsvcs\\.dll)",
+   "mitre": "T1003",
+   "aktif": true
+  },
+  {
+   "id": 1088,
+   "seviye": "YUKSEK",
+   "puan": 35,
+   "ad": "Recon framework",
+   "desen": "(metasploit|msfconsole|searchsploit|exploit-db|msfvenom|empire)",
+   "mitre": "T1595",
+   "aktif": true
+  },
+  {
+   "id": 1089,
+   "seviye": "ORTA",
+   "puan": 25,
+   "ad": "Exploit arama davranisi",
+   "desen": "(CVE-\\d{4}-\\d{4,}.*exploit|poc.*\\.py|rce\\.py|shell\\.py)",
+   "mitre": "T1595",
+   "aktif": true
+  },
+  {
+   "id": 1090,
+   "seviye": "ORTA",
+   "puan": 25,
+   "ad": "Zararli bot tarama (genis)",
+   "desen": "(sqlmap|nikto|nmap|masscan|acunetix|nessus|dirbuster|gobuster|wpscan|nuclei|zap|hydra|medusa|ffuf|feroxbuster)",
+   "mitre": "T1595",
+   "aktif": true
+  },
+  {
+   "id": 1091,
+   "seviye": "ORTA",
+   "puan": 20,
+   "ad": "SEO/spam bot",
+   "desen": "(semrush|ahrefs|mj12bot|dotbot|petalbot|bytespider)",
+   "mitre": "T1595",
+   "aktif": true
+  },
+  {
+   "id": 1092,
+   "seviye": "YUKSEK",
+   "puan": 30,
+   "ad": "Panelsiz API kesfi",
+   "desen": "(/api/v\\d+/(users|admin|token|config|debug)|/graphql|/swagger|/openapi)",
+   "mitre": "T1595",
+   "aktif": true
+  },
+  {
+   "id": 1093,
+   "seviye": "KRITIK",
+   "puan": 45,
+   "ad": "Sifre/anahtar sizintisi",
+   "desen": "(BEGIN (RSA|OPENSSH|PRIVATE) KEY|AKIA[0-9A-Z]{16}|ghp_[A-Za-z0-9]{36})",
+   "mitre": "T1552.001",
+   "aktif": true
+  },
+  {
+   "id": 1094,
+   "seviye": "YUKSEK",
+   "puan": 35,
+   "ad": "Veri sizdirma denemesi",
+   "desen": "(base64.*\\|.*curl|tar.*\\|.*nc|zip.*-r.*\\|.*wget|scp.*@.*:)",
+   "mitre": "T1041",
+   "aktif": true
+  },
+  {
+   "id": 1095,
+   "seviye": "YUKSEK",
+   "puan": 30,
+   "ad": "Cloud metadata erisimi",
+   "desen": "(169\\.254\\.169\\.254|metadata\\.google\\.internal|100\\.100\\.100\\.200)",
+   "mitre": "T1552.005",
+   "aktif": true
+  },
+  {
+   "id": 1096,
+   "seviye": "ORTA",
+   "puan": 20,
+   "ad": "Tor/proxy kullanimi",
+   "desen": "(torproject|\\.onion|proxychains|socks5://|127\\.0\\.0\\.1:9050)",
+   "mitre": "T1090",
+   "aktif": true
+  },
+  {
+   "id": 1097,
+   "seviye": "ORTA",
+   "puan": 20,
+   "ad": "VPN/proxy anomali",
+   "desen": "(openvpn|wireguard|tailscale|zerotier).*(unknown|unexpected)",
+   "mitre": "T1090",
+   "aktif": true
+  },
+  {
+   "id": 1098,
+   "seviye": "YUKSEK",
+   "puan": 30,
+   "ad": "Zamanlanmis gorev (Windows)",
+   "desen": "(schtasks \\/create|at \\d+|Register-ScheduledTask)",
+   "mitre": "T1053.005",
+   "aktif": true
+  },
+  {
+   "id": 1099,
+   "seviye": "YUKSEK",
+   "puan": 30,
+   "ad": "WMI/WinRM uzaktan erisim",
+   "desen": "(wmic.*\\/node:|winrs|Enter-PSSession|Invoke-WmiMethod)",
+   "mitre": "T1047",
+   "aktif": true
+  },
+  {
+   "id": 1100,
+   "seviye": "KRITIK",
+   "puan": 40,
+   "ad": "Pass-the-hash/ticket",
+   "desen": "(sekurlsa|pth|golden.*ticket|kerberos::ptt|NTLM.*relay)",
+   "mitre": "T1550",
+   "aktif": true
+  },
+  {
+   "id": 1101,
+   "seviye": "YUKSEK",
+   "puan": 35,
+   "ad": "LD_PRELOAD hilesi",
+   "desen": "(LD_PRELOAD=.*\\.so|LD_AUDIT=|GCONV_PATH=)",
+   "mitre": "T1574",
+   "aktif": true
+  },
+  {
+   "id": 1102,
+   "seviye": "KRITIK",
+   "puan": 45,
+   "ad": "PATH hijacking",
+   "desen": "(export PATH=\\/tmp|PATH=\\.\\.\\/|PATH=\\$PWD)",
+   "mitre": "T1574",
+   "aktif": true
+  },
+  {
+   "id": 1103,
+   "seviye": "YUKSEK",
+   "puan": 30,
+   "ad": "Zorla kapatma/DoS",
+   "desen": "(kill -9 1|pkill -9|:\\(\\)\\{ :\\|:&\\};:)",
+   "mitre": "T1499",
+   "aktif": true
+  },
+  {
+   "id": 1104,
+   "seviye": "ORTA",
+   "puan": 20,
+   "ad": "Zayif TLS/SSL kullanimi",
+   "desen": "(SSLv[23]|TLSv1\\.0|RC4|DES-CBC|export ciphers)",
+   "mitre": "T1040",
+   "aktif": true
+  },
+  {
+   "id": 1105,
+   "seviye": "ORTA",
+   "puan": 20,
+   "ad": "Bilgi toplama (banner)",
+   "desen": "(Server: .*(Apache|nginx)\\/[\\d]|X-Powered-By|X-AspNet-Version)",
+   "mitre": "T1592",
+   "aktif": true
+  },
+  {
+   "id": 1106,
+   "seviye": "YUKSEK",
+   "puan": 30,
+   "ad": "Panel brute-force",
+   "desen": "(POST \\/(admin|login|wp-login|giris).*40[13]|401.*POST)",
+   "mitre": "T1110",
+   "aktif": true
+  },
+  {
+   "id": 1107,
+   "seviye": "KRITIK",
+   "puan": 40,
+   "ad": "Sifre degistirme/takeover",
+   "desen": "(password.*reset.*token|account.*takeover|forgot.*password.*@)",
+   "mitre": "T1531",
+   "aktif": true
+  },
+  {
+   "id": 1108,
+   "seviye": "YUKSEK",
+   "puan": 30,
+   "ad": "Yedek dosya indirme",
+   "desen": "(\\.bak|\\.backup|\\.old|\\.save|\\.swp|\\.dump|\\.sql\\.zip|\\.tar\\.bz2)",
+   "mitre": "T1552.001",
+   "aktif": true
+  },
+  {
+   "id": 1109,
+   "seviye": "ORTA",
+   "puan": 20,
+   "ad": "Kaynak kod ifsasi",
+   "desen": "(\\.git\\/config|\\.git\\/HEAD|\\.svn\\/entries|\\.DS_Store|\\.idea\\/|composer\\.lock)",
+   "mitre": "T1083",
+   "aktif": true
+  },
+  {
+   "id": 1110,
+   "seviye": "KRITIK",
+   "puan": 45,
+   "ad": "Otalama/root erisim tespiti",
+   "desen": "(uid=0\\(root\\)|Successfully.*root|root.*Access Granted)",
+   "mitre": "T1078",
+   "aktif": true
+  },
+  {
+   "id": 2001,
+   "seviye": "KRITIK",
+   "puan": 50,
+   "ad": "Log4Shell (CVE-2021-44228)",
+   "desen": "(\\$\\{jndi:(ldap|rmi|dns)://|\\$\\{lower:|\\$\\{env:)",
+   "mitre": "T1190",
+   "aktif": true
+  },
+  {
+   "id": 2002,
+   "seviye": "KRITIK",
+   "puan": 50,
+   "ad": "Shellshock (CVE-2014-6271)",
+   "desen": "(\\(\\)\\s*\\{\\s*:;\\s*\\}|bash\\s+-c\\s+'\\{\\s*:)",
+   "mitre": "T1059",
+   "aktif": true
+  },
+  {
+   "id": 2003,
+   "seviye": "KRITIK",
+   "puan": 45,
+   "ad": "Spring4Shell (CVE-2022-22965)",
+   "desen": "(class\\.module\\.classLoader|class\\.module\\.classLoader\\.resources)",
+   "mitre": "T1190",
+   "aktif": true
+  },
+  {
+   "id": 2004,
+   "seviye": "KRITIK",
+   "puan": 45,
+   "ad": "ProxyShell/ProxyLogon",
+   "desen": "(/ecp/|/owa/auth/|autodiscover\\.xml)",
+   "mitre": "T1190",
+   "aktif": true
+  },
+  {
+   "id": 2005,
+   "seviye": "KRITIK",
+   "puan": 45,
+   "ad": "Struts2 OGNL",
+   "desen": "(%\\{#|ognl\\.|%24%7B%23)",
+   "mitre": "T1190",
+   "aktif": true
+  },
+  {
+   "id": 2006,
+   "seviye": "KRITIK",
+   "puan": 40,
+   "ad": "Citrix ADC (CVE-2019-19781)",
+   "desen": "(/vpn/../vpns/|/vpns/cfg/smb\\.conf)",
+   "mitre": "T1190",
+   "aktif": true
+  },
+  {
+   "id": 2007,
+   "seviye": "YUKSEK",
+   "puan": 35,
+   "ad": "PHP-CGI arg injection",
+   "desen": "(\\?[^=]+=-d\\s*allow_url_include|auto_prepend_file=)",
+   "mitre": "T1190",
+   "aktif": true
+  },
+  {
+   "id": 2008,
+   "seviye": "KRITIK",
+   "puan": 45,
+   "ad": "XStream/JNDI deser",
+   "desen": "(java\\.lang\\.ProcessBuilder|java\\.lang\\.Runtime)",
+   "mitre": "T1190",
+   "aktif": true
+  },
+  {
+   "id": 2020,
+   "seviye": "ORTA",
+   "puan": 18,
+   "ad": "Nuclei tarayici",
+   "desen": "(nuclei|Nuclei/)",
+   "mitre": "T1595",
+   "aktif": true
+  },
+  {
+   "id": 2021,
+   "seviye": "ORTA",
+   "puan": 18,
+   "ad": "ffuf/feroxbuster",
+   "desen": "(ffuf|feroxbuster)",
+   "mitre": "T1595",
+   "aktif": true
+  },
+  {
+   "id": 2022,
+   "seviye": "ORTA",
+   "puan": 18,
+   "ad": "httpx/subfinder/amass",
+   "desen": "(httpx|subfinder|amass|assetfinder)",
+   "mitre": "T1595",
+   "aktif": true
+  },
+  {
+   "id": 2023,
+   "seviye": "ORTA",
+   "puan": 18,
+   "ad": "ZAP/Burp tarayici",
+   "desen": "(OWASP[-\\s]?ZAP|BurpSuite|Burp\\s+Scanner)",
+   "mitre": "T1595",
+   "aktif": true
+  },
+  {
+   "id": 2024,
+   "seviye": "ORTA",
+   "puan": 18,
+   "ad": "dirb/dirsearch/wfuzz",
+   "desen": "(dirb|dirsearch|wfuzz|gobuster)",
+   "mitre": "T1595",
+   "aktif": true
+  },
+  {
+   "id": 2025,
+   "seviye": "ORTA",
+   "puan": 20,
+   "ad": "Hydra/Medusa brute",
+   "desen": "(hydra|medusa|ncrack|patator)",
+   "mitre": "T1110",
+   "aktif": true
+  },
+  {
+   "id": 2026,
+   "seviye": "ORTA",
+   "puan": 18,
+   "ad": "Metasploit/Nessus/OpenVAS",
+   "desen": "(metasploit|nessus|openvas|gvm)",
+   "mitre": "T1595",
+   "aktif": true
+  },
+  {
+   "id": 2027,
+   "seviye": "ORTA",
+   "puan": 15,
+   "ad": "Censys/Shodan/FOFA",
+   "desen": "(censys|shodan|fofa|zoomeye)",
+   "mitre": "T1596",
+   "aktif": true
+  },
+  {
+   "id": 2040,
+   "seviye": "YUKSEK",
+   "puan": 30,
+   "ad": "Yedek dosya erisimi",
+   "desen": "(\\.sql\\.gz|\\.tar\\.gz$|\\.zip$|backup\\.|\\.bak$|\\.old$|\\.orig$|~$)",
+   "mitre": "T1552.001",
+   "aktif": true
+  },
+  {
+   "id": 2041,
+   "seviye": "YUKSEK",
+   "puan": 30,
+   "ad": "VCS dizin kesfi",
+   "desen": "(/\\.svn/|/\\.hg/|/\\.bzr/|/CVS/|/\\.git/config)",
+   "mitre": "T1552.001",
+   "aktif": true
+  },
+  {
+   "id": 2042,
+   "seviye": "ORTA",
+   "puan": 20,
+   "ad": "Editör/IDE kalinti",
+   "desen": "(\\.swp$|\\.swo$|\\.DS_Store|\\.idea/|\\.vscode/)",
+   "mitre": "T1083",
+   "aktif": true
+  },
+  {
+   "id": 2043,
+   "seviye": "YUKSEK",
+   "puan": 30,
+   "ad": "Konfig kesfi",
+   "desen": "(/config\\.php\\.bak|/wp-config\\.php\\.|/settings\\.py\\.|/\\.env\\.)",
+   "mitre": "T1552.001",
+   "aktif": true
+  },
+  {
+   "id": 2044,
+   "seviye": "YUKSEK",
+   "puan": 30,
+   "ad": "DB yonetim paneli",
+   "desen": "(/phpmyadmin|/pma/|/adminer\\.php|/dbadmin|/mysql/)",
+   "mitre": "T1190",
+   "aktif": true
+  },
+  {
+   "id": 2060,
+   "seviye": "KRITIK",
+   "puan": 45,
+   "ad": "XXE (XML external entity)",
+   "desen": "(<!DOCTYPE[^>]+SYSTEM|<!ENTITY\\s+\\w+\\s+SYSTEM|SYSTEM\\s+[\\\"']file://)",
+   "mitre": "T1190",
+   "aktif": true
+  },
+  {
+   "id": 2061,
+   "seviye": "KRITIK",
+   "puan": 45,
+   "ad": "Java deserialization (base64 magic)",
+   "desen": "(rO0AB|AAEAAAD/////)",
+   "mitre": "T1190",
+   "aktif": true
+  },
+  {
+   "id": 2062,
+   "seviye": "KRITIK",
+   "puan": 45,
+   "ad": "PHP object injection",
+   "desen": "(O:\\d+:\\\"[A-Za-z\\\\\\\\]+\\\")",
+   "mitre": "T1190",
+   "aktif": true
+  },
+  {
+   "id": 2063,
+   "seviye": "KRITIK",
+   "puan": 40,
+   "ad": "SSTI ileri",
+   "desen": "(\\{\\{.*(__class__|__mro__|config|self)\\}\\}|\\$\\{.*Runtime\\})",
+   "mitre": "T1190",
+   "aktif": true
+  },
+  {
+   "id": 2064,
+   "seviye": "YUKSEK",
+   "puan": 35,
+   "ad": "CRLF injection",
+   "desen": "(%0d%0a|%0aSet-Cookie|\\\\r\\\\nX-Injected)",
+   "mitre": "T1190",
+   "aktif": true
+  },
+  {
+   "id": 2065,
+   "seviye": "YUKSEK",
+   "puan": 35,
+   "ad": "Open redirect",
+   "desen": "([?&](redirect|url|next|return|dest)=https?://)",
+   "mitre": "T1190",
+   "aktif": true
+  },
+  {
+   "id": 2066,
+   "seviye": "YUKSEK",
+   "puan": 35,
+   "ad": "HTTP header spoof",
+   "desen": "(X-Forwarded-For:\\s*127\\.0\\.0\\.1|X-Originating-IP|X-Remote-Addr)",
+   "mitre": "T1190",
+   "aktif": true
+  },
+  {
+   "id": 2067,
+   "seviye": "KRITIK",
+   "puan": 50,
+   "ad": "SSRF metadata",
+   "desen": "(169\\.254\\.169\\.254|metadata\\.google|metadata\\.azure|100\\.100\\.100\\.200)",
+   "mitre": "T1552.005",
+   "aktif": true
+  },
+  {
+   "id": 2068,
+   "seviye": "YUKSEK",
+   "puan": 35,
+   "ad": "GraphQL introspection",
+   "desen": "(query\\s*\\{\\s*__schema|__type\\s*\\{)",
+   "mitre": "T1595",
+   "aktif": true
+  },
+  {
+   "id": 2069,
+   "seviye": "YUKSEK",
+   "puan": 30,
+   "ad": "JWT manipülasyon",
+   "desen": "(eyJ[A-Za-z0-9_-]{10,}\\.eyJ[A-Za-z0-9_-]{10,}\\.)",
+   "mitre": "T1552",
+   "aktif": true
+  },
+  {
+   "id": 2080,
+   "seviye": "KRITIK",
+   "puan": 40,
+   "ad": "Sudo exploit denemesi",
+   "desen": "(sudo\\s+-u\\s+root|sudo\\s+su\\s|CVE-2021-3156|sudoedit)",
+   "mitre": "T1548.003",
+   "aktif": true
+  },
+  {
+   "id": 2081,
+   "seviye": "KRITIK",
+   "puan": 40,
+   "ad": "SUID/LD_PRELOAD",
+   "desen": "(LD_PRELOAD=|/etc/ld\\.so\\.preload|chmod\\s+u\\+s)",
+   "mitre": "T1574.006",
+   "aktif": true
+  },
+  {
+   "id": 2082,
+   "seviye": "KRITIK",
+   "puan": 40,
+   "ad": "Kernel modul yukleme",
+   "desen": "(insmod\\s|modprobe\\s|/dev/mem|/dev/kmem)",
+   "mitre": "T1547.006",
+   "aktif": true
+  },
+  {
+   "id": 2083,
+   "seviye": "YUKSEK",
+   "puan": 35,
+   "ad": "Cron/systemd kalicilik",
+   "desen": "(/etc/cron\\.d/|/etc/crontab|/etc/systemd/system/.*\\.service)",
+   "mitre": "T1053.003",
+   "aktif": true
+  },
+  {
+   "id": 2084,
+   "seviye": "KRITIK",
+   "puan": 45,
+   "ad": "Ptrace/process injection",
+   "desen": "(ptrace\\(|/proc/\\d+/mem|gdb\\s+-p)",
+   "mitre": "T1055",
+   "aktif": true
+  },
+  {
+   "id": 2085,
+   "seviye": "YUKSEK",
+   "puan": 35,
+   "ad": "Reverse shell kalibi",
+   "desen": "(bash\\s+-i\\s+>&|nc\\s+-e\\s+/bin/(sh|bash)|/dev/tcp/\\d)",
+   "mitre": "T1059.004",
+   "aktif": true
+  },
+  {
+   "id": 2086,
+   "seviye": "KRITIK",
+   "puan": 45,
+   "ad": "Web shell erisimi",
+   "desen": "(\\.php\\?cmd=|\\.php\\?exec=|\\.php\\?c=|/shell\\?|c99|r57|b374k)",
+   "mitre": "T1505.003",
+   "aktif": true
+  },
+  {
+   "id": 2100,
+   "seviye": "KRITIK",
+   "puan": 50,
+   "ad": "Kripto miner",
+   "desen": "(xmrig|stratum\\+tcp|minerd|cpuminer|monero.*pool)",
+   "mitre": "T1496",
+   "aktif": true
+  },
+  {
+   "id": 2101,
+   "seviye": "KRITIK",
+   "puan": 50,
+   "ad": "Ransomware notu",
+   "desen": "(HOW_TO_DECRYPT|README_DECRYPT|DECRYPT_INSTRUCTIONS|YOUR_FILES_ARE_ENCRYPTED|\\.locked$|\\.crypt$)",
+   "mitre": "T1486",
+   "aktif": true
+  },
+  {
+   "id": 2102,
+   "seviye": "KRITIK",
+   "puan": 45,
+   "ad": "C2 beacon kalibi",
+   "desen": "(beacon\\.php|/gate\\.php|cobaltstrike|meterpreter|/panel\\.php\\?id=)",
+   "mitre": "T1071",
+   "aktif": true
+  },
+  {
+   "id": 2103,
+   "seviye": "KRITIK",
+   "puan": 45,
+   "ad": "Kredi karti/parola toplama",
+   "desen": "(carding|cc_full|fullz|dumps\\.txt|logins\\.txt)",
+   "mitre": "T1078",
+   "aktif": true
+  },
+  {
+   "id": 2104,
+   "seviye": "YUKSEK",
+   "puan": 35,
+   "ad": "DNS tunneling",
+   "desen": "([a-z0-9]{40,}\\.(?:dns|tunnel|exfil))",
+   "mitre": "T1071.004",
+   "aktif": true
+  },
+  {
+   "id": 2105,
+   "seviye": "KRITIK",
+   "puan": 45,
+   "ad": "Veri sizdirma (exfil)",
+   "desen": "(/upload\\.php\\?.*(passwd|shadow|\\.sql)|base64.*(curl|wget))",
+   "mitre": "T1041",
+   "aktif": true
+  },
+  {
+   "id": 2120,
+   "seviye": "KRITIK",
+   "puan": 45,
+   "ad": "Windows credential dump",
+   "desen": "(sekurlsa::|lsadump::|mimikatz|procdump.*lsass)",
+   "mitre": "T1003.001",
+   "aktif": true
+  },
+  {
+   "id": 2121,
+   "seviye": "YUKSEK",
+   "puan": 35,
+   "ad": "PowerShell encoded komut",
+   "desen": "(powershell.*-enc\\s+[A-Za-z0-9+/=]{20,}|-e\\s+[A-Za-z0-9+/=]{40,})",
+   "mitre": "T1059.001",
+   "aktif": true
+  },
+  {
+   "id": 2122,
+   "seviye": "YUKSEK",
+   "puan": 35,
+   "ad": "WMI kalicilik",
+   "desen": "(wmic.*process.*call.*create|__EventFilter|CommandLineEventConsumer)",
+   "mitre": "T1047",
+   "aktif": true
+  },
+  {
+   "id": 2123,
+   "seviye": "YUKSEK",
+   "puan": 35,
+   "ad": "Registry Run kalicilik",
+   "desen": "(CurrentVersion\\\\\\\\Run|Winlogon\\\\\\\\Shell|Image File Execution)",
+   "mitre": "T1547.001",
+   "aktif": true
+  },
+  {
+   "id": 2124,
+   "seviye": "KRITIK",
+   "puan": 40,
+   "ad": "RDP saldiri",
+   "desen": "(BlueKeep|CVE-2019-0708|rdp.*exploit|xfreerdp.*/v:)",
+   "mitre": "T1210",
+   "aktif": true
+  }
+ ],
+ "guncelleme": "03.10.2026 20:32"
+}

@@ -1,0 +1,13 @@
+{
+ "yollar": [
+  "/etc/passwd",
+  "/etc/shadow",
+  "/etc/sudoers",
+  "/etc/hosts",
+  "/etc/crontab",
+  "/etc/ssh/sshd_config",
+  "/opt/siber-kalkan/VERI/ayarlar.json",
+  "/var/www/kalkan-panel/ortak.php",
+  "/opt/siber-kalkan/MOTOR/kalkan_motor.py"
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "zaman": "06.10.2026 00:00:34",
+ "yonetici": "dpkg",
+ "paket_sayisi": 3201,
+ "kernel": "7.1.5+kali-amd64",
+ "bulgular": [
+  {
+   "paket": "php",
+   "surum": "2:8.4+99",
+   "cve": "CVE-2023-0662",
+   "cvss": 7.5,
+   "baslik": "PHP DoS (boundary)",
+   "risk": "YUKSEK"
+  },
+  {
+   "paket": "vim",
+   "surum": "2:9.2.0858-1",
+   "cve": "CVE-2023-4733",
+   "cvss": 7.8,
+   "baslik": "vim modeline komut calistirma",
+   "risk": "YUKSEK"
+  }
+ ],
+ "bulgu_sayisi": 2,
+ "ortalama_cvss": 7.7,
+ "sanal_yama": [],
+ "skor": 72,
+ "puan": 72,
+ "kritik": 0,
+ "yuksek": 2,
+ "kontrol_edilen_cve": 20
+}

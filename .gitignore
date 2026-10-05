@@ -1,40 +1,32 @@
-# ═══ CYBER KALKAN — Git dışı bırakılacaklar ═══
-# Tek tıkla kurulum paketleri — sadece repo paketine izin
-*.tar
-*.zip
-!CYBER_KALKAN_v1.0_KURULUM_PAKETI.tar.gz
-
-# Karantina / geçici / önbellek
-karantina/
-*.karantina
-*.onarim_oncesi
+# ★ Repo'ya GIRMEYECEKLER (buyuk / sir / log / veri)
 __pycache__/
 *.pyc
-cache/
-tmp/
-zz*.php
+*.pyo
 
-# Log ve hassas veri
+# Suricata: 52k kural (49 MB) + loglar
+suricata/rules/
+suricata/logs/
+
+# Loglar
+LOG/
 *.log
-*.db
-state.db
-*_key*
+
+# Sertifikalar / sir
+TLS/
 *.pem
 *.key
-id_rsa*
+*.crt
 
-# Yedek
-yedek/
-*.yedek
-*_yedek*
+# CVE veritabani (150 MB)
+CDB/
 
-# Test çıktıları
-test_veri/mail_ayar.json
-veri/eposta.json
-veri/mail_*.json
+# Hassas veri (sir!)
+VERI/eposta.json
+VERI/mail_ayar.json
+VERI/*token*
+VERI/*sifre*
+VERI/sirlar*
 
-# resimler/ haric tum jpg/png
-*.jpg
-*.png
-!resimler/*.jpg
-!resimler/*.png
+# Rapor/cikti
+*.pdf
+_*.html
