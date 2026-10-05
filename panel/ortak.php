@@ -304,6 +304,12 @@ function kalkan_baslik(string $ikon, string $baslik, string $aciklama = ''): voi
     echo '</div>';
     echo '<div class="cy-tarama"></div>';
     echo '</div>';
+    /* ★ CANLI BANT (serit) — tum modullerin altinda ortak */
+    echo '<div class="canli-serit" style="margin-bottom:18px">'
+       . '<span class="nokta aktif"></span><b>CANLI</b>'
+       . '<span class="cs-ayrac">·</span>'
+       . '<span>Güncelleme: <b>' . date('H:i:s') . '</b></span>'
+       . '</div>';
 }
 
 /* ---------- ORTAK UST BILGI (tek tip header) ---------- */

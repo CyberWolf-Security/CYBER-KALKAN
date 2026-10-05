@@ -82,7 +82,7 @@ $kural_sayi  = count($kur['kurallar'] ?? []);
 <main>
 
 <?php kalkan_baslik('📊', d('sy_panel'), d('sy_panel_alt')); ?>
-<div class="canli-serit" style="margin-bottom:20px"><span class="nokta aktif"></span><b><?= d('sy_canli') ?></b><span class="cs-ayrac">·</span><span><?= d('sy_guncelleme') ?>: <b><?= date('H:i:s') ?></b></span></div>
+<!-- ★ Kaldirildi: canli-serit artik kalkan_baslik() icinde basiliyor (cift olmasin) -->
 
 <!-- KPI KARTLARI -->
 <div class="kartlar">
