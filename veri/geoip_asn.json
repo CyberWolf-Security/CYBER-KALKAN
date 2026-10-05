@@ -1,0 +1,62 @@
+{
+ "dahili": {
+  "ulke": "LOCAL",
+  "sehir": "-",
+  "asn": "-"
+ },
+ "shodan": {
+  "ulke": "US",
+  "sehir": "-",
+  "asn": "AS37963"
+ },
+ "digitalocean": {
+  "ulke": "US",
+  "sehir": "New York",
+  "asn": "AS14061"
+ },
+ "amazon": {
+  "ulke": "US",
+  "sehir": "Ashburn",
+  "asn": "AS14618"
+ },
+ "cloudflare": {
+  "ulke": "US",
+  "sehir": "-",
+  "asn": "AS13335"
+ },
+ "hetzner": {
+  "ulke": "DE",
+  "sehir": "Nuremberg",
+  "asn": "AS24940"
+ },
+ "ovh": {
+  "ulke": "FR",
+  "sehir": "Roubaix",
+  "asn": "AS16276"
+ },
+ "linode": {
+  "ulke": "US",
+  "sehir": "-",
+  "asn": "AS63949"
+ },
+ "vultr": {
+  "ulke": "US",
+  "sehir": "-",
+  "asn": "AS20473"
+ },
+ "contabo": {
+  "ulke": "DE",
+  "sehir": "-",
+  "asn": "AS51167"
+ },
+ "alibaba": {
+  "ulke": "CN",
+  "sehir": "Hangzhou",
+  "asn": "AS45102"
+ },
+ "tencent": {
+  "ulke": "CN",
+  "sehir": "-",
+  "asn": "AS132203"
+ }
+}

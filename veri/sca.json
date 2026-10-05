@@ -1,0 +1,556 @@
+{
+ "zaman": "05.10.2026 05:30:02",
+ "kontroller": [
+  {
+   "id": "1.1.1",
+   "kategori": "Kimlik",
+   "baslik": "Root sifresiz giris kapali",
+   "durum": "KALDI",
+   "risk": "KRITIK",
+   "cikti": "root P 2026-08-21 0 99999 7 -1"
+  },
+  {
+   "id": "1.1.2",
+   "kategori": "Kimlik",
+   "baslik": "Sifresiz hesap yok",
+   "durum": "GECTI",
+   "risk": "KRITIK",
+   "cikti": ""
+  },
+  {
+   "id": "1.1.3",
+   "kategori": "Kimlik",
+   "baslik": "UID 0 tek kullanici",
+   "durum": "GECTI",
+   "risk": "KRITIK",
+   "cikti": "root"
+  },
+  {
+   "id": "1.2.1",
+   "kategori": "Kimlik",
+   "baslik": "Bos sifreli sistem hesabi yok",
+   "durum": "KALDI",
+   "risk": "KRITIK",
+   "cikti": "24"
+  },
+  {
+   "id": "1.3.1",
+   "kategori": "Kimlik",
+   "baslik": "sudo kurulu",
+   "durum": "GECTI",
+   "risk": "ORTA",
+   "cikti": "/usr/bin/sudo"
+  },
+  {
+   "id": "5.2.1",
+   "kategori": "SSH",
+   "baslik": "Root giris kapali",
+   "durum": "KALDI",
+   "risk": "KRITIK",
+   "cikti": "PermitRootLogin prohibit-password"
+  },
+  {
+   "id": "5.2.2",
+   "kategori": "SSH",
+   "baslik": "Sifre ile giris kapali",
+   "durum": "GECTI",
+   "risk": "YUKSEK",
+   "cikti": "PasswordAuthentication no"
+  },
+  {
+   "id": "5.2.3",
+   "kategori": "SSH",
+   "baslik": "Bos sifre reddedilir",
+   "durum": "GECTI",
+   "risk": "KRITIK",
+   "cikti": "PermitEmptyPasswords no"
+  },
+  {
+   "id": "5.2.4",
+   "kategori": "SSH",
+   "baslik": "X11 yonlendirme kapali",
+   "durum": "GECTI",
+   "risk": "ORTA",
+   "cikti": "X11Forwarding no"
+  },
+  {
+   "id": "5.2.5",
+   "kategori": "SSH",
+   "baslik": "MaxAuthTries <= 4",
+   "durum": "GECTI",
+   "risk": "ORTA",
+   "cikti": "MaxAuthTries 2"
+  },
+  {
+   "id": "5.2.6",
+   "kategori": "SSH",
+   "baslik": "Idle timeout ayarli",
+   "durum": "GECTI",
+   "risk": "ORTA",
+   "cikti": "#ClientAliveInterval 0\nClientAliveInterval 120"
+  },
+  {
+   "id": "5.2.7",
+   "kategori": "SSH",
+   "baslik": "Protocol 2",
+   "durum": "GECTI",
+   "risk": "ORTA",
+   "cikti": ""
+  },
+  {
+   "id": "3.1.1",
+   "kategori": "Ag",
+   "baslik": "Firewall aktif (nftables)",
+   "durum": "KALDI",
+   "risk": "KRITIK",
+   "cikti": "/bin/sh: 1: nft: not found"
+  },
+  {
+   "id": "3.1.2",
+   "kategori": "Ag",
+   "baslik": "Kalici firewall kurali",
+   "durum": "GECTI",
+   "risk": "YUKSEK",
+   "cikti": "/etc/nftables.d/kalkan-kilic.nft\n/etc/nftables.d/kalkan-tarpit.nft\n/etc/nftables"
+  },
+  {
+   "id": "3.2.1",
+   "kategori": "Ag",
+   "baslik": "IP yonlendirme kapali",
+   "durum": "KALDI",
+   "risk": "YUKSEK",
+   "cikti": "/bin/sh: 1: sysctl: not found"
+  },
+  {
+   "id": "3.2.2",
+   "kategori": "Ag",
+   "baslik": "Kaynak yonlendirme kapali",
+   "durum": "KALDI",
+   "risk": "YUKSEK",
+   "cikti": "/bin/sh: 1: sysctl: not found"
+  },
+  {
+   "id": "3.2.3",
+   "kategori": "Ag",
+   "baslik": "ICMP yonlendirme kabul kapali",
+   "durum": "KALDI",
+   "risk": "ORTA",
+   "cikti": "/bin/sh: 1: sysctl: not found"
+  },
+  {
+   "id": "3.2.4",
+   "kategori": "Ag",
+   "baslik": "SYN cookies aktif",
+   "durum": "KALDI",
+   "risk": "ORTA",
+   "cikti": "/bin/sh: 1: sysctl: not found"
+  },
+  {
+   "id": "3.3.1",
+   "kategori": "Ag",
+   "baslik": "Dinlenen portlar sinirli",
+   "durum": "GECTI",
+   "risk": "ORTA",
+   "cikti": "16"
+  },
+  {
+   "id": "4.1.1",
+   "kategori": "Kernel",
+   "baslik": "ASLR aktif (randomize_va_space=2)",
+   "durum": "KALDI",
+   "risk": "YUKSEK",
+   "cikti": "/bin/sh: 1: sysctl: not found"
+  },
+  {
+   "id": "4.1.2",
+   "kategori": "Kernel",
+   "baslik": "dmesg kisitli",
+   "durum": "KALDI",
+   "risk": "ORTA",
+   "cikti": "/bin/sh: 1: sysctl: not found"
+  },
+  {
+   "id": "4.1.3",
+   "kategori": "Kernel",
+   "baslik": "kptr_restrict aktif",
+   "durum": "KALDI",
+   "risk": "ORTA",
+   "cikti": "/bin/sh: 1: sysctl: not found"
+  },
+  {
+   "id": "4.1.4",
+   "kategori": "Kernel",
+   "baslik": "Core dump kapali",
+   "durum": "GECTI",
+   "risk": "ORTA",
+   "cikti": "0"
+  },
+  {
+   "id": "4.1.5",
+   "kategori": "Kernel",
+   "baslik": "ptrace kisitli",
+   "durum": "KALDI",
+   "risk": "YUKSEK",
+   "cikti": "/bin/sh: 1: sysctl: not found"
+  },
+  {
+   "id": "4.1.6",
+   "kategori": "Kernel",
+   "baslik": "SYN flood koruma",
+   "durum": "KALDI",
+   "risk": "ORTA",
+   "cikti": "/bin/sh: 1: sysctl: not found"
+  },
+  {
+   "id": "6.1.1",
+   "kategori": "Dosya",
+   "baslik": "/etc/passwd izni 644",
+   "durum": "GECTI",
+   "risk": "KRITIK",
+   "cikti": "644"
+  },
+  {
+   "id": "6.1.2",
+   "kategori": "Dosya",
+   "baslik": "/etc/shadow izni 640 (veya 600)",
+   "durum": "GECTI",
+   "risk": "KRITIK",
+   "cikti": "640"
+  },
+  {
+   "id": "6.1.3",
+   "kategori": "Dosya",
+   "baslik": "/etc/group izni 644",
+   "durum": "GECTI",
+   "risk": "ORTA",
+   "cikti": "644"
+  },
+  {
+   "id": "6.1.4",
+   "kategori": "Dosya",
+   "baslik": "Dunya-yazilabilir dosya yok (/etc)",
+   "durum": "GECTI",
+   "risk": "YUKSEK",
+   "cikti": "0"
+  },
+  {
+   "id": "6.1.5",
+   "kategori": "Dosya",
+   "baslik": "SUID/SGID makul",
+   "durum": "GECTI",
+   "risk": "ORTA",
+   "cikti": "35"
+  },
+  {
+   "id": "6.1.6",
+   "kategori": "Dosya",
+   "baslik": "ld.so.preload temiz",
+   "durum": "GECTI",
+   "risk": "KRITIK",
+   "cikti": "0"
+  },
+  {
+   "id": "6.1.7",
+   "kategori": "Dosya",
+   "baslik": "root home izni 700",
+   "durum": "GECTI",
+   "risk": "YUKSEK",
+   "cikti": "700"
+  },
+  {
+   "id": "6.1.8",
+   "kategori": "Dosya",
+   "baslik": "cron dosyalari guvenli",
+   "durum": "GECTI",
+   "risk": "YUKSEK",
+   "cikti": "0"
+  },
+  {
+   "id": "7.1.1",
+   "kategori": "Servis",
+   "baslik": "Gereksiz servis yok (telnet/ftp)",
+   "durum": "KALDI",
+   "risk": "YUKSEK",
+   "cikti": "2"
+  },
+  {
+   "id": "7.1.2",
+   "kategori": "Servis",
+   "baslik": "auditd loglama",
+   "durum": "GECTI",
+   "risk": "ORTA",
+   "cikti": "inactive"
+  },
+  {
+   "id": "7.1.3",
+   "kategori": "Servis",
+   "baslik": "rsyslog/journal aktif",
+   "durum": "GECTI",
+   "risk": "ORTA",
+   "cikti": "active"
+  },
+  {
+   "id": "7.2.1",
+   "kategori": "Servis",
+   "baslik": "Log dosyalari izleniyor",
+   "durum": "GECTI",
+   "risk": "ORTA",
+   "cikti": "2"
+  },
+  {
+   "id": "8.1.1",
+   "kategori": "Zaman",
+   "baslik": "NTP senkronizasyon",
+   "durum": "GECTI",
+   "risk": "ORTA",
+   "cikti": "yes"
+  },
+  {
+   "id": "8.1.2",
+   "kategori": "Zaman",
+   "baslik": "Saat dilimi tanimli",
+   "durum": "GECTI",
+   "risk": "ORTA",
+   "cikti": "Europe/Istanbul"
+  },
+  {
+   "id": "K.1",
+   "kategori": "Kalkan",
+   "baslik": "WAF aktif",
+   "durum": "GECTI",
+   "risk": "KRITIK",
+   "cikti": "/opt/siber-kalkan/waf.php"
+  },
+  {
+   "id": "K.2",
+   "kategori": "Kalkan",
+   "baslik": "Motor calisiyor",
+   "durum": "GECTI",
+   "risk": "KRITIK",
+   "cikti": "active"
+  },
+  {
+   "id": "K.3",
+   "kategori": "Kalkan",
+   "baslik": "FIM calisiyor",
+   "durum": "GECTI",
+   "risk": "YUKSEK",
+   "cikti": "2"
+  },
+  {
+   "id": "K.4",
+   "kategori": "Kalkan",
+   "baslik": "Firewall yukleyici var",
+   "durum": "GECTI",
+   "risk": "YUKSEK",
+   "cikti": "/etc/nftables.d/kilic.nft"
+  },
+  {
+   "id": "K.5",
+   "kategori": "Kalkan",
+   "baslik": "Veri dosyalari yazilabilir izinli",
+   "durum": "GECTI",
+   "risk": "ORTA",
+   "cikti": "www-data"
+  },
+  {
+   "id": "K.6",
+   "kategori": "Kalkan",
+   "baslik": "IDS baglama aktif",
+   "durum": "GECTI",
+   "risk": "YUKSEK",
+   "cikti": "2"
+  },
+  {
+   "id": "K.7",
+   "kategori": "Kalkan",
+   "baslik": "UEBA aktif",
+   "durum": "GECTI",
+   "risk": "YUKSEK",
+   "cikti": "2"
+  },
+  {
+   "id": "K.8",
+   "kategori": "Kalkan",
+   "baslik": "Panel HTTPS (stunnel)",
+   "durum": "GECTI",
+   "risk": "ORTA",
+   "cikti": "active"
+  },
+  {
+   "id": "K.9",
+   "kategori": "Kalkan",
+   "baslik": "Yedek mekanizmasi",
+   "durum": "GECTI",
+   "risk": "ORTA",
+   "cikti": "3"
+  },
+  {
+   "id": "K.10",
+   "kategori": "Kalkan",
+   "baslik": "Honeyfile tuzak aktif",
+   "durum": "GECTI",
+   "risk": "ORTA",
+   "cikti": "active"
+  }
+ ],
+ "kategoriler": {
+  "Kimlik": {
+   "gecen": 3,
+   "toplam": 5,
+   "skor": 60
+  },
+  "SSH": {
+   "gecen": 6,
+   "toplam": 7,
+   "skor": 86
+  },
+  "Ag": {
+   "gecen": 2,
+   "toplam": 7,
+   "skor": 29
+  },
+  "Kernel": {
+   "gecen": 1,
+   "toplam": 6,
+   "skor": 17
+  },
+  "Dosya": {
+   "gecen": 8,
+   "toplam": 8,
+   "skor": 100
+  },
+  "Servis": {
+   "gecen": 3,
+   "toplam": 4,
+   "skor": 75
+  },
+  "Zaman": {
+   "gecen": 2,
+   "toplam": 2,
+   "skor": 100
+  },
+  "Kalkan": {
+   "gecen": 10,
+   "toplam": 10,
+   "skor": 100
+  }
+ },
+ "toplam": 49,
+ "gecen": 35,
+ "skor": 71,
+ "kalanlar": [
+  {
+   "id": "1.1.1",
+   "kategori": "Kimlik",
+   "baslik": "Root sifresiz giris kapali",
+   "durum": "KALDI",
+   "risk": "KRITIK",
+   "cikti": "root P 2026-08-21 0 99999 7 -1"
+  },
+  {
+   "id": "1.2.1",
+   "kategori": "Kimlik",
+   "baslik": "Bos sifreli sistem hesabi yok",
+   "durum": "KALDI",
+   "risk": "KRITIK",
+   "cikti": "24"
+  },
+  {
+   "id": "5.2.1",
+   "kategori": "SSH",
+   "baslik": "Root giris kapali",
+   "durum": "KALDI",
+   "risk": "KRITIK",
+   "cikti": "PermitRootLogin prohibit-password"
+  },
+  {
+   "id": "3.1.1",
+   "kategori": "Ag",
+   "baslik": "Firewall aktif (nftables)",
+   "durum": "KALDI",
+   "risk": "KRITIK",
+   "cikti": "/bin/sh: 1: nft: not found"
+  },
+  {
+   "id": "3.2.1",
+   "kategori": "Ag",
+   "baslik": "IP yonlendirme kapali",
+   "durum": "KALDI",
+   "risk": "YUKSEK",
+   "cikti": "/bin/sh: 1: sysctl: not found"
+  },
+  {
+   "id": "3.2.2",
+   "kategori": "Ag",
+   "baslik": "Kaynak yonlendirme kapali",
+   "durum": "KALDI",
+   "risk": "YUKSEK",
+   "cikti": "/bin/sh: 1: sysctl: not found"
+  },
+  {
+   "id": "3.2.3",
+   "kategori": "Ag",
+   "baslik": "ICMP yonlendirme kabul kapali",
+   "durum": "KALDI",
+   "risk": "ORTA",
+   "cikti": "/bin/sh: 1: sysctl: not found"
+  },
+  {
+   "id": "3.2.4",
+   "kategori": "Ag",
+   "baslik": "SYN cookies aktif",
+   "durum": "KALDI",
+   "risk": "ORTA",
+   "cikti": "/bin/sh: 1: sysctl: not found"
+  },
+  {
+   "id": "4.1.1",
+   "kategori": "Kernel",
+   "baslik": "ASLR aktif (randomize_va_space=2)",
+   "durum": "KALDI",
+   "risk": "YUKSEK",
+   "cikti": "/bin/sh: 1: sysctl: not found"
+  },
+  {
+   "id": "4.1.2",
+   "kategori": "Kernel",
+   "baslik": "dmesg kisitli",
+   "durum": "KALDI",
+   "risk": "ORTA",
+   "cikti": "/bin/sh: 1: sysctl: not found"
+  },
+  {
+   "id": "4.1.3",
+   "kategori": "Kernel",
+   "baslik": "kptr_restrict aktif",
+   "durum": "KALDI",
+   "risk": "ORTA",
+   "cikti": "/bin/sh: 1: sysctl: not found"
+  },
+  {
+   "id": "4.1.5",
+   "kategori": "Kernel",
+   "baslik": "ptrace kisitli",
+   "durum": "KALDI",
+   "risk": "YUKSEK",
+   "cikti": "/bin/sh: 1: sysctl: not found"
+  },
+  {
+   "id": "4.1.6",
+   "kategori": "Kernel",
+   "baslik": "SYN flood koruma",
+   "durum": "KALDI",
+   "risk": "ORTA",
+   "cikti": "/bin/sh: 1: sysctl: not found"
+  },
+  {
+   "id": "7.1.1",
+   "kategori": "Servis",
+   "baslik": "Gereksiz servis yok (telnet/ftp)",
+   "durum": "KALDI",
+   "risk": "YUKSEK",
+   "cikti": "2"
+  }
+ ]
+}

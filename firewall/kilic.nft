@@ -1,0 +1,42 @@
+#!/usr/sbin/nft -f
+# ═══════════════════════════════════════════════════════════
+#  CYBER KALKAN — KALICI FIREWALL TABLOSU (v1.0)
+#  VM/sunucu restart olduğunda engeller KAYBOLMAZ.
+#  Engelli IP'ler kalkan-fw-yukle.service ile engel.json'dan yüklenir.
+# ═══════════════════════════════════════════════════════════
+
+table inet kilic {
+    set kara {
+        type ipv4_addr
+        flags interval
+        auto-merge
+    }
+
+    set hizlimit {
+        type ipv4_addr
+        size 65535
+        flags dynamic
+    }
+
+    chain hiz {
+        type filter hook input priority -250; policy accept;
+        ip saddr 127.0.0.1 accept
+        ip saddr 192.168.0.0/16 accept
+        ip saddr 100.64.0.0/10 accept
+        tcp dport { 80, 443, 8080, 8890, 8899 } add @hizlimit { ip saddr limit rate over 20/second burst 40 packets } reject with tcp reset
+    }
+
+    chain girdi {
+        type filter hook input priority -200; policy accept;
+        ip saddr 127.0.0.1 accept
+        ip saddr 192.168.0.0/16 accept
+        ip saddr 100.64.0.0/10 accept
+        meta l4proto tcp ip saddr @kara reject with tcp reset
+        ip saddr @kara reject with icmp admin-prohibited
+    }
+
+    chain cikti {
+        type filter hook output priority -200; policy accept;
+        ip daddr @kara drop
+    }
+}

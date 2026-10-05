@@ -1,0 +1,16 @@
+{
+ "olusturma": "05.10.2026 05:27:54",
+ "dosyalar": {
+  "/opt/siber-kalkan/MOTOR/kalkan_motor.py": "9aa6bee4bbff2f6e1564cd63bf3c6a831c23a37f3d28ff2f6c58d8d22d48fdd0",
+  "/opt/siber-kalkan/MOTOR/kalkan_av.py": "3a65c658cb1fc9bd71549d36b24e4e90863797ce587ee80c2bb6e1a9673f6f5e",
+  "/opt/siber-kalkan/MOTOR/kalkan_fim.py": "563e7df28890244188e995bdc1bbd958ca66ceb89ed6c8c3e202e4c38ed55b83",
+  "/opt/siber-kalkan/MOTOR/kalkan_indexer.py": "b7f9f2f8f2d7cce18d604fff3a5c150867c4e44f7b240cc339da43e12d82bf3f",
+  "/opt/siber-kalkan/MOTOR/kalkan_ekstra.py": "adf3bbc55bde2b537e3814c312107bf64225c5a757ce51d539d4ed682c5b428f",
+  "/opt/siber-kalkan/VERI/kurallar.json": "9a72d4091cb43f2f323f83b19d0d7a5ca1a5ac58c719a6a20e0824bc31336ffd",
+  "/var/www/kalkan-panel/ortak.php": "9d55a517ffcbf8f02c1a527c89f5c25d31456f0245896b421a158437db737d75",
+  "/var/www/kalkan-panel/giris.php": "63f050b09393287d35ebe81e8e75f38f3fd0642427ca0eb75a5969efd6ac5f39",
+  "/var/www/kalkan-panel/ajan_kayit.php": "dc05f888ee4e621add13c9361e7d6092565d1006adf46633d47b660a8c8ed146",
+  "/var/www/kalkan-panel/assets/panel.css": "5d3cf7c4f6e188d8c34ea0d5d602f10eabf58429f27de71ea03851cb1235ccad"
+ },
+ "ihlaller": []
+}

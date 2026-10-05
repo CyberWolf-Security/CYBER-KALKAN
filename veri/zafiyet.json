@@ -1,0 +1,253 @@
+{
+ "tarih": "05.10.2026 05:29",
+ "guncellenebilir": 770,
+ "paketler": [
+  {
+   "paket": "7zip",
+   "yeni": "26.03+dfsg-3"
+  },
+  {
+   "paket": "adduser",
+   "yeni": "3.159"
+  },
+  {
+   "paket": "adwaita-icon-theme",
+   "yeni": "51.0-1"
+  },
+  {
+   "paket": "apache2-bin",
+   "yeni": "2.4.68-2"
+  },
+  {
+   "paket": "apache2-data",
+   "yeni": "2.4.68-2"
+  },
+  {
+   "paket": "apache2-utils",
+   "yeni": "2.4.68-2"
+  },
+  {
+   "paket": "apache2",
+   "yeni": "2.4.68-2"
+  },
+  {
+   "paket": "apparmor",
+   "yeni": "4.1.8-2"
+  },
+  {
+   "paket": "apt-file",
+   "yeni": "3.4"
+  },
+  {
+   "paket": "apt-utils",
+   "yeni": "3.3.3+kali1"
+  },
+  {
+   "paket": "apt",
+   "yeni": "3.3.3+kali1"
+  },
+  {
+   "paket": "at-spi2-common",
+   "yeni": "2.61.90-1"
+  },
+  {
+   "paket": "at-spi2-core",
+   "yeni": "2.61.90-1"
+  },
+  {
+   "paket": "base-files",
+   "yeni": "1:2026.3.1"
+  },
+  {
+   "paket": "bash",
+   "yeni": "5.3-4"
+  },
+  {
+   "paket": "bind9-dnsutils",
+   "yeni": "1:9.20.29-1"
+  },
+  {
+   "paket": "bind9-host",
+   "yeni": "1:9.20.29-1"
+  },
+  {
+   "paket": "bind9-libs",
+   "yeni": "1:9.20.29-1"
+  },
+  {
+   "paket": "binutils-common",
+   "yeni": "2.47-6"
+  },
+  {
+   "paket": "binutils-mingw-w64-base",
+   "yeni": "2.47-6+13.3+b1"
+  },
+  {
+   "paket": "binutils-mingw-w64-i686",
+   "yeni": "2.47-6+13.3+b1"
+  },
+  {
+   "paket": "binutils-mingw-w64-x86-64",
+   "yeni": "2.47-6+13.3+b1"
+  },
+  {
+   "paket": "binutils-x86-64-linux-gnu",
+   "yeni": "2.47-6"
+  },
+  {
+   "paket": "binutils",
+   "yeni": "2.47-6"
+  },
+  {
+   "paket": "binwalk",
+   "yeni": "2.4.3+dfsg1-3"
+  },
+  {
+   "paket": "bloodhound",
+   "yeni": "9.7.0~rc4-0kali1"
+  },
+  {
+   "paket": "bluetooth",
+   "yeni": "5.87-3"
+  },
+  {
+   "paket": "bluez-obexd",
+   "yeni": "5.87-3"
+  },
+  {
+   "paket": "bluez",
+   "yeni": "5.87-3"
+  },
+  {
+   "paket": "bsdextrautils",
+   "yeni": "2.42.3-1"
+  },
+  {
+   "paket": "bsdutils",
+   "yeni": "1:2.42.3-1"
+  },
+  {
+   "paket": "bubblewrap",
+   "yeni": "0.13.0-1"
+  },
+  {
+   "paket": "bundler",
+   "yeni": "4.0.20-1"
+  },
+  {
+   "paket": "burpsuite",
+   "yeni": "2026.8-0kali1"
+  },
+  {
+   "paket": "busybox",
+   "yeni": "1:1.38.0-3+b1"
+  },
+  {
+   "paket": "ca-certificates",
+   "yeni": "20260816"
+  },
+  {
+   "paket": "cgpt",
+   "yeni": "0~R106-15054.B+dfsg-0.2"
+  },
+  {
+   "paket": "chisel",
+   "yeni": "1.12.1-0kali2"
+  },
+  {
+   "paket": "chkrootkit",
+   "yeni": "0.59-2"
+  },
+  {
+   "paket": "comerr-dev",
+   "yeni": "2.1-1.47.4-1+b1"
+  },
+  {
+   "paket": "console-setup-linux",
+   "yeni": "1.249"
+  },
+  {
+   "paket": "console-setup",
+   "yeni": "1.249"
+  },
+  {
+   "paket": "containerd",
+   "yeni": "2.1.9+ds1-3"
+  },
+  {
+   "paket": "cpp-15-x86-64-linux-gnu",
+   "yeni": "15.3.0-3"
+  },
+  {
+   "paket": "cpp-15",
+   "yeni": "15.3.0-3"
+  },
+  {
+   "paket": "cpp-x86-64-linux-gnu",
+   "yeni": "4:16.1.0-3"
+  },
+  {
+   "paket": "cpp",
+   "yeni": "4:16.1.0-3"
+  },
+  {
+   "paket": "cracklib-runtime",
+   "yeni": "2.9.6-5.3+b1"
+  },
+  {
+   "paket": "cryptsetup-bin",
+   "yeni": "2:2.8.8-1"
+  },
+  {
+   "paket": "cryptsetup-initramfs",
+   "yeni": "2:2.8.8-1"
+  }
+ ],
+ "kritik_kurulu": {
+  "nginx": "1.30.4-3",
+  "openssh-server": "1:10.4p1-4",
+  "openssl": "3.6.4-1",
+  "php": "2:8.4+99",
+  "python3": "3.14.6-1"
+ },
+ "suid_sayisi": 35,
+ "suid": [
+  "/usr/sbin/mount.cifs",
+  "/usr/sbin/mount.nfs",
+  "/usr/sbin/pppd",
+  "/usr/sbin/exim4",
+  "/usr/lib/mysql/plugin/auth_pam_tool_dir/auth_pam_tool",
+  "/usr/lib/dbus-1.0/dbus-daemon-launch-helper",
+  "/usr/lib/xorg/Xorg.wrap",
+  "/usr/lib/openssh/ssh-keysign",
+  "/usr/lib/chromium/chrome-sandbox",
+  "/usr/bin/kismet_cap_nrf_51822",
+  "/usr/bin/mount",
+  "/usr/bin/kismet_cap_nxp_kw41z",
+  "/usr/bin/kismet_cap_hak5_wifi_coconut",
+  "/usr/bin/kismet_cap_linux_wifi",
+  "/usr/bin/fusermount3",
+  "/usr/bin/passwd",
+  "/usr/bin/rsh-redone-rsh",
+  "/usr/bin/kismet_cap_linux_bluetooth",
+  "/usr/bin/kismet_cap_nrf_52840",
+  "/usr/bin/kismet_cap_nrf_mousejack",
+  "/usr/bin/rsh-redone-rlogin",
+  "/usr/bin/newgrp",
+  "/usr/bin/umount",
+  "/usr/bin/chsh",
+  "/usr/bin/kismet_cap_ubertooth_one",
+  "/usr/bin/chfn",
+  "/usr/bin/vmware-user-suid-wrapper",
+  "/usr/bin/ntfs-3g",
+  "/usr/bin/pkexec",
+  "/usr/bin/su",
+  "/usr/bin/kismet_cap_ti_cc_2540",
+  "/usr/bin/kismet_cap_ti_cc_2531",
+  "/usr/bin/kismet_cap_rz_killerbee",
+  "/usr/bin/gpasswd",
+  "/usr/bin/sudo"
+ ],
+ "dunya_yazilabilir": [],
+ "puan": 58
+}

@@ -1,0 +1,10 @@
+[Unit]
+Description=CYBER KALKAN FIM (gercek zamanli)
+After=network.target
+[Service]
+Type=simple
+ExecStart=/bin/bash -c 'while true; do /usr/bin/python3 /opt/siber-kalkan/MOTOR/kalkan_fim.py >> /opt/siber-kalkan/LOG/fim.log 2>&1; sleep 15; done'
+Restart=always
+RestartSec=5
+[Install]
+WantedBy=multi-user.target

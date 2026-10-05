@@ -1,0 +1,21 @@
+{
+ "kullanicilar": [
+  {
+   "ad": "admin",
+   "rol": "ADMIN",
+   "sifre_hash": "c8a17cdc4fa07a87da9d737e133710f1c769d67c56475ddb6e4c9c2d54ac7182",
+   "totp": "",
+   "aktif": true,
+   "sifre_guncelleme": "c8a17cdc4fa07a87da9d737e133710f1c769d67c56475ddb6e4c9c2d54ac7182"
+  },
+  {
+   "ad": "izleyici",
+   "rol": "IZLEYICI",
+   "sifre_hash": "411c90475e79bc00a1188dc16650d578e4fd51e4570481fbb18ebc236da9be4b",
+   "totp": "",
+   "aktif": true
+  }
+ ],
+ "guncelleme": "",
+ "sifre_hash": ""
+}

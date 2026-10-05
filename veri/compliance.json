@@ -1,0 +1,57 @@
+{
+ "zaman": "05.10.2026 05:15:10",
+ "yedek": {
+  "dosya": "/opt/siber-kalkan/yedek/kalkan_0510_051510.tar.gz",
+  "sha256": "76ddb766cc79f2124063bc20a28a260ba9657ad3f6f97ba372b459497226434f",
+  "boyut": 625110,
+  "durum": "OK"
+ },
+ "dogrulama": {
+  "durum": "SAGLAM",
+  "dosya": "kalkan_0510_051510.tar.gz",
+  "beklenen": "76ddb766cc79f212",
+  "olculen": "76ddb766cc79f212",
+  "boyut": 625110,
+  "immutable": true
+ },
+ "dosya": 610,
+ "boyut_kb": 610,
+ "kapsam": {
+  "ISO 27001:2022": {
+   "toplam": 12,
+   "gecen": 12,
+   "skor": 100,
+   "kalan": []
+  },
+  "NIST CSF 2.0": {
+   "toplam": 13,
+   "gecen": 12,
+   "skor": 92,
+   "kalan": [
+    "PR.AT Farkindalik"
+   ]
+  },
+  "GDPR / KVKK": {
+   "toplam": 7,
+   "gecen": 7,
+   "skor": 100,
+   "kalan": []
+  },
+  "PCI DSS 4.0": {
+   "toplam": 10,
+   "gecen": 10,
+   "skor": 100,
+   "kalan": []
+  },
+  "CIS Controls v8": {
+   "toplam": 8,
+   "gecen": 8,
+   "skor": 100,
+   "kalan": []
+  }
+ },
+ "genel_skor": 98,
+ "cerceve_sayisi": 5,
+ "gecen": 49,
+ "toplam": 50
+}

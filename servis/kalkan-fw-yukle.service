@@ -1,0 +1,13 @@
+[Unit]
+Description=CYBER KALKAN - Engelli IP'leri nftables'a yukle
+After=nftables.service network-online.target
+Wants=nftables.service
+ConditionPathExists=/opt/siber-kalkan/VERI/engel.json
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python3 /opt/siber-kalkan/MOTOR/kalkan_fw_yukle.py
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target

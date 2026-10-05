@@ -1,0 +1,200 @@
+{
+ "tarih": "05.10.2026 05:29",
+ "gecen": 32,
+ "toplam": 37,
+ "skor": 86,
+ "kalanlar": [
+  "harita:ulke dagilimi",
+  "compliance:skor",
+  "ueba:analiz",
+  "honeyfile:tuzak",
+  "bulut:modul"
+ ],
+ "detay": [
+  {
+   "modul": "motor:calisma",
+   "ok": true,
+   "detay": "sessiz (normal)"
+  },
+  {
+   "modul": "motor:kural yukleme",
+   "ok": true,
+   "detay": "1002 kural"
+  },
+  {
+   "modul": "motor:MITRE esleme",
+   "ok": true,
+   "detay": "var"
+  },
+  {
+   "modul": "motor:korelasyon",
+   "ok": true,
+   "detay": "aktif"
+  },
+  {
+   "modul": "fim:izleme",
+   "ok": true,
+   "detay": "9 dosya"
+  },
+  {
+   "modul": "fim:degisim kaydi",
+   "ok": true,
+   "detay": "158 degisim"
+  },
+  {
+   "modul": "sca:skor",
+   "ok": true,
+   "detay": "skor=75 gecen=6"
+  },
+  {
+   "modul": "rootkit:tarama",
+   "ok": true,
+   "detay": "[]"
+  },
+  {
+   "modul": "zafiyet:puan",
+   "ok": true,
+   "detay": "puan=58 paket=770"
+  },
+  {
+   "modul": "antivirus:tarama",
+   "ok": true,
+   "detay": "temiz=True bulgu=0"
+  },
+  {
+   "modul": "cografya:ulke tespiti",
+   "ok": true,
+   "detay": "300 IP"
+  },
+  {
+   "modul": "harita:ulke dagilimi",
+   "ok": false,
+   "detay": "0 ulke, en cok: -"
+  },
+  {
+   "modul": "kimlik:kullanicilar",
+   "ok": true,
+   "detay": "2 kullanici"
+  },
+  {
+   "modul": "kimlik:RBAC rol",
+   "ok": true,
+   "detay": "ADMIN/IZLEYICI"
+  },
+  {
+   "modul": "audit:kayit",
+   "ok": true,
+   "detay": "279 kayit"
+  },
+  {
+   "modul": "compliance:skor",
+   "ok": false,
+   "detay": "%? (49/50)"
+  },
+  {
+   "modul": "yedek:dosya",
+   "ok": true,
+   "detay": "610 KB"
+  },
+  {
+   "modul": "ueba:analiz",
+   "ok": false,
+   "detay": "? anormal IP"
+  },
+  {
+   "modul": "honeyfile:tuzak",
+   "ok": false,
+   "detay": "0 tuzak"
+  },
+  {
+   "modul": "honeyfile:izleme",
+   "ok": true,
+   "detay": "ihlal=0"
+  },
+  {
+   "modul": "aktif savunma:servis",
+   "ok": true,
+   "detay": "honeypot"
+  },
+  {
+   "modul": "puskurtme:modul",
+   "ok": true,
+   "detay": "hazir"
+  },
+  {
+   "modul": "kilic:nftables tablo",
+   "ok": true,
+   "detay": "var"
+  },
+  {
+   "modul": "kilic:kesme kurali",
+   "ok": true,
+   "detay": "reject tcp reset"
+  },
+  {
+   "modul": "kilic:cikis drop",
+   "ok": true,
+   "detay": "var"
+  },
+  {
+   "modul": "kilic:kalicilik",
+   "ok": true,
+   "detay": "boot'ta yuklenir"
+  },
+  {
+   "modul": "senkron:servis",
+   "ok": "aktif",
+   "detay": "engel.json=1294"
+  },
+  {
+   "modul": "suricata:servis",
+   "ok": true,
+   "detay": "aktif"
+  },
+  {
+   "modul": "suricata:kural",
+   "ok": true,
+   "detay": "69055 kural"
+  },
+  {
+   "modul": "panel:sayfa sayisi",
+   "ok": true,
+   "detay": "34 sayfa"
+  },
+  {
+   "modul": "panel:http",
+   "ok": true,
+   "detay": "8890"
+  },
+  {
+   "modul": "panel:canli guncelleme",
+   "ok": true,
+   "detay": "15sn"
+  },
+  {
+   "modul": "panel:CSV rapor",
+   "ok": true,
+   "detay": "var"
+  },
+  {
+   "modul": "alici:endpoint",
+   "ok": true,
+   "detay": "POST kabul"
+  },
+  {
+   "modul": "alici:yanit",
+   "ok": true,
+   "detay": "{\"durum\":\"aktif\",\"mesaj\":\"CYBER KALKAN a"
+  },
+  {
+   "modul": "bulut:modul",
+   "ok": false,
+   "detay": "AWS=None GCP=None"
+  },
+  {
+   "modul": "evtx:modul",
+   "ok": true,
+   "detay": "0 dosya"
+  }
+ ]
+}

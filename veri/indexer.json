@@ -1,0 +1,1528 @@
+{
+ "zaman": "05.10.2026 05:35:02",
+ "son": "05.10.2026 05:35:02",
+ "toplam": 188,
+ "satir": 12000,
+ "bugun": 106,
+ "kaynak_sayisi": 4,
+ "kaynaklar": {
+  "auth": 3000,
+  "syslog": 3000,
+  "kernel": 3000,
+  "ids": 3000
+ },
+ "tip_dagilimi": {
+  "sudo komut": 109,
+  "Genel hata": 62,
+  "IDS alarm": 14,
+  "AppArmor engel": 3
+ },
+ "en_cok_ip": {},
+ "korelasyon": [],
+ "olaylar": [
+  {
+   "zaman": "04.10.2026 06:05:06",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/usr/bin/true"
+  },
+  {
+   "zaman": "04.10.2026 06:05:06",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/usr/bin/php /tmp/php_test2.php"
+  },
+  {
+   "zaman": "04.10.2026 06:09:36",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/usr/bin/true"
+  },
+  {
+   "zaman": "04.10.2026 06:09:36",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/usr/bin/php /tmp/php_test2.php"
+  },
+  {
+   "zaman": "04.10.2026 06:19:28",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/usr/bin/php /tmp/kod_uret_test.php"
+  },
+  {
+   "zaman": "04.10.2026 06:58:43",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/usr/bin/true"
+  },
+  {
+   "zaman": "04.10.2026 06:58:44",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/usr/bin/php /tmp/php_test2.php"
+  },
+  {
+   "zaman": "04.10.2026 06:58:51",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/usr/bin/true"
+  },
+  {
+   "zaman": "04.10.2026 06:58:51",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/usr/bin/php /tmp/php_test3.php"
+  },
+  {
+   "zaman": "04.10.2026 08:09:57",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/opt/siber-kalkan/tarpit.sh"
+  },
+  {
+   "zaman": "04.10.2026 08:10:04",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/opt/siber-kalkan/tarpit.sh"
+  },
+  {
+   "zaman": "04.10.2026 08:33:14",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/usr/bin/php -r '#012require \"/var/www/kalkan-panel/ortak.php\";#012$r = kalkan_mail_gonder(\"yonetici@example.com\",\"test\","
+  },
+  {
+   "zaman": "04.10.2026 08:43:36",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/opt/siber-kalkan/tarpit.sh"
+  },
+  {
+   "zaman": "04.10.2026 08:47:28",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/opt/siber-kalkan/tarpit.sh"
+  },
+  {
+   "zaman": "04.10.2026 08:47:30",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/opt/siber-kalkan/tarpit.sh"
+  },
+  {
+   "zaman": "04.10.2026 08:48:31",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/opt/siber-kalkan/tarpit.sh ac"
+  },
+  {
+   "zaman": "04.10.2026 08:48:31",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/opt/siber-kalkan/tarpit.sh"
+  },
+  {
+   "zaman": "04.10.2026 08:48:31",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/opt/siber-kalkan/tarpit.sh kapat"
+  },
+  {
+   "zaman": "04.10.2026 08:48:31",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/opt/siber-kalkan/tarpit.sh"
+  },
+  {
+   "zaman": "04.10.2026 08:48:31",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/usr/sbin/nft add element inet kilic kara '{ 203.0.113.99 }'"
+  },
+  {
+   "zaman": "04.10.2026 08:48:31",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/usr/sbin/nft list set inet kilic kara"
+  },
+  {
+   "zaman": "04.10.2026 08:48:31",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/usr/sbin/nft delete element inet kilic kara '{ 203.0.113.99 }'"
+  },
+  {
+   "zaman": "04.10.2026 08:48:54",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/usr/bin/php -r 'file_put_contents(\\'/opt/siber-kalkan/VERI/_test_yaz.json\\',\\'{}\\'); echo \\'OK\\';'"
+  },
+  {
+   "zaman": "04.10.2026 08:49:40",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/usr/bin/php /tmp/py_kont.php"
+  },
+  {
+   "zaman": "04.10.2026 08:49:53",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/opt/siber-kalkan/tarpit.sh"
+  },
+  {
+   "zaman": "04.10.2026 08:52:10",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/opt/siber-kalkan/tarpit.sh"
+  },
+  {
+   "zaman": "04.10.2026 08:52:11",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/opt/siber-kalkan/tarpit.sh"
+  },
+  {
+   "zaman": "04.10.2026 08:53:13",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/usr/sbin/nft add element inet kilic kara '{ 203.0.113.250 }'"
+  },
+  {
+   "zaman": "04.10.2026 08:53:13",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/usr/sbin/nft list set inet kilic kara"
+  },
+  {
+   "zaman": "04.10.2026 08:53:13",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/usr/sbin/nft delete element inet kilic kara '{ 203.0.113.250 }'"
+  },
+  {
+   "zaman": "04.10.2026 08:53:13",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/usr/sbin/nft list set inet kilic kara"
+  },
+  {
+   "zaman": "04.10.2026 08:53:13",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/opt/siber-kalkan/tarpit.sh"
+  },
+  {
+   "zaman": "04.10.2026 08:53:13",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/usr/sbin/nft list chain inet kilic tarpit"
+  },
+  {
+   "zaman": "04.10.2026 08:54:42",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/usr/sbin/nft add element inet kilic kara '{ 203.0.113.251 }'"
+  },
+  {
+   "zaman": "04.10.2026 08:54:42",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/usr/sbin/nft list set inet kilic kara"
+  },
+  {
+   "zaman": "04.10.2026 08:54:42",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/usr/sbin/nft delete element inet kilic kara '{ 203.0.113.251 }'"
+  },
+  {
+   "zaman": "04.10.2026 08:54:42",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/usr/sbin/nft list set inet kilic kara"
+  },
+  {
+   "zaman": "04.10.2026 08:54:42",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/opt/siber-kalkan/tarpit.sh"
+  },
+  {
+   "zaman": "04.10.2026 08:55:47",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/usr/sbin/nft add element inet kilic kara '{ 203.0.113.251 }'"
+  },
+  {
+   "zaman": "04.10.2026 08:55:47",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/usr/sbin/nft list set inet kilic kara"
+  },
+  {
+   "zaman": "04.10.2026 08:55:47",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/usr/sbin/nft delete element inet kilic kara '{ 203.0.113.251 }'"
+  },
+  {
+   "zaman": "04.10.2026 08:55:47",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/usr/sbin/nft list set inet kilic kara"
+  },
+  {
+   "zaman": "04.10.2026 08:55:47",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/opt/siber-kalkan/tarpit.sh"
+  },
+  {
+   "zaman": "04.10.2026 09:10:23",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/opt/siber-kalkan/tarpit.sh"
+  },
+  {
+   "zaman": "04.10.2026 09:11:00",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/opt/siber-kalkan/tarpit.sh"
+  },
+  {
+   "zaman": "04.10.2026 09:12:42",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/opt/siber-kalkan/tarpit.sh"
+  },
+  {
+   "zaman": "04.10.2026 09:13:09",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/opt/siber-kalkan/tarpit.sh"
+  },
+  {
+   "zaman": "04.10.2026 17:27:38",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/opt/siber-kalkan/tarpit.sh"
+  },
+  {
+   "zaman": "04.10.2026 17:27:38",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/opt/siber-kalkan/tarpit.sh"
+  },
+  {
+   "zaman": "04.10.2026 17:27:38",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/usr/sbin/nft add element inet kilic kara '{ 203.0.113.252 }'"
+  },
+  {
+   "zaman": "04.10.2026 17:27:38",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/usr/sbin/nft list set inet kilic kara"
+  },
+  {
+   "zaman": "04.10.2026 17:27:38",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/usr/sbin/nft delete element inet kilic kara '{ 203.0.113.252 }'"
+  },
+  {
+   "zaman": "04.10.2026 17:27:38",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/usr/sbin/nft list set inet kilic kara"
+  },
+  {
+   "zaman": "04.10.2026 17:27:38",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/usr/bin/php -r 'file_put_contents(\\'/opt/siber-kalkan/VERI/_t.json\\',\\'{}\\'); echo \\'OK\\';'"
+  },
+  {
+   "zaman": "04.10.2026 17:39:15",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/opt/siber-kalkan/tarpit.sh"
+  },
+  {
+   "zaman": "04.10.2026 17:39:15",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/opt/siber-kalkan/tarpit.sh"
+  },
+  {
+   "zaman": "04.10.2026 17:39:15",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/usr/sbin/nft add element inet kilic kara '{ 203.0.113.252 }'"
+  },
+  {
+   "zaman": "04.10.2026 17:39:15",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/usr/sbin/nft list set inet kilic kara"
+  },
+  {
+   "zaman": "04.10.2026 17:39:15",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/usr/sbin/nft delete element inet kilic kara '{ 203.0.113.252 }'"
+  },
+  {
+   "zaman": "04.10.2026 17:39:15",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/usr/sbin/nft list set inet kilic kara"
+  },
+  {
+   "zaman": "04.10.2026 17:39:15",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/usr/bin/php -r 'file_put_contents(\\'/opt/siber-kalkan/VERI/_t.json\\',\\'{}\\'); echo \\'OK\\';'"
+  },
+  {
+   "zaman": "04.10.2026 18:15:38",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/opt/siber-kalkan/tarpit.sh"
+  },
+  {
+   "zaman": "04.10.2026 19:18:13",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/opt/siber-kalkan/tarpit.sh"
+  },
+  {
+   "zaman": "04.10.2026 19:48:58",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/opt/siber-kalkan/tarpit.sh"
+  },
+  {
+   "zaman": "04.10.2026 19:49:06",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/opt/siber-kalkan/tarpit.sh"
+  },
+  {
+   "zaman": "04.10.2026 20:01:26",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/opt/siber-kalkan/tarpit.sh"
+  },
+  {
+   "zaman": "04.10.2026 20:01:48",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/opt/siber-kalkan/tarpit.sh"
+  },
+  {
+   "zaman": "04.10.2026 20:01:51",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/opt/siber-kalkan/tarpit.sh"
+  },
+  {
+   "zaman": "04.10.2026 20:01:53",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/opt/siber-kalkan/tarpit.sh"
+  },
+  {
+   "zaman": "04.10.2026 20:04:15",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/opt/siber-kalkan/tarpit.sh"
+  },
+  {
+   "zaman": "04.10.2026 20:04:20",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/opt/siber-kalkan/tarpit.sh"
+  },
+  {
+   "zaman": "04.10.2026 20:08:37",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/opt/siber-kalkan/tarpit.sh"
+  },
+  {
+   "zaman": "04.10.2026 20:09:27",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/opt/siber-kalkan/tarpit.sh"
+  },
+  {
+   "zaman": "04.10.2026 20:09:28",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/opt/siber-kalkan/tarpit.sh"
+  },
+  {
+   "zaman": "04.10.2026 20:09:29",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/opt/siber-kalkan/tarpit.sh"
+  },
+  {
+   "zaman": "04.10.2026 20:10:39",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/opt/siber-kalkan/tarpit.sh"
+  },
+  {
+   "zaman": "04.10.2026 20:47:40",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/opt/siber-kalkan/tarpit.sh"
+  },
+  {
+   "zaman": "04.10.2026 20:54:15",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/opt/siber-kalkan/tarpit.sh"
+  },
+  {
+   "zaman": "04.10.2026 22:50:03",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/opt/siber-kalkan/tarpit.sh"
+  },
+  {
+   "zaman": "04.10.2026 22:50:08",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/opt/siber-kalkan/tarpit.sh"
+  },
+  {
+   "zaman": "04.10.2026 23:35:31",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/opt/siber-kalkan/tarpit.sh"
+  },
+  {
+   "zaman": "04.10.2026 23:57:48",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/opt/siber-kalkan/tarpit.sh"
+  },
+  {
+   "zaman": "05.10.2026 00:12:52",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/opt/siber-kalkan/tarpit.sh"
+  },
+  {
+   "zaman": "05.10.2026 00:26:35",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/opt/siber-kalkan/tarpit.sh"
+  },
+  {
+   "zaman": "05.10.2026 00:40:35",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/opt/siber-kalkan/tarpit.sh"
+  },
+  {
+   "zaman": "05.10.2026 01:04:29",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/opt/siber-kalkan/tarpit.sh"
+  },
+  {
+   "zaman": "05.10.2026 01:15:18",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/opt/siber-kalkan/tarpit.sh"
+  },
+  {
+   "zaman": "05.10.2026 01:23:23",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/opt/siber-kalkan/tarpit.sh"
+  },
+  {
+   "zaman": "05.10.2026 01:24:32",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/opt/siber-kalkan/tarpit.sh"
+  },
+  {
+   "zaman": "05.10.2026 01:24:53",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/opt/siber-kalkan/tarpit.sh"
+  },
+  {
+   "zaman": "05.10.2026 01:24:57",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/opt/siber-kalkan/tarpit.sh"
+  },
+  {
+   "zaman": "05.10.2026 01:26:24",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/opt/siber-kalkan/tarpit.sh"
+  },
+  {
+   "zaman": "05.10.2026 01:33:03",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/opt/siber-kalkan/tarpit.sh"
+  },
+  {
+   "zaman": "05.10.2026 01:33:08",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/opt/siber-kalkan/tarpit.sh"
+  },
+  {
+   "zaman": "05.10.2026 01:46:58",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/opt/siber-kalkan/tarpit.sh"
+  },
+  {
+   "zaman": "05.10.2026 01:55:19",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/opt/siber-kalkan/tarpit.sh"
+  },
+  {
+   "zaman": "05.10.2026 02:06:49",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/opt/siber-kalkan/tarpit.sh"
+  },
+  {
+   "zaman": "05.10.2026 03:45:46",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/usr/bin/tailscale up --ssh"
+  },
+  {
+   "zaman": "05.10.2026 03:46:59",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/usr/bin/tailscale up --ssh --accept-routes"
+  },
+  {
+   "zaman": "05.10.2026 03:47:05",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/usr/bin/tailscale up --ssh --accept-routes"
+  },
+  {
+   "zaman": "05.10.2026 03:48:20",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/usr/bin/tailscale up --ssh --accept-routes"
+  },
+  {
+   "zaman": "05.10.2026 04:46:42",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/opt/siber-kalkan/tarpit.sh"
+  },
+  {
+   "zaman": "05.10.2026 04:48:14",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/opt/siber-kalkan/tarpit.sh"
+  },
+  {
+   "zaman": "05.10.2026 04:51:10",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/opt/siber-kalkan/tarpit.sh"
+  },
+  {
+   "zaman": "05.10.2026 04:53:39",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/opt/siber-kalkan/tarpit.sh"
+  },
+  {
+   "zaman": "05.10.2026 05:19:54",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/opt/siber-kalkan/tarpit.sh"
+  },
+  {
+   "zaman": "05.10.2026 05:21:21",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/opt/siber-kalkan/tarpit.sh"
+  },
+  {
+   "zaman": "05.10.2026 05:23:41",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/opt/siber-kalkan/tarpit.sh"
+  },
+  {
+   "zaman": "05.10.2026 05:28:11",
+   "kaynak": "auth",
+   "baslik": "sudo komut",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "/opt/siber-kalkan/tarpit.sh"
+  },
+  {
+   "zaman": "05.10.2026 03:20:49",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "error"
+  },
+  {
+   "zaman": "05.10.2026 03:20:49",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "error"
+  },
+  {
+   "zaman": "05.10.2026 03:20:50",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "failed"
+  },
+  {
+   "zaman": "05.10.2026 03:20:50",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "error"
+  },
+  {
+   "zaman": "05.10.2026 03:20:50",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "error"
+  },
+  {
+   "zaman": "05.10.2026 03:20:50",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "failed"
+  },
+  {
+   "zaman": "05.10.2026 03:20:50",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "failed"
+  },
+  {
+   "zaman": "05.10.2026 03:20:52",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "error"
+  },
+  {
+   "zaman": "05.10.2026 03:20:52",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "error"
+  },
+  {
+   "zaman": "05.10.2026 03:20:52",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "error"
+  },
+  {
+   "zaman": "05.10.2026 03:20:52",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "error"
+  },
+  {
+   "zaman": "05.10.2026 03:20:52",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "error"
+  },
+  {
+   "zaman": "05.10.2026 03:20:52",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "error"
+  },
+  {
+   "zaman": "05.10.2026 03:20:52",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "error"
+  },
+  {
+   "zaman": "05.10.2026 03:20:52",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "error"
+  },
+  {
+   "zaman": "05.10.2026 03:20:52",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "error"
+  },
+  {
+   "zaman": "05.10.2026 03:20:54",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "failed"
+  },
+  {
+   "zaman": "05.10.2026 03:20:54",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "failed"
+  },
+  {
+   "zaman": "05.10.2026 03:20:55",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "failed"
+  },
+  {
+   "zaman": "05.10.2026 03:20:55",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "failed"
+  },
+  {
+   "zaman": "05.10.2026 03:22:08",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "failed"
+  },
+  {
+   "zaman": "05.10.2026 03:22:09",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "failed"
+  },
+  {
+   "zaman": "05.10.2026 03:22:09",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "failed"
+  },
+  {
+   "zaman": "05.10.2026 03:22:10",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "failed"
+  },
+  {
+   "zaman": "05.10.2026 03:22:10",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "failed"
+  },
+  {
+   "zaman": "05.10.2026 03:22:10",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "failed"
+  },
+  {
+   "zaman": "05.10.2026 03:26:32",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "failed"
+  },
+  {
+   "zaman": "05.10.2026 03:44:26",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "failed"
+  },
+  {
+   "zaman": "05.10.2026 03:56:17",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "error"
+  },
+  {
+   "zaman": "05.10.2026 03:56:17",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "error"
+  },
+  {
+   "zaman": "05.10.2026 03:56:17",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "error"
+  },
+  {
+   "zaman": "05.10.2026 03:56:17",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "error"
+  },
+  {
+   "zaman": "05.10.2026 03:56:18",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "error"
+  },
+  {
+   "zaman": "05.10.2026 03:56:18",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "error"
+  },
+  {
+   "zaman": "05.10.2026 03:57:16",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "error"
+  },
+  {
+   "zaman": "05.10.2026 03:57:16",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "error"
+  },
+  {
+   "zaman": "05.10.2026 03:57:16",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "error"
+  },
+  {
+   "zaman": "05.10.2026 03:57:16",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "error"
+  },
+  {
+   "zaman": "05.10.2026 03:58:34",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "error"
+  },
+  {
+   "zaman": "05.10.2026 03:58:34",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "error"
+  },
+  {
+   "zaman": "05.10.2026 04:00:51",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "error"
+  },
+  {
+   "zaman": "05.10.2026 04:00:52",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "error"
+  },
+  {
+   "zaman": "05.10.2026 04:00:56",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "error"
+  },
+  {
+   "zaman": "05.10.2026 04:05:34",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "error"
+  },
+  {
+   "zaman": "05.10.2026 04:05:35",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "error"
+  },
+  {
+   "zaman": "05.10.2026 04:05:39",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "error"
+  },
+  {
+   "zaman": "05.10.2026 04:26:38",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "failed"
+  },
+  {
+   "zaman": "05.10.2026 04:27:49",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "failed"
+  },
+  {
+   "zaman": "05.10.2026 04:29:50",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "failed"
+  },
+  {
+   "zaman": "05.10.2026 04:30:11",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "failed"
+  },
+  {
+   "zaman": "05.10.2026 04:30:50",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "failed"
+  },
+  {
+   "zaman": "05.10.2026 04:31:09",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "failed"
+  },
+  {
+   "zaman": "05.10.2026 04:35:52",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "failed"
+  },
+  {
+   "zaman": "05.10.2026 04:48:46",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "error"
+  },
+  {
+   "zaman": "05.10.2026 04:51:00",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "error"
+  },
+  {
+   "zaman": "05.10.2026 04:56:24",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "error"
+  },
+  {
+   "zaman": "05.10.2026 05:14:02",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "failed"
+  },
+  {
+   "zaman": "05.10.2026 05:15:03",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "failed"
+  },
+  {
+   "zaman": "05.10.2026 05:26:29",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "error"
+  },
+  {
+   "zaman": "05.10.2026 05:27:32",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "failed"
+  },
+  {
+   "zaman": "05.10.2026 05:27:55",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "failed"
+  },
+  {
+   "zaman": "05.10.2026 05:30:59",
+   "kaynak": "syslog",
+   "baslik": "Genel hata",
+   "seviye": "DUSUK",
+   "ip": "",
+   "detay": "error"
+  },
+  {
+   "zaman": "05.10.2026 03:04:57",
+   "kaynak": "kernel",
+   "baslik": "AppArmor engel",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "\"unconfined\""
+  },
+  {
+   "zaman": "05.10.2026 03:15:03",
+   "kaynak": "kernel",
+   "baslik": "AppArmor engel",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "\"unconfined\""
+  },
+  {
+   "zaman": "05.10.2026 03:20:52",
+   "kaynak": "kernel",
+   "baslik": "AppArmor engel",
+   "seviye": "ORTA",
+   "ip": "",
+   "detay": "\"unconfined\""
+  },
+  {
+   "zaman": "05.10.2026 05:20:24",
+   "kaynak": "ids",
+   "baslik": "IDS alarm",
+   "seviye": "YUKSEK",
+   "ip": "",
+   "detay": "ET INFO External IP Lookup Domain in DNS Lookup (ip-api .com)"
+  },
+  {
+   "zaman": "05.10.2026 05:20:24",
+   "kaynak": "ids",
+   "baslik": "IDS alarm",
+   "seviye": "YUKSEK",
+   "ip": "",
+   "detay": "ET INFO External IP Lookup Domain in DNS Lookup (ip-api .com)"
+  },
+  {
+   "zaman": "05.10.2026 05:20:25",
+   "kaynak": "ids",
+   "baslik": "IDS alarm",
+   "seviye": "YUKSEK",
+   "ip": "",
+   "detay": "ET INFO Python-urllib/ Suspicious User Agent"
+  },
+  {
+   "zaman": "05.10.2026 05:20:25",
+   "kaynak": "ids",
+   "baslik": "IDS alarm",
+   "seviye": "YUKSEK",
+   "ip": "",
+   "detay": "ET INFO External IP Lookup ip-api.com"
+  },
+  {
+   "zaman": "05.10.2026 05:20:26",
+   "kaynak": "ids",
+   "baslik": "IDS alarm",
+   "seviye": "YUKSEK",
+   "ip": "",
+   "detay": "ET INFO External IP Lookup Domain in DNS Lookup (ip-api .com)"
+  },
+  {
+   "zaman": "05.10.2026 05:20:26",
+   "kaynak": "ids",
+   "baslik": "IDS alarm",
+   "seviye": "YUKSEK",
+   "ip": "",
+   "detay": "ET INFO External IP Lookup Domain in DNS Lookup (ip-api .com)"
+  },
+  {
+   "zaman": "05.10.2026 05:20:26",
+   "kaynak": "ids",
+   "baslik": "IDS alarm",
+   "seviye": "YUKSEK",
+   "ip": "",
+   "detay": "ET INFO Python-urllib/ Suspicious User Agent"
+  },
+  {
+   "zaman": "05.10.2026 05:20:26",
+   "kaynak": "ids",
+   "baslik": "IDS alarm",
+   "seviye": "YUKSEK",
+   "ip": "",
+   "detay": "ET INFO External IP Lookup ip-api.com"
+  },
+  {
+   "zaman": "05.10.2026 05:21:52",
+   "kaynak": "ids",
+   "baslik": "IDS alarm",
+   "seviye": "YUKSEK",
+   "ip": "",
+   "detay": "ET INFO External IP Lookup Domain in DNS Lookup (ip-api .com)"
+  },
+  {
+   "zaman": "05.10.2026 05:21:52",
+   "kaynak": "ids",
+   "baslik": "IDS alarm",
+   "seviye": "YUKSEK",
+   "ip": "",
+   "detay": "ET INFO External IP Lookup Domain in DNS Lookup (ip-api .com)"
+  },
+  {
+   "zaman": "05.10.2026 05:21:52",
+   "kaynak": "ids",
+   "baslik": "IDS alarm",
+   "seviye": "YUKSEK",
+   "ip": "",
+   "detay": "ET INFO Python-urllib/ Suspicious User Agent"
+  },
+  {
+   "zaman": "05.10.2026 05:21:52",
+   "kaynak": "ids",
+   "baslik": "IDS alarm",
+   "seviye": "YUKSEK",
+   "ip": "",
+   "detay": "ET INFO External IP Lookup ip-api.com"
+  },
+  {
+   "zaman": "05.10.2026 05:24:19",
+   "kaynak": "ids",
+   "baslik": "IDS alarm",
+   "seviye": "YUKSEK",
+   "ip": "",
+   "detay": "ET INFO Tailscale DERP Relay Server in TLS SNI"
+  },
+  {
+   "zaman": "05.10.2026 05:28:49",
+   "kaynak": "ids",
+   "baslik": "IDS alarm",
+   "seviye": "YUKSEK",
+   "ip": "",
+   "detay": "ET INFO Tailscale DERP Relay Server in TLS SNI"
+  }
+ ]
+}

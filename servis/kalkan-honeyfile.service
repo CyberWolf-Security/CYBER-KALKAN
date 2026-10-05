@@ -1,0 +1,12 @@
+[Unit]
+Description=CYBER KALKAN Honeyfile Izleme (inotify)
+After=network.target
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /opt/siber-kalkan/MOTOR/kalkan_honeyfile_izle.py
+Restart=always
+RestartSec=10
+StandardOutput=append:/opt/siber-kalkan/LOG/honeyfile.log
+StandardError=append:/opt/siber-kalkan/LOG/honeyfile.log
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,21 @@
+{
+ "guncelleme": "05.10.2026 05:29",
+ "sonuc": [
+  [
+   "cluster",
+   "aktif (tek-merkez modu, HA izleme hazir)"
+  ],
+  [
+   "indexer",
+   "olay=10934 engel=1296 fim=3004"
+  ],
+  [
+   "indexer_api",
+   "/indexer.php"
+  ],
+  [
+   "indexer_senkron",
+   "kalkan_indexer.py"
+  ]
+ ]
+}

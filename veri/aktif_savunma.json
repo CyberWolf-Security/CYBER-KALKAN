@@ -1,0 +1,34 @@
+{
+ "zaman": "05.10.2026 05:35:01",
+ "kilic": {
+  "tablo": false,
+  "kara_set": 0,
+  "kurallar": [],
+  "kalici": true
+ },
+ "honeypot_port": 16,
+ "honeypot_liste": {
+  "21": "FTP",
+  "23": "Telnet",
+  "25": "SMTP",
+  "110": "POP3",
+  "143": "IMAP",
+  "445": "SMB",
+  "1433": "MSSQL",
+  "3306": "MySQL",
+  "3389": "RDP",
+  "5900": "VNC",
+  "6379": "Redis",
+  "8080": "HTTP-alt",
+  "8443": "HTTPS-alt",
+  "9200": "Elasticsearch",
+  "11211": "Memcached",
+  "27017": "MongoDB"
+ },
+ "yakalanan": [],
+ "yakalanan_sayisi": 0,
+ "engelli_toplam": 1295,
+ "engelli_bugun": 78,
+ "mod": "PASIF",
+ "kurallar": []
+}

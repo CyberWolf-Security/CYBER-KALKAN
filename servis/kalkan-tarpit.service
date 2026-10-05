@@ -1,0 +1,9 @@
+[Unit]
+Description=CYBER KALKAN Tarpit Durum Geri Yukle
+After=network.target nftables.service
+[Service]
+Type=oneshot
+ExecStart=/bin/bash -c '[ "$(python3 -c "import json;print(json.load(open(\"/opt/siber-kalkan/VERI/tarpit.json\"))[\"aktif\"])" 2>/dev/null)" = "True" ] && /opt/siber-kalkan/tarpit.sh ac || /opt/siber-kalkan/tarpit.sh kapat'
+RemainAfterExit=yes
+[Install]
+WantedBy=multi-user.target

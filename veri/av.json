@@ -1,0 +1,13 @@
+{
+ "zaman": "05.10.2026 05:20:16",
+ "taranan_dosya": 15,
+ "bulgu_sayisi": 0,
+ "karantina": 0,
+ "durum": "TEMIZ",
+ "temiz": true,
+ "bulgu": 0,
+ "bulgular": [],
+ "yara": [],
+ "imza_sayisi": 20,
+ "clamav": ""
+}

@@ -1,0 +1,29 @@
+{
+ "guncelleme": "05.10.2026 05:29",
+ "sonuc": [
+  [
+   "entegrasyon",
+   10
+  ],
+  [
+   "entegrasyon_api",
+   "/entegrasyon.php"
+  ],
+  [
+   "compliance_cerceve",
+   6
+  ],
+  [
+   "cve_db",
+   12
+  ],
+  [
+   "rapor",
+   "/rapor.php"
+  ],
+  [
+   "macos_ajan",
+   "/opt/siber-kalkan/AJAN/ajan-macos.sh"
+  ]
+ ]
+}

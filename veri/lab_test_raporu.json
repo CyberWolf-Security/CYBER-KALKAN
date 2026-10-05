@@ -1,0 +1,14 @@
+{
+ "tarih": "03.10.2026 20:38:07",
+ "test_saldirgan": 9,
+ "gonderilen_saldiri": 18,
+ "yakalanan_olay": 30,
+ "engellenen": 6,
+ "kacirilan": [
+  "203.0.113.50",
+  "198.51.100.77",
+  "80.94.95.211"
+ ],
+ "motor_sure_sn": 0.1,
+ "yakalama_orani": 66.7
+}

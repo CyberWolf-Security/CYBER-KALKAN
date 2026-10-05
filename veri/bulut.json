@@ -1,0 +1,26 @@
+{
+ "zaman": "05.10.2026 05:15:13",
+ "bulut": {
+  "_araclar": {
+   "aws": false,
+   "gcloud": false,
+   "az": false
+  },
+  "_yerel": [
+   {
+    "kontrol": "Bulut metadata erisimi (SSRF riski)",
+    "durum": "kapali/kapali"
+   }
+  ],
+  "_aktif_bulut": 0
+ },
+ "evtx": {
+  "dosya": 0,
+  "olay": 0,
+  "bulgular": []
+ },
+ "aktif_bulut": 0,
+ "evtx_dosya": 0,
+ "evtx_olay": 0,
+ "modul": "bulut"
+}

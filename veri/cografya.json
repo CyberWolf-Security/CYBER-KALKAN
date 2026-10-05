@@ -1,0 +1,1267 @@
+{
+ "guncelleme": "05.10.2026 05:28",
+ "ip_ulke": {
+  "203.0.113.250": {
+   "ulke": "United States",
+   "kod": "US"
+  },
+  "94.154.46.242": {
+   "ulke": "United States",
+   "kod": "US"
+  },
+  "73.147.19.171": {
+   "ulke": "United States",
+   "kod": "US"
+  },
+  "168.205.190.245": {
+   "ulke": "Brazil",
+   "kod": "BR"
+  },
+  "159.223.97.218": {
+   "ulke": "United States",
+   "kod": "US"
+  },
+  "152.32.199.115": {
+   "ulke": "Brazil",
+   "kod": "BR"
+  },
+  "129.121.143.84": {
+   "ulke": "United States",
+   "kod": "US"
+  },
+  "203.167.15.64": {
+   "ulke": "Vietnam",
+   "kod": "VN"
+  },
+  "45.138.12.51": {
+   "ulke": "Hong Kong",
+   "kod": "HK"
+  },
+  "103.200.23.154": {
+   "ulke": "Vietnam",
+   "kod": "VN"
+  },
+  "35.244.32.167": {
+   "ulke": "India",
+   "kod": "IN"
+  },
+  "120.48.90.166": {
+   "ulke": "China",
+   "kod": "CN"
+  },
+  "147.50.231.135": {
+   "ulke": "Thailand",
+   "kod": "TH"
+  },
+  "172.214.209.153": {
+   "ulke": "United States",
+   "kod": "US"
+  },
+  "45.119.212.99": {
+   "ulke": "Vietnam",
+   "kod": "VN"
+  },
+  "125.94.107.91": {
+   "ulke": "China",
+   "kod": "CN"
+  },
+  "109.160.32.174": {
+   "ulke": "The Netherlands",
+   "kod": "NL"
+  },
+  "61.43.121.132": {
+   "ulke": "South Korea",
+   "kod": "KR"
+  },
+  "152.200.205.180": {
+   "ulke": "Colombia",
+   "kod": "CO"
+  },
+  "103.176.64.36": {
+   "ulke": "India",
+   "kod": "IN"
+  },
+  "117.6.44.221": {
+   "ulke": "Vietnam",
+   "kod": "VN"
+  },
+  "146.190.74.52": {
+   "ulke": "United States",
+   "kod": "US"
+  },
+  "180.76.52.207": {
+   "ulke": "China",
+   "kod": "CN"
+  },
+  "92.118.39.71": {
+   "ulke": "United States",
+   "kod": "US"
+  },
+  "43.172.117.24": {
+   "ulke": "United States",
+   "kod": "US"
+  },
+  "2.57.122.76": {
+   "ulke": "The Netherlands",
+   "kod": "NL"
+  },
+  "109.160.32.135": {
+   "ulke": "The Netherlands",
+   "kod": "NL"
+  },
+  "211.149.143.207": {
+   "ulke": "China",
+   "kod": "CN"
+  },
+  "109.160.32.48": {
+   "ulke": "The Netherlands",
+   "kod": "NL"
+  },
+  "77.239.124.213": {
+   "ulke": "France",
+   "kod": "FR"
+  },
+  "120.48.14.72": {
+   "ulke": "China",
+   "kod": "CN"
+  },
+  "129.121.143.111": {
+   "ulke": "United States",
+   "kod": "US"
+  },
+  "129.121.140.225": {
+   "ulke": "United States",
+   "kod": "US"
+  },
+  "103.187.165.26": {
+   "ulke": "Indonesia",
+   "kod": "ID"
+  },
+  "50.6.23.110": {
+   "ulke": "United States",
+   "kod": "US"
+  },
+  "59.36.75.227": {
+   "ulke": "China",
+   "kod": "CN"
+  },
+  "140.245.119.249": {
+   "ulke": "Singapore",
+   "kod": "SG"
+  },
+  "168.228.151.152": {
+   "ulke": "Brazil",
+   "kod": "BR"
+  },
+  "129.213.151.234": {
+   "ulke": "United States",
+   "kod": "US"
+  },
+  "109.160.32.149": {
+   "ulke": "The Netherlands",
+   "kod": "NL"
+  },
+  "109.160.32.166": {
+   "ulke": "The Netherlands",
+   "kod": "NL"
+  },
+  "77.91.71.90": {
+   "ulke": "Israel",
+   "kod": "IL"
+  },
+  "36.64.131.68": {
+   "ulke": "Indonesia",
+   "kod": "ID"
+  },
+  "129.121.75.215": {
+   "ulke": "United States",
+   "kod": "US"
+  },
+  "190.129.122.12": {
+   "ulke": "Bolivia",
+   "kod": "BO"
+  },
+  "46.253.45.10": {
+   "ulke": "Spain",
+   "kod": "ES"
+  },
+  "34.24.158.23": {
+   "ulke": "United States",
+   "kod": "US"
+  },
+  "213.209.159.154": {
+   "ulke": "Germany",
+   "kod": "DE"
+  },
+  "14.177.234.46": {
+   "ulke": "Vietnam",
+   "kod": "VN"
+  },
+  "103.146.159.173": {
+   "ulke": "Hong Kong",
+   "kod": "HK"
+  },
+  "165.154.162.74": {
+   "ulke": "United States",
+   "kod": "US"
+  },
+  "117.247.23.131": {
+   "ulke": "India",
+   "kod": "IN"
+  },
+  "200.196.50.91": {
+   "ulke": "Brazil",
+   "kod": "BR"
+  },
+  "54.38.241.200": {
+   "ulke": "France",
+   "kod": "FR"
+  },
+  "45.148.10.246": {
+   "ulke": "The Netherlands",
+   "kod": "NL"
+  },
+  "34.14.122.221": {
+   "ulke": "Belgium",
+   "kod": "BE"
+  },
+  "5.253.38.54": {
+   "ulke": "United States",
+   "kod": "US"
+  },
+  "14.103.117.86": {
+   "ulke": "China",
+   "kod": "CN"
+  },
+  "109.160.32.121": {
+   "ulke": "The Netherlands",
+   "kod": "NL"
+  },
+  "101.96.202.144": {
+   "ulke": "China",
+   "kod": "CN"
+  },
+  "101.33.55.172": {
+   "ulke": "Japan",
+   "kod": "JP"
+  },
+  "172.236.28.161": {
+   "ulke": "United Kingdom",
+   "kod": "GB"
+  },
+  "140.245.126.95": {
+   "ulke": "Singapore",
+   "kod": "SG"
+  },
+  "158.178.229.130": {
+   "ulke": "Singapore",
+   "kod": "SG"
+  },
+  "94.180.139.162": {
+   "ulke": "Russia",
+   "kod": "RU"
+  },
+  "14.225.206.187": {
+   "ulke": "Vietnam",
+   "kod": "VN"
+  },
+  "51.124.171.14": {
+   "ulke": "Netherlands",
+   "kod": "NL"
+  },
+  "202.165.22.102": {
+   "ulke": "Malaysia",
+   "kod": "MY"
+  },
+  "220.250.52.94": {
+   "ulke": "China",
+   "kod": "CN"
+  },
+  "149.202.50.58": {
+   "ulke": "France",
+   "kod": "FR"
+  },
+  "161.118.242.44": {
+   "ulke": "Singapore",
+   "kod": "SG"
+  },
+  "101.47.14.46": {
+   "ulke": "Singapore",
+   "kod": "SG"
+  },
+  "129.150.41.45": {
+   "ulke": "Singapore",
+   "kod": "SG"
+  },
+  "152.69.211.193": {
+   "ulke": "Singapore",
+   "kod": "SG"
+  },
+  "183.6.91.151": {
+   "ulke": "China",
+   "kod": "CN"
+  },
+  "78.153.140.252": {
+   "ulke": "United Kingdom",
+   "kod": "GB"
+  },
+  "161.118.218.57": {
+   "ulke": "Singapore",
+   "kod": "SG"
+  },
+  "79.3.96.178": {
+   "ulke": "Italy",
+   "kod": "IT"
+  },
+  "104.208.108.166": {
+   "ulke": "Hong Kong",
+   "kod": "HK"
+  },
+  "175.6.109.238": {
+   "ulke": "China",
+   "kod": "CN"
+  },
+  "101.47.156.170": {
+   "ulke": "Singapore",
+   "kod": "SG"
+  },
+  "59.44.22.114": {
+   "ulke": "China",
+   "kod": "CN"
+  },
+  "161.118.224.21": {
+   "ulke": "Singapore",
+   "kod": "SG"
+  },
+  "172.104.233.215": {
+   "ulke": "Germany",
+   "kod": "DE"
+  },
+  "140.245.97.206": {
+   "ulke": "Singapore",
+   "kod": "SG"
+  },
+  "161.118.219.94": {
+   "ulke": "Singapore",
+   "kod": "SG"
+  },
+  "120.48.178.72": {
+   "ulke": "China",
+   "kod": "CN"
+  },
+  "218.149.235.152": {
+   "ulke": "South Korea",
+   "kod": "KR"
+  },
+  "161.118.206.157": {
+   "ulke": "Singapore",
+   "kod": "SG"
+  },
+  "138.2.81.95": {
+   "ulke": "Singapore",
+   "kod": "SG"
+  },
+  "51.75.247.232": {
+   "ulke": "France",
+   "kod": "FR"
+  },
+  "222.186.135.8": {
+   "ulke": "China",
+   "kod": "CN"
+  },
+  "161.132.47.66": {
+   "ulke": "Peru",
+   "kod": "PE"
+  },
+  "77.239.124.38": {
+   "ulke": "France",
+   "kod": "FR"
+  },
+  "168.138.173.95": {
+   "ulke": "Singapore",
+   "kod": "SG"
+  },
+  "147.90.234.22": {
+   "ulke": "United States",
+   "kod": "US"
+  },
+  "135.235.138.43": {
+   "ulke": "India",
+   "kod": "IN"
+  },
+  "144.225.187.68": {
+   "ulke": "United States",
+   "kod": "US"
+  },
+  "20.102.98.53": {
+   "ulke": "United States",
+   "kod": "US"
+  },
+  "109.160.32.133": {
+   "ulke": "The Netherlands",
+   "kod": "NL"
+  },
+  "121.184.144.232": {
+   "ulke": "South Korea",
+   "kod": "KR"
+  },
+  "134.185.94.184": {
+   "ulke": "Singapore",
+   "kod": "SG"
+  },
+  "36.139.161.140": {
+   "ulke": "China",
+   "kod": "CN"
+  },
+  "106.12.241.195": {
+   "ulke": "China",
+   "kod": "CN"
+  },
+  "118.145.239.129": {
+   "ulke": "China",
+   "kod": "CN"
+  },
+  "189.178.96.213": {
+   "ulke": "Mexico",
+   "kod": "MX"
+  },
+  "4.182.219.135": {
+   "ulke": "Germany",
+   "kod": "DE"
+  },
+  "42.96.20.16": {
+   "ulke": "Vietnam",
+   "kod": "VN"
+  },
+  "20.229.185.186": {
+   "ulke": "Netherlands",
+   "kod": "NL"
+  },
+  "180.184.141.117": {
+   "ulke": "China",
+   "kod": "CN"
+  },
+  "82.152.132.24": {
+   "ulke": "Romania",
+   "kod": "RO"
+  },
+  "168.167.228.123": {
+   "ulke": "Botswana",
+   "kod": "BW"
+  },
+  "74.208.212.10": {
+   "ulke": "United States",
+   "kod": "US"
+  },
+  "130.94.99.47": {
+   "ulke": "Myanmar",
+   "kod": "MM"
+  },
+  "221.161.235.168": {
+   "ulke": "South Korea",
+   "kod": "KR"
+  },
+  "103.168.135.187": {
+   "ulke": "Indonesia",
+   "kod": "ID"
+  },
+  "31.77.78.252": {
+   "ulke": "Russia",
+   "kod": "RU"
+  },
+  "103.241.43.193": {
+   "ulke": "Vietnam",
+   "kod": "VN"
+  },
+  "129.121.139.106": {
+   "ulke": "United States",
+   "kod": "US"
+  },
+  "115.91.48.140": {
+   "ulke": "South Korea",
+   "kod": "KR"
+  },
+  "213.206.207.146": {
+   "ulke": "The Netherlands",
+   "kod": "NL"
+  },
+  "77.239.124.61": {
+   "ulke": "France",
+   "kod": "FR"
+  },
+  "38.148.20.75": {
+   "ulke": "United States",
+   "kod": "US"
+  },
+  "77.239.124.172": {
+   "ulke": "France",
+   "kod": "FR"
+  },
+  "43.156.33.17": {
+   "ulke": "Singapore",
+   "kod": "SG"
+  },
+  "135.125.235.107": {
+   "ulke": "Germany",
+   "kod": "DE"
+  },
+  "119.92.70.82": {
+   "ulke": "Philippines",
+   "kod": "PH"
+  },
+  "134.185.84.204": {
+   "ulke": "Singapore",
+   "kod": "SG"
+  },
+  "14.22.82.73": {
+   "ulke": "China",
+   "kod": "CN"
+  },
+  "116.71.136.125": {
+   "ulke": "Pakistan",
+   "kod": "PK"
+  },
+  "46.188.119.26": {
+   "ulke": "Russia",
+   "kod": "RU"
+  },
+  "115.178.75.242": {
+   "ulke": "South Korea",
+   "kod": "KR"
+  },
+  "128.1.32.150": {
+   "ulke": "Taiwan",
+   "kod": "TW"
+  },
+  "119.28.46.114": {
+   "ulke": "Hong Kong",
+   "kod": "HK"
+  },
+  "45.87.88.61": {
+   "ulke": "Ukraine",
+   "kod": "UA"
+  },
+  "101.126.141.163": {
+   "ulke": "China",
+   "kod": "CN"
+  },
+  "150.138.115.76": {
+   "ulke": "China",
+   "kod": "CN"
+  },
+  "201.186.40.161": {
+   "ulke": "Chile",
+   "kod": "CL"
+  },
+  "177.130.250.31": {
+   "ulke": "Brazil",
+   "kod": "BR"
+  },
+  "61.220.96.57": {
+   "ulke": "Taiwan",
+   "kod": "TW"
+  },
+  "60.199.224.2": {
+   "ulke": "Taiwan",
+   "kod": "TW"
+  },
+  "45.17.39.120": {
+   "ulke": "United States",
+   "kod": "US"
+  },
+  "166.62.41.190": {
+   "ulke": "United States",
+   "kod": "US"
+  },
+  "97.93.43.157": {
+   "ulke": "United States",
+   "kod": "US"
+  },
+  "134.185.86.28": {
+   "ulke": "Singapore",
+   "kod": "SG"
+  },
+  "186.244.214.71": {
+   "ulke": "United States",
+   "kod": "US"
+  },
+  "168.107.65.60": {
+   "ulke": "Singapore",
+   "kod": "SG"
+  },
+  "58.229.253.119": {
+   "ulke": "South Korea",
+   "kod": "KR"
+  },
+  "14.103.213.90": {
+   "ulke": "China",
+   "kod": "CN"
+  },
+  "157.230.218.106": {
+   "ulke": "United States",
+   "kod": "US"
+  },
+  "187.174.238.116": {
+   "ulke": "Mexico",
+   "kod": "MX"
+  },
+  "156.232.13.246": {
+   "ulke": "Hong Kong",
+   "kod": "HK"
+  },
+  "94.154.43.223": {
+   "ulke": "The Netherlands",
+   "kod": "NL"
+  },
+  "153.126.214.105": {
+   "ulke": "Japan",
+   "kod": "JP"
+  },
+  "168.107.78.39": {
+   "ulke": "Singapore",
+   "kod": "SG"
+  },
+  "109.160.32.131": {
+   "ulke": "The Netherlands",
+   "kod": "NL"
+  },
+  "152.32.254.222": {
+   "ulke": "Hong Kong",
+   "kod": "HK"
+  },
+  "172.174.72.225": {
+   "ulke": "United States",
+   "kod": "US"
+  },
+  "70.120.203.193": {
+   "ulke": "United States",
+   "kod": "US"
+  },
+  "101.89.76.249": {
+   "ulke": "China",
+   "kod": "CN"
+  },
+  "101.36.119.203": {
+   "ulke": "Hong Kong",
+   "kod": "HK"
+  },
+  "46.232.248.247": {
+   "ulke": "Germany",
+   "kod": "DE"
+  },
+  "180.76.98.88": {
+   "ulke": "China",
+   "kod": "CN"
+  },
+  "101.47.155.9": {
+   "ulke": "Singapore",
+   "kod": "SG"
+  },
+  "223.221.38.226": {
+   "ulke": "China",
+   "kod": "CN"
+  },
+  "103.89.136.111": {
+   "ulke": "India",
+   "kod": "IN"
+  },
+  "218.150.184.241": {
+   "ulke": "South Korea",
+   "kod": "KR"
+  },
+  "14.103.118.198": {
+   "ulke": "China",
+   "kod": "CN"
+  },
+  "129.121.78.234": {
+   "ulke": "United States",
+   "kod": "US"
+  },
+  "85.240.193.104": {
+   "ulke": "Portugal",
+   "kod": "PT"
+  },
+  "172.105.76.7": {
+   "ulke": "Germany",
+   "kod": "DE"
+  },
+  "76.23.15.127": {
+   "ulke": "United States",
+   "kod": "US"
+  },
+  "48.217.66.50": {
+   "ulke": "United States",
+   "kod": "US"
+  },
+  "103.226.251.127": {
+   "ulke": "Vietnam",
+   "kod": "VN"
+  },
+  "77.239.124.177": {
+   "ulke": "France",
+   "kod": "FR"
+  },
+  "109.160.32.37": {
+   "ulke": "The Netherlands",
+   "kod": "NL"
+  },
+  "202.165.25.206": {
+   "ulke": "Malaysia",
+   "kod": "MY"
+  },
+  "187.51.208.158": {
+   "ulke": "Brazil",
+   "kod": "BR"
+  },
+  "114.130.85.36": {
+   "ulke": "Bangladesh",
+   "kod": "BD"
+  },
+  "43.135.154.242": {
+   "ulke": "United States",
+   "kod": "US"
+  },
+  "77.239.124.45": {
+   "ulke": "France",
+   "kod": "FR"
+  },
+  "43.226.39.182": {
+   "ulke": "China",
+   "kod": "CN"
+  },
+  "218.201.250.120": {
+   "ulke": "China",
+   "kod": "CN"
+  },
+  "95.46.206.2": {
+   "ulke": "Belarus",
+   "kod": "BY"
+  },
+  "82.114.230.17": {
+   "ulke": "Russia",
+   "kod": "RU"
+  },
+  "101.96.193.131": {
+   "ulke": "China",
+   "kod": "CN"
+  },
+  "171.237.176.209": {
+   "ulke": "Vietnam",
+   "kod": "VN"
+  },
+  "13.140.171.33": {
+   "ulke": "France",
+   "kod": "FR"
+  },
+  "1.238.106.229": {
+   "ulke": "South Korea",
+   "kod": "KR"
+  },
+  "72.17.34.38": {
+   "ulke": "United States",
+   "kod": "US"
+  },
+  "109.160.32.137": {
+   "ulke": "The Netherlands",
+   "kod": "NL"
+  },
+  "161.118.211.34": {
+   "ulke": "Singapore",
+   "kod": "SG"
+  },
+  "89.126.208.27": {
+   "ulke": "Uzbekistan",
+   "kod": "UZ"
+  },
+  "66.116.237.85": {
+   "ulke": "United States",
+   "kod": "US"
+  },
+  "109.160.32.154": {
+   "ulke": "The Netherlands",
+   "kod": "NL"
+  },
+  "168.107.91.14": {
+   "ulke": "Singapore",
+   "kod": "SG"
+  },
+  "195.178.191.5": {
+   "ulke": "Sweden",
+   "kod": "SE"
+  },
+  "20.116.34.103": {
+   "ulke": "Canada",
+   "kod": "CA"
+  },
+  "161.118.243.214": {
+   "ulke": "Singapore",
+   "kod": "SG"
+  },
+  "103.255.109.151": {
+   "ulke": "Indonesia",
+   "kod": "ID"
+  },
+  "156.236.66.15": {
+   "ulke": "Hong Kong",
+   "kod": "HK"
+  },
+  "112.217.188.122": {
+   "ulke": "South Korea",
+   "kod": "KR"
+  },
+  "45.156.87.209": {
+   "ulke": "The Netherlands",
+   "kod": "NL"
+  },
+  "77.239.124.171": {
+   "ulke": "France",
+   "kod": "FR"
+  },
+  "115.191.40.54": {
+   "ulke": "China",
+   "kod": "CN"
+  },
+  "120.48.176.103": {
+   "ulke": "China",
+   "kod": "CN"
+  },
+  "222.108.100.117": {
+   "ulke": "South Korea",
+   "kod": "KR"
+  },
+  "201.63.223.142": {
+   "ulke": "Brazil",
+   "kod": "BR"
+  },
+  "151.59.0.5": {
+   "ulke": "Italy",
+   "kod": "IT"
+  },
+  "45.61.187.220": {
+   "ulke": "United States",
+   "kod": "US"
+  },
+  "120.48.53.159": {
+   "ulke": "China",
+   "kod": "CN"
+  },
+  "172.191.94.172": {
+   "ulke": "United States",
+   "kod": "US"
+  },
+  "180.76.114.151": {
+   "ulke": "China",
+   "kod": "CN"
+  },
+  "20.115.209.228": {
+   "ulke": "United States",
+   "kod": "US"
+  },
+  "77.239.124.72": {
+   "ulke": "France",
+   "kod": "FR"
+  },
+  "109.160.32.175": {
+   "ulke": "The Netherlands",
+   "kod": "NL"
+  },
+  "61.76.136.25": {
+   "ulke": "South Korea",
+   "kod": "KR"
+  },
+  "77.239.124.46": {
+   "ulke": "France",
+   "kod": "FR"
+  },
+  "101.47.8.188": {
+   "ulke": "Singapore",
+   "kod": "SG"
+  },
+  "43.160.244.58": {
+   "ulke": "Singapore",
+   "kod": "SG"
+  },
+  "98.70.127.17": {
+   "ulke": "India",
+   "kod": "IN"
+  },
+  "103.72.56.174": {
+   "ulke": "Vietnam",
+   "kod": "VN"
+  },
+  "102.88.137.213": {
+   "ulke": "Nigeria",
+   "kod": "NG"
+  },
+  "185.194.218.241": {
+   "ulke": "France",
+   "kod": "FR"
+  },
+  "123.52.175.207": {
+   "ulke": "China",
+   "kod": "CN"
+  },
+  "180.76.60.83": {
+   "ulke": "China",
+   "kod": "CN"
+  },
+  "59.98.148.5": {
+   "ulke": "India",
+   "kod": "IN"
+  },
+  "4.240.96.30": {
+   "ulke": "India",
+   "kod": "IN"
+  },
+  "118.145.155.165": {
+   "ulke": "China",
+   "kod": "CN"
+  },
+  "109.160.32.34": {
+   "ulke": "The Netherlands",
+   "kod": "NL"
+  },
+  "171.25.158.47": {
+   "ulke": "Sweden",
+   "kod": "SE"
+  },
+  "181.188.148.74": {
+   "ulke": "Bolivia",
+   "kod": "BO"
+  },
+  "95.182.95.54": {
+   "ulke": "United Arab Emirates",
+   "kod": "AE"
+  },
+  "117.50.137.84": {
+   "ulke": "China",
+   "kod": "CN"
+  },
+  "192.210.254.249": {
+   "ulke": "United States",
+   "kod": "US"
+  },
+  "103.200.22.154": {
+   "ulke": "Vietnam",
+   "kod": "VN"
+  },
+  "103.26.136.173": {
+   "ulke": "Bangladesh",
+   "kod": "BD"
+  },
+  "77.239.124.145": {
+   "ulke": "France",
+   "kod": "FR"
+  },
+  "187.216.224.85": {
+   "ulke": "Mexico",
+   "kod": "MX"
+  },
+  "146.103.103.111": {
+   "ulke": "The Netherlands",
+   "kod": "NL"
+  },
+  "101.96.225.252": {
+   "ulke": "China",
+   "kod": "CN"
+  },
+  "84.201.243.44": {
+   "ulke": "Russia",
+   "kod": "RU"
+  },
+  "179.184.27.20": {
+   "ulke": "Brazil",
+   "kod": "BR"
+  },
+  "154.91.170.52": {
+   "ulke": "Germany",
+   "kod": "DE"
+  },
+  "103.243.27.155": {
+   "ulke": "Hong Kong",
+   "kod": "HK"
+  },
+  "5.253.38.188": {
+   "ulke": "United States",
+   "kod": "US"
+  },
+  "13.140.37.238": {
+   "ulke": "United States",
+   "kod": "US"
+  },
+  "191.96.196.91": {
+   "ulke": "United States",
+   "kod": "US"
+  },
+  "88.147.30.59": {
+   "ulke": "Italy",
+   "kod": "IT"
+  },
+  "154.83.17.226": {
+   "ulke": "Hong Kong",
+   "kod": "HK"
+  },
+  "45.140.192.242": {
+   "ulke": "Brazil",
+   "kod": "BR"
+  },
+  "103.154.63.62": {
+   "ulke": "Vietnam",
+   "kod": "VN"
+  },
+  "58.186.20.101": {
+   "ulke": "Vietnam",
+   "kod": "VN"
+  },
+  "176.31.21.38": {
+   "ulke": "Spain",
+   "kod": "ES"
+  },
+  "43.165.190.208": {
+   "ulke": "Japan",
+   "kod": "JP"
+  },
+  "209.126.84.64": {
+   "ulke": "United States",
+   "kod": "US"
+  },
+  "201.184.50.251": {
+   "ulke": "Colombia",
+   "kod": "CO"
+  },
+  "196.189.236.67": {
+   "ulke": "Ethiopia",
+   "kod": "ET"
+  },
+  "64.225.72.42": {
+   "ulke": "The Netherlands",
+   "kod": "NL"
+  },
+  "74.162.106.25": {
+   "ulke": "United Arab Emirates",
+   "kod": "AE"
+  },
+  "174.138.41.200": {
+   "ulke": "United States",
+   "kod": "US"
+  },
+  "109.160.32.152": {
+   "ulke": "The Netherlands",
+   "kod": "NL"
+  },
+  "60.167.166.161": {
+   "ulke": "China",
+   "kod": "CN"
+  },
+  "220.250.52.101": {
+   "ulke": "China",
+   "kod": "CN"
+  },
+  "211.75.198.217": {
+   "ulke": "Taiwan",
+   "kod": "TW"
+  },
+  "103.60.242.169": {
+   "ulke": "Vietnam",
+   "kod": "VN"
+  },
+  "220.123.33.105": {
+   "ulke": "South Korea",
+   "kod": "KR"
+  },
+  "103.147.159.91": {
+   "ulke": "Indonesia",
+   "kod": "ID"
+  },
+  "158.178.141.16": {
+   "ulke": "Australia",
+   "kod": "AU"
+  },
+  "216.155.93.75": {
+   "ulke": "Chile",
+   "kod": "CL"
+  },
+  "193.24.211.218": {
+   "ulke": "Hong Kong",
+   "kod": "HK"
+  },
+  "41.89.96.242": {
+   "ulke": "Kenya",
+   "kod": "KE"
+  },
+  "129.121.119.196": {
+   "ulke": "United States",
+   "kod": "US"
+  },
+  "121.229.205.104": {
+   "ulke": "China",
+   "kod": "CN"
+  },
+  "182.237.13.208": {
+   "ulke": "India",
+   "kod": "IN"
+  },
+  "89.219.34.204": {
+   "ulke": "Kazakhstan",
+   "kod": "KZ"
+  },
+  "88.249.195.23": {
+   "ulke": "Türkiye",
+   "kod": "TR"
+  },
+  "69.5.20.205": {
+   "ulke": "Indonesia",
+   "kod": "ID"
+  },
+  "125.39.179.192": {
+   "ulke": "China",
+   "kod": "CN"
+  },
+  "123.58.210.86": {
+   "ulke": "Hong Kong",
+   "kod": "HK"
+  },
+  "41.111.227.10": {
+   "ulke": "Algeria",
+   "kod": "DZ"
+  },
+  "183.91.11.36": {
+   "ulke": "Vietnam",
+   "kod": "VN"
+  },
+  "103.108.67.180": {
+   "ulke": "Hong Kong",
+   "kod": "HK"
+  },
+  "202.70.78.237": {
+   "ulke": "United States",
+   "kod": "US"
+  },
+  "124.174.15.24": {
+   "ulke": "China",
+   "kod": "CN"
+  },
+  "123.20.1.178": {
+   "ulke": "Vietnam",
+   "kod": "VN"
+  },
+  "218.206.136.24": {
+   "ulke": "China",
+   "kod": "CN"
+  },
+  "121.242.232.147": {
+   "ulke": "India",
+   "kod": "IN"
+  },
+  "77.239.124.44": {
+   "ulke": "France",
+   "kod": "FR"
+  },
+  "77.239.124.32": {
+   "ulke": "France",
+   "kod": "FR"
+  },
+  "4.206.92.183": {
+   "ulke": "Canada",
+   "kod": "CA"
+  },
+  "175.97.207.27": {
+   "ulke": "Taiwan",
+   "kod": "TW"
+  },
+  "103.213.238.91": {
+   "ulke": "Bangladesh",
+   "kod": "BD"
+  },
+  "154.83.14.204": {
+   "ulke": "Hong Kong",
+   "kod": "HK"
+  },
+  "111.228.55.58": {
+   "ulke": "China",
+   "kod": "CN"
+  },
+  "197.199.224.52": {
+   "ulke": "Egypt",
+   "kod": "EG"
+  },
+  "197.227.8.186": {
+   "ulke": "Mauritius",
+   "kod": "MU"
+  },
+  "210.183.21.53": {
+   "ulke": "South Korea",
+   "kod": "KR"
+  },
+  "161.132.54.212": {
+   "ulke": "Peru",
+   "kod": "PE"
+  },
+  "173.244.60.241": {
+   "ulke": "United States",
+   "kod": "US"
+  }
+ },
+ "ulkeler": [
+  [
+   "US",
+   48
+  ],
+  [
+   "CN",
+   45
+  ],
+  [
+   "SG",
+   27
+  ],
+  [
+   "NL",
+   23
+  ],
+  [
+   "VN",
+   17
+  ],
+  [
+   "FR",
+   17
+  ],
+  [
+   "HK",
+   14
+  ],
+  [
+   "KR",
+   14
+  ],
+  [
+   "IN",
+   10
+  ],
+  [
+   "BR",
+   9
+  ],
+  [
+   "DE",
+   7
+  ],
+  [
+   "ID",
+   6
+  ],
+  [
+   "RU",
+   5
+  ],
+  [
+   "TW",
+   5
+  ],
+  [
+   "JP",
+   3
+  ]
+ ]
+}

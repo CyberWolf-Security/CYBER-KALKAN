@@ -1,0 +1,29 @@
+{
+ "guncelleme": "05.10.2026 05:29",
+ "sonuc": [
+  [
+   "docker",
+   "0 kayit, 0 imaj"
+  ],
+  [
+   "k8s",
+   "1 bulgu"
+  ],
+  [
+   "ajan_config",
+   "aktif"
+  ],
+  [
+   "ajan_config_endpoint",
+   "/ajan_config.php"
+  ],
+  [
+   "ajan_upgrade",
+   "/ajan_upgrade.php"
+  ],
+  [
+   "surum",
+   "1.0"
+  ]
+ ]
+}

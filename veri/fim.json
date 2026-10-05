@@ -1,0 +1,806 @@
+{
+ "dosyalar": {
+  "/etc/passwd": "d9df53e5f8c31a78c910a87636deace4",
+  "/etc/shadow": "64c46d0ce37f3b55768fd8055367478b",
+  "/etc/sudoers": "c84d6c71cb0c2a4032e1894c09c67e55",
+  "/etc/hosts": "5565ba8c8320f944b65fa8d6bbf9c0be",
+  "/etc/crontab": "e25eb0e3303ea63ac7452139be788efa",
+  "/etc/ssh/sshd_config": "3c4b510322ae99ea5704866e5ada45a4",
+  "/opt/siber-kalkan/VERI/ayarlar.json": "705914988c328c36062ea64869ee7746",
+  "/var/www/kalkan-panel/ortak.php": "9d55a517ffcbf8f02c1a527c89f5c25d",
+  "/opt/siber-kalkan/MOTOR/kalkan_motor.py": "9aa6bee4bbff2f6e1564cd63bf3c6a83"
+ },
+ "degisimler": [
+  {
+   "dosya": "/opt/siber-kalkan/VERI/ayarlar.json",
+   "zaman": "03.10.2026 19:25:01",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/opt/siber-kalkan/MOTOR/kalkan_motor.py",
+   "zaman": "03.10.2026 19:25:01",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/opt/siber-kalkan/VERI/ayarlar.json",
+   "zaman": "03.10.2026 19:30:01",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/opt/siber-kalkan/VERI/ayarlar.json",
+   "zaman": "03.10.2026 19:35:01",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/opt/siber-kalkan/MOTOR/kalkan_motor.py",
+   "zaman": "03.10.2026 19:35:01",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/opt/siber-kalkan/MOTOR/kalkan_motor.py",
+   "zaman": "03.10.2026 19:40:01",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/opt/siber-kalkan/MOTOR/kalkan_motor.py",
+   "zaman": "03.10.2026 19:45:01",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/opt/siber-kalkan/VERI/ayarlar.json",
+   "zaman": "03.10.2026 20:09:55",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/opt/siber-kalkan/MOTOR/kalkan_motor.py",
+   "zaman": "03.10.2026 20:09:55",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/etc/ssh/sshd_config",
+   "zaman": "03.10.2026 20:10:25",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "03.10.2026 20:22:26",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/opt/siber-kalkan/VERI/ayarlar.json",
+   "zaman": "03.10.2026 20:28:27",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/opt/siber-kalkan/MOTOR/kalkan_motor.py",
+   "zaman": "03.10.2026 20:37:13",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/opt/siber-kalkan/MOTOR/kalkan_motor.py",
+   "zaman": "03.10.2026 20:38:13",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/etc/hosts",
+   "zaman": "03.10.2026 20:40:38",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/etc/hosts",
+   "zaman": "03.10.2026 20:40:43",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/opt/siber-kalkan/MOTOR/kalkan_motor.py",
+   "zaman": "03.10.2026 20:46:59",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "03.10.2026 22:41:30",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "03.10.2026 22:41:45",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/opt/siber-kalkan/MOTOR/kalkan_motor.py",
+   "zaman": "03.10.2026 22:59:00",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/opt/siber-kalkan/VERI/ayarlar.json",
+   "zaman": "03.10.2026 23:40:32",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/opt/siber-kalkan/MOTOR/kalkan_motor.py",
+   "zaman": "04.10.2026 00:16:22",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/opt/siber-kalkan/MOTOR/kalkan_motor.py",
+   "zaman": "04.10.2026 00:16:37",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/opt/siber-kalkan/MOTOR/kalkan_motor.py",
+   "zaman": "04.10.2026 00:17:52",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "04.10.2026 00:28:08",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "04.10.2026 00:28:23",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "04.10.2026 00:34:39",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "04.10.2026 00:39:09",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "04.10.2026 00:47:10",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "04.10.2026 00:47:25",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "04.10.2026 01:09:13",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "04.10.2026 01:11:43",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "04.10.2026 01:12:13",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "04.10.2026 01:12:28",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/opt/siber-kalkan/VERI/ayarlar.json",
+   "zaman": "04.10.2026 01:16:14",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "04.10.2026 01:19:14",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/opt/siber-kalkan/VERI/ayarlar.json",
+   "zaman": "04.10.2026 01:19:59",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "04.10.2026 01:19:59",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/opt/siber-kalkan/VERI/ayarlar.json",
+   "zaman": "04.10.2026 01:20:14",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "04.10.2026 01:32:16",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "04.10.2026 01:32:46",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "04.10.2026 01:33:01",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "04.10.2026 01:33:16",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/opt/siber-kalkan/VERI/ayarlar.json",
+   "zaman": "04.10.2026 01:39:47",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/opt/siber-kalkan/VERI/ayarlar.json",
+   "zaman": "04.10.2026 01:40:02",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "04.10.2026 01:40:17",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/opt/siber-kalkan/VERI/ayarlar.json",
+   "zaman": "04.10.2026 01:40:32",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "04.10.2026 01:40:32",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "04.10.2026 01:40:47",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "04.10.2026 01:47:33",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "04.10.2026 01:47:48",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "04.10.2026 01:49:18",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "04.10.2026 01:52:19",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "04.10.2026 01:52:34",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "04.10.2026 02:02:35",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/opt/siber-kalkan/VERI/ayarlar.json",
+   "zaman": "04.10.2026 02:03:05",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/opt/siber-kalkan/VERI/ayarlar.json",
+   "zaman": "04.10.2026 02:05:51",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/opt/siber-kalkan/VERI/ayarlar.json",
+   "zaman": "04.10.2026 02:07:06",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/opt/siber-kalkan/VERI/ayarlar.json",
+   "zaman": "04.10.2026 02:07:21",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/opt/siber-kalkan/VERI/ayarlar.json",
+   "zaman": "04.10.2026 02:09:36",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "04.10.2026 02:33:37",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "04.10.2026 02:33:52",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "04.10.2026 02:34:38",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "04.10.2026 02:34:53",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "04.10.2026 02:46:10",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "04.10.2026 03:02:14",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "04.10.2026 03:02:29",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "04.10.2026 03:03:15",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "04.10.2026 03:03:30",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "04.10.2026 03:03:45",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "04.10.2026 03:04:00",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "04.10.2026 03:04:15",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "04.10.2026 03:04:30",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/opt/siber-kalkan/MOTOR/kalkan_motor.py",
+   "zaman": "04.10.2026 03:06:16",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "04.10.2026 03:18:48",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/opt/siber-kalkan/VERI/ayarlar.json",
+   "zaman": "04.10.2026 03:21:33",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/opt/siber-kalkan/VERI/ayarlar.json",
+   "zaman": "04.10.2026 03:21:48",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/opt/siber-kalkan/VERI/ayarlar.json",
+   "zaman": "04.10.2026 03:44:24",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "04.10.2026 05:08:01",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "04.10.2026 05:52:53",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/opt/siber-kalkan/VERI/ayarlar.json",
+   "zaman": "04.10.2026 06:05:12",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "04.10.2026 06:09:43",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/opt/siber-kalkan/VERI/ayarlar.json",
+   "zaman": "04.10.2026 06:17:29",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "04.10.2026 06:58:59",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/opt/siber-kalkan/VERI/ayarlar.json",
+   "zaman": "04.10.2026 08:05:15",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/opt/siber-kalkan/VERI/ayarlar.json",
+   "zaman": "04.10.2026 08:06:00",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/opt/siber-kalkan/VERI/ayarlar.json",
+   "zaman": "04.10.2026 08:33:06",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/opt/siber-kalkan/VERI/ayarlar.json",
+   "zaman": "04.10.2026 08:33:51",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/opt/siber-kalkan/VERI/ayarlar.json",
+   "zaman": "04.10.2026 08:39:22",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/opt/siber-kalkan/VERI/ayarlar.json",
+   "zaman": "04.10.2026 08:40:38",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/opt/siber-kalkan/VERI/ayarlar.json",
+   "zaman": "04.10.2026 08:47:39",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/opt/siber-kalkan/VERI/ayarlar.json",
+   "zaman": "04.10.2026 08:48:09",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/opt/siber-kalkan/VERI/ayarlar.json",
+   "zaman": "04.10.2026 08:49:54",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "04.10.2026 08:51:24",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/opt/siber-kalkan/VERI/ayarlar.json",
+   "zaman": "04.10.2026 08:51:39",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/opt/siber-kalkan/VERI/ayarlar.json",
+   "zaman": "04.10.2026 08:52:09",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "04.10.2026 08:52:09",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/opt/siber-kalkan/VERI/ayarlar.json",
+   "zaman": "04.10.2026 08:52:25",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/opt/siber-kalkan/MOTOR/kalkan_motor.py",
+   "zaman": "04.10.2026 08:55:25",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/opt/siber-kalkan/VERI/ayarlar.json",
+   "zaman": "04.10.2026 17:27:38",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/opt/siber-kalkan/VERI/ayarlar.json",
+   "zaman": "04.10.2026 17:27:53",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/opt/siber-kalkan/VERI/ayarlar.json",
+   "zaman": "04.10.2026 18:15:16",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/opt/siber-kalkan/VERI/ayarlar.json",
+   "zaman": "04.10.2026 18:15:31",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/opt/siber-kalkan/VERI/ayarlar.json",
+   "zaman": "04.10.2026 18:16:02",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/opt/siber-kalkan/VERI/ayarlar.json",
+   "zaman": "04.10.2026 19:13:50",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/opt/siber-kalkan/VERI/ayarlar.json",
+   "zaman": "04.10.2026 19:14:05",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/opt/siber-kalkan/VERI/ayarlar.json",
+   "zaman": "04.10.2026 19:16:35",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/opt/siber-kalkan/VERI/ayarlar.json",
+   "zaman": "04.10.2026 19:16:50",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/opt/siber-kalkan/VERI/ayarlar.json",
+   "zaman": "04.10.2026 19:18:21",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/opt/siber-kalkan/VERI/ayarlar.json",
+   "zaman": "04.10.2026 19:18:51",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/opt/siber-kalkan/VERI/ayarlar.json",
+   "zaman": "04.10.2026 19:19:06",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/opt/siber-kalkan/VERI/ayarlar.json",
+   "zaman": "04.10.2026 19:24:37",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/opt/siber-kalkan/VERI/ayarlar.json",
+   "zaman": "04.10.2026 19:43:26",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/opt/siber-kalkan/VERI/ayarlar.json",
+   "zaman": "04.10.2026 19:53:58",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "04.10.2026 19:58:28",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "04.10.2026 20:10:31",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/opt/siber-kalkan/MOTOR/kalkan_motor.py",
+   "zaman": "04.10.2026 20:22:10",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/opt/siber-kalkan/MOTOR/kalkan_motor.py",
+   "zaman": "04.10.2026 20:26:56",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/opt/siber-kalkan/MOTOR/kalkan_motor.py",
+   "zaman": "04.10.2026 20:34:27",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/opt/siber-kalkan/MOTOR/kalkan_motor.py",
+   "zaman": "04.10.2026 20:34:42",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/opt/siber-kalkan/MOTOR/kalkan_motor.py",
+   "zaman": "04.10.2026 20:43:28",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/opt/siber-kalkan/MOTOR/kalkan_motor.py",
+   "zaman": "04.10.2026 20:43:43",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "04.10.2026 21:53:53",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "04.10.2026 21:54:38",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "04.10.2026 21:54:53",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "04.10.2026 21:57:39",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "04.10.2026 21:57:54",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/opt/siber-kalkan/VERI/ayarlar.json",
+   "zaman": "04.10.2026 22:21:18",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "04.10.2026 22:24:03",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "04.10.2026 22:28:19",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "04.10.2026 22:37:52",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "04.10.2026 22:43:54",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "04.10.2026 22:50:40",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "04.10.2026 22:52:10",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "04.10.2026 22:53:55",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "04.10.2026 22:56:26",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "04.10.2026 22:58:11",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "04.10.2026 23:20:45",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "04.10.2026 23:29:32",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "04.10.2026 23:37:49",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "04.10.2026 23:38:04",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "04.10.2026 23:39:20",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "04.10.2026 23:42:20",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/opt/siber-kalkan/MOTOR/kalkan_motor.py",
+   "zaman": "05.10.2026 00:23:55",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "05.10.2026 01:21:26",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "05.10.2026 01:24:26",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "05.10.2026 01:24:41",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "05.10.2026 01:24:56",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "05.10.2026 01:27:12",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "05.10.2026 01:27:42",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "05.10.2026 01:28:42",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "05.10.2026 01:32:28",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "05.10.2026 02:06:35",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/opt/siber-kalkan/MOTOR/kalkan_motor.py",
+   "zaman": "05.10.2026 02:21:29",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "05.10.2026 04:24:43",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/opt/siber-kalkan/MOTOR/kalkan_motor.py",
+   "zaman": "05.10.2026 04:35:46",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/opt/siber-kalkan/VERI/ayarlar.json",
+   "zaman": "05.10.2026 05:04:05",
+   "sebep": "DEĞİŞTİ"
+  },
+  {
+   "dosya": "/var/www/kalkan-panel/ortak.php",
+   "zaman": "05.10.2026 05:06:51",
+   "sebep": "DEĞİŞTİ"
+  }
+ ],
+ "toplam": 158
+}

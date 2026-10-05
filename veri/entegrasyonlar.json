@@ -1,0 +1,75 @@
+{
+ "guncelleme": "05.10.2026 05:29",
+ "entegrasyonlar": {
+  "virustotal": {
+   "ad": "VirusTotal",
+   "alan": "vt_api_key",
+   "aktif": false,
+   "kullanim": "IP/hash/domain itibar sorgusu",
+   "url": "https://www.virustotal.com/api/v3/"
+  },
+  "misp": {
+   "ad": "MISP",
+   "alan": "misp_url",
+   "aktif": false,
+   "kullanim": "Tehdit istihbarati paylasimi",
+   "url": ""
+  },
+  "slack": {
+   "ad": "Slack",
+   "alan": "slack_webhook",
+   "aktif": false,
+   "kullanim": "Bildirim kanali",
+   "url": ""
+  },
+  "pagerduty": {
+   "ad": "PagerDuty",
+   "alan": "pd_key",
+   "aktif": false,
+   "kullanim": "Kritik alarm eskalasyonu",
+   "url": ""
+  },
+  "shuffle": {
+   "ad": "Shuffle SOAR",
+   "alan": "shuffle_url",
+   "aktif": false,
+   "kullanim": "Otomasyon is akisi",
+   "url": ""
+  },
+  "thehive": {
+   "ad": "TheHive",
+   "alan": "thehive_url",
+   "aktif": false,
+   "kullanim": "Vaka yonetimi entegrasyonu",
+   "url": ""
+  },
+  "jira": {
+   "ad": "Jira",
+   "alan": "jira_url",
+   "aktif": false,
+   "kullanim": "Ticket olusturma",
+   "url": ""
+  },
+  "telegram": {
+   "ad": "Telegram",
+   "alan": "telegram_token",
+   "aktif": false,
+   "kullanim": "Anlik alarm",
+   "url": "https://api.telegram.org"
+  },
+  "email": {
+   "ad": "E-posta/SMTP",
+   "alan": "smtp_sunucu",
+   "aktif": false,
+   "kullanim": "E-posta alarmi",
+   "url": ""
+  },
+  "syslog_out": {
+   "ad": "Syslog iletme",
+   "alan": "syslog_hedef",
+   "aktif": false,
+   "kullanim": "Merkezi SIEM'e iletim",
+   "url": ""
+  }
+ }
+}

@@ -1,0 +1,21 @@
+[Unit]
+Description=CYBER KALKAN Panel (CYBERWOLF SECURITY)
+After=network.target
+
+[Service]
+Type=simple
+User=www-data
+Group=www-data
+Environment=PHP_CLI_SERVER_WORKERS=8
+ExecStart=/usr/bin/php -S 0.0.0.0:8890 -t /var/www/kalkan-panel
+Restart=always
+RestartSec=3
+StandardOutput=append:/opt/siber-kalkan/LOG/panel.log
+StandardError=append:/opt/siber-kalkan/LOG/panel.log
+NoNewPrivileges=false
+PrivateTmp=true
+ProtectSystem=full
+ReadWritePaths=/opt/siber-kalkan/VERI /opt/siber-kalkan/LOG
+
+[Install]
+WantedBy=multi-user.target

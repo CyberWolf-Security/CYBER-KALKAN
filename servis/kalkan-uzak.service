@@ -1,0 +1,12 @@
+[Unit]
+Description=CYBER KALKAN Uzak Toplayici
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/bin/bash -c 'while true; do /usr/bin/python3 /opt/siber-kalkan/MOTOR/kalkan_uzak.py >> /opt/siber-kalkan/LOG/uzak.log 2>&1; sleep 300; done'
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
