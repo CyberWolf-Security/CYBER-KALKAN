@@ -67,6 +67,15 @@ $toplam_imza = (int)$kural_grup + (int)$kural_tek;
       <div class="cy-tarama"></div>
   </div>
 
+  <!-- ★ CANLI BANT (diger modullerle ortak) -->
+  <div class="canli-serit" style="margin-bottom:18px">
+    <span class="nokta aktif"></span><b>CANLI</b>
+    <span class="cs-ayrac">·</span>
+    <span>WAF: <b><?= $waf_aktif ? 'koruma açık' : 'kapalı' ?></b></span>
+    <span class="cs-ayrac">·</span>
+    <span>Güncelleme: <b><?= date('H:i:s') ?></b></span>
+  </div>
+
   <div class="kartlar">
     <div class="kart <?= $waf_aktif ? 'iyi' : 'kritik' ?>">
       <div class="etiket">🛡️ WAF DURUMU</div>

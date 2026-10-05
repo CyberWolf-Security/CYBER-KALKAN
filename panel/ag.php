@@ -67,6 +67,15 @@ $yuklu = strpos((string)@shell_exec('nft list table inet kalkan_ag 2>/dev/null')
       <div class="cy-tarama"></div>
     </div>
 
+    <!-- ★ CANLI BANT (diger modullerle ortak) -->
+    <div class="canli-serit" style="margin-bottom:18px">
+      <span class="nokta aktif"></span><b>CANLI</b>
+      <span class="cs-ayrac">·</span>
+      <span>Ağ durumu: <b>nftables</b></span>
+      <span class="cs-ayrac">·</span>
+      <span>Güncelleme: <b><?= date('H:i:s') ?></b></span>
+    </div>
+
     <?php if ($mesaj): ?>
     <div class="uyari uyari-<?= $mesaj[0] === 'ok' ? 'iyi' : 'kotu' ?>" style="font-size:16px">
         <?= htmlspecialchars($mesaj[1]) ?>
