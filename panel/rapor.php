@@ -29,11 +29,31 @@ $fm = kalkan_oku("fim", []);
   .no-print,.ust,nav,.cy-hero,.canli-serit,.altbilgi,footer{display:none !important}
   body{margin:10px}
 }
+/* ★ EKRANDA yazdırma görünümü (butonla açılan) */
+body.yazdirma .ust, body.yazdirma nav, body.yazdirma .cy-hero,
+body.yazdirma .canli-serit, body.yazdirma .no-print,
+body.yazdirma .altbilgi, body.yazdirma footer{ display:none !important; }
+body.yazdirma .sarici{ padding:14px !important; margin:0 !important; max-width:100% !important; }
 </style></head><body>
 <?= kalkan_ustbilgi('rapor.php') ?>
 <main class="sarici rap">
 <?php kalkan_baslik('📄', 'Güvenlik Raporu', 'engel · olay · kural · uyumluluk özeti — yazdırılabilir'); ?>
-<div class="no-print" style="margin:14px 0"><button onclick="window.print()">🖨️ PDF olarak kaydet</button></div>
+<div class="no-print" style="margin:14px 0;display:flex;gap:10px;flex-wrap:wrap">
+  <button onclick="window.print()">🖨️ PDF olarak kaydet</button>
+  <button id="ygBtn" onclick="ygDegistir()" style="background:#1f6feb">👁️ Yazdırma Görünümü</button>
+</div>
+<script>
+/* ★ YAZDIRMA GÖRÜNÜMÜ — üst bant/menü/hero gizlenir, yalnız rapor içeriği kalır */
+function ygDegistir(){
+  var acik = document.body.classList.toggle('yazdirma');
+  var b = document.getElementById('ygBtn');
+  b.textContent = acik ? '↩️ Panele Dön' : '👁️ Yazdırma Görünümü';
+  b.style.background = acik ? '#2e7d32' : '#1f6feb';
+  window.scrollTo(0,0);
+}
+/* Esc ile çıkış */
+document.addEventListener('keydown',function(e){ if(e.key==='Escape' && document.body.classList.contains('yazdirma')) ygDegistir(); });
+</script>
 <h1>🐺 CYBER KALKAN — Güvenlik Raporu</h1>
 <p style="color:#9fc0dc">Marka: <?= htmlspecialchars($ayar["marka"] ?? "CYBERWOLF SECURITY") ?> · Tarih: <?= date("d.m.Y H:i") ?></p>
 <div class="kpi">
