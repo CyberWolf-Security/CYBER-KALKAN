@@ -94,11 +94,11 @@ $yuklu = strpos((string)@shell_exec('nft list table inet kalkan_ag 2>/dev/null')
     </div>
 
     <style>
-    /* ── Ağ Katmanı — tablo durum renkleri ── */
+    /* ── Ağ Katmanı — tablo durum renkleri (panel.css .tablo td rengini eziyor) ── */
     .ag-tablo td:nth-child(2){font-weight:700;letter-spacing:.4px}
-    .ag-tablo .d-up{color:#00d68f}
-    .ag-tablo .d-down{color:#ff4d5e}
-    .ag-tablo .d-unk{color:#94a3b8}
+    .ag-tablo td.d-up{color:#00d68f !important}
+    .ag-tablo td.d-down{color:#ff4d5e !important}
+    .ag-tablo td.d-unk{color:#94a3b8 !important}
     .ag-tablo td code{font-size:14.5px}
     </style>
 
