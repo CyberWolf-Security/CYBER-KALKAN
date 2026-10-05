@@ -40,14 +40,14 @@ body.yazdirma .sarici{ padding:14px !important; margin:0 !important; max-width:1
 <?php kalkan_baslik('📄', 'Güvenlik Raporu', 'engel · olay · kural · uyumluluk özeti — yazdırılabilir'); ?>
 <div class="no-print" style="margin:14px 0;display:flex;gap:10px;flex-wrap:wrap">
   <button onclick="window.print()">🖨️ PDF olarak kaydet</button>
-  <button id="ygBtn" onclick="ygDegistir()" style="background:#1f6feb">👁️ Yazdırma Görünümü</button>
+  <button id="ygBtn" onclick="ygDegistir()" style="background:#1f6feb">👁️ Rapor Görünümü</button>
 </div>
 <script>
-/* ★ YAZDIRMA GÖRÜNÜMÜ — üst bant/menü/hero gizlenir, yalnız rapor içeriği kalır */
+/* ★ RAPOR GÖRÜNÜMÜ — üst bant/menü/hero gizlenir, yalnız rapor içeriği kalır */
 function ygDegistir(){
   var acik = document.body.classList.toggle('yazdirma');
   var b = document.getElementById('ygBtn');
-  b.textContent = acik ? '↩️ Panele Dön' : '👁️ Yazdırma Görünümü';
+  b.textContent = acik ? '↩️ Panele Dön' : '👁️ Rapor Görünümü';
   b.style.background = acik ? '#2e7d32' : '#1f6feb';
   window.scrollTo(0,0);
 }
