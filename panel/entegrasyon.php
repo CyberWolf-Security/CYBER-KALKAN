@@ -56,7 +56,7 @@ $aktif = count(array_filter($durum));
 <link rel="stylesheet" href="assets/hero.css?v=2">
 </head>
 <body>
-<?= kalkan_menu('entegrasyon.php') ?>
+<?= kalkan_ustbilgi('entegrasyon.php') ?>
 <main class="sarici">
     <div class="cy-hero">
       <div class="cy-ikon">🔌</div>

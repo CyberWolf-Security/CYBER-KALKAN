@@ -10,7 +10,7 @@ if ($islem === "vt_sorgu") {
     $vt = $ayar["vt_api_key"] ?? "";
     if (!$vt) { exit(json_encode(["durum"=>"hata","mesaj"=>"VT API anahtari yok"])); }
     $ch = curl_init("https://www.virustotal.com/api/v3/ip_addresses/".urlencode($ip));
-    curl_setopt_array($ch, [CURLOPT_RETURNTRANSFER=>true, CURLOPT_HTTPHEADER=>["x-apikey: $vt"], CURLOPT_TIMEOUT=>10]);
+    curl_setopt_array($ch, [CURLOPT_RETURNTRANSFER=>true, CURLOPT_HTTPHEADER=>["x-apikey: " . $vt], CURLOPT_TIMEOUT=>10]);
     $r = curl_exec($ch); $kod = curl_getinfo($ch, CURLINFO_HTTP_CODE); curl_close($ch);
     if ($kod === 200) {
         $d = json_decode($r, true);
