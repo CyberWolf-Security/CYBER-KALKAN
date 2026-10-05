@@ -35,7 +35,15 @@ def tarpit_isle(baglanti, adres):
 def tarpit_baslat():
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
-    s.bind(("0.0.0.0", TARPIT_PORT)); s.listen(200)
+    # ★ DUZELTME: port mesgulse (servis zaten calisiyor) thread COKMESIN —
+    # onceden yakalanmayan OSError thread'i patlatiyordu.
+    try:
+        s.bind(("0.0.0.0", TARPIT_PORT)); s.listen(200)
+    except OSError as e:
+        print(f"TARPIT atlandi (port {TARPIT_PORT} mesgul: {e})")
+        try: s.close()
+        except Exception: pass
+        return
     while True:
         try:
             b, a = s.accept()
