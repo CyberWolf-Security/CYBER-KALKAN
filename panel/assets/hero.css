@@ -77,15 +77,15 @@
   animation: cy-yuzer 2.6s ease-in-out infinite;
 }
 .cy-aciklama{
-  margin: 0 0 13px; font-size: 15.5px; line-height: 1.65;
-  color: #cbd5e1; max-width: 920px;
+  margin: 0 0 15px; font-size: 18px; line-height: 1.7;   /* ★ okunakli: 15.5 → 18 */
+  color: #dbe6f3; max-width: 980px;   /* ★ daha görünür */
 }
 .cy-aciklama b{ color: #7dd3fc; font-weight: 700; }
 
 /* ── etiket rozetleri ── */
 .cy-etiketler{ display: flex; gap: 9px; flex-wrap: wrap; }
 .cy-etiket{
-  font-size: 13.5px; padding: 4px 14px; border-radius: 20px; letter-spacing: .4px;
+  font-size: 16px; padding: 7px 18px; border-radius: 22px; letter-spacing: .3px;   /* ★ 13.5 → 16 */
   background: rgba(56,189,248,.10); border: 1px solid rgba(56,189,248,.30);
   color: #93c5fd;
 }
@@ -94,7 +94,7 @@
   color: #e0f2fe;
 }
 /* özellik rozetleri: ✓ + metin (WAF hero'su) */
-.cy-etiket:has(.cy-tik){ display: inline-flex; align-items: center; gap: 6px; padding: 6px 15px; font-size: 13.5px; color: #9fb6d4; }
+.cy-etiket:has(.cy-tik){ display: inline-flex; align-items: center; gap: 6px; padding: 7px 18px; font-size: 16px; color: #9fb6d4; }
 .cy-tik{ color: #4ade80; font-weight: 800; font-size: 14px; }
 .cy-etiket b{ color: #7dd3fc; font-weight: 700; }
 
