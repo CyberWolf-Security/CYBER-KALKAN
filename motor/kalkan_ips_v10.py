@@ -58,8 +58,20 @@ def baslat(onay=False):
     if not os.path.exists(NFT):
         print("HATA: firewall/ips.nft yok"); return 1
     ac = open(NFT).read()
+    # ★ DUZELTME: 'set beyaz' tipi ipv4_addr → IPv6 adres EKLENEMEZ
+    # (nft: "Address family for hostname not supported"). IPv6'lar atlanir.
+    import ipaddress as _ipmod
+    eklenen = 0
     for ip in bl:
+        try:
+            if _ipmod.ip_address(str(ip).strip()).version != 4:
+                continue
+        except ValueError:
+            continue
         ac += '\nadd element inet %s beyaz { %s }\n' % (TABLO, ip)
+        eklenen += 1
+    if eklenen < len(bl):
+        print("  (IPv6/bilinmeyen %d adres atlandi — set IPv4)" % (len(bl) - eklenen))
     ac += "\n"
     gecici = "/tmp/ips_check.nft"
     open(gecici, "w").write(ac)

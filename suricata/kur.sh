@@ -39,8 +39,10 @@ services:
     cap_add: [NET_ADMIN, NET_RAW, SYS_NICE]
     command: ["-q", "0:1", "-v"]
     volumes:
-      - ./suricata.yaml:/etc/suricata/suricata.yaml:ro
-      - ./rules:/var/lib/suricata/rules:ro
+      # ★ DUZELTME: ':ro' KALDIRILDI — Suricata acilista config'e chown yapar,
+      # read-only mount'ta "chown: Read-only file system" verip restart dongusune girer.
+      - ./suricata.yaml:/etc/suricata/suricata.yaml
+      - ./rules:/var/lib/suricata/rules
       - ./logs:/var/log/suricata
     restart: unless-stopped
 YML
