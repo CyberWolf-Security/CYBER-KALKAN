@@ -12,12 +12,18 @@ $fm = kalkan_oku("fim", []);
 <link rel="stylesheet" href="assets/panel.css?v=1.7">
 <link rel="stylesheet" href="assets/hero.css?v=2">
 <style>
-body{font-family:Arial;margin:30px;color:#222}h1{color:#0b6}
-h2{border-bottom:2px solid #0b6;padding:5px 0;margin-top:25px}
-table{border-collapse:collapse;width:100%;margin:10px 0}
-th,td{border:1px solid #ccc;padding:8px;text-align:left}
-th{background:#0b6;color:#fff}.kpi{display:flex;gap:20px;margin:20px 0}
-.kpi div{background:#f0f8f5;padding:15px;border-left:4px solid #0b6;flex:1}
+/* ★ TÜM SEÇİCİLER .rap İLE KAPSAMLANDI — eskiden global (body,h1,table,th...) olduğu için
+   raporun stili ÜST BANTI ve menüyü bozuyordu (body margin/renk, th arka planı vb.) */
+.rap{font-family:Arial,Helvetica,sans-serif;color:#e6f0ff}
+.rap h1{color:#3ddc97;font-size:26px;margin:14px 0 6px}
+.rap h2{color:#e6f0ff;border-bottom:2px solid #0b6;padding:6px 0;margin-top:24px;font-size:20px}
+.rap table{border-collapse:collapse;width:100%;margin:12px 0}
+.rap th,.rap td{border:1px solid rgba(120,180,220,.35);padding:9px 12px;text-align:left;font-size:15px}
+.rap th{background:rgba(11,102,102,.45);color:#e6f0ff;font-weight:700;letter-spacing:.4px}
+.rap .kpi{display:flex;gap:16px;margin:18px 0;flex-wrap:wrap}
+.rap .kpi div{background:rgba(20,32,48,.85);border:1px solid rgba(56,189,248,.3);
+  padding:16px 20px;border-left:4px solid #38bdf8;flex:1 1 180px;border-radius:10px;color:#cbd5e1}
+.rap .kpi b{color:#7dd3fc}
 /* ★ yazdirirken ust bant / hero / buton gizlensin (temiz cikti) */
 @media print{
   .no-print,.ust,nav,.cy-hero,.canli-serit,.altbilgi,footer{display:none !important}
@@ -25,7 +31,7 @@ th{background:#0b6;color:#fff}.kpi{display:flex;gap:20px;margin:20px 0}
 }
 </style></head><body>
 <?= kalkan_ustbilgi('rapor.php') ?>
-<main class="sarici">
+<main class="sarici rap">
 <?php kalkan_baslik('📄', 'Güvenlik Raporu', 'engel · olay · kural · uyumluluk özeti — yazdırılabilir'); ?>
 <div class="no-print" style="margin:14px 0"><button onclick="window.print()">🖨️ PDF olarak kaydet</button></div>
 <h1>🐺 CYBER KALKAN — Güvenlik Raporu</h1>
