@@ -288,9 +288,10 @@ def calistir():
                 _oto = bool(oku(f"{V}/ayarlar.json", {}).get("otomatik_engel", True))
                 yeni_karar.append({
                     "zaman": simdi(), "ip": ip,
-                    "karar": "ENGELLENDİ" if _oto else "ENGELLE (ONAY BEKLİYOR)",
+                    "karar": "ENGELLE",
+                    "durum": "UYGULANDI" if _oto else "BEKLİYOR",
                     "puan": toplam,
-                    "sebep": f"risk puani {toplam}" + ("" if _oto else " - otomatik engelleme KAPALI")
+                    "sebep": f"risk puani {toplam}" + ("" if _oto else " - otomatik engelleme KAPALI, onay bekliyor")
                 })
                 if _oto:
                     d["engel"]["liste"].append({

@@ -42,12 +42,26 @@ if ($fil) $liste = array_values(array_filter($liste, fn($x)=>($x['seviye']??'')=
 </section>
 <section class="kutu">
   <h3>⚖️ Karar Günlüğü (<?= count($k['kararlar']??[]) ?>)</h3>
-  <table class="tablo"><thead><tr><th>Zaman</th><th>IP</th><th>Karar</th><th>Puan</th><th>Sebep</th></tr></thead><tbody>
-  <?php if (empty($k['kararlar'])): ?><tr><td colspan="5" class="bos">Karar yok</td></tr>
-  <?php else: foreach (array_slice($k['kararlar'],0,40) as $c): ?>
+  <table class="tablo"><thead><tr><th>Zaman</th><th>IP</th><th>Karar</th><th>Durum</th><th>Puan</th><th>Sebep</th></tr></thead><tbody>
+  <?php if (empty($k['kararlar'])): ?><tr><td colspan="6" class="bos">Karar yok</td></tr>
+  <?php else: foreach (array_slice($k['kararlar'],0,40) as $c):
+        /* ★ DUZELTME: "karar" = niyet (ENGELLE), "durum" = YAPILAN ISLEM.
+           Eskı kayitlarda karar alani ikisini karistiriyordu (ENGELLE (ONAY BEKLİYOR)).
+           Geriye donuk uyumluluk asagida. */
+        $ham   = (string)($c['karar'] ?? '');
+        $karar = $ham;
+        $durum = (string)($c['durum'] ?? '');
+        if ($durum === '') {
+            if (stripos($ham, 'ONAY BEKL') !== false)      { $karar = 'ENGELLE'; $durum = 'BEKLİYOR'; }
+            elseif (stripos($ham, 'ENGELLEND') !== false)  { $karar = 'ENGELLE'; $durum = 'UYGULANDI'; }
+            else                                            { $durum = '-'; }
+        }
+        $bekliyor = ($durum === 'BEKLİYOR');
+  ?>
     <tr><td class="soluk"><?= kalkan_kacis($c['zaman']??'') ?></td>
         <td class="ip"><?= kalkan_kacis($c['ip']??'') ?></td>
-        <td><span class="rozet" style="background:#ff3b5c22;color:#ff3b5c"><?= kalkan_kacis($c['karar']??'') ?></span></td>
+        <td><span class="rozet" style="background:#ff3b5c22;color:#ff3b5c"><?= kalkan_kacis($karar) ?></span></td>
+        <td><span class="rozet" style="background:<?= $bekliyor ? '#ff9f2e22;color:#ff9f2e' : '#2ecc7122;color:#2ecc71' ?>"><?= $bekliyor ? '⏳ onay bekliyor' : ($durum === '-' ? '—' : '✓ uygulandı') ?></span></td>
         <td class="mono"><?= (int)($c['puan']??0) ?></td>
         <td><?= kalkan_kacis($c['sebep']??'') ?></td></tr>
   <?php endforeach; endif; ?>
