@@ -1,0 +1,69 @@
+#!/usr/sbin/nft -f
+# ═══════════════════════════════════════════════════════════════
+#  CYBER KALKAN — AĞ KATMANI (L3/L4) v10
+#  Zone · NAT · Port yönlendirme · Statik rota · VLAN
+# ═══════════════════════════════════════════════════════════════
+#  ★ GÜVENLİK: Bu dosya VARSAYILAN OLARAK YÜKLENMEZ.
+#    Yalnızca `kalkan_ag_v10.py uygula --onay` ile yüklenir.
+#    Ağ değişikliği oturumu düşürebilir — önce `plan` ile bak.
+#
+#  ★ MEVCUT BAĞLANTI KORUNUR: established/related + SSH muafiyeti
+#    her zaman ilk kurallardır (kendini kilitleme koruması).
+# ═══════════════════════════════════════════════════════════════
+
+table inet kalkan_ag {
+    # ── ZONE: iç ağlar (LAN) ──────────────────────────────────
+    set lan_ag {
+        type ipv4_addr
+        flags interval
+        # ornek: 10.0.0.0/8, 192.168.0.0/16, 172.16.0.0/12
+    }
+
+    # ── ZONE: yönetim erişimi (asla kesilmez) ─────────────────
+    set yonetim_port {
+        type inet_service
+        elements = { 22, 2083, 2087, 8083, 8890, 8899 }
+    }
+
+    # ── HİZMET: dışarıya açık portlar (DNAT hedefleri) ────────
+    set dis_port {
+        type inet_service
+        elements = { 80, 443 }
+    }
+
+    # ═══ 1. KENDİNİ KİLİTLEME KORUMASI ════════════════════════
+    chain koru_girdi {
+        type filter hook input priority filter; policy accept;
+        ct state established,related accept
+        iif lo accept
+        tcp dport @yonetim_port accept
+        # WAN'dan yönetim portları kapalı (sadece LAN)
+        iifname "eth0" tcp dport @yonetim_port ip saddr != @lan_ag drop
+    }
+
+    # ═══ 2. İLERİ YÖNLENDİRME (zone'lar arası) ════════════════
+    chain yonlendir {
+        type filter hook forward priority filter; policy drop;
+        ct state established,related accept
+        # LAN → WAN serbest (internet çıkışı)
+        ip saddr @lan_ag accept
+        # WAN → iç sunucu SADECE açık portlar
+        oifname != "eth0" tcp dport @dis_port accept
+        # DMZ → LAN yasak (varsayılan)
+        # geri kalan: DROP
+    }
+
+    # ═══ 3. SNAT / MASQUERADE (LAN → WAN çıkışı) ══════════════
+    chain nat_cikis {
+        type nat hook postrouting priority srcnat; policy accept;
+        # iç ağdan dışarı çıkan trafiği maskele (router modu)
+        ip saddr @lan_ag oifname "eth0" masquerade
+    }
+
+    # ═══ 4. DNAT / PORT YÖNLENDİRME (WAN → iç sunucu) ═════════
+    chain nat_giris {
+        type nat hook prerouting priority dstnat; policy accept;
+        # ornek: 80 → iç web sunucusu (kalkan_ag_v10.py ekler)
+        # iifname "eth0" tcp dport 80 dnat to 10.0.0.10:80
+    }
+}
