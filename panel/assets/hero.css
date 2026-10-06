@@ -207,12 +207,3 @@
   white-space:normal !important; overflow:visible !important; text-overflow:clip !important;
   overflow-wrap:anywhere !important;
 }
-
-
-/* ★★★ HERO — ORTALI DÜZEN (ikon üstte + başlık/açıklama ortada) */
-.cy-hero{ flex-direction:column !important; align-items:center !important;
-  text-align:center !important; gap:14px !important; }
-.cy-hero .cy-metin{ text-align:center !important; width:100% !important; }
-.cy-hero .cy-baslik{ text-align:center !important; }
-.cy-hero .cy-aciklama{ text-align:center !important; margin-left:auto !important; margin-right:auto !important; }
-.cy-hero .cy-etiketler{ justify-content:center !important; }
