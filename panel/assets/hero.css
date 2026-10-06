@@ -60,12 +60,12 @@
 
 /* ── içerik ── */
 .cy-ikon{
-  font-size: 52px; line-height: 1; flex: 0 0 auto;
+  font-size: 74px; line-height: 1; flex: 0 0 auto;
   animation: cy-nabiz 2.8s ease-in-out infinite;
 }
 .cy-metin{ min-width: 0; }
 .cy-baslik{
-  margin: 0 0 10px; font-size: 30px; font-weight: 800; letter-spacing: .4px;
+  margin: 0 0 14px; font-size: 48px; font-weight: 800; letter-spacing: .4px;
   color: #eaffff;
   animation: cy-neon 3.4s ease-in-out infinite;
 }
@@ -77,7 +77,7 @@
   animation: cy-yuzer 2.6s ease-in-out infinite;
 }
 .cy-aciklama{
-  margin: 0 0 15px; font-size: 18px; line-height: 1.7;   /* ★ okunakli: 15.5 → 18 */
+  margin: 0 0 18px; font-size: 25px; line-height: 1.7;   /* ★ okunakli: 15.5 → 18 */
   color: #dbe6f3; max-width: 980px;   /* ★ daha görünür */
 }
 .cy-aciklama b{ color: #7dd3fc; font-weight: 700; }
