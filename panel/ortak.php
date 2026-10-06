@@ -5,6 +5,9 @@
  * CYBERWOLF SECURITY | Sifirdan yazildi
  */
 declare(strict_types=1);
+/* ★ OTURUM SURESI: 8 saat (24 dk -> 8 saat) */
+@ini_set('session.gc_maxlifetime', 28800);
+@ini_set('session.cookie_lifetime', 28800);
 
 /* SURUM — TEK KAYNAK: paket surumu buradan izlenir */
 if (!defined('KALKAN_SURUM')) define('KALKAN_SURUM', '1.0');
@@ -294,7 +297,7 @@ function kalkan_baslik(string $ikon, string $baslik, string $aciklama = ''): voi
     static $css_verildi = false;
     if (!$css_verildi) {
         $css_verildi = true;
-        echo '<link rel="stylesheet" href="assets/hero.css?v=2">';
+        echo '<link rel="stylesheet" href="assets/hero.css?v=4">';
     }
     echo '<div class="cy-hero">';
     echo '<div class="cy-ikon">' . $ikon . '</div>';
@@ -304,7 +307,6 @@ function kalkan_baslik(string $ikon, string $baslik, string $aciklama = ''): voi
     echo '</div>';
     echo '<div class="cy-tarama"></div>';
     echo '</div>';
-    /* ★ CANLI BANT KALDIRILDI (kullanici istegi) */
 }
 
 /* ---------- ORTAK UST BILGI (tek tip header) ---------- */
