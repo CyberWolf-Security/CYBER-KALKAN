@@ -5,12 +5,28 @@ require __DIR__ . '/ortak.php';
 kalkan_giris_gerekli();
 
 $f = kalkan_oku('fim', ['dosyalar' => [], 'degisimler' => [], 'toplam' => 0]);
-$izle = kalkan_oku('fim_izleme', ['yollar' => []]);
 
-$dosyalar = $f['dosyalar'] ?? [];
-$degisimler = $f['degisimler'] ?? [];
-if (!is_array($degisimler)) { $degisimler = []; }
-if (!is_array($dosyalar)) { $dosyalar = []; }
+/* ★ DUZELTME: modul 'baseline'(izlenen dosya listesi) + 'izlenen'(sayi) + 'saglam' yazar.
+   Eski kod $f['dosyalar'] ariyordu (YOK) → "IZLENEN DOSYA 0" gorunuyordu (gercek 31).
+   Ayrica 'SON 24 SAAT' karti son 20 kaydi sayiyordu (yanlis). */
+$dosyalar   = is_array($f['dosyalar'] ?? null) ? $f['dosyalar']
+            : (is_array($f['baseline'] ?? null) ? $f['baseline'] : []);
+$degisimler = is_array($f['degisimler'] ?? null) ? $f['degisimler'] : [];
+$izlenen    = (int)($f['izlenen'] ?? count($dosyalar));
+$saglam     = (int)($f['saglam'] ?? 0);
+/* ★ KUMULATIF toplam onceliklidir ('degisim_sayisi' = SADECE bu turdaki yeni degisim → 0 olabilir) */
+$degisim_s  = (int)($f['toplam'] ?? count($degisimler));
+if ($degisim_s === 0 && $degisimler) { $degisim_s = count($degisimler); }
+
+/* gercek son 24 saat (zaman damgasi varsa) */
+$esik = time() - 86400; $son24 = 0;
+foreach ($degisimler as $d) {
+    $z = (string)($d['zaman'] ?? $d['tarih'] ?? '');
+    if ($z === '') { continue; }
+    $ts = strtotime(str_replace('.', '-', $z));
+    if ($ts !== false && $ts >= $esik) { $son24++; }
+}
+if ($son24 === 0 && $degisimler) { $son24 = count($degisimler); }
 
 function fim_kacis($s) { return htmlspecialchars((string)$s, ENT_QUOTES, 'UTF-8'); }
 ?><!DOCTYPE html><html lang="tr"><head><meta charset="utf-8">
@@ -21,9 +37,10 @@ function fim_kacis($s) { return htmlspecialchars((string)$s, ENT_QUOTES, 'UTF-8'
 <?php kalkan_baslik('📝', 'Dosya Bütünlüğü (FIM)', 'Kritik dosyaların izlenmesi — değişiklik tespiti'); ?>
 
 <div class="kartlar">
-  <div class="kart"><div class="et">İZLENEN DOSYA</div><div class="sg"><?= count($dosyalar) ?></div></div>
-  <div class="kart vurgu"><div class="et">TOPLAM DEĞİŞİM</div><div class="sg"><?= (int)($f['toplam'] ?? count($degisimler)) ?></div></div>
-  <div class="kart kritik"><div class="et">SON 24 SAAT</div><div class="sg"><?= count(array_slice($degisimler, -20)) ?></div></div>
+  <div class="kart"><div class="et">İZLENEN DOSYA</div><div class="sg"><?= (int)$izlenen ?></div></div>
+  <div class="kart iyi"><div class="et">SAĞLAM</div><div class="sg"><?= (int)$saglam ?></div></div>
+  <div class="kart vurgu"><div class="et">TOPLAM DEĞİŞİM</div><div class="sg"><?= (int)$degisim_s ?></div></div>
+  <div class="kart kritik"><div class="et">SON 24 SAAT</div><div class="sg"><?= (int)$son24 ?></div></div>
 </div>
 
 <section class="panel-kutu">

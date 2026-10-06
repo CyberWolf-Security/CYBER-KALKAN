@@ -90,6 +90,25 @@ NVD 401.263 CVE · ET Open 52.561 · YARA 12.909 · kara liste 41.861 IP · CIS 
 
 ---
 
+## Guncelleme — 06.10.2026 (panel senkron + kart duzeni)
+
+### 📄 PANEL DOSYALARI (repo'ya alindi)
+- `panel/fim.php` — FIM KPI duzeltmeleri (IZLENEN 31 · SAGLAM 20 · TOPLAM DEGISIM 7 · SON 24 SAAT 7; `degisim_sayisi` yerine kumulatif `toplam`)
+- `panel/rapor.php` — rapor KPI kartlari yeni kart yapisina cevrildi (eski `.kpi` → `.kartlar > .kart > .et/.deger/.alt`)
+- `panel/entegrasyon.php` — ortak yapiya baglandi
+- `panel/ajan_al.sh` — ajan kurulum betigi repoya eklendi
+
+### 🎨 KART DUZENI STANDARDI (tum moduller)
+- Kart icerigi (etiket/sayi/alt yazi) ORTALI · sayi buyutuldu (28-40px) · etiket 16px · alt 15.5px
+- Eski `sg` sayi sinifi → `deger` (tutarli font) · emoji etiket karisikligi temizlendi
+- `min-width:0` (uzun icerikli kart sutunu genisletmesin) · panel 5'li sabit izgara
+- Hero baslik 30→40px · aciklama 18→22px · ikon 52→62px
+
+### 🔍 GRID HIZALAMA
+- `.ikili` grid'e `align-items:start` → kisa kutu (MITRE) artik uzun kutuya gerilmiyor (bos cerceve sorunu)
+
+---
+
 ## Sürüm Notları
 
 - **v1.0** (2026-10-06) — İlk kararlı sürüm: 16 modül, hibrit mimari
