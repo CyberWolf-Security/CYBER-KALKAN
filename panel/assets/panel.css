@@ -483,7 +483,7 @@ footer::after, footer.dip::after{
   border-left:4px solid rgba(0,150,255,.55);color:#b6d0e8}
 
 /* ============ GIRIS (BUYUK NEON) ============ */
-.giris-kutu{width:min(460px,92vw);padding:46px 42px 40px;border-radius:24px;
+.giris-kutu{width:min(400px,90vw);padding:20px 20px 18px;border-radius:16px;
   background:linear-gradient(160deg,rgba(10,18,32,.97),rgba(6,11,22,.99));
   border:1px solid rgba(0,212,255,.4);
   box-shadow:0 0 60px rgba(0,212,255,.22),0 26px 70px rgba(0,0,0,.75),inset 0 1px 0 rgba(255,255,255,.06);
@@ -492,7 +492,7 @@ footer::after, footer.dip::after{
   background:linear-gradient(90deg,#00d4ff,#7b5cff,#00d4ff);background-size:200% 100%;
   animation:girisCizgi 3s linear infinite}
 @keyframes girisCizgi{0%{background-position:0 0}100%{background-position:200% 0}}
-.giris-kurt{font-size:76px;line-height:1;text-align:center;margin-bottom:12px;
+.giris-kurt{font-size:108px;line-height:1;text-align:center;margin-bottom:12px;
   filter:drop-shadow(0 0 30px rgba(0,212,255,.9));animation:kurtNabiz 3s ease-in-out infinite}
 @keyframes kurtNabiz{0%,100%{transform:scale(1)}50%{transform:scale(1.08)}}
 .giris-ad{white-space:nowrap;font-size:34px;font-weight:900;text-align:center;letter-spacing:1.2px;line-height:1.15;
@@ -1273,11 +1273,11 @@ header.ust .dil-sol{right:16px !important;top:12px !important;left:auto !importa
 
 /* ═══ ÜST BANT — TEK KAYNAK (TR/EN birebir aynı) ═══ */
 header.ust{
-  position:relative !important;display:flex !important;align-items:center !important;
-  gap:18px !important;min-height:170px !important;
-  padding:24px 280px 24px 24px !important;
+  position:sticky !important;top:0 !important;z-index:9999 !important;display:flex !important;align-items:center !important;
+  gap:18px !important;min-height:auto !important;
+  padding:42px 300px 42px 34px !important;
 }
-header.ust .ust-logo{flex:0 0 266px !important;min-width:266px !important;max-width:266px !important}
+header.ust .ust-logo{flex:0 0 300px !important;min-width:300px !important;max-width:300px !important}
 header.ust .kalkan-menu{
   display:grid !important;grid-template-columns:repeat(4,minmax(0,1fr)) !important;
   gap:8px 10px !important;flex:1 1 auto !important;width:auto !important;
@@ -1446,3 +1446,16 @@ footer.dip::after, footer.dip::before, footer::after, footer::before{content:non
 .waf-madde { display: flex; align-items: flex-start; gap: 10px; }
 .waf-madde .waf-tik { flex: 0 0 auto; margin-top: 1px; }
 .waf-soluk { color: #7fb8c8; font-size: 15.5px; }
+
+
+/* ★★★ ÜST BANT SABİT — GARANTİ (dosya sonu = kazanır) */
+html, body{overflow:visible !important;overflow-x:clip !important}
+header.ust{
+  position:sticky !important;top:0 !important;left:0 !important;right:0 !important;
+  z-index:9999 !important;width:100% !important;
+}
+/* ★ GİRİŞ PANELİ — V2 düzeni (onaylı) */
+.giris-kutu{padding:22px 22px 20px !important;transform:scale(.88);transform-origin:center}
+.giris-kurt{font-size:108px !important}
+.giris-kutu label{font-size:19px !important;font-weight:700 !important}
+.giris-kutu input{font-size:18px !important;padding:14px 18px !important}
