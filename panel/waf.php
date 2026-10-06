@@ -44,7 +44,34 @@ $toplam_imza = (int)$kural_grup + (int)$kural_tek;
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>WAF — <?= kalkan_kacis($ayar['panel_adi'] ?? 'CYBER KALKAN') ?></title>
 <link rel="stylesheet" href="assets/panel.css?v=1.7">
-<link rel="stylesheet" href="assets/hero.css?v=2"></head><body>
+<link rel="stylesheet" href="assets/hero.css?v=2"><style>
+/* WAF ozellik satirlari — HAREKETLI neon (V1) */
+.waf-yazilar{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:20px 0 24px}
+@media (max-width:900px){.waf-yazilar{grid-template-columns:1fr}}
+.waf-yazi{position:relative;display:flex;align-items:center;gap:15px;padding:17px 20px 17px 25px;border-radius:15px;
+  background:linear-gradient(120deg,rgba(10,20,36,.94),rgba(8,14,26,.97));
+  border:1px solid rgba(56,189,248,.30);
+  box-shadow:0 6px 26px rgba(0,0,0,.45),inset 0 1px 0 rgba(255,255,255,.05);
+  transition:transform .28s cubic-bezier(.2,.8,.3,1),box-shadow .28s,border-color .28s;overflow:hidden}
+.waf-yazi::before{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;
+  background:linear-gradient(180deg,#00d4ff,#7b5cff,#00d4ff);background-size:100% 200%;animation:wafAkim 3.2s linear infinite}
+@keyframes wafAkim{0%{background-position:0 0}100%{background-position:0 200%}}
+.waf-yazi::after{content:"";position:absolute;top:0;bottom:0;width:70px;left:-90px;
+  background:linear-gradient(90deg,transparent,rgba(0,212,255,.18),transparent);animation:wafParilti 5.5s ease-in-out infinite}
+@keyframes wafParilti{0%,72%{left:-90px}100%{left:105%}}
+.waf-yazi:hover{transform:translateY(-4px);border-color:rgba(0,212,255,.8);box-shadow:0 14px 40px rgba(0,212,255,.26),0 6px 26px rgba(0,0,0,.5)}
+.waf-ikon{flex:0 0 auto;width:50px;height:50px;border-radius:13px;display:flex;align-items:center;justify-content:center;
+  font-size:26px;background:rgba(10,16,26,.9);border:1px solid rgba(255,255,255,.18);
+  filter:drop-shadow(0 0 12px rgba(0,212,255,.6));animation:wafIkon 2.6s ease-in-out infinite}
+@keyframes wafIkon{0%,100%{transform:scale(1) rotate(0)}50%{transform:scale(1.13) rotate(-6deg)}}
+.waf-yazi:hover .waf-ikon{animation:wafDon 1.5s ease-in-out infinite}
+@keyframes wafDon{0%,100%{transform:rotate(-8deg) scale(1.08)}50%{transform:rotate(8deg) scale(1.18)}}
+.waf-metin{display:flex;flex-direction:column;gap:3px;min-width:0}
+.waf-metin b{font-size:19.5px;font-weight:800;letter-spacing:.3px;
+  background:linear-gradient(90deg,#ffffff,#9fe8ff 60%,#00d4ff);-webkit-background-clip:text;background-clip:text;
+  -webkit-text-fill-color:transparent;filter:drop-shadow(0 0 12px rgba(0,212,255,.35))}
+.waf-soluk{color:#9fc0dc;font-size:15.5px;line-height:1.45;letter-spacing:.3px}
+</style></head><body>
 <?= kalkan_ustbilgi('waf') ?>
 <main class="sarici">
   <div class="cy-hero">
@@ -52,16 +79,6 @@ $toplam_imza = (int)$kural_grup + (int)$kural_tek;
     <div class="cy-metin">
       <h1 class="cy-baslik">WAF — Güvenlik Duvarı <span class="cy-surum">v10</span></h1>
       <p class="cy-aciklama">Web uygulama katmanında istekleri <b>anında</b> tarar; saldırı imzası bulursa <b>403</b> ile engeller ve IP'yi <b>kara listeye</b> alır.</p>
-      <div class="cy-etiketler">
-        <div class="cy-etiket"><span class="cy-tik">✓</span>
-          <span><b><?= number_format($toplam_imza, 0, ',', '.') ?> saldırı imzası</b> <span class="waf-soluk">SQLi · XSS · LFI · RCE · Log4Shell</span></span></div>
-        <div class="cy-etiket"><span class="cy-tik">✓</span>
-          <span><b>5 katmanlı çözümleme</b> <span class="waf-soluk">URL · HTML · JS · Base64 · yorum kırma</span></span></div>
-        <div class="cy-etiket"><span class="cy-tik">✓</span>
-          <span><b>Anomali skorlama</b> + <b>hız sınırı</b> <span class="waf-soluk">DoS koruması</span></span></div>
-        <div class="cy-etiket"><span class="cy-tik">✓</span>
-          <span><b>Sanal yama</b> (CVE imzaları) + <b>bot tespiti</b> <span class="waf-soluk">sqlmap · nuclei · nmap</span></span></div>
-      </div>
     </div>
 
       <div class="cy-tarama"></div>
