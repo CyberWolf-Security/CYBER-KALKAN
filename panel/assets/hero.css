@@ -207,3 +207,58 @@
   white-space:normal !important; overflow:visible !important; text-overflow:clip !important;
   overflow-wrap:anywhere !important;
 }
+
+/* ═══════════════════════════════════════════════════════════
+   ★★★ WAF ÖZELLİK BLOKLARI — HAREKETLİ & ŞIK
+   Neon kenar · parıldayan ikon · hover kayma · gradient başlık
+   ═══════════════════════════════════════════════════════════ */
+.kartlar .waf-yazi, .waf-yazi{
+  position:relative !important; overflow:hidden !important;
+  display:flex !important; align-items:center !important; gap:14px !important;
+  padding:16px 20px 16px 24px !important; margin:10px 0 !important;
+  border-radius:14px !important;
+  background:linear-gradient(120deg, rgba(10,20,36,.92), rgba(8,14,26,.96)) !important;
+  border:1px solid rgba(56,189,248,.28) !important;
+  box-shadow:0 6px 26px rgba(0,0,0,.45), inset 0 1px 0 rgba(255,255,255,.05) !important;
+  transition:transform .28s cubic-bezier(.2,.8,.3,1), box-shadow .28s, border-color .28s !important;
+}
+/* sol neon çizgi (akan ışık) */
+.kartlar .waf-yazi::before, .waf-yazi::before{
+  content:""; position:absolute; left:0; top:0; bottom:0; width:4px;
+  background:linear-gradient(180deg,#00d4ff,#7b5cff,#00d4ff);
+  background-size:100% 200%; animation:wafAkim 3.2s linear infinite;
+}
+@keyframes wafAkim{0%{background-position:0 0}100%{background-position:0 200%}}
+/* sağdan geçen parıltı */
+.kartlar .waf-yazi::after, .waf-yazi::after{
+  content:""; position:absolute; top:0; bottom:0; width:70px; left:-90px;
+  background:linear-gradient(90deg,transparent,rgba(0,212,255,.16),transparent);
+  animation:wafParilti 5.5s ease-in-out infinite;
+}
+@keyframes wafParilti{0%,72%{left:-90px}100%{left:105%}}
+/* hover: yukarı kay + neon güçlen */
+.kartlar .waf-yazi:hover, .waf-yazi:hover{
+  transform:translateY(-4px) !important;
+  border-color:rgba(0,212,255,.75) !important;
+  box-shadow:0 14px 40px rgba(0,212,255,.24), 0 6px 26px rgba(0,0,0,.5) !important;
+}
+/* ikon: nabız + dönme */
+.kartlar .waf-yazi .waf-ikon, .waf-yazi .waf-ikon{
+  font-size:30px !important; line-height:1 !important; flex:0 0 auto !important;
+  filter:drop-shadow(0 0 14px rgba(0,212,255,.85));
+  animation:wafIkon 2.6s ease-in-out infinite;
+}
+@keyframes wafIkon{0%,100%{transform:scale(1) rotate(0)}50%{transform:scale(1.14) rotate(-6deg)}}
+.kartlar .waf-yazi:hover .waf-ikon, .waf-yazi:hover .waf-ikon{animation:wafDon 1.5s ease-in-out infinite}
+@keyframes wafDon{0%,100%{transform:rotate(-8deg) scale(1.08)}50%{transform:rotate(8deg) scale(1.18)}}
+/* metin */
+.kartlar .waf-yazi .waf-metin, .waf-yazi .waf-metin{display:flex !important;flex-direction:column !important;gap:3px !important;min-width:0 !important}
+.kartlar .waf-yazi .waf-metin > b, .waf-yazi .waf-metin > b{
+  font-size:19px !important; font-weight:800 !important; letter-spacing:.3px !important;
+  background:linear-gradient(90deg,#ffffff,#9fe8ff 60%,#00d4ff);
+  -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent;
+  filter:drop-shadow(0 0 12px rgba(0,212,255,.35));
+}
+.kartlar .waf-yazi .waf-soluk, .waf-yazi .waf-soluk{
+  font-size:15.5px !important; color:#9fc0dc !important; letter-spacing:.4px !important;
+}
