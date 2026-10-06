@@ -1,5 +1,8 @@
 {
   "aciklama": "Bu dosya kurulumda doldurulur — gerçek değerler repoda YOK",
+  "brevo_api": "BURAYA_BREVO_API_ANAHTARI",
   "smtp_sunucu": "mail.ornek.com",
-  "smtp_port": 587
+  "smtp_port": 587,
+  "smtp_kullanici": "kullanici@ornek.com",
+  "smtp_sifre": "BURAYA_SMTP_SIFRESI"
 }
