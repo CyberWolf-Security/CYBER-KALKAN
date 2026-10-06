@@ -1021,7 +1021,7 @@ pre.kod { font-size:15px; line-height:1.5; max-height:340px; overflow:auto; }
 
 /* ══ GIRIS CILA v142 — buyuk yazi + az ust bosluk ══ */
 .giris-kutu{padding:28px 44px 36px !important}
-.giris-kurt{font-size:108px !important;line-height:.9 !important;margin-bottom:6px !important;position:relative !important;top:34px !important}
+.giris-kurt{font-size:108px !important;line-height:.9 !important;margin-bottom:6px !important;position:relative !important;top:46px !important}
 .giris-ad{font-size:38px !important;margin-top:2px}
 .giris-marka{font-size:23px !important;letter-spacing:3.4px !important;
   color:#7df9ff !important;text-shadow:0 0 14px rgba(0,229,255,.55) !important;
@@ -1456,6 +1456,6 @@ header.ust{
 }
 /* ★ GİRİŞ PANELİ — V2 düzeni (onaylı) */
 .giris-kutu{padding:22px 22px 20px !important;transform:scale(.66);transform-origin:center}
-.giris-kurt{font-size:108px !important;line-height:.9 !important;margin-bottom:6px !important;position:relative !important;top:34px !important}
+.giris-kurt{font-size:108px !important;line-height:.9 !important;margin-bottom:6px !important;position:relative !important;top:46px !important}
 .giris-kutu label{font-size:19px !important;font-weight:700 !important}
 .giris-kutu input{font-size:18px !important;padding:14px 18px !important}
