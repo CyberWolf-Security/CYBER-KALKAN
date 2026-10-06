@@ -14,12 +14,12 @@ $renk = fn($p) => $p>=80?'#00d68f':($p>=50?'#ffb020':'#ff4d5e');
 <main>
 <?php kalkan_baslik('🛡️', 'Güvenlik Durumu', 'Risk skoru ve tehdit özeti'); ?>
 <div class="kartlar">
-  <div class="kart"><div class="etiket">ZAFIYET PUANI</div><div class="deger" style="color:<?= $renk($z['puan']) ?>"><?= (int)$z['puan'] ?></div><div class="alt">/100</div></div>
-  <div class="kart"><div class="etiket">GUNCELLENEBILIR PAKET</div><div class="deger" style="color:#ffb020"><?= (int)$z['guncellenebilir'] ?></div></div>
-  <div class="kart"><div class="etiket">SCA SKORU</div><div class="deger" style="color:<?= $renk($s['skor']) ?>"><?= (int)$s['skor'] ?></div><div class="alt"><?= (int)$s['gecen'] ?>/<?= (int)$s['toplam'] ?> gecti</div></div>
-  <div class="kart"><div class="etiket">ROOTKIT</div><div class="deger" style="color:<?= $s['rootkit_temiz']?'#00d68f':'#ff4d5e' ?>"><?= $s['rootkit_temiz']?'TEMIZ':'TEHLIKE' ?></div></div>
-    <div class="kart"><div class="etiket">ANTIVIRUS (ClamAV)</div><div class="deger" style="color:<?= !empty($av['temiz'])?'#00d68f':'#ff3b5c' ?>"><?= !empty($av['temiz'])?'TEMIZ':count($av['bulunan']).' BULGU' ?></div><div class="alt">son tarama: <?= kalkan_kacis($av['tarih']??'-') ?></div></div>
-<div class="kart"><div class="etiket">OTOMATIK DUZELTME</div><div class="deger" style="color:#4da3ff"><?= (int)($rem['otomatik_uygulanan']??0) ?></div><div class="alt"><?= count($rem['oneriler']??[]) ?> oneri</div></div>
+  <div class="kart"><div class="et">ZAFIYET PUANI</div><div class="deger" style="color:<?= $renk($z['puan']) ?>"><?= (int)$z['puan'] ?></div><div class="alt">/100</div></div>
+  <div class="kart"><div class="et">GUNCELLENEBILIR PAKET</div><div class="deger" style="color:#ffb020"><?= (int)$z['guncellenebilir'] ?></div></div>
+  <div class="kart"><div class="et">SCA SKORU</div><div class="deger" style="color:<?= $renk($s['skor']) ?>"><?= (int)$s['skor'] ?></div><div class="alt"><?= (int)$s['gecen'] ?>/<?= (int)$s['toplam'] ?> gecti</div></div>
+  <div class="kart"><div class="et">ROOTKIT</div><div class="deger" style="color:<?= $s['rootkit_temiz']?'#00d68f':'#ff4d5e' ?>"><?= $s['rootkit_temiz']?'TEMIZ':'TEHLIKE' ?></div></div>
+    <div class="kart"><div class="et">ANTIVIRUS (ClamAV)</div><div class="deger" style="color:<?= !empty($av['temiz'])?'#00d68f':'#ff3b5c' ?>"><?= !empty($av['temiz'])?'TEMIZ':count($av['bulunan']).' BULGU' ?></div><div class="alt">son tarama: <?= kalkan_kacis($av['tarih']??'-') ?></div></div>
+<div class="kart"><div class="et">OTOMATIK DUZELTME</div><div class="deger" style="color:#4da3ff"><?= (int)($rem['otomatik_uygulanan']??0) ?></div><div class="alt"><?= count($rem['oneriler']??[]) ?> oneri</div></div>
 </div>
 <h2 class="bolum">📋 Guvenlik Denetimi (SCA)</h2>
 <table class="tablo"><tr><th>Kontrol</th><th>Seviye</th><th>Sonuc</th></tr>

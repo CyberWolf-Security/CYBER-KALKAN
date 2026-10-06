@@ -84,31 +84,38 @@ $toplam_imza = (int)$kural_grup + (int)$kural_tek;
       <div class="cy-tarama"></div>
   </div>
 
+  <div class="waf-yazilar">
+    <div class="waf-yazi" style="--vurgu:#38bdf8"><span class="waf-ikon">&#129514;</span><span class="waf-metin"><b><?= number_format((int)($toplam_imza ?? 0), 0, ',', '.') ?>+ saldiri imzasi</b><span class="waf-soluk">SQLi &middot; XSS &middot; LFI &middot; RCE &middot; Log4Shell</span></span></div>
+    <div class="waf-yazi" style="--vurgu:#a855f7"><span class="waf-ikon">&#128269;</span><span class="waf-metin"><b>5 katmanli cozumleme</b><span class="waf-soluk">URL &middot; HTML &middot; JS &middot; Base64 &middot; yorum kirma</span></span></div>
+    <div class="waf-yazi" style="--vurgu:#22c55e"><span class="waf-ikon">&#128202;</span><span class="waf-metin"><b>Anomali skorlama</b><span class="waf-soluk">+ hiz siniri DoS korumasi</span></span></div>
+    <div class="waf-yazi" style="--vurgu:#f59e0b"><span class="waf-ikon">&#128737;</span><span class="waf-metin"><b>Sanal yama</b><span class="waf-soluk">(CVE imzalari) + bot tespiti sqlmap &middot; nuclei &middot; nmap</span></span></div>
+  </div>
+
   <!-- ★ CANLI BANT (diger modullerle ortak) -->
 
   <div class="kartlar">
     <div class="kart <?= $waf_aktif ? 'iyi' : 'kritik' ?>">
-      <div class="etiket">🛡️ WAF DURUMU</div>
+      <div class="et">🛡️ WAF DURUMU</div>
       <div class="deger" style="font-size:26px"><?= $waf_aktif ? 'AKTİF' : 'KAPALI' ?></div>
       <div class="alt"><?= $waf_aktif ? 'koruma açık' : 'devre dışı' ?></div>
     </div>
     <div class="kart vurgu">
-      <div class="etiket">📜 SALDIRI İMZASI</div>
+      <div class="et">📜 SALDIRI İMZASI</div>
       <div class="deger"><?= number_format($toplam_imza, 0, ',', '.') ?></div>
       <div class="alt"><?= (int)$kural_grup ?> blok + <?= (int)$kural_tek ?> desen</div>
     </div>
     <div class="kart <?= $waf_toplam ? 'yuksek' : '' ?>">
-      <div class="etiket">🎯 YAKALAMA</div>
+      <div class="et">🎯 YAKALAMA</div>
       <div class="deger"><?= number_format($waf_toplam, 0, ',', '.') ?></div>
       <div class="alt">toplam tespit</div>
     </div>
     <div class="kart <?= count($waf_engel) ? 'kritik' : '' ?>">
-      <div class="etiket">🚫 ENGEL</div>
+      <div class="et">🚫 ENGEL</div>
       <div class="deger"><?= number_format(count($waf_engel), 0, ',', '.') ?></div>
       <div class="alt">kara listeye alındı</div>
     </div>
     <div class="kart">
-      <div class="etiket">⚡ RATE LIMIT</div>
+      <div class="et">⚡ RATE LIMIT</div>
       <div class="deger">100</div>
       <div class="alt">istek / 30 sn</div>
     </div>

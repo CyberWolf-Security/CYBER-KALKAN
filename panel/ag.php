@@ -89,27 +89,27 @@ $yuklu = !empty($d['zone']);
     ?>
     <div class="kartlar">
       <div class="kart vurgu">
-        <div class="etiket">🌐 ARAYÜZ</div>
+        <div class="et">🌐 ARAYÜZ</div>
         <div class="deger"><?= count($ar) ?></div>
         <div class="alt"><?= $up ?> aktif</div>
       </div>
       <div class="kart">
-        <div class="etiket">🧭 ROTA</div>
+        <div class="et">🧭 ROTA</div>
         <div class="deger"><?= $rota ?></div>
         <div class="alt">statik yol</div>
       </div>
       <div class="kart <?= $nat ? 'iyi' : '' ?>">
-        <div class="etiket">🔀 NAT KURALI</div>
+        <div class="et">🔀 NAT KURALI</div>
         <div class="deger"><?= $nat ?></div>
         <div class="alt">SNAT · DNAT</div>
       </div>
       <div class="kart <?= $vlan ? 'iyi' : '' ?>">
-        <div class="etiket">🏷️ VLAN</div>
+        <div class="et">🏷️ VLAN</div>
         <div class="deger"><?= $vlan ?></div>
         <div class="alt">802.1Q</div>
       </div>
       <div class="kart <?= $yuklu ? 'iyi' : 'yuksek' ?>">
-        <div class="etiket">🛡️ ZONE TABLOSU</div>
+        <div class="et">🛡️ ZONE TABLOSU</div>
         <div class="deger" style="font-size:26px"><?= $yuklu ? 'AÇIK' : 'KAPALI' ?></div>
         <div class="alt"><?= $yuklu ? 'yüklü' : 'yüklü değil' ?></div>
       </div>

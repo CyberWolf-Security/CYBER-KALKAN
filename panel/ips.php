@@ -63,22 +63,22 @@ $saldirganlar = $ozet['saldirganlar'] ?? $ozet['iplar'] ?? $ozet['liste'] ?? [];
 
   <div class="kartlar">
     <div class="kart">
-      <div class="etiket">nftables Kuyruğu</div>
+      <div class="et">nftables Kuyruğu</div>
       <div class="deger"><?= $aktif ? 'AKTİF' : 'kapalı' ?></div>
       <div class="alt"><?= (int)$tablo ?> kuyruk</div>
     </div>
     <div class="kart">
-      <div class="etiket">Suricata</div>
+      <div class="et">Suricata</div>
       <div class="deger"><?= ($sur !== '' && strpos($sur,'Up')!==false) ? 'ÇALIŞIYOR' : 'kapalı' ?></div>
       <div class="alt"><?= htmlspecialchars($sur ?: '-') ?></div>
     </div>
     <div class="kart iyi">
-      <div class="etiket">Yüklü Kural</div>
+      <div class="et">Yüklü Kural</div>
       <div class="deger"><?= $kural > 0 ? number_format($kural, 0, ',', '.') : '-' ?></div>
       <div class="alt"><?= (int)$hata ?> hata · L7 <?= number_format($l7, 0, ',', '.') ?></div>
     </div>
     <div class="kart<?= $aktif ? ' iyi' : ' kritik' ?>">
-      <div class="etiket">Mod</div>
+      <div class="et">Mod</div>
       <div class="deger"><?= $aktif ? 'IPS' : 'IDS' ?></div>
       <div class="alt"><?= $aktif ? 'engelleme aktif' : 'izleme' ?> · <?= htmlspecialchars($ids_zam !== '' ? $ids_zam : '-') ?></div>
     </div>

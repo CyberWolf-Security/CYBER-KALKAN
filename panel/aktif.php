@@ -30,12 +30,12 @@ if (isset($_GET['tarpit']) || (($_POST['islem'] ?? '') === 'tarpit')) {
 <?php kalkan_baslik('⚔️', 'Aktif Savunma', 'Kılıç modu ve otomatik müdahale'); ?>
   <h2 class="bolum">⚔️ Aktif Savunma — Saldırganı Bertaraf Et</h2>
   <div class="kartlar">
-    <div class="kart"><div class="etiket">⚔️ KILIÇ — ANINDA KESME</div><div class="deger" style="color:#ff3b5c"><?= $tarpit_sayi ?></div><div class="alt">bağlantısı ANINDA kesilen IP</div></div>
-    <div class="kart"><div class="etiket">HONEYPOT TUZAĞI</div><div class="deger" style="color:#ff9f43"><?= (int)($h['toplam'] ?? 0) ?></div><div class="alt">yakalanan bağlantı</div></div>
-    <div class="kart"><div class="etiket">ABUSE RAPORU</div><div class="deger" style="color:#4da3ff"><?= count($e['liste'] ?? []) ?></div><div class="alt">bildirilecek saldırgan</div></div>
+    <div class="kart"><div class="et">⚔️ KILIÇ — ANINDA KESME</div><div class="deger" style="color:#ff3b5c"><?= $tarpit_sayi ?></div><div class="alt">bağlantısı ANINDA kesilen IP</div></div>
+    <div class="kart"><div class="et">HONEYPOT TUZAĞI</div><div class="deger" style="color:#ff9f43"><?= (int)($h['toplam'] ?? 0) ?></div><div class="alt">yakalanan bağlantı</div></div>
+    <div class="kart"><div class="et">ABUSE RAPORU</div><div class="deger" style="color:#4da3ff"><?= count($e['liste'] ?? []) ?></div><div class="alt">bildirilecek saldırgan</div></div>
     <?php $pk = kalkan_oku('puskurtme', ['kesilen_ip'=>0,'kesilen_ag'=>0]); ?>
-    <div class="kart"><div class="etiket">⚔️ PÜSKÜRTME (KILIÇ)</div><div class="deger" style="color:#ff3b5c"><?= (int)($pk['kesilen_ip']??0) ?></div><div class="alt"><?= (int)($pk['kesilen_ag']??0) ?> alt ağ kesildi · ANINDA</div></div>
-    <div class="kart"><div class="etiket">TARPIT SÜRÜNDÜRME</div><div class="deger" style="color:"<?= $tacik ? '#00ffa3' : '#ff6b8a' ?>""><?= $tacik ? 'AÇIK' : 'KAPALI' ?></div><div class="alt">9099 portunda asılı tutma</div></div>
+    <div class="kart"><div class="et">⚔️ PÜSKÜRTME (KILIÇ)</div><div class="deger" style="color:#ff3b5c"><?= (int)($pk['kesilen_ip']??0) ?></div><div class="alt"><?= (int)($pk['kesilen_ag']??0) ?> alt ağ kesildi · ANINDA</div></div>
+    <div class="kart"><div class="et">TARPIT SÜRÜNDÜRME</div><div class="deger" style="color:"<?= $tacik ? '#00ffa3' : '#ff6b8a' ?>""><?= $tacik ? 'AÇIK' : 'KAPALI' ?></div><div class="alt">9099 portunda asılı tutma</div></div>
   </div>
 
   <h3>⚔️ KILIÇ MODU — SERT (reject tcp reset + çıkış drop + hız sınırı 1/sn)</h3>
@@ -61,7 +61,7 @@ if (isset($_GET['tarpit']) || (($_POST['islem'] ?? '') === 'tarpit')) {
       <b>9099 portunda ~8 dakika asili tutulur</b> &mdash; kaynagini tuketir, yorulur.</p>
     <?php if ($tmesaj !== ''): ?><div style="margin:0 0 14px;padding:11px 16px;border-radius:10px;background:rgba(0,214,143,.12);border:1px solid rgba(0,214,143,.5);color:#7dffc0;font-weight:700;font-size:16px"><?= $tmesaj ?></div><?php endif; ?>
     <div style="display:flex;gap:14px;align-items:center;flex-wrap:wrap">
-      <span class="etiket">DURUM</span>
+      <span class="et">DURUM</span>
       <span style="font-weight:800;font-size:19px;color:<?= $tacik ? '#00ffa3' : '#ff6b8a' ?>">
         <?= $tacik ? '&#9876;&#65039; ACIK' : '&#128165; KAPALI' ?></span>
       <a href="?tarpit=ac" class="dugme" style="background:linear-gradient(135deg,#00ffa3,#00b37a);color:#04121a;font-size:18px;font-weight:800;padding:15px 30px;text-decoration:none;display:inline-block">&#9876;&#65039; TARPIT A&Ccedil;</a>

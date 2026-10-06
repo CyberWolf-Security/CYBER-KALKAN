@@ -37,19 +37,19 @@ function kb(int $b): string { return $b > 1048576 ? round($b / 1048576, 1) . ' M
 
   <div class="idx-kpi">
     <div class="kart">
-      <span class="etiket">📊 Toplam Olay</span>
+      <span class="et">📊 Toplam Olay</span>
       <span class="deger"><?= number_format((int)($olay['toplam'] ?? 0), 0, ',', '.') ?></span>
     </div>
     <div class="kart yesil">
-      <span class="etiket">🗂️ İndekslenen Kayıt</span>
+      <span class="et">🗂️ İndekslenen Kayıt</span>
       <span class="deger"><?= number_format($toplam_satir, 0, ',', '.') ?></span>
     </div>
     <div class="kart turuncu">
-      <span class="etiket">📂 Log Dosyası</span>
+      <span class="et">📂 Log Dosyası</span>
       <span class="deger"><?= $toplam_log ?></span>
     </div>
     <div class="kart mor">
-      <span class="etiket">🕒 Son İndeksleme</span>
+      <span class="et">🕒 Son İndeksleme</span>
       <span class="deger kucuk-yazi"><?= htmlspecialchars((string)($idx['son'] ?? '-')) ?></span>
     </div>
   </div>

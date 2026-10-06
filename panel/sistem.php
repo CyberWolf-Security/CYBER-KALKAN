@@ -42,13 +42,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && kalkan_csrf_dogrula($_POST['csrf'] 
 ?>
 
   <div class="kartlar">
-    <div class="kart"><div class="etiket">UYUMLULUK (ISO/PCI)</div><div class="deger" style="color:<?= ($c['skor'] ?? 0) >= 80 ? '#00d68f' : '#ff9f43' ?>">%<?= (int)($c['skor'] ?? 0) ?></div><div class="alt"><?= (int)($c['gecen'] ?? 0) ?>/<?= (int)($c['toplam'] ?? 0) ?> kontrol</div></div>
-    <div class="kart"><div class="etiket">UEBA ANORMAL</div><div class="deger" style="color:#ff9f43"><?= $u_toplam ?></div><div class="alt">şüpheli davranış</div></div>
-    <div class="kart"><div class="etiket">HONEYFILE</div><div class="deger" style="color:#4da3ff"><?= count($h['dosyalar'] ?? []) ?></div><div class="alt"><?= $h_toplam ?> ihlal</div></div>
-    <div class="kart"><div class="etiket">YEDEK</div><div class="deger" style="color:#00d68f"><?= (int)($y['boyut_kb'] ?? 0) ?> KB</div><div class="alt"><?= kalkan_kacis($y['tarih'] ?? '-') ?></div></div>
-    <div class="kart"><div class="etiket">BULUT (AWS/GCP)</div><div class="deger" style="color:#a855f7"><?= (int)($b['toplam']??0) ?></div><div class="alt">AWS:<?= !empty($b['aws_cli'])?'✓':'✗' ?> GCP:<?= !empty($b['gcp_cli'])?'✓':'✗' ?></div></div>
-    <div class="kart"><div class="etiket">EVTX (WINDOWS)</div><div class="deger" style="color:#4da3ff"><?= (int)($ev['dosya_sayisi']??0) ?></div><div class="alt"><?= (int)($ev['toplam']??0) ?> kayıt</div></div>
-    <div class="kart"><div class="etiket">SYSLOG (514)</div><div class="deger" style="color:<?= $syslog ? '#00d68f' : '#ff3b5c' ?>"><?= $syslog ? 'AÇIK' : 'KAPALI' ?></div><div class="alt">dış log kabulü</div></div>
+    <div class="kart"><div class="et">UYUMLULUK (ISO/PCI)</div><div class="deger" style="color:<?= ($c['skor'] ?? 0) >= 80 ? '#00d68f' : '#ff9f43' ?>">%<?= (int)($c['skor'] ?? 0) ?></div><div class="alt"><?= (int)($c['gecen'] ?? 0) ?>/<?= (int)($c['toplam'] ?? 0) ?> kontrol</div></div>
+    <div class="kart"><div class="et">UEBA ANORMAL</div><div class="deger" style="color:#ff9f43"><?= $u_toplam ?></div><div class="alt">şüpheli davranış</div></div>
+    <div class="kart"><div class="et">HONEYFILE</div><div class="deger" style="color:#4da3ff"><?= count($h['dosyalar'] ?? []) ?></div><div class="alt"><?= $h_toplam ?> ihlal</div></div>
+    <div class="kart"><div class="et">YEDEK</div><div class="deger" style="color:#00d68f"><?= (int)($y['boyut_kb'] ?? 0) ?> KB</div><div class="alt"><?= kalkan_kacis($y['tarih'] ?? '-') ?></div></div>
+    <div class="kart"><div class="et">BULUT (AWS/GCP)</div><div class="deger" style="color:#a855f7"><?= (int)($b['toplam']??0) ?></div><div class="alt">AWS:<?= !empty($b['aws_cli'])?'✓':'✗' ?> GCP:<?= !empty($b['gcp_cli'])?'✓':'✗' ?></div></div>
+    <div class="kart"><div class="et">EVTX (WINDOWS)</div><div class="deger" style="color:#4da3ff"><?= (int)($ev['dosya_sayisi']??0) ?></div><div class="alt"><?= (int)($ev['toplam']??0) ?> kayıt</div></div>
+    <div class="kart"><div class="et">SYSLOG (514)</div><div class="deger" style="color:<?= $syslog ? '#00d68f' : '#ff3b5c' ?>"><?= $syslog ? 'AÇIK' : 'KAPALI' ?></div><div class="alt">dış log kabulü</div></div>
   </div>
 
   <h3>📋 Uyumluluk Kontrolleri (ISO 27001 / PCI-DSS)</h3>

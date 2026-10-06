@@ -54,7 +54,7 @@ function fim_kacis($s) { return htmlspecialchars((string)$s, ENT_QUOTES, 'UTF-8'
       <tr>
         <td class="mono"><?= fim_kacis($d['dosya'] ?? $d['yol'] ?? '-') ?></td>
         <td><?= fim_kacis($d['zaman'] ?? '-') ?></td>
-        <td><span class="etiket"><?= fim_kacis($d['olay'] ?? $d['durum'] ?? 'DEĞİŞTİ') ?></span></td>
+        <td><span class="et"><?= fim_kacis($d['olay'] ?? $d['durum'] ?? 'DEĞİŞTİ') ?></span></td>
       </tr>
     <?php endforeach; ?>
   <?php endif; ?>
